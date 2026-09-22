@@ -4,7 +4,7 @@
 [run] image: /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/vector-add/build/cie2026-stage1-vector-add-riscv64-xs.bin
 [run] key output:
 The image is /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/vector-add/build/cie2026-stage1-vector-add-riscv64-xs.bin
-The first instruction of core 0 has commited. Difftest enabled. 
+The first instruction of core 0 has commited. Difftest enabled.
 vector-add configuration: elements=37 sew=32 lmul=1 vlmax=4
 vector-add result: first=60 last=96 checksum=2886
 vector-add PASS: vadd.vv completed and all elements matched
