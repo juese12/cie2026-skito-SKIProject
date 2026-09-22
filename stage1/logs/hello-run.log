@@ -1,0 +1,13 @@
+[run] started: 2026-09-22T23:59:35+08:00
+[run] emulator: /home/saintrikashy/riscv/xs-env/XiangShan/build/emu
+[run] reference: /home/saintrikashy/riscv/xs-env/XiangShan/ready-to-run/riscv64-nemu-interpreter-so
+[run] image: /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/hello-xiangshan/build/cie2026-stage1-hello-riscv64-xs.bin
+[run] key output:
+The first instruction of core 0 has commited. Difftest enabled. 
+hello xiangshan, I am skito, IP address: 192.168.31.222
+[PERF ][time=                8151] SimTop.l_soc.l3cacheOpt.slices_0.mshrAlloc: mshr_lateCore 0: HIT GOOD TRAP at pc = 0x8000014c
+Core-0 instrCnt = 1418, cycleCnt = 8148, IPC = 0.174030
+Seed=0 Guest cycle spent: 8152 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 10046ms
+[run] exit status: 0
+[run] completed: 2026-09-22T23:59:46+08:00

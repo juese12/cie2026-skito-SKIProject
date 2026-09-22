@@ -1,0 +1,11 @@
+Captured: 2026-09-22 Asia/Shanghai
+Host IPv4: 192.168.31.222
+Kernel: Linux la12 6.18.33.2-microsoft-standard-WSL2 x86_64 GNU/Linux
+OS: Ubuntu 26.04 LTS (Resolute Raccoon)
+Git: 2.53.0
+GCC: 15.2.0
+Clang: 19.1.7
+Java: GraalVM Java 21.0.12 LTS
+Verilator: 5.048
+RISC-V GCC: riscv64-linux-gnu-gcc 15.2.0
+

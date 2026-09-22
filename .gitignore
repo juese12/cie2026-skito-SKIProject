@@ -1,0 +1,20 @@
+# Generated software images and objects
+**/build/
+*.o
+*.a
+*.bin
+*.elf
+
+# Simulator waveforms and large generated files
+*.vcd
+*.fst
+*.fsdb
+stage1/logs/*.full.log
+
+# Local/private submission material
+my_submission.txt
+private/
+
+# Editor/OS files
+.DS_Store
+*.swp

@@ -1,0 +1,16 @@
+[build] started: 2026-09-22T23:57:28+08:00
+[build] repository: /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject
+[build] AM_HOME: /home/saintrikashy/riscv/xs-env/nexus-am
+make: Entering directory '/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/hello-xiangshan'
+# Building cie2026-stage1-hello [riscv64-xs] with AM_HOME {/home/saintrikashy/riscv/xs-env/nexus-am}
++ CC main.c
+# Building lib-am [riscv64-xs]
++ AS src/nemu/common/mainargs.S
++ AR -> build/am-riscv64-xs.a
+# Building lib-klib [riscv64-xs]
+# Creating binary image [riscv64-xs]
++ LD -> build/cie2026-stage1-hello-riscv64-xs.elf
++ OBJCOPY -> build/cie2026-stage1-hello-riscv64-xs.bin
+make: Leaving directory '/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/hello-xiangshan'
+[build] image: /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/hello-xiangshan/build/cie2026-stage1-hello-riscv64-xs.bin
+[build] completed: 2026-09-22T23:57:28+08:00
