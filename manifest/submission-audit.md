@@ -34,11 +34,20 @@
 
 本仓库是官方流程第二步要求的“作品公有仓库”，不是 `XiangShanLab` fork。
 
-官方流程第一步、第三至六步需要另外完成：
+官方流程第一步已完成：
 
-1. Fork `OpenXiangShan/XiangShanLab` 到 `juese12/XiangShanLab`。
-2. 仅在该 fork 的 `2026-CIE-RISC-V-Contest-Application-Track` 目录创建本地隐私文件 `my_submission.txt`。
-3. 使用 `submit.sh` 生成加密的 `submission.asc`。
-4. 只提交加密结果并发起 PR。
+- GitHub fork：`https://github.com/juese12/XiangShanLab`
+- fork 来源：`OpenXiangShan/XiangShanLab`
+- 可见性：Public
+- 当前默认分支：`master`（与当前上游仓库一致）
+- 本地浅层稀疏克隆：`../XiangShanLab`
+- 提交目录和 `submit.sh` 已核验存在
+
+官方流程第三至六步尚需：
+
+1. 在 fork 的 `2026-CIE-RISC-V-Contest-Application-Track` 目录创建仅存于本地的隐私文件 `my_submission.txt`。
+2. 使用 `submit.sh` 生成加密的 `01_参赛选手提交区/skito/submission.asc`。
+3. 只提交加密结果，绝不提交 `my_submission.txt`。
+4. 向官方仓库发起 PR。
 
 官方文档第二步明确要求作品仓库为 Public，但第三步示例中的 `repo-url` 文案写成“私有仓库”，两处存在文字矛盾。本项目遵循第二步带“重要”标记的 Public 要求，提交信息中的 `repo-url` 应填写本公有作品仓库地址。
