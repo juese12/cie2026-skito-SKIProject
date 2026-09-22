@@ -20,7 +20,7 @@
 - [x] 构建并通过第一阶段 Hello XiangShan 差分仿真
 - [x] 创建 GitHub 公有远端仓库并推送
 - [x] 完成 RVV `vadd.vv` 向量加法基线测试
-- [ ] 完成波形导出与定位
+- [x] 完成 `vadd.vv` 波形导出、自动解析与执行/写回定位
 - [ ] 进入 `vdot.vv` 指令软硬件协同实现
 
 ## 快速开始
@@ -34,6 +34,8 @@ cd cie2026-skito-SKIProject
 ./scripts/verify-stage1-env.sh
 ./scripts/build-vector-add.sh
 ./scripts/run-vector-add.sh
+./scripts/dump-vector-add-wave.sh
+./scripts/analyze-vector-wave.sh
 ```
 
 运行日志保存在 `stage1/logs/`。构建产物和波形文件不纳入 Git，避免仓库膨胀。

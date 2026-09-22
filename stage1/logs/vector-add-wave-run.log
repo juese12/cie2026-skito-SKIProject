@@ -1,0 +1,13 @@
+[wave] range: 2850-3300
+[wave] file: stage1/waveform/vector-add-vadd.vcd
+[wave] format: Verilated VCD
+[wave] bytes: 149536116
+[wave] signal declarations: 705261
+[wave] sha256: 063736fe3ff5753b000642f207997ca75f40c56e6d0f2ad6ba6fcc07a123fcbe
+[wave] key output:
+vector-add PASS: vadd.vv completed and all elements matched
+Core 0: HIT GOOD TRAP at pc = 0x8000026c
+Core-0 instrCnt = 5983, cycleCnt = 22056, IPC = 0.271264
+Seed=0 Guest cycle spent: 22060
+Host time spent: 37040ms
+[wave] exit status: 0

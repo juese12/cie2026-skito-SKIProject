@@ -1,0 +1,17 @@
+Instruction: vadd.vv v10, v8, v9
+PC: 0x80000246
+Encoding: 0x02848557
+Dynamic commit count: 10
+
+commit data=0000003d0000003c
+commit data=0000004100000040
+commit data=0000004500000044
+commit data=0000004900000048
+commit data=0000004d0000004c
+commit data=0000005100000050
+commit data=0000005500000054
+commit data=0000005900000058
+commit data=0000005d0000005c
+commit data=ffffffff00000060
+
+The first nine iterations use vl=4. The final iteration uses vl=1.

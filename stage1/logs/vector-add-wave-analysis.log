@@ -1,0 +1,21 @@
+EXEC cycle=2914 port=vf_1_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=100 src1_lane0=-40
+WB   cycle=2916 channel=15 result_lane0=60
+EXEC cycle=2937 port=vf_0_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=92 src1_lane0=-28
+WB   cycle=2939 channel=13 result_lane0=64
+EXEC cycle=2960 port=vf_1_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=84 src1_lane0=-16
+WB   cycle=2962 channel=15 result_lane0=68
+EXEC cycle=2986 port=vf_0_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=76 src1_lane0=-4
+WB   cycle=2988 channel=13 result_lane0=72
+EXEC cycle=3006 port=vf_1_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=68 src1_lane0=8
+WB   cycle=3008 channel=15 result_lane0=76
+EXEC cycle=3012 port=vf_1_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=60 src1_lane0=20
+WB   cycle=3014 channel=15 result_lane0=80
+EXEC cycle=3019 port=vf_0_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=52 src1_lane0=32
+WB   cycle=3021 channel=13 result_lane0=84
+EXEC cycle=3043 port=vf_1_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=44 src1_lane0=44
+WB   cycle=3045 channel=15 result_lane0=88
+EXEC cycle=3063 port=vf_0_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=36 src1_lane0=56
+WB   cycle=3065 channel=13 result_lane0=92
+EXEC cycle=3070 port=vf_1_0 ready=1 fuOp=001000000 vsew=10 vlmul=000 src0_lane0=28 src1_lane0=68
+WB   cycle=3072 channel=15 result_lane0=96
+SUMMARY execution_count=10 writeback_count=10
