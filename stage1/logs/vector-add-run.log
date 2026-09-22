@@ -1,0 +1,16 @@
+[run] started: 2026-09-23T00:51:19+08:00
+[run] emulator: /home/saintrikashy/riscv/xs-env/XiangShan/build/emu
+[run] reference: /home/saintrikashy/riscv/xs-env/XiangShan/ready-to-run/riscv64-nemu-interpreter-so
+[run] image: /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/vector-add/build/cie2026-stage1-vector-add-riscv64-xs.bin
+[run] key output:
+The image is /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/vector-add/build/cie2026-stage1-vector-add-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+vector-add configuration: elements=37 sew=32 lmul=1 vlmax=4
+vector-add result: first=60 last=96 checksum=2886
+vector-add PASS: vadd.vv completed and all elements matched
+[PERF ][time=               22059] SimTop.l_soc.l3cacheOpt.slices_0.mshrAlloc: mshr_lateCore 0: HIT GOOD TRAP at pc = 0x8000026c
+Core-0 instrCnt = 5983, cycleCnt = 22056, IPC = 0.271264
+Seed=0 Guest cycle spent: 22060 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 29983ms
+[run] exit status: 0
+[run] completed: 2026-09-23T00:51:49+08:00

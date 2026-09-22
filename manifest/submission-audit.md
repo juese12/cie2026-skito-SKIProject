@@ -43,11 +43,17 @@
 - 本地浅层稀疏克隆：`../XiangShanLab`
 - 提交目录和 `submit.sh` 已核验存在
 
-官方流程第三至六步尚需：
+官方流程第三、四步已在本地完成：
 
-1. 在 fork 的 `2026-CIE-RISC-V-Contest-Application-Track` 目录创建仅存于本地的隐私文件 `my_submission.txt`。
-2. 使用 `submit.sh` 生成加密的 `01_参赛选手提交区/skito/submission.asc`。
-3. 只提交加密结果，绝不提交 `my_submission.txt`。
-4. 向官方仓库发起 PR。
+- 已创建 `my_submission.txt`，并确认受 Git 忽略规则保护。
+- 已使用官方 `submit.sh` 和官方公钥生成 `01_参赛选手提交区/skito/submission.asc`。
+- 明文文件未加入 Git，联系方式未进入作品公有仓库。
+
+官方流程第五、六步尚未执行：
+
+1. 将加密结果 `submission.asc` 提交并推送到 `juese12/XiangShanLab`。
+2. 向官方仓库发起 PR。
+
+这两步属于正式对外提交动作，将在参赛者确认提交时执行。
 
 官方文档第二步明确要求作品仓库为 Public，但第三步示例中的 `repo-url` 文案写成“私有仓库”，两处存在文字矛盾。本项目遵循第二步带“重要”标记的 Public 要求，提交信息中的 `repo-url` 应填写本公有作品仓库地址。

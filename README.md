@@ -19,7 +19,7 @@
 - [x] 固化依赖仓库提交版本
 - [x] 构建并通过第一阶段 Hello XiangShan 差分仿真
 - [x] 创建 GitHub 公有远端仓库并推送
-- [ ] 完成向量加法基线测试
+- [x] 完成 RVV `vadd.vv` 向量加法基线测试
 - [ ] 完成波形导出与定位
 - [ ] 进入 `vdot.vv` 指令软硬件协同实现
 
@@ -31,6 +31,9 @@
 cd cie2026-skito-SKIProject
 ./scripts/build-hello.sh
 ./scripts/run-hello.sh
+./scripts/verify-stage1-env.sh
+./scripts/build-vector-add.sh
+./scripts/run-vector-add.sh
 ```
 
 运行日志保存在 `stage1/logs/`。构建产物和波形文件不纳入 Git，避免仓库膨胀。

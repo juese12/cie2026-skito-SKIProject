@@ -15,4 +15,19 @@ hello xiangshan, I am skito, IP address: 192.168.31.222
 HIT GOOD TRAP
 ```
 
-构建和运行方法见仓库根目录 `README.md`。
+## RVV 向量加法基线
+
+`vector-add/` 使用汇编显式执行：
+
+```text
+vsetvli → vle32.v → vadd.vv → vse32.v
+```
+
+测试包含 37 个 `int32_t` 元素，可覆盖多个 VLEN 分块，并由 C 程序逐元素比对标量期望值。成功输出包含：
+
+```text
+vector-add PASS
+HIT GOOD TRAP
+```
+
+构建、运行方法及完整操作过程见仓库根目录 `README.md` 和 `docs/向量加法指令执行过程.md`。

@@ -1,0 +1,17 @@
+[build] started: 2026-09-23T00:51:09+08:00
+[build] MARCH: rv64gcv_zba
+make: Entering directory '/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/vector-add'
+# Building cie2026-stage1-vector-add [riscv64-xs] with AM_HOME {/home/saintrikashy/riscv/xs-env/nexus-am}
++ CC main.c
++ AS vector_add.S
+# Building lib-am [riscv64-xs]
++ AS src/nemu/common/mainargs.S
++ AR -> build/am-riscv64-xs.a
+# Building lib-klib [riscv64-xs]
+# Creating binary image [riscv64-xs]
++ LD -> build/cie2026-stage1-vector-add-riscv64-xs.elf
+/usr/bin/riscv64-linux-gnu-ld.bfd: warning: /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/vector-add/build/cie2026-stage1-vector-add-riscv64-xs.elf has a LOAD segment with RWX permissions
++ OBJCOPY -> build/cie2026-stage1-vector-add-riscv64-xs.bin
+make: Leaving directory '/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/vector-add'
+[build] image: /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage1/vector-add/build/cie2026-stage1-vector-add-riscv64-xs.bin
+[build] completed: 2026-09-23T00:51:09+08:00

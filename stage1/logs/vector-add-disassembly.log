@@ -1,0 +1,17 @@
+ELF: stage1/vector-add/build/cie2026-stage1-vector-add-riscv64-xs.elf
+Command: riscv64-linux-gnu-objdump -d <ELF>
+
+0000000080000238 <rvv_vector_add_i32>:
+    80000238: c29d                 beqz    a3,8000025e
+    8000023a: 0d06f2d7           vsetvli t0,a3,e32,m1,ta,ma
+    8000023e: 0205e407           vle32.v v8,(a1)
+    80000242: 02066487           vle32.v v9,(a2)
+    80000246: 02848557           vadd.vv v10,v8,v9
+    8000024a: 02056527           vse32.v v10,(a0)
+    8000024e: 00229313           slli    t1,t0,0x2
+    80000252: 951a                 add     a0,a0,t1
+    80000254: 959a                 add     a1,a1,t1
+    80000256: 961a                 add     a2,a2,t1
+    80000258: 405686b3           sub     a3,a3,t0
+    8000025c: fef9                 bnez    a3,8000023a
+    8000025e: 8082                 ret
