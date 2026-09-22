@@ -8,4 +8,3 @@ Clang: 19.1.7
 Java: GraalVM Java 21.0.12 LTS
 Verilator: 5.048
 RISC-V GCC: riscv64-linux-gnu-gcc 15.2.0
-

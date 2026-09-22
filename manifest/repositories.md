@@ -11,4 +11,3 @@
 目标 GitHub 公有仓库：`https://github.com/juese12/cie2026-skito-SKIProject`
 
 依赖的精确提交号见 `submodule-commits.txt`。本仓库只保存参赛代码、补丁、脚本和文本证据，不复制大型构建产物。
-

@@ -16,4 +16,3 @@ HIT GOOD TRAP
 ```
 
 构建和运行方法见仓库根目录 `README.md`。
-

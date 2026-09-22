@@ -16,4 +16,3 @@ mkdir -p "$(dirname "${log_file}")"
   echo "[build] image: ${repo_dir}/stage1/hello-xiangshan/build/cie2026-stage1-hello-riscv64-xs.bin"
   echo "[build] completed: $(date --iso-8601=seconds)"
 } 2>&1 | tee "${log_file}"
-

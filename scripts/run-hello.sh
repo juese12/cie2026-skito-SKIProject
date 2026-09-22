@@ -31,7 +31,7 @@ completed_at="$(date --iso-8601=seconds)"
   echo "[run] image: ${image}"
   echo "[run] key output:"
   grep -aE "Difftest enabled|hello xiangshan|HIT GOOD TRAP|instrCnt|Guest cycle spent|Host time spent" "${full_log_file}" \
-    | sed -E $'s/\x1b\\[[0-9;]*[[:alpha:]]//g'
+    | sed -E $'s/\r$//; s/\x1b\\[[0-9;]*[[:alpha:]]//g'
   echo "[run] exit status: ${emu_status}"
   echo "[run] completed: ${completed_at}"
 } | tee "${log_file}"
