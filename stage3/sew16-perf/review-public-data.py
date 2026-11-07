@@ -84,7 +84,7 @@ def files(results):
              ROOT / 'stage3/sew16-perf/review-public-data.py',
              ROOT / 'scripts/review-submission.py',
              ROOT / 'scripts/chinese-edition.py',
-             ROOT / 'manifest/chinese-edition-20261102.json'}
+             ROOT / 'manifest/source-compatibility.json'}
     paths.update(relocated(r['log']) for r in state['runs'])
     return sorted(str(inside(p).relative_to(ROOT)) for p in paths)
 

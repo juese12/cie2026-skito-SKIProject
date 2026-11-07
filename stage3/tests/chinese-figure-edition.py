@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[2]
-LEDGER = 'manifest/chinese-figure-edition.json'
+LEDGER = 'stage3/reports/figures/figure-source-data.json'
 FONT = 'Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif'
 spec = importlib.util.spec_from_file_location('figure_cn_labels', Path(__file__).with_name('chinese-figure-labels.py'))
 LABELS = importlib.util.module_from_spec(spec)

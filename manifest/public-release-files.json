@@ -11,20 +11,14 @@
     {
       "path": "README.md",
       "role": "source/documentation",
-      "bytes": 690,
-      "public_link_adjustment": false
+      "bytes": 1507,
+      "public_link_adjustment": true
     },
     {
       "path": "docs/公开交付与干净复现操作手册.md",
       "role": "source/documentation",
-      "bytes": 14542,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "docs/发布材料清单.md",
-      "role": "source/documentation",
-      "bytes": 10034,
-      "public_link_adjustment": false
+      "bytes": 4886,
+      "public_link_adjustment": true
     },
     {
       "path": "docs/提交文档阅读指南.md",
@@ -33,111 +27,15 @@
       "public_link_adjustment": false
     },
     {
-      "path": "docs/文档总索引.md",
-      "role": "source/documentation",
-      "bytes": 9160,
-      "public_link_adjustment": false
-    },
-    {
       "path": "docs/核与参考库版本选择.md",
       "role": "source/documentation",
-      "bytes": 8731,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "docs/比赛要求与交付文档对照.md",
-      "role": "source/documentation",
-      "bytes": 4104,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "docs/项目文档目录.md",
-      "role": "source/documentation",
-      "bytes": 18329,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "docs/项目状态与遗留工作.md",
-      "role": "source/documentation",
-      "bytes": 10280,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/chinese-edition-20261102.json",
-      "role": "manifest/figure evidence",
-      "bytes": 3260287,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/chinese-figure-edition.json",
-      "role": "manifest/figure evidence",
-      "bytes": 1982315,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/document-consolidation-20261006.json",
-      "role": "manifest/figure evidence",
-      "bytes": 3022,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/document-publication-20261107.json",
-      "role": "manifest/figure evidence",
-      "bytes": 1098286,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/document-refresh-20261018.json",
-      "role": "manifest/figure evidence",
-      "bytes": 17966,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/document-review-edition-20261020.json",
-      "role": "manifest/figure evidence",
-      "bytes": 912827,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/document-review-edition-20261101.json",
-      "role": "manifest/figure evidence",
-      "bytes": 650100,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/document-unification-20261026.json",
-      "role": "manifest/figure evidence",
-      "bytes": 1379,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/document-version-entry-20261026.json",
-      "role": "manifest/figure evidence",
-      "bytes": 1299,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/final-document-review.json",
-      "role": "manifest/figure evidence",
-      "bytes": 434658,
-      "public_link_adjustment": false
+      "bytes": 2317,
+      "public_link_adjustment": true
     },
     {
       "path": "manifest/isolation-evidence-replay.json",
       "role": "manifest/figure evidence",
       "bytes": 7828,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/isolation-wave-retirement.json",
-      "role": "manifest/figure evidence",
-      "bytes": 2539,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/publication-figures-20261107.json",
-      "role": "manifest/figure evidence",
-      "bytes": 811,
       "public_link_adjustment": false
     },
     {
@@ -153,22 +51,9 @@
       "public_link_adjustment": false
     },
     {
-      "path": "manifest/reviewer-delivery-edition.json",
-      "role": "manifest/figure evidence",
-      "bytes": 1352885,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/storage-cleanup-stale-builds-20261102.json",
-      "role": "manifest/figure evidence",
-      "bytes": 8890,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/storage-cleanup-v01-p1-20261026.json",
-      "role": "manifest/figure evidence",
-      "bytes": 3324,
-      "public_link_adjustment": false
+      "path": "manifest/source-compatibility.json",
+      "role": "source compatibility data",
+      "bytes": 1981000
     },
     {
       "path": "manifest/submodule-commits.txt",
@@ -183,34 +68,10 @@
       "public_link_adjustment": false
     },
     {
-      "path": "manifest/不完整波形清理记录.md",
-      "role": "source/documentation",
-      "bytes": 2337,
-      "public_link_adjustment": false
-    },
-    {
       "path": "manifest/仓库关系.md",
       "role": "source/documentation",
-      "bytes": 1221,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/作品仓库合规核查.md",
-      "role": "source/documentation",
-      "bytes": 4056,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "manifest/存储清理台账.md",
-      "role": "source/documentation",
-      "bytes": 21022,
+      "bytes": 1236,
       "public_link_adjustment": true
-    },
-    {
-      "path": "manifest/编译缓存清理记录.md",
-      "role": "source/documentation",
-      "bytes": 3697,
-      "public_link_adjustment": false
     },
     {
       "path": "scripts/analyze-vdot-wave.sh",
@@ -315,12 +176,6 @@
       "public_link_adjustment": false
     },
     {
-      "path": "scripts/check-documentation.py",
-      "role": "source/documentation",
-      "bytes": 5219,
-      "public_link_adjustment": false
-    },
-    {
       "path": "scripts/check-public-release.py",
       "role": "source/documentation",
       "bytes": 4190,
@@ -335,26 +190,7 @@
     {
       "path": "scripts/chinese-edition.py",
       "role": "source/documentation",
-      "bytes": 6937,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "scripts/cleanup-incomplete-waves-20261006.sh",
-      "role": "source/documentation",
-      "bytes": 2337,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "scripts/cleanup-stale-builds-20261102.py",
-      "role": "source/documentation",
-      "bytes": 6260,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "scripts/cleanup-v01-p1-waves-20261026.py",
-      "role": "source/documentation",
-      "bytes": 8673,
-      "public_link_adjustment": false
+      "bytes": 6933
     },
     {
       "path": "scripts/complete-vdot-isolation-performance.py",
@@ -395,7 +231,7 @@
     {
       "path": "scripts/export-public-release.py",
       "role": "source/documentation",
-      "bytes": 7545,
+      "bytes": 7631,
       "public_link_adjustment": false
     },
     {
@@ -462,12 +298,6 @@
       "path": "scripts/resume-original-e2e-capture.py",
       "role": "source/documentation",
       "bytes": 5633,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "scripts/retire-isolation-waves.py",
-      "role": "source/documentation",
-      "bytes": 4236,
       "public_link_adjustment": false
     },
     {
@@ -701,8 +531,8 @@
     {
       "path": "stage1/第一阶段说明.md",
       "role": "source/documentation",
-      "bytes": 1832,
-      "public_link_adjustment": false
+      "bytes": 697,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/contract-tests/Makefile",
@@ -797,8 +627,8 @@
     {
       "path": "stage2/contract-tests/旧测试约定适配手册.md",
       "role": "source/documentation",
-      "bytes": 4477,
-      "public_link_adjustment": false
+      "bytes": 4450,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/control-tests/Makefile",
@@ -885,28 +715,16 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage2/docs/vdot历史设计说明v0.1.md",
-      "role": "source/documentation",
-      "bytes": 33161,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage2/docs/vdot历史集成操作手册v0.1.md",
-      "role": "source/documentation",
-      "bytes": 33081,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage2/docs/vdot指令设计说明.md",
       "role": "source/documentation",
-      "bytes": 35498,
-      "public_link_adjustment": false
+      "bytes": 35469,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/docs/远程波形查看操作手册.md",
       "role": "source/documentation",
-      "bytes": 6782,
-      "public_link_adjustment": false
+      "bytes": 6471,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/e16-events/Makefile",
@@ -1017,12 +835,6 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage2/logs/20261006T154426-incomplete-wave-cleanup.full.log",
-      "role": "linked evidence",
-      "bytes": 2171,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage2/logs/20261006T160246-surver-smoke-check-verified.full.log",
       "role": "linked evidence",
       "bytes": 545,
@@ -1062,12 +874,6 @@
       "path": "stage2/logs/20261026-sew16-isolation.json",
       "role": "linked evidence",
       "bytes": 543,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage2/logs/20261026-v01-p1-wave-cleanup.full.log",
-      "role": "linked evidence",
-      "bytes": 766,
       "public_link_adjustment": false
     },
     {
@@ -1134,12 +940,6 @@
       "path": "stage2/logs/20261027T131534-e16-events.results.json",
       "role": "linked evidence",
       "bytes": 1240315,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage2/logs/20261102-stale-build-cleanup.full.log",
-      "role": "linked evidence",
-      "bytes": 881,
       "public_link_adjustment": false
     },
     {
@@ -1323,18 +1123,6 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage2/logs/isolation-wave-retirement.full.log",
-      "role": "linked evidence",
-      "bytes": 844,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage2/logs/operations.tsv",
-      "role": "linked evidence",
-      "bytes": 42065,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage2/patches/difftest-sync-compat.patch",
       "role": "source/documentation",
       "bytes": 2145,
@@ -1355,8 +1143,8 @@
     {
       "path": "stage2/patches/vdot补丁选择与应用说明.md",
       "role": "source/documentation",
-      "bytes": 4608,
-      "public_link_adjustment": false
+      "bytes": 4595,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/patches/xiangshan-vdot-operand-isolation.patch",
@@ -1386,7 +1174,7 @@
       "path": "stage2/reports/e16整核取消与独立初始化实验报告.md",
       "role": "source/documentation",
       "bytes": 6210,
-      "public_link_adjustment": false
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/reports/figures/clean-reproduction/e16-negative.png",
@@ -1547,8 +1335,8 @@
     {
       "path": "stage2/reports/vdot功能与整核控制验收报告.md",
       "role": "source/documentation",
-      "bytes": 9043,
-      "public_link_adjustment": false
+      "bytes": 8954,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/reports/vdot原始核执行与提交波形.md",
@@ -1557,22 +1345,16 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage2/reports/vdot原始版本实施记录.md",
-      "role": "source/documentation",
-      "bytes": 7844,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage2/reports/vdot基础功能测试与验收报告v0.1.md",
       "role": "source/documentation",
-      "bytes": 9118,
-      "public_link_adjustment": false
+      "bytes": 8830,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/reports/公开包独立目录复现报告.md",
       "role": "source/documentation",
-      "bytes": 11741,
-      "public_link_adjustment": false
+      "bytes": 8598,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/reports/固定八项e8e16实施与验收报告.md",
@@ -1589,20 +1371,14 @@
     {
       "path": "stage2/reports/操作数隔离与寄存器更新门控报告.md",
       "role": "source/documentation",
-      "bytes": 6609,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage2/reports/旧测试元素宽度约定修复记录.md",
-      "role": "source/documentation",
-      "bytes": 3646,
-      "public_link_adjustment": false
+      "bytes": 6518,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/reports/隔离版本整核构建与控制验证报告.md",
       "role": "source/documentation",
-      "bytes": 10912,
-      "public_link_adjustment": false
+      "bytes": 4121,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/sew16/Makefile",
@@ -1727,8 +1503,8 @@
     {
       "path": "stage2/sew16/固定八项e8e16扩展操作手册.md",
       "role": "source/documentation",
-      "bytes": 6013,
-      "public_link_adjustment": false
+      "bytes": 5974,
+      "public_link_adjustment": true
     },
     {
       "path": "stage2/test-contract.h",
@@ -1829,26 +1605,20 @@
     {
       "path": "stage2/waveform/vdot波形证据说明.md",
       "role": "source/documentation",
-      "bytes": 11133,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage2/第二阶段录屏讲稿.md",
-      "role": "source/documentation",
-      "bytes": 24057,
+      "bytes": 6252,
       "public_link_adjustment": true
     },
     {
       "path": "stage2/第二阶段说明.md",
       "role": "source/documentation",
-      "bytes": 4576,
-      "public_link_adjustment": false
+      "bytes": 978,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/docs/历史隔离核性能测量与复核手册v3.md",
       "role": "source/documentation",
-      "bytes": 9718,
-      "public_link_adjustment": false
+      "bytes": 7133,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/e2e-controlled/Makefile",
@@ -1871,8 +1641,8 @@
     {
       "path": "stage3/e2e-controlled/端到端上下文受控验证手册.md",
       "role": "source/documentation",
-      "bytes": 4751,
-      "public_link_adjustment": false
+      "bytes": 4754,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/e2e-diagnosis/Makefile",
@@ -1913,8 +1683,8 @@
     {
       "path": "stage3/e2e-diagnosis/端到端调用上下文诊断手册.md",
       "role": "source/documentation",
-      "bytes": 3700,
-      "public_link_adjustment": false
+      "bytes": 3709,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/history/v2-before-p0/scripts/run-vdot-bench-series.sh",
@@ -1967,14 +1737,14 @@
     {
       "path": "stage3/history/v2-before-p0/v2历史源码快照说明.md",
       "role": "source/documentation",
-      "bytes": 1183,
-      "public_link_adjustment": false
+      "bytes": 234,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/int8-gemv/INT8矩阵向量乘应用说明.md",
       "role": "source/documentation",
-      "bytes": 8683,
-      "public_link_adjustment": false
+      "bytes": 7474,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/int8-gemv/Makefile",
@@ -2093,8 +1863,8 @@
     {
       "path": "stage3/int8-gemv/report.py",
       "role": "source/documentation",
-      "bytes": 14048,
-      "public_link_adjustment": false
+      "bytes": 13811,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/int8-gemv/run.py",
@@ -2577,16 +2347,10 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/reports/INT8GEMV实施与操作记录.md",
-      "role": "source/documentation",
-      "bytes": 9270,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage3/reports/INT8矩阵向量乘应用测试与性能报告.md",
       "role": "source/documentation",
-      "bytes": 9636,
-      "public_link_adjustment": false
+      "bytes": 9399,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/reports/NEMU扩展与协同仿真验证报告.md",
@@ -2595,22 +2359,16 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/reports/P0完善与验收记录.md",
-      "role": "source/documentation",
-      "bytes": 11080,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage3/reports/P1核正式性能实测报告.md",
       "role": "source/documentation",
-      "bytes": 7057,
-      "public_link_adjustment": false
+      "bytes": 6940,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/reports/P1至隔离核优化对比报告.md",
       "role": "source/documentation",
-      "bytes": 15473,
-      "public_link_adjustment": false
+      "bytes": 15005,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/reports/e8e16正式性能分析报告v4.md",
@@ -2707,6 +2465,11 @@
       "role": "manifest/figure evidence",
       "bytes": 6054,
       "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/figure-source-data.json",
+      "role": "figure source data",
+      "bytes": 1982187
     },
     {
       "path": "stage3/reports/figures/functional/all127.png",
@@ -3057,76 +2820,40 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/reports/vdot原始版本等价基线与性能实测.md",
-      "role": "source/documentation",
-      "bytes": 4382,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/vdot正式性能实测报告v2.md",
-      "role": "source/documentation",
-      "bytes": 5893,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage3/reports/原始核正式性能实测报告v3.md",
       "role": "source/documentation",
-      "bytes": 7069,
-      "public_link_adjustment": false
+      "bytes": 6952,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/reports/原始核至P1优化对比报告.md",
       "role": "source/documentation",
-      "bytes": 10186,
-      "public_link_adjustment": false
+      "bytes": 10086,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/reports/原镜像端到端快慢窗口事件诊断.md",
       "role": "source/documentation",
-      "bytes": 11986,
-      "public_link_adjustment": false
+      "bytes": 11862,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/reports/基线与vdot延迟加速图文分析.md",
       "role": "source/documentation",
-      "bytes": 25008,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/性能测量可信度改进记录v2.md",
-      "role": "source/documentation",
-      "bytes": 6692,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/旧目的假依赖定向验证与修改记录.md",
-      "role": "source/documentation",
-      "bytes": 11642,
-      "public_link_adjustment": false
+      "bytes": 24983,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/reports/端到端单调用与上下文受控验证报告.md",
       "role": "source/documentation",
-      "bytes": 10785,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/端到端预热偏差与调用上下文诊断记录.md",
-      "role": "source/documentation",
-      "bytes": 5827,
-      "public_link_adjustment": false
+      "bytes": 9881,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/reports/隔离核正式性能分析报告v3.md",
       "role": "source/documentation",
-      "bytes": 9468,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/隔离核正式测量进度与恢复记录.md",
-      "role": "source/documentation",
-      "bytes": 3784,
-      "public_link_adjustment": false
+      "bytes": 9410,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/sew16-perf/Makefile",
@@ -3245,7 +2972,7 @@
     {
       "path": "stage3/sew16-perf/review-public-data.py",
       "role": "source/documentation",
-      "bytes": 8477,
+      "bytes": 8473,
       "public_link_adjustment": false
     },
     {
@@ -3347,8 +3074,8 @@
     {
       "path": "stage3/tests/chinese-figure-edition.py",
       "role": "source/documentation",
-      "bytes": 11827,
-      "public_link_adjustment": false
+      "bytes": 11837,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/tests/chinese-figure-labels.py",
@@ -3453,12 +3180,6 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/tests/test-chinese-edition.py",
-      "role": "source/documentation",
-      "bytes": 5035,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage3/tests/test-chinese-figures.py",
       "role": "source/documentation",
       "bytes": 2447,
@@ -3483,12 +3204,6 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/tests/test-documentation.py",
-      "role": "source/documentation",
-      "bytes": 8029,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage3/tests/test-e2e-controlled.py",
       "role": "source/documentation",
       "bytes": 10807,
@@ -3504,12 +3219,6 @@
       "path": "stage3/tests/test-isolation-performance.py",
       "role": "source/documentation",
       "bytes": 6014,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/tests/test-isolation-retirement.py",
-      "role": "source/documentation",
-      "bytes": 3445,
       "public_link_adjustment": false
     },
     {
@@ -3543,39 +3252,15 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/tests/test-review-document-edition.py",
-      "role": "source/documentation",
-      "bytes": 3819,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/tests/test-reviewer-delivery.py",
-      "role": "source/documentation",
-      "bytes": 4036,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage3/tests/test-runtime-order.py",
       "role": "source/documentation",
       "bytes": 4100,
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/tests/test-stage1-review-documents.py",
-      "role": "source/documentation",
-      "bytes": 3979,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage3/tests/test-timer-wave.py",
       "role": "source/documentation",
       "bytes": 3736,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/tests/test-v01-p1-cleanup.py",
-      "role": "source/documentation",
-      "bytes": 1935,
       "public_link_adjustment": false
     },
     {
@@ -3611,8 +3296,8 @@
     {
       "path": "stage3/vdot-bench/共享基准与历史v2说明.md",
       "role": "source/documentation",
-      "bytes": 5353,
-      "public_link_adjustment": false
+      "bytes": 499,
+      "public_link_adjustment": true
     },
     {
       "path": "stage3/vdot-bench-p0/Makefile",
@@ -3641,26 +3326,14 @@
     {
       "path": "stage3/vdot-bench-p0/同镜像运行时选序基准v3说明.md",
       "role": "source/documentation",
-      "bytes": 1054,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/第三阶段INT8应用补拍讲稿.md",
-      "role": "source/documentation",
-      "bytes": 16860,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/第三阶段录屏讲稿.md",
-      "role": "source/documentation",
-      "bytes": 24245,
+      "bytes": 736,
       "public_link_adjustment": true
     },
     {
       "path": "stage3/第三阶段说明.md",
       "role": "source/documentation",
-      "bytes": 4613,
-      "public_link_adjustment": false
+      "bytes": 1350,
+      "public_link_adjustment": true
     },
     {
       "path": "【开芯院】2026CIE.pdf",
@@ -3671,17 +3344,13 @@
     {
       "path": "项目说明.md",
       "role": "source/documentation",
-      "bytes": 7474,
-      "public_link_adjustment": false
+      "bytes": 2891,
+      "public_link_adjustment": true
     }
   ],
   "generated": [
-    "manifest/开发归档说明.md",
     "manifest/public-release-files.json"
   ],
-  "omitted_linked_artifacts": {
-    "stage3/logs/20261007T221412-original-e2e-events-boot.vcd": 104585538,
-    "stage3/logs/p1-artifacts-20261004/emu-before": 252697232
-  },
-  "scope": "source plus review figures and selected data; no historical core binaries/full waveforms"
+  "omitted_linked_artifacts": {},
+  "scope": "Engineering source, current reports, optimization comparisons, figures and reproducible data; excludes internal work records and private submission information"
 }

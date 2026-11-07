@@ -23,7 +23,7 @@ REVIEW_ADAPTERS = {
 
 def ledger(root):
     """按文件修改时间缓存修订记录，测试临时目录没有记录时返回空集合。"""
-    path = Path(root)/'manifest/chinese-edition-20261102.json'
+    path = Path(root)/'manifest/source-compatibility.json'
     if not path.exists():
         return {'documents': {}, 'code': {}}
     stamp = (path.stat().st_mtime_ns, path.stat().st_size)

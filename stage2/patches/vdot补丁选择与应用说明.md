@@ -41,6 +41,6 @@ bash scripts/prepare-vdot-difftest.sh --apply
 
 `scripts/export-vdot-patches.sh --xiangshan-only LABEL` 导出指定新名称的 XS 补丁并拒绝覆盖已有同名文件；该选项不导出 NEMU。脚本无参数时写旧 `v0.1` 命名产物，不能作为当前 e8/e16 的默认导出入口。本轮已有新补丁，无需再次导出。
 
-用户原有 `XiangShan/difftest/verilator.mk` 的七处 `sync` 参数修正已单独导出为第三份补丁，未改变现有 Difftest 工作区。它将重复的 `-d` 选项合并为一个，仍对两个目录执行同步；不改动 RTL 或差分语义。应用脚本会先检查是否已应用，再检查能否应用，不匹配时停止。构建预检要求该补丁已就绪。
+`XiangShan/difftest/verilator.mk` 的七处 `sync` 参数修正已单独导出为第三份补丁，未改变现有 Difftest 工作区。它将重复的 `-d` 选项合并为一个，仍对两个目录执行同步；不改动 RTL 或差分语义。应用脚本会先检查是否已应用，再检查能否应用，不匹配时停止。构建预检要求该补丁已就绪。
 
 工具链与子模块依赖见[仓库清单](../../manifest/仓库关系.md)，三份补丁后的完整步骤见[公开交付与干净复现手册](../../docs/公开交付与干净复现操作手册.md)。同主机独立目录复现通过；官方验收、全新系统环境和物理 PPA 不在本轮结论内。

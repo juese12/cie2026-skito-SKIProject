@@ -116,12 +116,15 @@ def export(destination):
             target.write_text(re.sub(r'\]\(([^)]+)\)', rewrite, target.read_text()))
         rows.append({'path': str(rel), 'role': role, 'bytes': target.stat().st_size,
                      'public_link_adjustment': target.read_bytes() != source.read_bytes()})
-    note = destination / ARCHIVE_NOTE
-    note.parent.mkdir(exist_ok=True)
-    note.write_text('# 开发归档说明\n\n源码发布包保留评审图件及选定原始数据。以下历史二进制或完整波形保存在开发工作区，未打入公开源码包。原文指向这些产物的附件链接在发布副本中改为本页；它们不是可在包内打开的原始附件。图件注明的实验版本和结论保持原范围。\n\n| 开发归档路径 | 字节数 |\n| --- | --- |\n' +
-                    ''.join(f'| `{name}` | {size} |\n' for name, size in sorted(omitted.items())))
+    generated = ['manifest/public-release-files.json']
+    if omitted:
+        note = destination / ARCHIVE_NOTE
+        note.parent.mkdir(exist_ok=True)
+        note.write_text('# 开发归档说明\n\n源码发布包保留评审图件及选定原始数据。以下历史二进制或完整波形保存在开发工作区，未打入公开源码包。原文指向这些产物的附件链接在发布副本中改为本页；它们不是可在包内打开的原始附件。图件注明的实验版本和结论保持原范围。\n\n| 开发归档路径 | 字节数 |\n| --- | --- |\n' +
+                        ''.join(f'| `{name}` | {size} |\n' for name, size in sorted(omitted.items())))
+        generated.insert(0, ARCHIVE_NOTE)
     result = {'schema': 1, 'status': 'EXPORTED', 'files': rows,
-              'generated': [ARCHIVE_NOTE, 'manifest/public-release-files.json'],
+              'generated': generated,
               'omitted_linked_artifacts': omitted,
               'scope': 'source plus review figures and selected data; no historical core binaries/full waveforms'}
     (destination / 'manifest/public-release-files.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')

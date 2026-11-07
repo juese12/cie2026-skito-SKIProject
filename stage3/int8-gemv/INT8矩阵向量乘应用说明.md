@@ -68,23 +68,16 @@ python3 stage3/int8-gemv/analyze.py stage3/logs/NEW-gemv-full --out stage3/logs/
 
 当前推荐整核编译时关闭了完整 VCD。波形命令使用 `int8-gemv-wave/emu`：`build-wave-observer.py` 仅重新编译和链接只读 C++ 观察包装，复用 `sew16-events/emu-compile/` 的原模型归档，不重新生成 RTL，不改原 emu。观察器每周期高/低相位求值后分别记录实际信号，时间戳为 `2*cycle+phase`，图中按周期解释，不推导物理频率。只有第一条四行 GEMV 调用的窄窗口会写 VCD，并保存压缩副本；同时记录 ROB 事件，审核观察开关前后九次调用的周期、执行数据和提交记录一致。普通应用运行不依赖该观察器；重建波形观察器需保留上述编译模型和事件包装源码。目标目录已存在时构建脚本拒绝覆盖，直接复用已验收观察器。
 
-长仿真通过阻塞等待进程退出，完成通知自动推进步骤；外部状态检查间隔为 40 分钟。原始日志记录命令、参数、真实退出码和失败。不启动完整整核波形，也不为四个正式性能进程分别采波形。
+## 6. 源码组成
 
-在会隔离或回收命令进程的工具环境中，正式队列应在宿主终端用持久入口启动；当前轮次已通过探针、烟雾及图件后，恢复命令为：
+| 文件 | 实现内容 |
+| --- | --- |
+| `main.c`、`oracle.c` | 定向与随机输入、INT64 独立参考、保护区与逐行校验 |
+| `gemv_scalar.c`、`gemv_rvv.S` | 标量对照和四行复用的标准 RVV 基线 |
+| `gemv_vdot.S`、`pack.c` | 单行/四行点积、跨块 INT32 累加、补零及端到端包装 |
+| `measure.S`、`protocol.json` | 共用计时边界、尺寸、种子、先后顺序和统计规则 |
+| `check-nemu.py`、`audit-timer.py` | 独立参考执行与真实计时事件检查 |
+| `run.py`、`analyze.py` | 差分运行、完整采样解析和逐进程统计 |
+| `wave.py`、`signals.py`、`render-evidence.py` | 单调用实际信号读取、逐项核算及图件生成 |
 
-```bash
-bash scripts/start-int8-gemv-durable.sh --prefix stage3/logs/int8-gemv-20261107
-```
-
-该入口创建独立会话，使用锁防止重复队列；只有完整成功且重新解析通过的进程才会复用。中断或失败文件先移入归档后重试，不删除。每次实际子进程启动记录 PID，之后通过退出事件阻塞等待，每 2400 秒采一次实际 CPU 用时；宿主 stdout 行缓冲便于及时看到差分启用消息。原编译镜像和 mcycle 计时边界不变。队列全部通过后自动生成正式分析、CSV 和应用报告。图件默认复用 `stage3/reports/figures/int8-gemv/`，新实验可用 `--figures` 选择其对应图件目录。
-
-在宿主终端查看实际进程或主动停止本轮队列：
-
-```bash
-bash scripts/start-int8-gemv-durable.sh --prefix stage3/logs/int8-gemv-20261107 --status
-bash scripts/start-int8-gemv-durable.sh --prefix stage3/logs/int8-gemv-20261107 --stop
-```
-
-停止命令仅在需要主动中断时使用。状态同时核对协调器和整核的实际命令及 CPU 用时，不以旧 RUNNING 文件代替存活检查。续跑前将当前 bin/ELF 与 `…-full/compiled-inputs/` 中的原副本逐字节比较；重新编译的镜像必须使用新的实验前缀。本轮 bin 与 ELF 副本合计约 128 KiB，连同当时的应用源码留在开发归档，用于恢复和回顾，不打入源码包。
-
-实际结果见[应用测试与性能报告](../reports/INT8矩阵向量乘应用测试与性能报告.md)，逐文件原因和执行记录见[实施与操作记录](../reports/INT8GEMV实施与操作记录.md)。
+实际结果见[应用测试与性能报告](../reports/INT8矩阵向量乘应用测试与性能报告.md)。
