@@ -1,0 +1,7 @@
+[started] 2026-10-02T11:24:57+08:00
+[cwd] /home/saintrikashy/riscv/xs-env
+[command] python3 cie2026-skito-SKIProject/stage2/tests/check-nemu-vdot.py NEMU/build/riscv64-nemu-interpreter-so 
+NEMU vdot PASS: valid=1035, illegal=10, ABI=1400, seed=0x56444f54
+NEMU tval isolation PASS: non-vdot custom function retains instruction bits
+[completed] 2026-10-02T11:24:57+08:00
+[exit] 0

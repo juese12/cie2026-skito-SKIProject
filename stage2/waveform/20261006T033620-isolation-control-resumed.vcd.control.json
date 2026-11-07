@@ -1,0 +1,9174 @@
+{
+  "seed": "56444f54",
+  "log_sha256": "41c56b46403b0abf51fb7be620affa818ac18f5a9f55f9e61659de0638b85716",
+  "architectural_status": "PASS",
+  "printed_symbols": {
+    "control_branch_pc": 2147484202,
+    "control_branch_dot": 2147484206,
+    "control_branch_dot_v0": 2147484210,
+    "control_exception_pc": 2147484358,
+    "control_younger_dot": 2147484362,
+    "control_younger_dot_v0": 2147484366,
+    "control_younger_dot_alias": 2147484370
+  },
+  "wave_sha256": "4f1109892278b5a5461d364a4e8b20fe82707395e15811a33d5a0ee5867ba8c4",
+  "symbols": {
+    "control_branch_pc": "0x8000022a",
+    "control_branch_dot": "0x8000022e",
+    "control_branch_dot_v0": "0x80000232",
+    "control_exception_pc": "0x800002c6",
+    "control_younger_dot": "0x800002ca",
+    "control_younger_dot_v0": "0x800002ce",
+    "control_younger_dot_alias": "0x800002d2",
+    "control_exception_resume": "0x800002d6"
+  },
+  "window_last_time": 52105,
+  "proof": {
+    "branch": [
+      {
+        "time": 25301,
+        "phase": 12651,
+        "kind": "branch",
+        "origin": 77,
+        "victims": [
+          49,
+          50
+        ],
+        "settled": true,
+        "decision_time": 25297
+      },
+      {
+        "time": 33359,
+        "phase": 16680,
+        "kind": "branch",
+        "origin": 384,
+        "victims": [
+          108,
+          109
+        ],
+        "settled": true,
+        "decision_time": 33355
+      }
+    ],
+    "exception": [
+      {
+        "time": 26169,
+        "phase": 13085,
+        "kind": "exception",
+        "origin": 338,
+        "victims": [
+          52,
+          53,
+          54
+        ],
+        "settled": true,
+        "exception_time": 26171
+      },
+      {
+        "time": 34069,
+        "phase": 17035,
+        "kind": "exception",
+        "origin": 133,
+        "victims": [
+          111,
+          112,
+          113
+        ],
+        "settled": true,
+        "exception_time": 34071
+      },
+      {
+        "time": 40963,
+        "phase": 20482,
+        "kind": "exception",
+        "origin": 31,
+        "victims": [
+          171,
+          172,
+          173
+        ],
+        "settled": true,
+        "exception_time": 40965
+      },
+      {
+        "time": 47693,
+        "phase": 23847,
+        "kind": "exception",
+        "origin": 334,
+        "victims": [
+          228,
+          229,
+          230
+        ],
+        "settled": true,
+        "exception_time": 47695
+      }
+    ]
+  },
+  "observed_flushes": [
+    {
+      "time": 25301,
+      "phase": 12651,
+      "kind": "branch",
+      "origin": 77,
+      "victims": [
+        49,
+        50
+      ],
+      "settled": true,
+      "decision_time": 25297
+    },
+    {
+      "time": 26169,
+      "phase": 13085,
+      "kind": "exception",
+      "origin": 338,
+      "victims": [
+        52,
+        53,
+        54
+      ],
+      "settled": true,
+      "exception_time": 26171
+    },
+    {
+      "time": 33359,
+      "phase": 16680,
+      "kind": "branch",
+      "origin": 384,
+      "victims": [
+        108,
+        109
+      ],
+      "settled": true,
+      "decision_time": 33355
+    },
+    {
+      "time": 34069,
+      "phase": 17035,
+      "kind": "exception",
+      "origin": 133,
+      "victims": [
+        111,
+        112,
+        113
+      ],
+      "settled": true,
+      "exception_time": 34071
+    },
+    {
+      "time": 40963,
+      "phase": 20482,
+      "kind": "exception",
+      "origin": 31,
+      "victims": [
+        171,
+        172,
+        173
+      ],
+      "settled": true,
+      "exception_time": 40965
+    },
+    {
+      "time": 47693,
+      "phase": 23847,
+      "kind": "exception",
+      "origin": 334,
+      "victims": [
+        228,
+        229,
+        230
+      ],
+      "settled": true,
+      "exception_time": 47695
+    }
+  ],
+  "records": [
+    {
+      "index": 0,
+      "serial": 676,
+      "tag": 366,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 18479,
+      "commit_time": 18783
+    },
+    {
+      "index": 1,
+      "serial": 677,
+      "tag": 367,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 18481,
+      "execution_time": 18515,
+      "result": 36,
+      "commit_time": 18783
+    },
+    {
+      "index": 2,
+      "serial": 678,
+      "tag": 368,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 18483,
+      "execution_time": 18517,
+      "result": 36,
+      "commit_time": 18785
+    },
+    {
+      "index": 3,
+      "serial": 1156,
+      "tag": 155,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 19237,
+      "commit_time": 19535
+    },
+    {
+      "index": 4,
+      "serial": 1157,
+      "tag": 156,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 19239,
+      "execution_time": 19277,
+      "result": 36,
+      "commit_time": 19535
+    },
+    {
+      "index": 5,
+      "serial": 1158,
+      "tag": 157,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 19241,
+      "execution_time": 19279,
+      "result": 36,
+      "commit_time": 19535
+    },
+    {
+      "index": 6,
+      "serial": 1858,
+      "tag": 40,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 19795,
+      "commit_time": 20093
+    },
+    {
+      "index": 7,
+      "serial": 1859,
+      "tag": 41,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 19797,
+      "execution_time": 19835,
+      "result": 36,
+      "commit_time": 20093
+    },
+    {
+      "index": 8,
+      "serial": 1860,
+      "tag": 42,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 19799,
+      "execution_time": 19837,
+      "result": 36,
+      "commit_time": 20093
+    },
+    {
+      "index": 9,
+      "serial": 2304,
+      "tag": 345,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 20179,
+      "commit_time": 20485
+    },
+    {
+      "index": 10,
+      "serial": 2305,
+      "tag": 346,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 20181,
+      "execution_time": 20219,
+      "result": 36,
+      "commit_time": 20485
+    },
+    {
+      "index": 11,
+      "serial": 2306,
+      "tag": 347,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 20183,
+      "execution_time": 20221,
+      "result": 36,
+      "commit_time": 20485
+    },
+    {
+      "index": 12,
+      "serial": 2792,
+      "tag": 135,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 20669,
+      "commit_time": 20967
+    },
+    {
+      "index": 13,
+      "serial": 2793,
+      "tag": 136,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 20671,
+      "execution_time": 20709,
+      "result": 36,
+      "commit_time": 20969
+    },
+    {
+      "index": 14,
+      "serial": 2794,
+      "tag": 137,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 20673,
+      "execution_time": 20711,
+      "result": 36,
+      "commit_time": 20969
+    },
+    {
+      "index": 15,
+      "serial": 3082,
+      "tag": 24,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 21009,
+      "commit_time": 21317
+    },
+    {
+      "index": 16,
+      "serial": 3083,
+      "tag": 25,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 21011,
+      "execution_time": 21063,
+      "result": 36,
+      "commit_time": 21317
+    },
+    {
+      "index": 17,
+      "serial": 3084,
+      "tag": 26,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 21013,
+      "execution_time": 21065,
+      "result": 36,
+      "commit_time": 21317
+    },
+    {
+      "index": 18,
+      "serial": 3463,
+      "tag": 329,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 21357,
+      "commit_time": 21661
+    },
+    {
+      "index": 19,
+      "serial": 3464,
+      "tag": 330,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 21359,
+      "execution_time": 21401,
+      "result": 36,
+      "commit_time": 21661
+    },
+    {
+      "index": 20,
+      "serial": 3465,
+      "tag": 331,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 21361,
+      "execution_time": 21403,
+      "result": 36,
+      "commit_time": 21661
+    },
+    {
+      "index": 21,
+      "serial": 3837,
+      "tag": 122,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 21701,
+      "commit_time": 22009
+    },
+    {
+      "index": 22,
+      "serial": 3838,
+      "tag": 123,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 21703,
+      "execution_time": 21745,
+      "result": 36,
+      "commit_time": 22009
+    },
+    {
+      "index": 23,
+      "serial": 3839,
+      "tag": 124,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 21705,
+      "execution_time": 21747,
+      "result": 36,
+      "commit_time": 22009
+    },
+    {
+      "index": 24,
+      "serial": 4126,
+      "tag": 11,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 22049,
+      "commit_time": 22353
+    },
+    {
+      "index": 25,
+      "serial": 4127,
+      "tag": 12,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 22051,
+      "execution_time": 22093,
+      "result": 36,
+      "commit_time": 22353
+    },
+    {
+      "index": 26,
+      "serial": 4128,
+      "tag": 13,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 22053,
+      "execution_time": 22095,
+      "result": 36,
+      "commit_time": 22353
+    },
+    {
+      "index": 27,
+      "serial": 4417,
+      "tag": 316,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 22393,
+      "commit_time": 22701
+    },
+    {
+      "index": 28,
+      "serial": 4418,
+      "tag": 317,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 22395,
+      "execution_time": 22437,
+      "result": 36,
+      "commit_time": 22701
+    },
+    {
+      "index": 29,
+      "serial": 4419,
+      "tag": 318,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 22397,
+      "execution_time": 22439,
+      "result": 36,
+      "commit_time": 22701
+    },
+    {
+      "index": 30,
+      "serial": 4810,
+      "tag": 107,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 22741,
+      "commit_time": 23057
+    },
+    {
+      "index": 31,
+      "serial": 4811,
+      "tag": 108,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 22743,
+      "execution_time": 22785,
+      "result": 36,
+      "commit_time": 23057
+    },
+    {
+      "index": 32,
+      "serial": 4812,
+      "tag": 109,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 22745,
+      "execution_time": 22787,
+      "result": 36,
+      "commit_time": 23057
+    },
+    {
+      "index": 33,
+      "serial": 5190,
+      "tag": 412,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 23097,
+      "commit_time": 23401
+    },
+    {
+      "index": 34,
+      "serial": 5191,
+      "tag": 413,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 23099,
+      "execution_time": 23141,
+      "result": 36,
+      "commit_time": 23401
+    },
+    {
+      "index": 35,
+      "serial": 5192,
+      "tag": 414,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 23101,
+      "execution_time": 23143,
+      "result": 36,
+      "commit_time": 23401
+    },
+    {
+      "index": 36,
+      "serial": 5551,
+      "tag": 299,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 23441,
+      "commit_time": 23745
+    },
+    {
+      "index": 37,
+      "serial": 5552,
+      "tag": 300,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 23443,
+      "execution_time": 23485,
+      "result": 36,
+      "commit_time": 23745
+    },
+    {
+      "index": 38,
+      "serial": 5553,
+      "tag": 301,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 23445,
+      "execution_time": 23487,
+      "result": 36,
+      "commit_time": 23745
+    },
+    {
+      "index": 39,
+      "serial": 5925,
+      "tag": 92,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 23785,
+      "commit_time": 24089
+    },
+    {
+      "index": 40,
+      "serial": 5926,
+      "tag": 93,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 23787,
+      "execution_time": 23829,
+      "result": 36,
+      "commit_time": 24089
+    },
+    {
+      "index": 41,
+      "serial": 5927,
+      "tag": 94,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 23789,
+      "execution_time": 23831,
+      "result": 36,
+      "commit_time": 24089
+    },
+    {
+      "index": 42,
+      "serial": 6286,
+      "tag": 395,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 24129,
+      "commit_time": 24433
+    },
+    {
+      "index": 43,
+      "serial": 6287,
+      "tag": 396,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 24131,
+      "execution_time": 24173,
+      "result": 36,
+      "commit_time": 24433
+    },
+    {
+      "index": 44,
+      "serial": 6288,
+      "tag": 397,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 24133,
+      "execution_time": 24175,
+      "result": 36,
+      "commit_time": 24433
+    },
+    {
+      "index": 45,
+      "serial": 6577,
+      "tag": 284,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 24473,
+      "commit_time": 24777
+    },
+    {
+      "index": 46,
+      "serial": 6578,
+      "tag": 285,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 24475,
+      "execution_time": 24517,
+      "result": 36,
+      "commit_time": 24777
+    },
+    {
+      "index": 47,
+      "serial": 6579,
+      "tag": 286,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 24477,
+      "execution_time": 24519,
+      "result": 36,
+      "commit_time": 24777
+    },
+    {
+      "index": 48,
+      "serial": 7083,
+      "tag": 77,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 25003,
+      "commit_time": 25307
+    },
+    {
+      "index": 49,
+      "serial": 7084,
+      "tag": 78,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 25005,
+      "execution_time": 25039,
+      "result": 36,
+      "squashed_time": 25301,
+      "squash_kind": "branch"
+    },
+    {
+      "index": 50,
+      "serial": 7085,
+      "tag": 79,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 25007,
+      "execution_time": 25041,
+      "result": 36,
+      "squashed_time": 25301,
+      "squash_kind": "branch"
+    },
+    {
+      "index": 51,
+      "serial": 7414,
+      "tag": 338,
+      "pc": 2147484358,
+      "instr": 4294967295,
+      "dispatch_time": 25877
+    },
+    {
+      "index": 52,
+      "serial": 7415,
+      "tag": 339,
+      "pc": 2147484362,
+      "instr": 43264523,
+      "dispatch_time": 25879,
+      "execution_time": 25893,
+      "result": 36,
+      "squashed_time": 26169,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 53,
+      "serial": 7416,
+      "tag": 340,
+      "pc": 2147484366,
+      "instr": 43261963,
+      "dispatch_time": 25881,
+      "execution_time": 25895,
+      "result": 36,
+      "squashed_time": 26169,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 54,
+      "serial": 7417,
+      "tag": 341,
+      "pc": 2147484370,
+      "instr": 43690635,
+      "dispatch_time": 25883,
+      "execution_time": 25899,
+      "result": 4294966568,
+      "squashed_time": 26169,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 55,
+      "serial": 7418,
+      "tag": 342,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 25885
+    },
+    {
+      "index": 56,
+      "serial": 7419,
+      "tag": 342,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 25885
+    },
+    {
+      "index": 57,
+      "serial": 7520,
+      "tag": 375,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 26721
+    },
+    {
+      "index": 58,
+      "serial": 7521,
+      "tag": 375,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 26721,
+      "commit_time": 26763
+    },
+    {
+      "index": 59,
+      "serial": 7849,
+      "tag": 151,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 27191,
+      "commit_time": 27507
+    },
+    {
+      "index": 60,
+      "serial": 8131,
+      "tag": 152,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 27523,
+      "execution_time": 27537,
+      "result": 36,
+      "commit_time": 27541
+    },
+    {
+      "index": 61,
+      "serial": 8132,
+      "tag": 153,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 27525,
+      "execution_time": 27539,
+      "result": 36,
+      "commit_time": 27543
+    },
+    {
+      "index": 62,
+      "serial": 8413,
+      "tag": 41,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 27703,
+      "commit_time": 28003
+    },
+    {
+      "index": 63,
+      "serial": 8414,
+      "tag": 42,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 27705,
+      "execution_time": 27749,
+      "result": 36,
+      "commit_time": 28003
+    },
+    {
+      "index": 64,
+      "serial": 8415,
+      "tag": 43,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 27707,
+      "execution_time": 27751,
+      "result": 36,
+      "commit_time": 28003
+    },
+    {
+      "index": 65,
+      "serial": 8796,
+      "tag": 346,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 28043,
+      "commit_time": 28359
+    },
+    {
+      "index": 66,
+      "serial": 8797,
+      "tag": 347,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 28045,
+      "execution_time": 28087,
+      "result": 36,
+      "commit_time": 28359
+    },
+    {
+      "index": 67,
+      "serial": 8798,
+      "tag": 348,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 28047,
+      "execution_time": 28089,
+      "result": 36,
+      "commit_time": 28359
+    },
+    {
+      "index": 68,
+      "serial": 9198,
+      "tag": 139,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 28399,
+      "commit_time": 28715
+    },
+    {
+      "index": 69,
+      "serial": 9199,
+      "tag": 140,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 28401,
+      "execution_time": 28443,
+      "result": 36,
+      "commit_time": 28715
+    },
+    {
+      "index": 70,
+      "serial": 9200,
+      "tag": 141,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 28403,
+      "execution_time": 28445,
+      "result": 36,
+      "commit_time": 28715
+    },
+    {
+      "index": 71,
+      "serial": 9578,
+      "tag": 28,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 28755,
+      "commit_time": 29059
+    },
+    {
+      "index": 72,
+      "serial": 9579,
+      "tag": 29,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 28757,
+      "execution_time": 28799,
+      "result": 36,
+      "commit_time": 29059
+    },
+    {
+      "index": 73,
+      "serial": 9580,
+      "tag": 30,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 28759,
+      "execution_time": 28801,
+      "result": 36,
+      "commit_time": 29059
+    },
+    {
+      "index": 74,
+      "serial": 9939,
+      "tag": 331,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 29099,
+      "commit_time": 29413
+    },
+    {
+      "index": 75,
+      "serial": 9940,
+      "tag": 332,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 29101,
+      "execution_time": 29153,
+      "result": 36,
+      "commit_time": 29413
+    },
+    {
+      "index": 76,
+      "serial": 9941,
+      "tag": 333,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 29103,
+      "execution_time": 29155,
+      "result": 36,
+      "commit_time": 29413
+    },
+    {
+      "index": 77,
+      "serial": 10319,
+      "tag": 124,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 29453,
+      "commit_time": 29757
+    },
+    {
+      "index": 78,
+      "serial": 10320,
+      "tag": 125,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 29455,
+      "execution_time": 29497,
+      "result": 36,
+      "commit_time": 29757
+    },
+    {
+      "index": 79,
+      "serial": 10321,
+      "tag": 126,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 29457,
+      "execution_time": 29499,
+      "result": 36,
+      "commit_time": 29757
+    },
+    {
+      "index": 80,
+      "serial": 10688,
+      "tag": 13,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 29795,
+      "commit_time": 30103
+    },
+    {
+      "index": 81,
+      "serial": 10689,
+      "tag": 14,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 29797,
+      "execution_time": 29851,
+      "result": 36,
+      "commit_time": 30103
+    },
+    {
+      "index": 82,
+      "serial": 10690,
+      "tag": 15,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 29799,
+      "execution_time": 29853,
+      "result": 36,
+      "commit_time": 30103
+    },
+    {
+      "index": 83,
+      "serial": 11038,
+      "tag": 318,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 30145,
+      "commit_time": 30449
+    },
+    {
+      "index": 84,
+      "serial": 11039,
+      "tag": 319,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 30147,
+      "execution_time": 30189,
+      "result": 36,
+      "commit_time": 30449
+    },
+    {
+      "index": 85,
+      "serial": 11040,
+      "tag": 320,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 30149,
+      "execution_time": 30191,
+      "result": 36,
+      "commit_time": 30451
+    },
+    {
+      "index": 86,
+      "serial": 11406,
+      "tag": 110,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 30493,
+      "commit_time": 30795
+    },
+    {
+      "index": 87,
+      "serial": 11407,
+      "tag": 111,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 30495,
+      "execution_time": 30543,
+      "result": 36,
+      "commit_time": 30795
+    },
+    {
+      "index": 88,
+      "serial": 11408,
+      "tag": 112,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 30497,
+      "execution_time": 30545,
+      "result": 36,
+      "commit_time": 30797
+    },
+    {
+      "index": 89,
+      "serial": 11771,
+      "tag": 414,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 30837,
+      "commit_time": 31141
+    },
+    {
+      "index": 90,
+      "serial": 11772,
+      "tag": 415,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 30839,
+      "execution_time": 30881,
+      "result": 36,
+      "commit_time": 31141
+    },
+    {
+      "index": 91,
+      "serial": 11773,
+      "tag": 0,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 30841,
+      "execution_time": 30883,
+      "result": 36,
+      "commit_time": 31143
+    },
+    {
+      "index": 92,
+      "serial": 12139,
+      "tag": 302,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 31185,
+      "commit_time": 31487
+    },
+    {
+      "index": 93,
+      "serial": 12140,
+      "tag": 303,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 31187,
+      "execution_time": 31235,
+      "result": 36,
+      "commit_time": 31487
+    },
+    {
+      "index": 94,
+      "serial": 12141,
+      "tag": 304,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 31189,
+      "execution_time": 31237,
+      "result": 36,
+      "commit_time": 31489
+    },
+    {
+      "index": 95,
+      "serial": 12504,
+      "tag": 94,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 31529,
+      "commit_time": 31833
+    },
+    {
+      "index": 96,
+      "serial": 12505,
+      "tag": 95,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 31531,
+      "execution_time": 31573,
+      "result": 36,
+      "commit_time": 31833
+    },
+    {
+      "index": 97,
+      "serial": 12506,
+      "tag": 96,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 31533,
+      "execution_time": 31575,
+      "result": 36,
+      "commit_time": 31835
+    },
+    {
+      "index": 98,
+      "serial": 12872,
+      "tag": 398,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 31877,
+      "commit_time": 32179
+    },
+    {
+      "index": 99,
+      "serial": 12873,
+      "tag": 399,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 31879,
+      "execution_time": 31927,
+      "result": 36,
+      "commit_time": 32179
+    },
+    {
+      "index": 100,
+      "serial": 12874,
+      "tag": 400,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 31881,
+      "execution_time": 31929,
+      "result": 36,
+      "commit_time": 32181
+    },
+    {
+      "index": 101,
+      "serial": 13237,
+      "tag": 286,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 32221,
+      "commit_time": 32525
+    },
+    {
+      "index": 102,
+      "serial": 13238,
+      "tag": 287,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 32223,
+      "execution_time": 32265,
+      "result": 36,
+      "commit_time": 32525
+    },
+    {
+      "index": 103,
+      "serial": 13239,
+      "tag": 288,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 32225,
+      "execution_time": 32267,
+      "result": 36,
+      "commit_time": 32527
+    },
+    {
+      "index": 104,
+      "serial": 13605,
+      "tag": 78,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 32569,
+      "commit_time": 32883
+    },
+    {
+      "index": 105,
+      "serial": 13606,
+      "tag": 79,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 32571,
+      "execution_time": 32619,
+      "result": 36,
+      "commit_time": 32883
+    },
+    {
+      "index": 106,
+      "serial": 13607,
+      "tag": 80,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 32573,
+      "execution_time": 32621,
+      "result": 36,
+      "commit_time": 32885
+    },
+    {
+      "index": 107,
+      "serial": 14103,
+      "tag": 384,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 33061,
+      "commit_time": 33365
+    },
+    {
+      "index": 108,
+      "serial": 14104,
+      "tag": 385,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 33063,
+      "execution_time": 33101,
+      "result": 36,
+      "squashed_time": 33359,
+      "squash_kind": "branch"
+    },
+    {
+      "index": 109,
+      "serial": 14105,
+      "tag": 386,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 33065,
+      "execution_time": 33103,
+      "result": 36,
+      "squashed_time": 33359,
+      "squash_kind": "branch"
+    },
+    {
+      "index": 110,
+      "serial": 14514,
+      "tag": 133,
+      "pc": 2147484358,
+      "instr": 4294967295,
+      "dispatch_time": 33769
+    },
+    {
+      "index": 111,
+      "serial": 14515,
+      "tag": 134,
+      "pc": 2147484362,
+      "instr": 43264523,
+      "dispatch_time": 33771,
+      "execution_time": 33803,
+      "result": 36,
+      "squashed_time": 34069,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 112,
+      "serial": 14516,
+      "tag": 135,
+      "pc": 2147484366,
+      "instr": 43261963,
+      "dispatch_time": 33773,
+      "execution_time": 33805,
+      "result": 36,
+      "squashed_time": 34069,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 113,
+      "serial": 14517,
+      "tag": 136,
+      "pc": 2147484370,
+      "instr": 43690635,
+      "dispatch_time": 33775,
+      "execution_time": 33809,
+      "result": 4294966568,
+      "squashed_time": 34069,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 114,
+      "serial": 14518,
+      "tag": 137,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 33777
+    },
+    {
+      "index": 115,
+      "serial": 14519,
+      "tag": 137,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 33777
+    },
+    {
+      "index": 116,
+      "serial": 14689,
+      "tag": 266,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 34233
+    },
+    {
+      "index": 117,
+      "serial": 14690,
+      "tag": 266,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 34233,
+      "commit_time": 34287
+    },
+    {
+      "index": 118,
+      "serial": 14942,
+      "tag": 39,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 34499
+    },
+    {
+      "index": 119,
+      "serial": 14943,
+      "tag": 40,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 34501
+    },
+    {
+      "index": 120,
+      "serial": 14944,
+      "tag": 41,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 34503
+    },
+    {
+      "index": 121,
+      "serial": 15040,
+      "tag": 42,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 34601,
+      "commit_time": 34899
+    },
+    {
+      "index": 122,
+      "serial": 15041,
+      "tag": 43,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 34603,
+      "execution_time": 34641,
+      "result": 36,
+      "commit_time": 34899
+    },
+    {
+      "index": 123,
+      "serial": 15042,
+      "tag": 44,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 34605,
+      "execution_time": 34643,
+      "result": 36,
+      "commit_time": 34899
+    },
+    {
+      "index": 124,
+      "serial": 15305,
+      "tag": 347,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 34939,
+      "commit_time": 35243
+    },
+    {
+      "index": 125,
+      "serial": 15306,
+      "tag": 348,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 34941,
+      "execution_time": 34983,
+      "result": 36,
+      "commit_time": 35243
+    },
+    {
+      "index": 126,
+      "serial": 15307,
+      "tag": 349,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 34943,
+      "execution_time": 34985,
+      "result": 36,
+      "commit_time": 35243
+    },
+    {
+      "index": 127,
+      "serial": 15660,
+      "tag": 138,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 35283,
+      "commit_time": 35599
+    },
+    {
+      "index": 128,
+      "serial": 15661,
+      "tag": 139,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 35285,
+      "execution_time": 35337,
+      "result": 36,
+      "commit_time": 35599
+    },
+    {
+      "index": 129,
+      "serial": 15662,
+      "tag": 140,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 35287,
+      "execution_time": 35339,
+      "result": 36,
+      "commit_time": 35599
+    },
+    {
+      "index": 130,
+      "serial": 16040,
+      "tag": 27,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 35639,
+      "commit_time": 35943
+    },
+    {
+      "index": 131,
+      "serial": 16041,
+      "tag": 28,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 35641,
+      "execution_time": 35683,
+      "result": 36,
+      "commit_time": 35943
+    },
+    {
+      "index": 132,
+      "serial": 16042,
+      "tag": 29,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 35643,
+      "execution_time": 35685,
+      "result": 36,
+      "commit_time": 35943
+    },
+    {
+      "index": 133,
+      "serial": 16409,
+      "tag": 332,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 35981,
+      "commit_time": 36297
+    },
+    {
+      "index": 134,
+      "serial": 16410,
+      "tag": 333,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 35983,
+      "execution_time": 36037,
+      "result": 36,
+      "commit_time": 36297
+    },
+    {
+      "index": 135,
+      "serial": 16411,
+      "tag": 334,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 35985,
+      "execution_time": 36039,
+      "result": 36,
+      "commit_time": 36297
+    },
+    {
+      "index": 136,
+      "serial": 16759,
+      "tag": 125,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 36337,
+      "commit_time": 36641
+    },
+    {
+      "index": 137,
+      "serial": 16760,
+      "tag": 126,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 36339,
+      "execution_time": 36381,
+      "result": 36,
+      "commit_time": 36641
+    },
+    {
+      "index": 138,
+      "serial": 16761,
+      "tag": 127,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 36341,
+      "execution_time": 36383,
+      "result": 36,
+      "commit_time": 36641
+    },
+    {
+      "index": 139,
+      "serial": 17128,
+      "tag": 14,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 36681,
+      "commit_time": 36997
+    },
+    {
+      "index": 140,
+      "serial": 17129,
+      "tag": 15,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 36683,
+      "execution_time": 36737,
+      "result": 36,
+      "commit_time": 36997
+    },
+    {
+      "index": 141,
+      "serial": 17130,
+      "tag": 16,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 36685,
+      "execution_time": 36739,
+      "result": 36,
+      "commit_time": 36999
+    },
+    {
+      "index": 142,
+      "serial": 17478,
+      "tag": 319,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 37039,
+      "commit_time": 37343
+    },
+    {
+      "index": 143,
+      "serial": 17479,
+      "tag": 320,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 37041,
+      "execution_time": 37083,
+      "result": 36,
+      "commit_time": 37345
+    },
+    {
+      "index": 144,
+      "serial": 17480,
+      "tag": 321,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 37043,
+      "execution_time": 37085,
+      "result": 36,
+      "commit_time": 37345
+    },
+    {
+      "index": 145,
+      "serial": 17847,
+      "tag": 112,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 37383,
+      "commit_time": 37699
+    },
+    {
+      "index": 146,
+      "serial": 17848,
+      "tag": 113,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 37385,
+      "execution_time": 37439,
+      "result": 36,
+      "commit_time": 37699
+    },
+    {
+      "index": 147,
+      "serial": 17849,
+      "tag": 114,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 37387,
+      "execution_time": 37441,
+      "result": 36,
+      "commit_time": 37699
+    },
+    {
+      "index": 148,
+      "serial": 18197,
+      "tag": 1,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 37739,
+      "commit_time": 38043
+    },
+    {
+      "index": 149,
+      "serial": 18198,
+      "tag": 2,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 37741,
+      "execution_time": 37783,
+      "result": 36,
+      "commit_time": 38043
+    },
+    {
+      "index": 150,
+      "serial": 18199,
+      "tag": 3,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 37743,
+      "execution_time": 37785,
+      "result": 36,
+      "commit_time": 38043
+    },
+    {
+      "index": 151,
+      "serial": 18566,
+      "tag": 306,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 38081,
+      "commit_time": 38397
+    },
+    {
+      "index": 152,
+      "serial": 18567,
+      "tag": 307,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 38083,
+      "execution_time": 38137,
+      "result": 36,
+      "commit_time": 38397
+    },
+    {
+      "index": 153,
+      "serial": 18568,
+      "tag": 308,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 38085,
+      "execution_time": 38139,
+      "result": 36,
+      "commit_time": 38397
+    },
+    {
+      "index": 154,
+      "serial": 18916,
+      "tag": 99,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 38437,
+      "commit_time": 38741
+    },
+    {
+      "index": 155,
+      "serial": 18917,
+      "tag": 100,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 38439,
+      "execution_time": 38481,
+      "result": 36,
+      "commit_time": 38741
+    },
+    {
+      "index": 156,
+      "serial": 18918,
+      "tag": 101,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 38441,
+      "execution_time": 38483,
+      "result": 36,
+      "commit_time": 38741
+    },
+    {
+      "index": 157,
+      "serial": 19285,
+      "tag": 404,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 38779,
+      "commit_time": 39095
+    },
+    {
+      "index": 158,
+      "serial": 19286,
+      "tag": 405,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 38781,
+      "execution_time": 38835,
+      "result": 36,
+      "commit_time": 39095
+    },
+    {
+      "index": 159,
+      "serial": 19287,
+      "tag": 406,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 38783,
+      "execution_time": 38837,
+      "result": 36,
+      "commit_time": 39095
+    },
+    {
+      "index": 160,
+      "serial": 19635,
+      "tag": 293,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 39135,
+      "commit_time": 39439
+    },
+    {
+      "index": 161,
+      "serial": 19636,
+      "tag": 294,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 39137,
+      "execution_time": 39179,
+      "result": 36,
+      "commit_time": 39439
+    },
+    {
+      "index": 162,
+      "serial": 19637,
+      "tag": 295,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 39139,
+      "execution_time": 39181,
+      "result": 36,
+      "commit_time": 39439
+    },
+    {
+      "index": 163,
+      "serial": 20004,
+      "tag": 86,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 39479,
+      "commit_time": 39795
+    },
+    {
+      "index": 164,
+      "serial": 20005,
+      "tag": 87,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 39481,
+      "execution_time": 39535,
+      "result": 36,
+      "commit_time": 39795
+    },
+    {
+      "index": 165,
+      "serial": 20006,
+      "tag": 88,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 39483,
+      "execution_time": 39537,
+      "result": 36,
+      "commit_time": 39797
+    },
+    {
+      "index": 166,
+      "serial": 20354,
+      "tag": 391,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 39837,
+      "commit_time": 40141
+    },
+    {
+      "index": 167,
+      "serial": 20355,
+      "tag": 392,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 39839,
+      "execution_time": 39881,
+      "result": 36,
+      "commit_time": 40143
+    },
+    {
+      "index": 168,
+      "serial": 20356,
+      "tag": 393,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 39841,
+      "execution_time": 39883,
+      "result": 36,
+      "commit_time": 40143
+    },
+    {
+      "index": 169,
+      "serial": 20759,
+      "tag": 282,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 40185,
+      "commit_time": 40485
+    },
+    {
+      "index": 170,
+      "serial": 21039,
+      "tag": 31,
+      "pc": 2147484358,
+      "instr": 4294967295,
+      "dispatch_time": 40663
+    },
+    {
+      "index": 171,
+      "serial": 21040,
+      "tag": 32,
+      "pc": 2147484362,
+      "instr": 43264523,
+      "dispatch_time": 40665,
+      "execution_time": 40697,
+      "result": 36,
+      "squashed_time": 40963,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 172,
+      "serial": 21041,
+      "tag": 33,
+      "pc": 2147484366,
+      "instr": 43261963,
+      "dispatch_time": 40667,
+      "execution_time": 40699,
+      "result": 36,
+      "squashed_time": 40963,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 173,
+      "serial": 21042,
+      "tag": 34,
+      "pc": 2147484370,
+      "instr": 43690635,
+      "dispatch_time": 40669,
+      "execution_time": 40703,
+      "result": 4294966568,
+      "squashed_time": 40963,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 174,
+      "serial": 21043,
+      "tag": 35,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 40671
+    },
+    {
+      "index": 175,
+      "serial": 21044,
+      "tag": 35,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 40671
+    },
+    {
+      "index": 176,
+      "serial": 21247,
+      "tag": 68,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 41125
+    },
+    {
+      "index": 177,
+      "serial": 21248,
+      "tag": 68,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 41125,
+      "commit_time": 41167
+    },
+    {
+      "index": 178,
+      "serial": 21583,
+      "tag": 356,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 41387,
+      "commit_time": 41685
+    },
+    {
+      "index": 179,
+      "serial": 21584,
+      "tag": 357,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 41389,
+      "execution_time": 41427,
+      "result": 36,
+      "commit_time": 41685
+    },
+    {
+      "index": 180,
+      "serial": 21585,
+      "tag": 358,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 41391,
+      "execution_time": 41429,
+      "result": 36,
+      "commit_time": 41685
+    },
+    {
+      "index": 181,
+      "serial": 21848,
+      "tag": 149,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 41725,
+      "commit_time": 42029
+    },
+    {
+      "index": 182,
+      "serial": 21849,
+      "tag": 150,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 41727,
+      "execution_time": 41769,
+      "result": 36,
+      "commit_time": 42029
+    },
+    {
+      "index": 183,
+      "serial": 21850,
+      "tag": 151,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 41729,
+      "execution_time": 41771,
+      "result": 36,
+      "commit_time": 42029
+    },
+    {
+      "index": 184,
+      "serial": 22203,
+      "tag": 36,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 42069,
+      "commit_time": 42385
+    },
+    {
+      "index": 185,
+      "serial": 22204,
+      "tag": 37,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 42071,
+      "execution_time": 42123,
+      "result": 36,
+      "commit_time": 42385
+    },
+    {
+      "index": 186,
+      "serial": 22205,
+      "tag": 38,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 42073,
+      "execution_time": 42125,
+      "result": 36,
+      "commit_time": 42385
+    },
+    {
+      "index": 187,
+      "serial": 22583,
+      "tag": 341,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 42425,
+      "commit_time": 42729
+    },
+    {
+      "index": 188,
+      "serial": 22584,
+      "tag": 342,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 42427,
+      "execution_time": 42469,
+      "result": 36,
+      "commit_time": 42729
+    },
+    {
+      "index": 189,
+      "serial": 22585,
+      "tag": 343,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 42429,
+      "execution_time": 42471,
+      "result": 36,
+      "commit_time": 42729
+    },
+    {
+      "index": 190,
+      "serial": 22951,
+      "tag": 133,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 42773,
+      "commit_time": 43075
+    },
+    {
+      "index": 191,
+      "serial": 22952,
+      "tag": 134,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 42775,
+      "execution_time": 42823,
+      "result": 36,
+      "commit_time": 43075
+    },
+    {
+      "index": 192,
+      "serial": 22953,
+      "tag": 135,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 42777,
+      "execution_time": 42825,
+      "result": 36,
+      "commit_time": 43075
+    },
+    {
+      "index": 193,
+      "serial": 23316,
+      "tag": 21,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 43115,
+      "commit_time": 43419
+    },
+    {
+      "index": 194,
+      "serial": 23317,
+      "tag": 22,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 43117,
+      "execution_time": 43159,
+      "result": 36,
+      "commit_time": 43419
+    },
+    {
+      "index": 195,
+      "serial": 23318,
+      "tag": 23,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 43119,
+      "execution_time": 43161,
+      "result": 36,
+      "commit_time": 43419
+    },
+    {
+      "index": 196,
+      "serial": 23684,
+      "tag": 325,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 43463,
+      "commit_time": 43765
+    },
+    {
+      "index": 197,
+      "serial": 23685,
+      "tag": 326,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 43465,
+      "execution_time": 43513,
+      "result": 36,
+      "commit_time": 43765
+    },
+    {
+      "index": 198,
+      "serial": 23686,
+      "tag": 327,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 43467,
+      "execution_time": 43515,
+      "result": 36,
+      "commit_time": 43765
+    },
+    {
+      "index": 199,
+      "serial": 24049,
+      "tag": 117,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 43805,
+      "commit_time": 44109
+    },
+    {
+      "index": 200,
+      "serial": 24050,
+      "tag": 118,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 43807,
+      "execution_time": 43849,
+      "result": 36,
+      "commit_time": 44109
+    },
+    {
+      "index": 201,
+      "serial": 24051,
+      "tag": 119,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 43809,
+      "execution_time": 43851,
+      "result": 36,
+      "commit_time": 44109
+    },
+    {
+      "index": 202,
+      "serial": 24417,
+      "tag": 5,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 44153,
+      "commit_time": 44455
+    },
+    {
+      "index": 203,
+      "serial": 24418,
+      "tag": 6,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 44155,
+      "execution_time": 44203,
+      "result": 36,
+      "commit_time": 44455
+    },
+    {
+      "index": 204,
+      "serial": 24419,
+      "tag": 7,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 44157,
+      "execution_time": 44205,
+      "result": 36,
+      "commit_time": 44455
+    },
+    {
+      "index": 205,
+      "serial": 24782,
+      "tag": 309,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 44495,
+      "commit_time": 44799
+    },
+    {
+      "index": 206,
+      "serial": 24783,
+      "tag": 310,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 44497,
+      "execution_time": 44539,
+      "result": 36,
+      "commit_time": 44799
+    },
+    {
+      "index": 207,
+      "serial": 24784,
+      "tag": 311,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 44499,
+      "execution_time": 44541,
+      "result": 36,
+      "commit_time": 44799
+    },
+    {
+      "index": 208,
+      "serial": 25150,
+      "tag": 101,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 44843,
+      "commit_time": 45145
+    },
+    {
+      "index": 209,
+      "serial": 25151,
+      "tag": 102,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 44845,
+      "execution_time": 44893,
+      "result": 36,
+      "commit_time": 45145
+    },
+    {
+      "index": 210,
+      "serial": 25152,
+      "tag": 103,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 44847,
+      "execution_time": 44895,
+      "result": 36,
+      "commit_time": 45145
+    },
+    {
+      "index": 211,
+      "serial": 25515,
+      "tag": 405,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 45185,
+      "commit_time": 45489
+    },
+    {
+      "index": 212,
+      "serial": 25516,
+      "tag": 406,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 45187,
+      "execution_time": 45229,
+      "result": 36,
+      "commit_time": 45489
+    },
+    {
+      "index": 213,
+      "serial": 25517,
+      "tag": 407,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 45189,
+      "execution_time": 45231,
+      "result": 36,
+      "commit_time": 45489
+    },
+    {
+      "index": 214,
+      "serial": 25883,
+      "tag": 293,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 45533,
+      "commit_time": 45835
+    },
+    {
+      "index": 215,
+      "serial": 25884,
+      "tag": 294,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 45535,
+      "execution_time": 45583,
+      "result": 36,
+      "commit_time": 45835
+    },
+    {
+      "index": 216,
+      "serial": 25885,
+      "tag": 295,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 45537,
+      "execution_time": 45585,
+      "result": 36,
+      "commit_time": 45835
+    },
+    {
+      "index": 217,
+      "serial": 26248,
+      "tag": 85,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 45875,
+      "commit_time": 46179
+    },
+    {
+      "index": 218,
+      "serial": 26249,
+      "tag": 86,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 45877,
+      "execution_time": 45919,
+      "result": 36,
+      "commit_time": 46179
+    },
+    {
+      "index": 219,
+      "serial": 26250,
+      "tag": 87,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 45879,
+      "execution_time": 45921,
+      "result": 36,
+      "commit_time": 46179
+    },
+    {
+      "index": 220,
+      "serial": 26616,
+      "tag": 389,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 46223,
+      "commit_time": 46525
+    },
+    {
+      "index": 221,
+      "serial": 26617,
+      "tag": 390,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 46225,
+      "execution_time": 46273,
+      "result": 36,
+      "commit_time": 46525
+    },
+    {
+      "index": 222,
+      "serial": 26618,
+      "tag": 391,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 46227,
+      "execution_time": 46275,
+      "result": 36,
+      "commit_time": 46525
+    },
+    {
+      "index": 223,
+      "serial": 26981,
+      "tag": 277,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 46565,
+      "commit_time": 46869
+    },
+    {
+      "index": 224,
+      "serial": 26982,
+      "tag": 278,
+      "pc": 2147484206,
+      "instr": 43264523,
+      "dispatch_time": 46567,
+      "execution_time": 46609,
+      "result": 36,
+      "commit_time": 46869
+    },
+    {
+      "index": 225,
+      "serial": 26983,
+      "tag": 279,
+      "pc": 2147484210,
+      "instr": 43261963,
+      "dispatch_time": 46569,
+      "execution_time": 46611,
+      "result": 36,
+      "commit_time": 46869
+    },
+    {
+      "index": 226,
+      "serial": 27389,
+      "tag": 73,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "dispatch_time": 46915,
+      "commit_time": 47215
+    },
+    {
+      "index": 227,
+      "serial": 27669,
+      "tag": 334,
+      "pc": 2147484358,
+      "instr": 4294967295,
+      "dispatch_time": 47393
+    },
+    {
+      "index": 228,
+      "serial": 27670,
+      "tag": 335,
+      "pc": 2147484362,
+      "instr": 43264523,
+      "dispatch_time": 47395,
+      "execution_time": 47427,
+      "result": 36,
+      "squashed_time": 47693,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 229,
+      "serial": 27671,
+      "tag": 336,
+      "pc": 2147484366,
+      "instr": 43261963,
+      "dispatch_time": 47397,
+      "execution_time": 47429,
+      "result": 36,
+      "squashed_time": 47693,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 230,
+      "serial": 27672,
+      "tag": 337,
+      "pc": 2147484370,
+      "instr": 43690635,
+      "dispatch_time": 47399,
+      "execution_time": 47433,
+      "result": 4294966568,
+      "squashed_time": 47693,
+      "squash_kind": "exception"
+    },
+    {
+      "index": 231,
+      "serial": 27673,
+      "tag": 338,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 47401
+    },
+    {
+      "index": 232,
+      "serial": 27674,
+      "tag": 338,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 47401
+    },
+    {
+      "index": 233,
+      "serial": 27877,
+      "tag": 371,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 47855
+    },
+    {
+      "index": 234,
+      "serial": 27878,
+      "tag": 371,
+      "pc": 2147484374,
+      "instr": 42273319,
+      "dispatch_time": 47855,
+      "commit_time": 47897
+    }
+  ],
+  "writeback_redirects": [
+    {
+      "time": 4495,
+      "port": 5,
+      "tag": 2,
+      "pc": 268435464,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 17053,
+      "port": 3,
+      "tag": 36,
+      "pc": 2147483938,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 17305,
+      "port": 5,
+      "tag": 39,
+      "pc": 2147488378,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 17323,
+      "port": 5,
+      "tag": 42,
+      "pc": 2147488402,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 17341,
+      "port": 3,
+      "tag": 45,
+      "pc": 2147488386,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 17929,
+      "port": 5,
+      "tag": 77,
+      "pc": 2147485598,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 17931,
+      "port": 3,
+      "tag": 80,
+      "pc": 2147485630,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 17965,
+      "port": 5,
+      "tag": 82,
+      "pc": 2147485602,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 17967,
+      "port": 5,
+      "tag": 85,
+      "pc": 2147485634,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18001,
+      "port": 5,
+      "tag": 87,
+      "pc": 2147485602,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18003,
+      "port": 5,
+      "tag": 90,
+      "pc": 2147485634,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18051,
+      "port": 3,
+      "tag": 113,
+      "pc": 2147485602,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 18057,
+      "port": 3,
+      "tag": 118,
+      "pc": 2147485602,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 18085,
+      "port": 5,
+      "tag": 116,
+      "pc": 2147485628,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18119,
+      "port": 5,
+      "tag": 120,
+      "pc": 2147485582,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18123,
+      "port": 3,
+      "tag": 129,
+      "pc": 2147485614,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18155,
+      "port": 5,
+      "tag": 127,
+      "pc": 2147485582,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18159,
+      "port": 3,
+      "tag": 136,
+      "pc": 2147485614,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18215,
+      "port": 5,
+      "tag": 261,
+      "pc": 2147485628,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 18255,
+      "port": 5,
+      "tag": 283,
+      "pc": 2147485702,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18267,
+      "port": 5,
+      "tag": 275,
+      "pc": 2147485670,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18301,
+      "port": 5,
+      "tag": 278,
+      "pc": 2147485694,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18305,
+      "port": 5,
+      "tag": 286,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18335,
+      "port": 5,
+      "tag": 281,
+      "pc": 2147485694,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18339,
+      "port": 5,
+      "tag": 289,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18415,
+      "port": 5,
+      "tag": 344,
+      "pc": 2147485694,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 18449,
+      "port": 5,
+      "tag": 352,
+      "pc": 2147485704,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18497,
+      "port": 5,
+      "tag": 372,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18509,
+      "port": 5,
+      "tag": 382,
+      "pc": 2147485766,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18543,
+      "port": 5,
+      "tag": 386,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18547,
+      "port": 5,
+      "tag": 395,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18577,
+      "port": 5,
+      "tag": 390,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18581,
+      "port": 5,
+      "tag": 399,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18613,
+      "port": 5,
+      "tag": 394,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18617,
+      "port": 5,
+      "tag": 403,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18651,
+      "port": 5,
+      "tag": 398,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18655,
+      "port": 5,
+      "tag": 407,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18685,
+      "port": 5,
+      "tag": 402,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18689,
+      "port": 5,
+      "tag": 411,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18719,
+      "port": 5,
+      "tag": 406,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18723,
+      "port": 5,
+      "tag": 415,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18757,
+      "port": 5,
+      "tag": 3,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 18769,
+      "port": 3,
+      "tag": 413,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18847,
+      "port": 5,
+      "tag": 15,
+      "pc": 2147485904,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18881,
+      "port": 5,
+      "tag": 19,
+      "pc": 2147485888,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18887,
+      "port": 3,
+      "tag": 32,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18915,
+      "port": 5,
+      "tag": 23,
+      "pc": 2147485888,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18921,
+      "port": 3,
+      "tag": 36,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 18959,
+      "port": 5,
+      "tag": 46,
+      "pc": 2147485888,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 18997,
+      "port": 3,
+      "tag": 59,
+      "pc": 2147485942,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19033,
+      "port": 3,
+      "tag": 72,
+      "pc": 2147485718,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19045,
+      "port": 3,
+      "tag": 64,
+      "pc": 2147485686,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19079,
+      "port": 5,
+      "tag": 67,
+      "pc": 2147485694,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19083,
+      "port": 5,
+      "tag": 75,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19113,
+      "port": 5,
+      "tag": 70,
+      "pc": 2147485694,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19117,
+      "port": 5,
+      "tag": 78,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19187,
+      "port": 1,
+      "tag": 133,
+      "pc": 2147485694,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 19221,
+      "port": 5,
+      "tag": 141,
+      "pc": 2147485704,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19255,
+      "port": 5,
+      "tag": 257,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19271,
+      "port": 1,
+      "tag": 272,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19305,
+      "port": 5,
+      "tag": 276,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19341,
+      "port": 5,
+      "tag": 280,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19379,
+      "port": 5,
+      "tag": 284,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19413,
+      "port": 5,
+      "tag": 288,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19447,
+      "port": 5,
+      "tag": 292,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19499,
+      "port": 5,
+      "tag": 335,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19501,
+      "port": 5,
+      "tag": 322,
+      "pc": 2147485888,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19505,
+      "port": 3,
+      "tag": 351,
+      "pc": 2147486016,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19537,
+      "port": 5,
+      "tag": 326,
+      "pc": 2147485888,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19543,
+      "port": 3,
+      "tag": 339,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19573,
+      "port": 5,
+      "tag": 330,
+      "pc": 2147485888,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19579,
+      "port": 3,
+      "tag": 343,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19607,
+      "port": 5,
+      "tag": 334,
+      "pc": 2147485888,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19613,
+      "port": 3,
+      "tag": 347,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19647,
+      "port": 5,
+      "tag": 347,
+      "pc": 2147485888,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 19745,
+      "port": 5,
+      "tag": 18,
+      "pc": 2147485694,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 19779,
+      "port": 5,
+      "tag": 26,
+      "pc": 2147485704,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19813,
+      "port": 5,
+      "tag": 46,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19843,
+      "port": 5,
+      "tag": 88,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 19879,
+      "port": 5,
+      "tag": 97,
+      "pc": 2147485806,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 19891,
+      "port": 1,
+      "tag": 91,
+      "pc": 2147485774,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 19969,
+      "port": 1,
+      "tag": 140,
+      "pc": 2147485888,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 20129,
+      "port": 3,
+      "tag": 323,
+      "pc": 2147485694,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 20163,
+      "port": 5,
+      "tag": 331,
+      "pc": 2147485704,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20197,
+      "port": 5,
+      "tag": 351,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20207,
+      "port": 1,
+      "tag": 375,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20217,
+      "port": 1,
+      "tag": 366,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 20251,
+      "port": 5,
+      "tag": 370,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 20255,
+      "port": 5,
+      "tag": 379,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20287,
+      "port": 5,
+      "tag": 374,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 20291,
+      "port": 5,
+      "tag": 383,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20325,
+      "port": 5,
+      "tag": 378,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 20329,
+      "port": 5,
+      "tag": 387,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20359,
+      "port": 5,
+      "tag": 382,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 20363,
+      "port": 5,
+      "tag": 391,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20393,
+      "port": 5,
+      "tag": 386,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 20397,
+      "port": 5,
+      "tag": 395,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20431,
+      "port": 5,
+      "tag": 399,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20443,
+      "port": 3,
+      "tag": 393,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 20521,
+      "port": 1,
+      "tag": 26,
+      "pc": 2147485888,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 20619,
+      "port": 5,
+      "tag": 113,
+      "pc": 2147485694,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 20653,
+      "port": 5,
+      "tag": 121,
+      "pc": 2147485704,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20687,
+      "port": 5,
+      "tag": 141,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 20753,
+      "port": 3,
+      "tag": 344,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 20997,
+      "port": 5,
+      "tag": 10,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21025,
+      "port": 1,
+      "tag": 30,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21081,
+      "port": 3,
+      "tag": 75,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 21083,
+      "port": 5,
+      "tag": 138,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 21087,
+      "port": 3,
+      "tag": 83,
+      "pc": 2147485840,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 21125,
+      "port": 5,
+      "tag": 81,
+      "pc": 2147485810,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21129,
+      "port": 5,
+      "tag": 75,
+      "pc": 2147485778,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 21345,
+      "port": 5,
+      "tag": 315,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21373,
+      "port": 3,
+      "tag": 335,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21423,
+      "port": 5,
+      "tag": 380,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 21691,
+      "port": 3,
+      "tag": 108,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21717,
+      "port": 1,
+      "tag": 128,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21745,
+      "port": 5,
+      "tag": 275,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21759,
+      "port": 1,
+      "tag": 289,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 21779,
+      "port": 5,
+      "tag": 269,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 22037,
+      "port": 5,
+      "tag": 413,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 22065,
+      "port": 3,
+      "tag": 17,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 22103,
+      "port": 1,
+      "tag": 68,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 22105,
+      "port": 3,
+      "tag": 82,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 22383,
+      "port": 3,
+      "tag": 302,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 22409,
+      "port": 1,
+      "tag": 322,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 22507,
+      "port": 1,
+      "tag": 396,
+      "pc": 2147485924,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 22509,
+      "port": 5,
+      "tag": 383,
+      "pc": 2147485892,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 22511,
+      "port": 3,
+      "tag": 412,
+      "pc": 2147486020,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 22729,
+      "port": 5,
+      "tag": 93,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 22757,
+      "port": 3,
+      "tag": 113,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 23087,
+      "port": 3,
+      "tag": 398,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 23113,
+      "port": 1,
+      "tag": 2,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 23429,
+      "port": 5,
+      "tag": 285,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 23457,
+      "port": 3,
+      "tag": 305,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 23507,
+      "port": 5,
+      "tag": 350,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 23775,
+      "port": 3,
+      "tag": 78,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 23801,
+      "port": 1,
+      "tag": 98,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24117,
+      "port": 5,
+      "tag": 381,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24145,
+      "port": 3,
+      "tag": 401,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24183,
+      "port": 1,
+      "tag": 36,
+      "pc": 2147485784,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24185,
+      "port": 3,
+      "tag": 50,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24463,
+      "port": 3,
+      "tag": 270,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24489,
+      "port": 1,
+      "tag": 290,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24605,
+      "port": 1,
+      "tag": 395,
+      "pc": 2147485952,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 24647,
+      "port": 3,
+      "tag": 410,
+      "pc": 2147486022,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24653,
+      "port": 5,
+      "tag": 401,
+      "pc": 2147485958,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 24687,
+      "port": 5,
+      "tag": 404,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 24689,
+      "port": 3,
+      "tag": 414,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24721,
+      "port": 5,
+      "tag": 407,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 24723,
+      "port": 3,
+      "tag": 1,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24755,
+      "port": 5,
+      "tag": 410,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 24757,
+      "port": 3,
+      "tag": 4,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24789,
+      "port": 5,
+      "tag": 413,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 24791,
+      "port": 1,
+      "tag": 7,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24823,
+      "port": 5,
+      "tag": 0,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 24825,
+      "port": 1,
+      "tag": 10,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24857,
+      "port": 5,
+      "tag": 3,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 24859,
+      "port": 1,
+      "tag": 13,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 24937,
+      "port": 3,
+      "tag": 54,
+      "pc": 2147485974,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 24977,
+      "port": 3,
+      "tag": 63,
+      "pc": 2147486014,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25021,
+      "port": 5,
+      "tag": 83,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25023,
+      "port": 3,
+      "tag": 94,
+      "pc": 2147486062,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25035,
+      "port": 1,
+      "tag": 92,
+      "pc": 2147486062,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25067,
+      "port": 3,
+      "tag": 98,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25069,
+      "port": 1,
+      "tag": 96,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25097,
+      "port": 3,
+      "tag": 94,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25099,
+      "port": 1,
+      "tag": 92,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25105,
+      "port": 5,
+      "tag": 91,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25297,
+      "port": 3,
+      "tag": 77,
+      "pc": 2147484182,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25337,
+      "port": 5,
+      "tag": 81,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25339,
+      "port": 1,
+      "tag": 92,
+      "pc": 2147486062,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25349,
+      "port": 3,
+      "tag": 90,
+      "pc": 2147486062,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25381,
+      "port": 1,
+      "tag": 96,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25383,
+      "port": 3,
+      "tag": 94,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25415,
+      "port": 1,
+      "tag": 100,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25417,
+      "port": 3,
+      "tag": 98,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25465,
+      "port": 5,
+      "tag": 118,
+      "pc": 2147486054,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 25497,
+      "port": 5,
+      "tag": 120,
+      "pc": 2147486066,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25571,
+      "port": 3,
+      "tag": 130,
+      "pc": 2147484072,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25573,
+      "port": 5,
+      "tag": 128,
+      "pc": 2147484072,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25575,
+      "port": 5,
+      "tag": 131,
+      "pc": 2147486072,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25579,
+      "port": 1,
+      "tag": 149,
+      "pc": 2147486136,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25605,
+      "port": 5,
+      "tag": 130,
+      "pc": 2147484104,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25631,
+      "port": 5,
+      "tag": 149,
+      "pc": 2147486136,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25641,
+      "port": 5,
+      "tag": 139,
+      "pc": 2147486072,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25675,
+      "port": 5,
+      "tag": 142,
+      "pc": 2147486094,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25677,
+      "port": 3,
+      "tag": 152,
+      "pc": 2147486126,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25709,
+      "port": 5,
+      "tag": 145,
+      "pc": 2147486094,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25711,
+      "port": 3,
+      "tag": 155,
+      "pc": 2147486126,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25789,
+      "port": 5,
+      "tag": 304,
+      "pc": 2147486094,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 25825,
+      "port": 5,
+      "tag": 314,
+      "pc": 2147486134,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25909,
+      "port": 3,
+      "tag": 347,
+      "pc": 2147484390,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 25933,
+      "port": 5,
+      "tag": 350,
+      "pc": 2147486142,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 25937,
+      "port": 5,
+      "tag": 378,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 26123,
+      "port": 5,
+      "tag": 356,
+      "pc": 2147487998,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 26145,
+      "port": 5,
+      "tag": 370,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 26695,
+      "port": 7,
+      "tag": 374,
+      "pc": 0,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 26735,
+      "port": 5,
+      "tag": 380,
+      "pc": 2147484374,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 26757,
+      "port": 3,
+      "tag": 411,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 26767,
+      "port": 1,
+      "tag": 409,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 26799,
+      "port": 1,
+      "tag": 415,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 26801,
+      "port": 3,
+      "tag": 413,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 26859,
+      "port": 5,
+      "tag": 37,
+      "pc": 2147486238,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 26891,
+      "port": 5,
+      "tag": 39,
+      "pc": 2147486250,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 26969,
+      "port": 5,
+      "tag": 49,
+      "pc": 2147484104,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 26971,
+      "port": 3,
+      "tag": 52,
+      "pc": 2147486256,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27031,
+      "port": 5,
+      "tag": 55,
+      "pc": 2147487930,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27105,
+      "port": 3,
+      "tag": 126,
+      "pc": 2147485694,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27105,
+      "port": 5,
+      "tag": 134,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27139,
+      "port": 5,
+      "tag": 129,
+      "pc": 2147485694,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 27175,
+      "port": 5,
+      "tag": 137,
+      "pc": 2147485704,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27203,
+      "port": 3,
+      "tag": 155,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27229,
+      "port": 3,
+      "tag": 289,
+      "pc": 2147485752,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27263,
+      "port": 5,
+      "tag": 293,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 27313,
+      "port": 1,
+      "tag": 296,
+      "pc": 2147485774,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 27319,
+      "port": 5,
+      "tag": 304,
+      "pc": 2147485840,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27347,
+      "port": 5,
+      "tag": 302,
+      "pc": 2147485786,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27369,
+      "port": 5,
+      "tag": 316,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27415,
+      "port": 5,
+      "tag": 342,
+      "pc": 2147491116,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27433,
+      "port": 5,
+      "tag": 344,
+      "pc": 2147491140,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27465,
+      "port": 5,
+      "tag": 346,
+      "pc": 2147491122,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27497,
+      "port": 1,
+      "tag": 348,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27497,
+      "port": 3,
+      "tag": 151,
+      "pc": 2147484182,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 27497,
+      "port": 5,
+      "tag": 347,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27539,
+      "port": 5,
+      "tag": 157,
+      "pc": 2147484206,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27603,
+      "port": 3,
+      "tag": 361,
+      "pc": 2147485952,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 27687,
+      "port": 5,
+      "tag": 27,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27719,
+      "port": 1,
+      "tag": 47,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 27773,
+      "port": 5,
+      "tag": 92,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 28033,
+      "port": 3,
+      "tag": 332,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 28059,
+      "port": 1,
+      "tag": 352,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 28157,
+      "port": 3,
+      "tag": 13,
+      "pc": 2147485948,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 28159,
+      "port": 5,
+      "tag": 415,
+      "pc": 2147485884,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 28161,
+      "port": 3,
+      "tag": 28,
+      "pc": 2147486012,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 28387,
+      "port": 5,
+      "tag": 125,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 28415,
+      "port": 3,
+      "tag": 145,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 28745,
+      "port": 3,
+      "tag": 14,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 28771,
+      "port": 1,
+      "tag": 34,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 29087,
+      "port": 5,
+      "tag": 317,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 29115,
+      "port": 1,
+      "tag": 337,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 29167,
+      "port": 3,
+      "tag": 382,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 29443,
+      "port": 3,
+      "tag": 110,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 29469,
+      "port": 1,
+      "tag": 130,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 29785,
+      "port": 5,
+      "tag": 415,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 29811,
+      "port": 1,
+      "tag": 19,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 29857,
+      "port": 1,
+      "tag": 64,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 30135,
+      "port": 3,
+      "tag": 304,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 30161,
+      "port": 1,
+      "tag": 324,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 30479,
+      "port": 3,
+      "tag": 98,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 30509,
+      "port": 1,
+      "tag": 116,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 30557,
+      "port": 3,
+      "tag": 256,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 30827,
+      "port": 3,
+      "tag": 400,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 30853,
+      "port": 1,
+      "tag": 4,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 31171,
+      "port": 3,
+      "tag": 290,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 31201,
+      "port": 1,
+      "tag": 308,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 31249,
+      "port": 3,
+      "tag": 352,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 31519,
+      "port": 3,
+      "tag": 80,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 31545,
+      "port": 1,
+      "tag": 100,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 31863,
+      "port": 3,
+      "tag": 386,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 31893,
+      "port": 1,
+      "tag": 404,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 31941,
+      "port": 3,
+      "tag": 32,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 32211,
+      "port": 3,
+      "tag": 272,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32237,
+      "port": 1,
+      "tag": 292,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32555,
+      "port": 3,
+      "tag": 66,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32585,
+      "port": 1,
+      "tag": 84,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32633,
+      "port": 3,
+      "tag": 128,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 32713,
+      "port": 5,
+      "tag": 286,
+      "pc": 2147485952,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 32753,
+      "port": 5,
+      "tag": 305,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32759,
+      "port": 5,
+      "tag": 295,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 32795,
+      "port": 5,
+      "tag": 298,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 32797,
+      "port": 3,
+      "tag": 308,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32831,
+      "port": 5,
+      "tag": 301,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 32833,
+      "port": 3,
+      "tag": 311,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32867,
+      "port": 5,
+      "tag": 304,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 32869,
+      "port": 3,
+      "tag": 314,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32903,
+      "port": 5,
+      "tag": 307,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 32905,
+      "port": 1,
+      "tag": 317,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 32939,
+      "port": 5,
+      "tag": 310,
+      "pc": 2147485974,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 32941,
+      "port": 1,
+      "tag": 320,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33009,
+      "port": 3,
+      "tag": 361,
+      "pc": 2147485974,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 33049,
+      "port": 3,
+      "tag": 370,
+      "pc": 2147486014,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33079,
+      "port": 5,
+      "tag": 390,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33083,
+      "port": 1,
+      "tag": 405,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33093,
+      "port": 5,
+      "tag": 403,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33125,
+      "port": 3,
+      "tag": 409,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33127,
+      "port": 1,
+      "tag": 407,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33159,
+      "port": 3,
+      "tag": 401,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33161,
+      "port": 1,
+      "tag": 399,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33167,
+      "port": 5,
+      "tag": 398,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33229,
+      "port": 5,
+      "tag": 404,
+      "pc": 2147487864,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33251,
+      "port": 5,
+      "tag": 2,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33277,
+      "port": 1,
+      "tag": 28,
+      "pc": 2147491116,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33287,
+      "port": 5,
+      "tag": 30,
+      "pc": 2147491140,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33319,
+      "port": 5,
+      "tag": 32,
+      "pc": 2147491122,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33351,
+      "port": 1,
+      "tag": 34,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33351,
+      "port": 5,
+      "tag": 33,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33355,
+      "port": 3,
+      "tag": 384,
+      "pc": 2147484182,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33395,
+      "port": 5,
+      "tag": 388,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33399,
+      "port": 5,
+      "tag": 403,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33411,
+      "port": 1,
+      "tag": 401,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33443,
+      "port": 1,
+      "tag": 407,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33445,
+      "port": 3,
+      "tag": 405,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33493,
+      "port": 5,
+      "tag": 9,
+      "pc": 2147486054,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 33527,
+      "port": 5,
+      "tag": 11,
+      "pc": 2147486066,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33589,
+      "port": 5,
+      "tag": 21,
+      "pc": 2147484104,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33595,
+      "port": 1,
+      "tag": 43,
+      "pc": 2147486126,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33603,
+      "port": 1,
+      "tag": 33,
+      "pc": 2147486094,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33639,
+      "port": 5,
+      "tag": 36,
+      "pc": 2147486094,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33641,
+      "port": 3,
+      "tag": 46,
+      "pc": 2147486126,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33713,
+      "port": 1,
+      "tag": 99,
+      "pc": 2147486094,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 33749,
+      "port": 5,
+      "tag": 109,
+      "pc": 2147486134,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33791,
+      "port": 5,
+      "tag": 142,
+      "pc": 2147484390,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33799,
+      "port": 5,
+      "tag": 145,
+      "pc": 2147486142,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33803,
+      "port": 3,
+      "tag": 269,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33833,
+      "port": 5,
+      "tag": 151,
+      "pc": 2147487998,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33855,
+      "port": 5,
+      "tag": 261,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33881,
+      "port": 3,
+      "tag": 287,
+      "pc": 2147491116,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 33891,
+      "port": 5,
+      "tag": 289,
+      "pc": 2147491140,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33923,
+      "port": 5,
+      "tag": 291,
+      "pc": 2147491122,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33955,
+      "port": 3,
+      "tag": 293,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33955,
+      "port": 5,
+      "tag": 292,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 33987,
+      "port": 5,
+      "tag": 293,
+      "pc": 2147491048,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34005,
+      "port": 5,
+      "tag": 294,
+      "pc": 2147488350,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34025,
+      "port": 3,
+      "tag": 303,
+      "pc": 2147488414,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 34065,
+      "port": 1,
+      "tag": 308,
+      "pc": 2147491130,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 34069,
+      "port": 3,
+      "tag": 313,
+      "pc": 2147491162,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 34207,
+      "port": 7,
+      "tag": 265,
+      "pc": 0,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 34247,
+      "port": 5,
+      "tag": 271,
+      "pc": 2147484374,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34257,
+      "port": 1,
+      "tag": 302,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34267,
+      "port": 5,
+      "tag": 300,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 34301,
+      "port": 1,
+      "tag": 306,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34303,
+      "port": 3,
+      "tag": 304,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 34361,
+      "port": 1,
+      "tag": 344,
+      "pc": 2147486238,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 34393,
+      "port": 5,
+      "tag": 346,
+      "pc": 2147486250,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34455,
+      "port": 1,
+      "tag": 362,
+      "pc": 2147487930,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34455,
+      "port": 5,
+      "tag": 356,
+      "pc": 2147484104,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34485,
+      "port": 3,
+      "tag": 25,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34515,
+      "port": 1,
+      "tag": 17,
+      "pc": 2147485694,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 34515,
+      "port": 3,
+      "tag": 45,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34549,
+      "port": 5,
+      "tag": 20,
+      "pc": 2147485694,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 34585,
+      "port": 5,
+      "tag": 28,
+      "pc": 2147485704,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34619,
+      "port": 5,
+      "tag": 48,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34937,
+      "port": 3,
+      "tag": 333,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 34955,
+      "port": 1,
+      "tag": 353,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 35271,
+      "port": 5,
+      "tag": 124,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 35299,
+      "port": 1,
+      "tag": 144,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 35351,
+      "port": 3,
+      "tag": 285,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 35629,
+      "port": 3,
+      "tag": 13,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 35655,
+      "port": 1,
+      "tag": 33,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 35971,
+      "port": 5,
+      "tag": 318,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 35997,
+      "port": 1,
+      "tag": 338,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 36043,
+      "port": 1,
+      "tag": 383,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 36327,
+      "port": 3,
+      "tag": 111,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 36353,
+      "port": 1,
+      "tag": 131,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 36671,
+      "port": 5,
+      "tag": 0,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 36697,
+      "port": 1,
+      "tag": 20,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 36743,
+      "port": 1,
+      "tag": 65,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 37029,
+      "port": 3,
+      "tag": 305,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 37055,
+      "port": 1,
+      "tag": 325,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 37373,
+      "port": 5,
+      "tag": 98,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 37399,
+      "port": 1,
+      "tag": 118,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 37445,
+      "port": 1,
+      "tag": 259,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 37729,
+      "port": 3,
+      "tag": 403,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 37755,
+      "port": 1,
+      "tag": 7,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 38071,
+      "port": 5,
+      "tag": 292,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 38097,
+      "port": 1,
+      "tag": 312,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 38143,
+      "port": 1,
+      "tag": 357,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 38427,
+      "port": 3,
+      "tag": 85,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 38453,
+      "port": 1,
+      "tag": 105,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 38769,
+      "port": 5,
+      "tag": 390,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 38795,
+      "port": 1,
+      "tag": 410,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 38841,
+      "port": 1,
+      "tag": 39,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 39125,
+      "port": 3,
+      "tag": 279,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 39151,
+      "port": 1,
+      "tag": 299,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 39469,
+      "port": 5,
+      "tag": 72,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 39495,
+      "port": 1,
+      "tag": 92,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 39541,
+      "port": 1,
+      "tag": 137,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 39827,
+      "port": 3,
+      "tag": 377,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 39853,
+      "port": 1,
+      "tag": 397,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 39973,
+      "port": 5,
+      "tag": 88,
+      "pc": 2147485952,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 40175,
+      "port": 1,
+      "tag": 269,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40197,
+      "port": 3,
+      "tag": 286,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40211,
+      "port": 1,
+      "tag": 325,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40297,
+      "port": 5,
+      "tag": 325,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40549,
+      "port": 5,
+      "tag": 335,
+      "pc": 2147484104,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40607,
+      "port": 3,
+      "tag": 413,
+      "pc": 2147486094,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 40643,
+      "port": 5,
+      "tag": 7,
+      "pc": 2147486134,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40685,
+      "port": 5,
+      "tag": 40,
+      "pc": 2147484390,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40693,
+      "port": 5,
+      "tag": 43,
+      "pc": 2147486142,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 40727,
+      "port": 5,
+      "tag": 49,
+      "pc": 2147487998,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40749,
+      "port": 5,
+      "tag": 63,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40775,
+      "port": 3,
+      "tag": 89,
+      "pc": 2147491116,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40785,
+      "port": 5,
+      "tag": 91,
+      "pc": 2147491140,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 40817,
+      "port": 5,
+      "tag": 93,
+      "pc": 2147491122,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 40849,
+      "port": 3,
+      "tag": 95,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 40849,
+      "port": 5,
+      "tag": 94,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 40881,
+      "port": 5,
+      "tag": 95,
+      "pc": 2147491048,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40899,
+      "port": 5,
+      "tag": 96,
+      "pc": 2147488350,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 40919,
+      "port": 3,
+      "tag": 105,
+      "pc": 2147488414,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 40959,
+      "port": 1,
+      "tag": 110,
+      "pc": 2147491130,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 40963,
+      "port": 3,
+      "tag": 115,
+      "pc": 2147491162,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 41099,
+      "port": 7,
+      "tag": 67,
+      "pc": 0,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 41139,
+      "port": 5,
+      "tag": 73,
+      "pc": 2147484374,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 41181,
+      "port": 3,
+      "tag": 146,
+      "pc": 2147486238,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 41213,
+      "port": 5,
+      "tag": 148,
+      "pc": 2147486250,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 41275,
+      "port": 1,
+      "tag": 260,
+      "pc": 2147487930,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 41275,
+      "port": 5,
+      "tag": 158,
+      "pc": 2147484104,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 41337,
+      "port": 1,
+      "tag": 334,
+      "pc": 2147485694,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 41371,
+      "port": 5,
+      "tag": 342,
+      "pc": 2147485704,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 41405,
+      "port": 5,
+      "tag": 362,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 41723,
+      "port": 3,
+      "tag": 135,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 41741,
+      "port": 1,
+      "tag": 155,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 42057,
+      "port": 5,
+      "tag": 22,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 42085,
+      "port": 1,
+      "tag": 42,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 42137,
+      "port": 3,
+      "tag": 87,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 42415,
+      "port": 3,
+      "tag": 327,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 42441,
+      "port": 1,
+      "tag": 347,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 42759,
+      "port": 3,
+      "tag": 121,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 42789,
+      "port": 1,
+      "tag": 139,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 42837,
+      "port": 3,
+      "tag": 279,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 43105,
+      "port": 3,
+      "tag": 7,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 43131,
+      "port": 1,
+      "tag": 27,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 43449,
+      "port": 3,
+      "tag": 313,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 43479,
+      "port": 1,
+      "tag": 331,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 43527,
+      "port": 3,
+      "tag": 375,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 43795,
+      "port": 3,
+      "tag": 103,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 43821,
+      "port": 1,
+      "tag": 123,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 44139,
+      "port": 3,
+      "tag": 409,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 44169,
+      "port": 1,
+      "tag": 11,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 44217,
+      "port": 3,
+      "tag": 55,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 44485,
+      "port": 3,
+      "tag": 295,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 44511,
+      "port": 1,
+      "tag": 315,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 44829,
+      "port": 3,
+      "tag": 89,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 44859,
+      "port": 1,
+      "tag": 107,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 44907,
+      "port": 3,
+      "tag": 151,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 45175,
+      "port": 3,
+      "tag": 391,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 45201,
+      "port": 1,
+      "tag": 411,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 45519,
+      "port": 3,
+      "tag": 281,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 45549,
+      "port": 1,
+      "tag": 299,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 45597,
+      "port": 3,
+      "tag": 343,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 45865,
+      "port": 3,
+      "tag": 71,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 45891,
+      "port": 1,
+      "tag": 91,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 46209,
+      "port": 3,
+      "tag": 377,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 46239,
+      "port": 1,
+      "tag": 395,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 46287,
+      "port": 3,
+      "tag": 23,
+      "pc": 2147485752,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 46555,
+      "port": 3,
+      "tag": 263,
+      "pc": 2147485726,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 46581,
+      "port": 1,
+      "tag": 283,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 46703,
+      "port": 5,
+      "tag": 391,
+      "pc": 2147485952,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 46905,
+      "port": 3,
+      "tag": 59,
+      "pc": 2147486006,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 46927,
+      "port": 3,
+      "tag": 77,
+      "pc": 2147484214,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 46941,
+      "port": 5,
+      "tag": 116,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47023,
+      "port": 5,
+      "tag": 116,
+      "pc": 2147486054,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47279,
+      "port": 5,
+      "tag": 126,
+      "pc": 2147484104,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47337,
+      "port": 3,
+      "tag": 300,
+      "pc": 2147486094,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 47373,
+      "port": 5,
+      "tag": 310,
+      "pc": 2147486134,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47415,
+      "port": 5,
+      "tag": 343,
+      "pc": 2147484390,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47423,
+      "port": 5,
+      "tag": 346,
+      "pc": 2147486142,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47459,
+      "port": 5,
+      "tag": 352,
+      "pc": 2147487998,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47479,
+      "port": 5,
+      "tag": 366,
+      "pc": 2147492790,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47505,
+      "port": 3,
+      "tag": 392,
+      "pc": 2147491116,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47515,
+      "port": 5,
+      "tag": 394,
+      "pc": 2147491140,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47547,
+      "port": 5,
+      "tag": 396,
+      "pc": 2147491122,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47579,
+      "port": 3,
+      "tag": 398,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47579,
+      "port": 5,
+      "tag": 397,
+      "pc": 2147491044,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47611,
+      "port": 5,
+      "tag": 398,
+      "pc": 2147491048,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47629,
+      "port": 5,
+      "tag": 399,
+      "pc": 2147488350,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47649,
+      "port": 3,
+      "tag": 408,
+      "pc": 2147488414,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47689,
+      "port": 1,
+      "tag": 413,
+      "pc": 2147491130,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47693,
+      "port": 3,
+      "tag": 2,
+      "pc": 2147491162,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47829,
+      "port": 7,
+      "tag": 370,
+      "pc": 0,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 47869,
+      "port": 5,
+      "tag": 376,
+      "pc": 2147484374,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47911,
+      "port": 1,
+      "tag": 35,
+      "pc": 2147486238,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47975,
+      "port": 1,
+      "tag": 51,
+      "pc": 2147487930,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47975,
+      "port": 5,
+      "tag": 45,
+      "pc": 2147484104,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 47977,
+      "port": 3,
+      "tag": 48,
+      "pc": 2147486256,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 48025,
+      "port": 1,
+      "tag": 86,
+      "pc": 2147486394,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48025,
+      "port": 3,
+      "tag": 70,
+      "pc": 2147486362,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48063,
+      "port": 5,
+      "tag": 78,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48067,
+      "port": 3,
+      "tag": 93,
+      "pc": 2147486410,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48101,
+      "port": 5,
+      "tag": 86,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48105,
+      "port": 3,
+      "tag": 101,
+      "pc": 2147486410,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48139,
+      "port": 5,
+      "tag": 94,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48143,
+      "port": 3,
+      "tag": 109,
+      "pc": 2147486410,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48177,
+      "port": 5,
+      "tag": 102,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48181,
+      "port": 3,
+      "tag": 117,
+      "pc": 2147486410,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48217,
+      "port": 5,
+      "tag": 110,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48255,
+      "port": 5,
+      "tag": 118,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48367,
+      "port": 5,
+      "tag": 126,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48407,
+      "port": 5,
+      "tag": 134,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48565,
+      "port": 3,
+      "tag": 290,
+      "pc": 2147486346,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 48609,
+      "port": 5,
+      "tag": 306,
+      "pc": 2147486398,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48615,
+      "port": 5,
+      "tag": 297,
+      "pc": 2147486366,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48651,
+      "port": 5,
+      "tag": 300,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48655,
+      "port": 3,
+      "tag": 308,
+      "pc": 2147486414,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48687,
+      "port": 5,
+      "tag": 303,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48691,
+      "port": 3,
+      "tag": 311,
+      "pc": 2147486414,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48721,
+      "port": 5,
+      "tag": 306,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48723,
+      "port": 3,
+      "tag": 314,
+      "pc": 2147486414,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48755,
+      "port": 5,
+      "tag": 309,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 48757,
+      "port": 3,
+      "tag": 317,
+      "pc": 2147486414,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 48839,
+      "port": 5,
+      "tag": 366,
+      "pc": 2147486382,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 48873,
+      "port": 3,
+      "tag": 374,
+      "pc": 2147486392,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 49061,
+      "port": 5,
+      "tag": 394,
+      "pc": 2147484450,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 49075,
+      "port": 1,
+      "tag": 414,
+      "pc": 2147486490,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 49081,
+      "port": 3,
+      "tag": 404,
+      "pc": 2147486458,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49115,
+      "port": 5,
+      "tag": 408,
+      "pc": 2147486444,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49119,
+      "port": 5,
+      "tag": 1,
+      "pc": 2147486476,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 49149,
+      "port": 5,
+      "tag": 412,
+      "pc": 2147486444,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49153,
+      "port": 5,
+      "tag": 5,
+      "pc": 2147486476,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 49193,
+      "port": 5,
+      "tag": 19,
+      "pc": 2147486444,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 49229,
+      "port": 5,
+      "tag": 28,
+      "pc": 2147486498,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 49241,
+      "port": 3,
+      "tag": 22,
+      "pc": 2147486466,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49305,
+      "port": 3,
+      "tag": 40,
+      "pc": 2147486578,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49339,
+      "port": 5,
+      "tag": 44,
+      "pc": 2147486562,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49373,
+      "port": 5,
+      "tag": 48,
+      "pc": 2147486562,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49417,
+      "port": 5,
+      "tag": 71,
+      "pc": 2147486562,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 49467,
+      "port": 3,
+      "tag": 91,
+      "pc": 2147486648,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49501,
+      "port": 5,
+      "tag": 95,
+      "pc": 2147486644,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49535,
+      "port": 5,
+      "tag": 99,
+      "pc": 2147486644,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49579,
+      "port": 5,
+      "tag": 122,
+      "pc": 2147486644,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 49803,
+      "port": 5,
+      "tag": 145,
+      "pc": 2147486730,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49847,
+      "port": 1,
+      "tag": 271,
+      "pc": 2147486418,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 49847,
+      "port": 5,
+      "tag": 256,
+      "pc": 2147486354,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49887,
+      "port": 5,
+      "tag": 264,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49891,
+      "port": 3,
+      "tag": 279,
+      "pc": 2147486410,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 49931,
+      "port": 5,
+      "tag": 272,
+      "pc": 2147486346,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 49935,
+      "port": 3,
+      "tag": 287,
+      "pc": 2147486410,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50111,
+      "port": 5,
+      "tag": 384,
+      "pc": 2147486346,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 50153,
+      "port": 1,
+      "tag": 402,
+      "pc": 2147486414,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50161,
+      "port": 5,
+      "tag": 394,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50195,
+      "port": 5,
+      "tag": 397,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50233,
+      "port": 3,
+      "tag": 408,
+      "pc": 2147486414,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50233,
+      "port": 5,
+      "tag": 400,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50267,
+      "port": 5,
+      "tag": 403,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50269,
+      "port": 3,
+      "tag": 411,
+      "pc": 2147486414,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50301,
+      "port": 5,
+      "tag": 406,
+      "pc": 2147486382,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50303,
+      "port": 3,
+      "tag": 414,
+      "pc": 2147486414,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50369,
+      "port": 3,
+      "tag": 44,
+      "pc": 2147486382,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 50403,
+      "port": 3,
+      "tag": 52,
+      "pc": 2147486392,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50581,
+      "port": 5,
+      "tag": 72,
+      "pc": 2147484450,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50591,
+      "port": 1,
+      "tag": 97,
+      "pc": 2147486476,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50595,
+      "port": 3,
+      "tag": 87,
+      "pc": 2147486444,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50629,
+      "port": 5,
+      "tag": 91,
+      "pc": 2147486444,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50633,
+      "port": 5,
+      "tag": 100,
+      "pc": 2147486476,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 50673,
+      "port": 5,
+      "tag": 114,
+      "pc": 2147486444,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 50727,
+      "port": 1,
+      "tag": 139,
+      "pc": 2147486562,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50761,
+      "port": 5,
+      "tag": 143,
+      "pc": 2147486562,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50805,
+      "port": 5,
+      "tag": 262,
+      "pc": 2147486562,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 50859,
+      "port": 1,
+      "tag": 286,
+      "pc": 2147486644,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50893,
+      "port": 5,
+      "tag": 290,
+      "pc": 2147486644,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 50945,
+      "port": 1,
+      "tag": 310,
+      "pc": 2147486644,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 51297,
+      "port": 5,
+      "tag": 60,
+      "pc": 2147486346,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 51397,
+      "port": 3,
+      "tag": 136,
+      "pc": 2147486382,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 51431,
+      "port": 3,
+      "tag": 144,
+      "pc": 2147486392,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 51611,
+      "port": 5,
+      "tag": 260,
+      "pc": 2147484450,
+      "taken": 1,
+      "mispredict": 0
+    },
+    {
+      "time": 51637,
+      "port": 3,
+      "tag": 302,
+      "pc": 2147486444,
+      "taken": 0,
+      "mispredict": 1
+    },
+    {
+      "time": 51711,
+      "port": 1,
+      "tag": 375,
+      "pc": 2147486658,
+      "taken": 1,
+      "mispredict": 1
+    },
+    {
+      "time": 51763,
+      "port": 3,
+      "tag": 406,
+      "pc": 2147486644,
+      "taken": 0,
+      "mispredict": 1
+    }
+  ],
+  "accepted_redirects": [
+    {
+      "time": 4499,
+      "tag": 2,
+      "pc": 268435464,
+      "instr": 163943,
+      "known_decision": false
+    },
+    {
+      "time": 16961,
+      "tag": 14,
+      "pc": 2147483774,
+      "instr": 805642355,
+      "known_decision": false
+    },
+    {
+      "time": 17801,
+      "tag": 57,
+      "pc": 2147485530,
+      "instr": 805806195,
+      "known_decision": false
+    },
+    {
+      "time": 17933,
+      "tag": 77,
+      "pc": 2147485624,
+      "instr": 4276450787,
+      "known_decision": false
+    },
+    {
+      "time": 17969,
+      "tag": 82,
+      "pc": 2147485624,
+      "instr": 4276450787,
+      "known_decision": false
+    },
+    {
+      "time": 18005,
+      "tag": 87,
+      "pc": 2147485624,
+      "instr": 4276450787,
+      "known_decision": false
+    },
+    {
+      "time": 18055,
+      "tag": 113,
+      "pc": 2147485624,
+      "instr": 4276450787,
+      "known_decision": false
+    },
+    {
+      "time": 18089,
+      "tag": 116,
+      "pc": 2147485634,
+      "instr": 4246181603,
+      "known_decision": false
+    },
+    {
+      "time": 18123,
+      "tag": 120,
+      "pc": 2147485598,
+      "instr": 15036259,
+      "known_decision": false
+    },
+    {
+      "time": 18159,
+      "tag": 127,
+      "pc": 2147485598,
+      "instr": 15036259,
+      "known_decision": false
+    },
+    {
+      "time": 18219,
+      "tag": 261,
+      "pc": 2147485634,
+      "instr": 4246181603,
+      "known_decision": false
+    },
+    {
+      "time": 18271,
+      "tag": 275,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 18305,
+      "tag": 278,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 18339,
+      "tag": 281,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 18419,
+      "tag": 344,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 18513,
+      "tag": 382,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18547,
+      "tag": 386,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18581,
+      "tag": 390,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18617,
+      "tag": 394,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18655,
+      "tag": 398,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18689,
+      "tag": 402,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18723,
+      "tag": 406,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18773,
+      "tag": 413,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 18851,
+      "tag": 15,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18885,
+      "tag": 19,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18919,
+      "tag": 23,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 18963,
+      "tag": 46,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19001,
+      "tag": 59,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 19049,
+      "tag": 64,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 19083,
+      "tag": 67,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 19117,
+      "tag": 70,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 19191,
+      "tag": 133,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 19275,
+      "tag": 272,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19309,
+      "tag": 276,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19345,
+      "tag": 280,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19383,
+      "tag": 284,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19417,
+      "tag": 288,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19451,
+      "tag": 292,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19503,
+      "tag": 335,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 19505,
+      "tag": 322,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19541,
+      "tag": 326,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19577,
+      "tag": 330,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19611,
+      "tag": 334,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19651,
+      "tag": 347,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19749,
+      "tag": 18,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 19847,
+      "tag": 88,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 19895,
+      "tag": 91,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 19973,
+      "tag": 140,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 20133,
+      "tag": 323,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 20221,
+      "tag": 366,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 20255,
+      "tag": 370,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 20291,
+      "tag": 374,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 20329,
+      "tag": 378,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 20363,
+      "tag": 382,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 20397,
+      "tag": 386,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 20447,
+      "tag": 393,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 20525,
+      "tag": 26,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 20623,
+      "tag": 113,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 20757,
+      "tag": 344,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 21085,
+      "tag": 75,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 21091,
+      "tag": 74,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 21133,
+      "tag": 75,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 21427,
+      "tag": 380,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 21429,
+      "tag": 379,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 21783,
+      "tag": 269,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 22121,
+      "tag": 61,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 22465,
+      "tag": 373,
+      "pc": 2147485860,
+      "instr": 449259267,
+      "known_decision": false
+    },
+    {
+      "time": 22511,
+      "tag": 396,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 22513,
+      "tag": 383,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 22813,
+      "tag": 157,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 23169,
+      "tag": 53,
+      "pc": 2147485860,
+      "instr": 449259267,
+      "known_decision": false
+    },
+    {
+      "time": 23511,
+      "tag": 350,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 23513,
+      "tag": 349,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 23857,
+      "tag": 149,
+      "pc": 2147485860,
+      "instr": 449259267,
+      "known_decision": false
+    },
+    {
+      "time": 24201,
+      "tag": 29,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 24545,
+      "tag": 341,
+      "pc": 2147485860,
+      "instr": 449259267,
+      "known_decision": false
+    },
+    {
+      "time": 24609,
+      "tag": 395,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 24657,
+      "tag": 401,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 24691,
+      "tag": 404,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 24725,
+      "tag": 407,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 24759,
+      "tag": 410,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 24793,
+      "tag": 413,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 24827,
+      "tag": 0,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 24861,
+      "tag": 3,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 24941,
+      "tag": 54,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 25039,
+      "tag": 92,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 25067,
+      "tag": 89,
+      "pc": 2147486054,
+      "instr": 501507,
+      "known_decision": false
+    },
+    {
+      "time": 25103,
+      "tag": 92,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 25109,
+      "tag": 91,
+      "pc": 2147486058,
+      "instr": 1893144419,
+      "known_decision": false
+    },
+    {
+      "time": 25301,
+      "tag": 77,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "known_decision": true
+    },
+    {
+      "time": 25353,
+      "tag": 90,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 25387,
+      "tag": 94,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 25421,
+      "tag": 98,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 25469,
+      "tag": 118,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 25577,
+      "tag": 128,
+      "pc": 2147484098,
+      "instr": 459619,
+      "known_decision": false
+    },
+    {
+      "time": 25645,
+      "tag": 139,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 25679,
+      "tag": 142,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 25713,
+      "tag": 145,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 25793,
+      "tag": 304,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 25937,
+      "tag": 350,
+      "pc": 2147486148,
+      "instr": 1928961379,
+      "known_decision": false
+    },
+    {
+      "time": 26171,
+      "tag": 338,
+      "pc": 2147484358,
+      "instr": 4294967295,
+      "known_decision": false
+    },
+    {
+      "time": 26699,
+      "tag": 374,
+      "pc": 2147484876,
+      "instr": 807403635,
+      "known_decision": false
+    },
+    {
+      "time": 26771,
+      "tag": 409,
+      "pc": 2147486246,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 26805,
+      "tag": 413,
+      "pc": 2147486246,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 26863,
+      "tag": 37,
+      "pc": 2147486246,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 26975,
+      "tag": 52,
+      "pc": 2147486262,
+      "instr": 1745424995,
+      "known_decision": false
+    },
+    {
+      "time": 27109,
+      "tag": 126,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 27143,
+      "tag": 129,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 27233,
+      "tag": 289,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 27267,
+      "tag": 293,
+      "pc": 2147485770,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 27317,
+      "tag": 296,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 27437,
+      "tag": 344,
+      "pc": 2147491142,
+      "instr": 4283766499,
+      "known_decision": false
+    },
+    {
+      "time": 27469,
+      "tag": 346,
+      "pc": 2147491128,
+      "instr": 295143,
+      "known_decision": false
+    },
+    {
+      "time": 27501,
+      "tag": 151,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "known_decision": false
+    },
+    {
+      "time": 27607,
+      "tag": 361,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 27777,
+      "tag": 91,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 28115,
+      "tag": 401,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 28161,
+      "tag": 13,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 28163,
+      "tag": 415,
+      "pc": 2147485906,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 28471,
+      "tag": 285,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 28827,
+      "tag": 85,
+      "pc": 2147485860,
+      "instr": 449259267,
+      "known_decision": false
+    },
+    {
+      "time": 29171,
+      "tag": 382,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 29181,
+      "tag": 381,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 29525,
+      "tag": 275,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 29861,
+      "tag": 64,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 29879,
+      "tag": 63,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 30217,
+      "tag": 373,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 30561,
+      "tag": 256,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 30571,
+      "tag": 159,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 30909,
+      "tag": 53,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 31253,
+      "tag": 352,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 31263,
+      "tag": 351,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 31601,
+      "tag": 149,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 31945,
+      "tag": 32,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 31955,
+      "tag": 31,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 32293,
+      "tag": 341,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 32637,
+      "tag": 128,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 32647,
+      "tag": 127,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 32717,
+      "tag": 286,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 32763,
+      "tag": 295,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 32799,
+      "tag": 298,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 32835,
+      "tag": 301,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 32871,
+      "tag": 304,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 32907,
+      "tag": 307,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 32943,
+      "tag": 310,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 33013,
+      "tag": 361,
+      "pc": 2147485978,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 33097,
+      "tag": 403,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 33129,
+      "tag": 396,
+      "pc": 2147486054,
+      "instr": 501507,
+      "known_decision": false
+    },
+    {
+      "time": 33165,
+      "tag": 399,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 33171,
+      "tag": 398,
+      "pc": 2147486058,
+      "instr": 1893144419,
+      "known_decision": false
+    },
+    {
+      "time": 33291,
+      "tag": 30,
+      "pc": 2147491142,
+      "instr": 4283766499,
+      "known_decision": false
+    },
+    {
+      "time": 33323,
+      "tag": 32,
+      "pc": 2147491128,
+      "instr": 295143,
+      "known_decision": false
+    },
+    {
+      "time": 33355,
+      "tag": 33,
+      "pc": 2147491044,
+      "instr": 332387,
+      "known_decision": false
+    },
+    {
+      "time": 33359,
+      "tag": 384,
+      "pc": 2147484202,
+      "instr": 13862499,
+      "known_decision": true
+    },
+    {
+      "time": 33415,
+      "tag": 401,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 33449,
+      "tag": 405,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 33497,
+      "tag": 9,
+      "pc": 2147486062,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 33607,
+      "tag": 33,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 33643,
+      "tag": 36,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 33717,
+      "tag": 99,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 33803,
+      "tag": 145,
+      "pc": 2147486148,
+      "instr": 1928961379,
+      "known_decision": false
+    },
+    {
+      "time": 33895,
+      "tag": 289,
+      "pc": 2147491142,
+      "instr": 4283766499,
+      "known_decision": false
+    },
+    {
+      "time": 33927,
+      "tag": 291,
+      "pc": 2147491128,
+      "instr": 295143,
+      "known_decision": false
+    },
+    {
+      "time": 33959,
+      "tag": 292,
+      "pc": 2147491044,
+      "instr": 332387,
+      "known_decision": false
+    },
+    {
+      "time": 34029,
+      "tag": 303,
+      "pc": 2147488442,
+      "instr": 32871,
+      "known_decision": false
+    },
+    {
+      "time": 34069,
+      "tag": 308,
+      "pc": null,
+      "instr": null,
+      "known_decision": false
+    },
+    {
+      "time": 34071,
+      "tag": 133,
+      "pc": 2147484358,
+      "instr": 4294967295,
+      "known_decision": false
+    },
+    {
+      "time": 34211,
+      "tag": 265,
+      "pc": 2147484876,
+      "instr": 807403635,
+      "known_decision": false
+    },
+    {
+      "time": 34271,
+      "tag": 300,
+      "pc": 2147486246,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 34307,
+      "tag": 304,
+      "pc": 2147486246,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 34365,
+      "tag": 344,
+      "pc": 2147486246,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 34519,
+      "tag": 17,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 34553,
+      "tag": 20,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 35011,
+      "tag": 404,
+      "pc": 2147485860,
+      "instr": 449259267,
+      "known_decision": false
+    },
+    {
+      "time": 35355,
+      "tag": 285,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 35365,
+      "tag": 284,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 35711,
+      "tag": 82,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 36047,
+      "tag": 383,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 36065,
+      "tag": 382,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 36409,
+      "tag": 276,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 36747,
+      "tag": 65,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 36765,
+      "tag": 64,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 37111,
+      "tag": 374,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 37449,
+      "tag": 259,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 37467,
+      "tag": 258,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 37811,
+      "tag": 56,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 38147,
+      "tag": 357,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 38165,
+      "tag": 356,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 38509,
+      "tag": 154,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 38845,
+      "tag": 39,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 38863,
+      "tag": 38,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 39207,
+      "tag": 348,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 39545,
+      "tag": 137,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 39563,
+      "tag": 136,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 39909,
+      "tag": 30,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 39977,
+      "tag": 88,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 40245,
+      "tag": 292,
+      "pc": 2147486054,
+      "instr": 501507,
+      "known_decision": false
+    },
+    {
+      "time": 40611,
+      "tag": 413,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 40697,
+      "tag": 43,
+      "pc": 2147486148,
+      "instr": 1928961379,
+      "known_decision": false
+    },
+    {
+      "time": 40789,
+      "tag": 91,
+      "pc": 2147491142,
+      "instr": 4283766499,
+      "known_decision": false
+    },
+    {
+      "time": 40821,
+      "tag": 93,
+      "pc": 2147491128,
+      "instr": 295143,
+      "known_decision": false
+    },
+    {
+      "time": 40853,
+      "tag": 94,
+      "pc": 2147491044,
+      "instr": 332387,
+      "known_decision": false
+    },
+    {
+      "time": 40923,
+      "tag": 105,
+      "pc": 2147488442,
+      "instr": 32871,
+      "known_decision": false
+    },
+    {
+      "time": 40963,
+      "tag": 110,
+      "pc": null,
+      "instr": null,
+      "known_decision": false
+    },
+    {
+      "time": 40965,
+      "tag": 31,
+      "pc": 2147484358,
+      "instr": 4294967295,
+      "known_decision": false
+    },
+    {
+      "time": 41103,
+      "tag": 67,
+      "pc": 2147484876,
+      "instr": 807403635,
+      "known_decision": false
+    },
+    {
+      "time": 41185,
+      "tag": 146,
+      "pc": 2147486246,
+      "instr": 4277542115,
+      "known_decision": false
+    },
+    {
+      "time": 41341,
+      "tag": 334,
+      "pc": 2147485700,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 41797,
+      "tag": 302,
+      "pc": 2147485860,
+      "instr": 449259267,
+      "known_decision": false
+    },
+    {
+      "time": 42141,
+      "tag": 87,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 42151,
+      "tag": 86,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 42497,
+      "tag": 396,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 42841,
+      "tag": 279,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 42851,
+      "tag": 278,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 43187,
+      "tag": 76,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 43531,
+      "tag": 375,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 43541,
+      "tag": 374,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 43877,
+      "tag": 268,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 44221,
+      "tag": 55,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 44231,
+      "tag": 54,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 44567,
+      "tag": 364,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 44911,
+      "tag": 151,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 44921,
+      "tag": 150,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 45257,
+      "tag": 44,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 45601,
+      "tag": 343,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 45611,
+      "tag": 342,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 45947,
+      "tag": 140,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 46291,
+      "tag": 23,
+      "pc": 2147485782,
+      "instr": 46632291,
+      "known_decision": false
+    },
+    {
+      "time": 46301,
+      "tag": 22,
+      "pc": 2147485778,
+      "instr": 522692483,
+      "known_decision": false
+    },
+    {
+      "time": 46637,
+      "tag": 332,
+      "pc": 2147485852,
+      "instr": 453420675,
+      "known_decision": false
+    },
+    {
+      "time": 46707,
+      "tag": 391,
+      "pc": 2147485954,
+      "instr": 4013202147,
+      "known_decision": false
+    },
+    {
+      "time": 46973,
+      "tag": 83,
+      "pc": 2147486054,
+      "instr": 501507,
+      "known_decision": false
+    },
+    {
+      "time": 47341,
+      "tag": 300,
+      "pc": 2147486098,
+      "instr": 4277411555,
+      "known_decision": false
+    },
+    {
+      "time": 47427,
+      "tag": 346,
+      "pc": 2147486148,
+      "instr": 1928961379,
+      "known_decision": false
+    },
+    {
+      "time": 47519,
+      "tag": 394,
+      "pc": 2147491142,
+      "instr": 4283766499,
+      "known_decision": false
+    },
+    {
+      "time": 47551,
+      "tag": 396,
+      "pc": 2147491128,
+      "instr": 295143,
+      "known_decision": false
+    },
+    {
+      "time": 47583,
+      "tag": 397,
+      "pc": 2147491044,
+      "instr": 332387,
+      "known_decision": false
+    },
+    {
+      "time": 47653,
+      "tag": 408,
+      "pc": 2147488442,
+      "instr": 32871,
+      "known_decision": false
+    },
+    {
+      "time": 47693,
+      "tag": 413,
+      "pc": null,
+      "instr": null,
+      "known_decision": false
+    },
+    {
+      "time": 47695,
+      "tag": 334,
+      "pc": 2147484358,
+      "instr": 4294967295,
+      "known_decision": false
+    },
+    {
+      "time": 47833,
+      "tag": 370,
+      "pc": 2147484876,
+      "instr": 807403635,
+      "known_decision": false
+    },
+    {
+      "time": 47981,
+      "tag": 48,
+      "pc": 2147486262,
+      "instr": 1745424995,
+      "known_decision": false
+    },
+    {
+      "time": 48029,
+      "tag": 70,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48067,
+      "tag": 78,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48105,
+      "tag": 86,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48143,
+      "tag": 94,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48181,
+      "tag": 102,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48221,
+      "tag": 110,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48259,
+      "tag": 118,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48371,
+      "tag": 126,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48411,
+      "tag": 134,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48569,
+      "tag": 290,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 48619,
+      "tag": 297,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 48655,
+      "tag": 300,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 48691,
+      "tag": 303,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 48725,
+      "tag": 306,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 48759,
+      "tag": 309,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 48843,
+      "tag": 366,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 48951,
+      "tag": 383,
+      "pc": 2147484430,
+      "instr": 2161307735,
+      "known_decision": false
+    },
+    {
+      "time": 49011,
+      "tag": 387,
+      "pc": 2147484446,
+      "instr": 2161307735,
+      "known_decision": false
+    },
+    {
+      "time": 49085,
+      "tag": 404,
+      "pc": 2147486462,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49119,
+      "tag": 408,
+      "pc": 2147486462,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49153,
+      "tag": 412,
+      "pc": 2147486462,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49197,
+      "tag": 19,
+      "pc": 2147486462,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49245,
+      "tag": 22,
+      "pc": 2147486474,
+      "instr": 46629987,
+      "known_decision": false
+    },
+    {
+      "time": 49309,
+      "tag": 40,
+      "pc": 2147486580,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49343,
+      "tag": 44,
+      "pc": 2147486580,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49377,
+      "tag": 48,
+      "pc": 2147486580,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49421,
+      "tag": 71,
+      "pc": 2147486580,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49471,
+      "tag": 91,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49505,
+      "tag": 95,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49539,
+      "tag": 99,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49583,
+      "tag": 122,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 49807,
+      "tag": 145,
+      "pc": 2147486754,
+      "instr": 3812169955,
+      "known_decision": false
+    },
+    {
+      "time": 49851,
+      "tag": 256,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 49891,
+      "tag": 264,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 49935,
+      "tag": 272,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 50115,
+      "tag": 384,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 50165,
+      "tag": 394,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 50199,
+      "tag": 397,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 50237,
+      "tag": 400,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 50271,
+      "tag": 403,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 50305,
+      "tag": 406,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 50373,
+      "tag": 44,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 50471,
+      "tag": 61,
+      "pc": 2147484430,
+      "instr": 2161307735,
+      "known_decision": false
+    },
+    {
+      "time": 50531,
+      "tag": 65,
+      "pc": 2147484446,
+      "instr": 2161307735,
+      "known_decision": false
+    },
+    {
+      "time": 50599,
+      "tag": 87,
+      "pc": 2147486462,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 50633,
+      "tag": 91,
+      "pc": 2147486462,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 50677,
+      "tag": 114,
+      "pc": 2147486462,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 50731,
+      "tag": 139,
+      "pc": 2147486580,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 50765,
+      "tag": 143,
+      "pc": 2147486580,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 50809,
+      "tag": 262,
+      "pc": 2147486580,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 50863,
+      "tag": 286,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 50897,
+      "tag": 290,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 50949,
+      "tag": 310,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 51301,
+      "tag": 60,
+      "pc": 2147486362,
+      "instr": 4241266915,
+      "known_decision": false
+    },
+    {
+      "time": 51401,
+      "tag": 136,
+      "pc": 2147486388,
+      "instr": 4277411299,
+      "known_decision": false
+    },
+    {
+      "time": 51501,
+      "tag": 153,
+      "pc": 2147484430,
+      "instr": 2161307735,
+      "known_decision": false
+    },
+    {
+      "time": 51561,
+      "tag": 157,
+      "pc": 2147484446,
+      "instr": 2161307735,
+      "known_decision": false
+    },
+    {
+      "time": 51641,
+      "tag": 302,
+      "pc": 2147486462,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 51715,
+      "tag": 375,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    },
+    {
+      "time": 51767,
+      "tag": 406,
+      "pc": 2147486662,
+      "instr": 4277901283,
+      "known_decision": false
+    }
+  ],
+  "coverage_required": true,
+  "boundary": "Actual tagged dispatch + Vimac execution + accepted flush + no ROB commit; architectural state checked separately by Difftest and full128 sentinels. Not a universal formal proof.",
+  "symbols_sha256": "403e321a1df76a3409b9066680636cbc6364df1488c8ed25047b46da32a2f02a",
+  "control_status": "PASS"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "generator": "stage2/sew16/render-e16-evidence.py",
+  "generator_sha256": "4dd4c41bf41ebd57f993995ef4afef094294c38384149fbe3016e5e3562a2d14",
+  "sources": {
+    "stage2/sew16/mixed-module.vcd.gz": "b1e7a83983da9a332a1e78db9c41d3e7509b68b098fc953791a0f060553818ef",
+    "stage2/logs/20261026-sew16-isolation.json": "a5c37128b942bf74228682d3eed1d09901dd9c417deee5f8ebe5c87c8a8ec57c",
+    "stage2/logs/20261027T131534-e16-events.results.json": "2806424443a90b10242ab7406bb59099dcbc91a1fec4eaee78651314a948956f",
+    "stage2/logs/20261027T131534-e16-events-seed101.jsonl": "ad036301fb804203c7fec3d9612d947ce99f1815a43a9fa76a9de7760acf2107",
+    "stage2/e16-events/audit.py": "d1cff959a1266eecd4546c6897f74e250176032594510481645975977cf4674a",
+    "stage3/tests/render-p1-wave-figures.py": "88a093945a22fea45967c415b547be7baa92e8d6546fa19f6cdee5b0a876528e",
+    "stage3/tests/check-oldvd-wave.py": "302c2b15c44b7de4b3d691b148e4dde924c5010b72f7e4833ef4c6654b7f0605"
+  },
+  "outputs": {
+    "core-e16-branch.png": "e3e2a9359337b6c82941e5dcae4ddc901eacb5d63f79dffcbe6fe0006f70bd73",
+    "core-e16-branch.svg": "09d467a81b7ef0a264546f96be8b92dc7e587d9765af74f12f8b4f2ed21c4120",
+    "core-e16-exception.png": "bd8f53e7f8a2f1b8fcd613bd7d811b1fb99ecf697d59cf45e20b2ae17fbb4632",
+    "core-e16-exception.svg": "8db34ec32d9e4d17d1c8e8c86df48263e6c597b23b86da0e6c7897dd748bcd97",
+    "e16-evidence-excerpts.json": "055edc5f3387908019636dcb589daf96aeb1d8879ca20196364127fbbb94ecc7",
+    "module-e16-negative.png": "3c84188fe4d11f18c29214cf6a56f67aa223001ffff3ff595047df04dfcdb5bb",
+    "module-e16-negative.svg": "e4d7b713d6e0c7d587232fc69fc8dfb2e7e76457843db4c1635db3bcb977eb84",
+    "module-e16-positive.png": "a0ffd354a5b423300268e084047cce6e0443741ee197eed2bac936a627043d4f",
+    "module-e16-positive.svg": "7df847e314dd2b22f1d255c929084250b7b96debb956b93bc3c5aa6c2d16f193"
+  },
+  "no_new_simulation": true
+}

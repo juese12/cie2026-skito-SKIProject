@@ -1,0 +1,93 @@
+$comment Synthetic parser fixture ONLY, not hardware simulation evidence. $end
+$timescale 1ns $end
+$scope module TOP $end
+$var wire 1 A clock $end
+$scope module SimTop $end
+$scope module Vimac $end
+$var wire 1 T clock $end
+$var wire 1 B reset $end
+$var wire 1 C io_out_valid $end
+$var wire 9 D io_in_bits_ctrlPipe_2_fuOpType $end
+$var wire 8 E io_in_bits_dataPipe_2_src_4 $end
+$var wire 1 F io_in_bits_ctrlPipe_2_vpu_vm $end
+$var wire 8 G io_in_bits_ctrlPipe_2_vpu_vstart $end
+$var wire 1 H io_out_bits_ctrl_exceptionVec_2 $end
+$var wire 1 I io_out_bits_res_vxsat $end
+$var wire 1 J io_out_bits_ctrl_vecWen $end
+$var wire 1 K io_out_bits_ctrl_v0Wen $end
+$var wire 128 L io_out_bits_res_data $end
+$var wire 1 M io_out_bits_ctrl_robIdx_flag $end
+$var wire 8 N io_out_bits_ctrl_robIdx_value $end
+$var wire 8 O io_out_bits_ctrl_pdest $end
+$scope module vdot $end
+$var wire 1 P io_enable_0 $end
+$var wire 1 Q io_enable_1 $end
+$var wire 128 R io_vs1 $end
+$var wire 128 S io_vs2 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1A
+0T
+0B
+0C
+b101100000 D
+b1000 E
+1F
+b0 G
+0H
+0I
+1J
+0K
+b0 L
+0M
+b111 N
+b1110 O
+1P
+0Q
+b0000000100000001000000010000000100000001000000010000000100000001 R
+b0000001000000010000000100000001000000010000000100000001000000010 S
+#1
+0A
+#2
+1A
+1T
+#3
+0A
+0T
+1Q
+b1111111111111111111111111111111111111111111111111111111111111111 R
+b0000000100000001000000010000000100000001000000010000000100000001 S
+#4
+1A
+1T
+#5
+0A
+0T
+1C
+0P
+b10000 L
+#6
+1A
+1T
+#7
+0A
+0T
+0Q
+b1000 N
+b11111111111111111111111111111000 L
+#8
+1A
+#9
+0A
+b111 E
+1H
+b1001 N
+#10
+1A
+#11
+0A
+0C

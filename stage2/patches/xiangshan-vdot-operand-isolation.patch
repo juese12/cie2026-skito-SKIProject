@@ -1,0 +1,892 @@
+diff --git a/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala b/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala
+index 41368bfa4..008007c50 100644
+--- a/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala
++++ b/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala
+@@ -353,6 +353,17 @@ class DecodeUnitComp()(implicit p : Parameters) extends XSModule with DecodeUnit
+         csBundle(1).vpu.connectVType(io.vtypeBypass)
+       }
+     }
++    is(UopSplitType.VEC_VDOT) {
++      csBundle(0).lsrc(0) := src1
++      csBundle(0).lsrc(1) := src2
++      csBundle(0).lsrc(2) := dest
++      // Full-register overwrite: neither arithmetic nor tail/mask merge reads
++      // old vd. Clear before DecodeStage's auxiliary v0-source detection;
++      // real vs1/vs2 aliases (including v0) remain normal vector sources.
++      csBundle(0).srcType(2) := SrcType.no
++      csBundle(0).ldest := dest
++      csBundle(0).uopIdx := 0.U
++    }
+     is(UopSplitType.VEC_VVV) {
+       for (i <- 0 until MAX_VLMUL) {
+         csBundle(i).lsrc(0) := src1 + i.U
+diff --git a/src/main/scala/xiangshan/backend/decode/Instructions.scala b/src/main/scala/xiangshan/backend/decode/Instructions.scala
+index 0b2f535ab..7af059f73 100644
+--- a/src/main/scala/xiangshan/backend/decode/Instructions.scala
++++ b/src/main/scala/xiangshan/backend/decode/Instructions.scala
+@@ -2,6 +2,12 @@ package xiangshan.backend.decode
+ 
+ import chisel3.util._
+ 
++/** SKIProject v0.1: fixed eight signed bytes, one full vector destination. */
++object XVDot {
++  // Match both vm values; vm=0 is rejected by the vector legality checks.
++  def VDOT_VV = BitPat("b000000???????????010?????0001011")
++}
++
+ object Zvbb {
+   def VANDN_VV = BitPat("b000001???????????000?????1010111")
+   def VANDN_VX = BitPat("b000001???????????100?????1010111")
+diff --git a/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala b/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala
+index aa1dc5de1..1e2a81b7f 100644
+--- a/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala
++++ b/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala
+@@ -199,6 +199,7 @@ class UopInfoGen (implicit p: Parameters) extends XSModule {
+     UopSplitType.VSET -> 2.U,
+     UopSplitType.VEC_0XV -> 2.U,
+     UopSplitType.VEC_VVV -> lmul,
++    UopSplitType.VEC_VDOT -> 1.U,
+     UopSplitType.VEC_VFV -> (lmul +& 1.U),
+     UopSplitType.VEC_EXT2 -> lmul,
+     UopSplitType.VEC_EXT4 -> lmul,
+@@ -280,4 +281,4 @@ class UopInfo(implicit p: Parameters) extends XSBundle {
+   val numOfUop = UInt(log2Up(MaxUopSize + 1).W)
+   val numOfWB = UInt(log2Up(MaxUopSize + 1).W)
+   val lmul = UInt(4.W)
+-}
+\ No newline at end of file
++}
+diff --git a/src/main/scala/xiangshan/backend/decode/VecDecoder.scala b/src/main/scala/xiangshan/backend/decode/VecDecoder.scala
+index 376419107..d21471da6 100644
+--- a/src/main/scala/xiangshan/backend/decode/VecDecoder.scala
++++ b/src/main/scala/xiangshan/backend/decode/VecDecoder.scala
+@@ -368,6 +368,9 @@ object VecDecoder extends DecodeConstants {
+   )
+ 
+   val opmvv: Array[(BitPat, XSDecodeBase)] = Array(
++    XVDot.VDOT_VV -> OPMVV(vdRen = T, fu = FuType.vimac,
++      fuOp = BitPat(VdotOpType.vdot), xWen = F, vWen = T, mWen = F,
++      uopSplitType = UopSplitType.VEC_VDOT),
+     VAADD_VV     -> OPMVV(T, FuType.vialuF, VialuFixType.vaadd_vv, F, T, F, UopSplitType.VEC_VVV),
+     VAADDU_VV    -> OPMVV(T, FuType.vialuF, VialuFixType.vaaddu_vv, F, T, F, UopSplitType.VEC_VVV),
+     VASUB_VV     -> OPMVV(T, FuType.vialuF, VialuFixType.vasub_vv, F, T, F, UopSplitType.VEC_VVV),
+diff --git a/src/main/scala/xiangshan/backend/decode/VecExceptionGen.scala b/src/main/scala/xiangshan/backend/decode/VecExceptionGen.scala
+index b885c6876..f1a19e703 100644
+--- a/src/main/scala/xiangshan/backend/decode/VecExceptionGen.scala
++++ b/src/main/scala/xiangshan/backend/decode/VecExceptionGen.scala
+@@ -291,7 +291,11 @@ class VecExceptionGen(implicit p: Parameters) extends XSModule{
+ 
+   private val regOverlapIllegal = v0Overlap || vs1vdOverlap || vs2vdOverlap
+ 
+-  io.illegalInst := instIllegal || villIllegal || eewIllegal || emulIllegal || regNumIllegal || regOverlapIllegal || vstartIllegal
++  // VL is a renamed data dependency and is checked at execution, not here.
++  private val vdotIllegal = (XVDot.VDOT_VV === inst.ALL) &&
++    (io.vtype.vsew =/= 0.U || io.vtype.vlmul =/= 0.U || !inst.VM.asBool)
++
++  io.illegalInst := instIllegal || villIllegal || eewIllegal || emulIllegal || regNumIllegal || regOverlapIllegal || vstartIllegal || vdotIllegal
+   dontTouch(instIllegal)
+   dontTouch(villIllegal)
+   dontTouch(eewIllegal)
+@@ -300,4 +304,4 @@ class VecExceptionGen(implicit p: Parameters) extends XSModule{
+   dontTouch(regOverlapIllegal)
+   dontTouch(notDependVtypeInst)
+   dontTouch(vstartIllegal)
+-}
+\ No newline at end of file
++}
+diff --git a/src/main/scala/xiangshan/backend/decode/isa/bitfield/RiscvInst.scala b/src/main/scala/xiangshan/backend/decode/isa/bitfield/RiscvInst.scala
+index c553020a4..1e0f64db5 100644
+--- a/src/main/scala/xiangshan/backend/decode/isa/bitfield/RiscvInst.scala
++++ b/src/main/scala/xiangshan/backend/decode/isa/bitfield/RiscvInst.scala
+@@ -91,7 +91,8 @@ trait BitFieldsVec { this: Riscv32BitInst =>
+   }
+ 
+   def isVecArith = {
+-    this.OPCODE5Bit === xiangshan.backend.decode.isa.bitfield.OPCODE5Bit.OP_V
++    this.OPCODE5Bit === xiangshan.backend.decode.isa.bitfield.OPCODE5Bit.OP_V ||
++      xiangshan.backend.decode.XVDot.VDOT_VV === this.ALL
+   }
+ 
+   def isOPIVV = {
+diff --git a/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala b/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala
+index 27eb8012e..c08d0c382 100644
+--- a/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala
++++ b/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala
+@@ -7,7 +7,8 @@ import utility.XSError
+ import xiangshan.backend.fu.FuConfig
+ import xiangshan.backend.fu.vector.Bundles.VSew
+ import xiangshan.backend.fu.vector.utils.VecDataSplitModule
+-import xiangshan.backend.fu.vector.{Mgu, Utils, VecPipedFuncUnit, VecSrcTypeModule}
++import xiangshan.backend.fu.vector.{Mgu, Utils, VecPipedFuncUnit, VecSrcTypeModule, VDot8}
++import xiangshan.VdotOpType
+ import xiangshan.ExceptionNO
+ import yunsuan.VialuFixType
+ import yunsuan.encoding.Opcode.VimacOpcode
+@@ -49,10 +50,17 @@ class VIMacU(cfg: FuConfig)(implicit p: Parameters) extends VecPipedFuncUnit(cfg
+   private val dataWidth = cfg.destDataBits
+   private val dataWidthOfDataModule = 64
+   private val numVecModule = dataWidth / dataWidthOfDataModule
++  require(dataWidth == 128 && latency == 2 && latdiff == 0,
++    "vdot v0.1 requires the existing 128-bit, two-stage Vimac interface")
+ 
+   // io alias
+-  private val opcode  = VimacType.getOpcode(fuOpType)
+-  private val format  = VimacType.getFormat(fuOpType)
++  private val inIsVdot = fuOpType === VdotOpType.vdot
++  // Keep ordinary VIMac's fixed-time fire contract. Its internal fireS1
++  // completes an older multiply even while a younger dot enters this unit.
++  private val macInputActive = io.in.valid && !inIsVdot
++  private val macFuOpType = Mux(macInputActive, fuOpType, VimacType.vmul)
++  private val opcode  = VimacType.getOpcode(macFuOpType)
++  private val format  = VimacType.getFormat(macFuOpType)
+   private val widen   = format === VimacType.FMT.VVW
+   private val exchangeVs2Vd = VimacOpcode.overWriteMultiplicand(opcode)
+ 
+@@ -63,23 +71,29 @@ class VIMacU(cfg: FuConfig)(implicit p: Parameters) extends VecPipedFuncUnit(cfg
+   private val oldVdSplit  = Module(new VecDataSplitModule(dataWidth, dataWidthOfDataModule))
+   private val vimacs = Seq.fill(numVecModule)(Module(new VIMac64b))
+   private val mgu = Module(new Mgu(dataWidth))
++  private val vdot = Module(new VDot8)
++  vdot.io.vs1 := vs1
++  vdot.io.vs2 := vs2
++  vdot.io.enable(0) := regEnable(1) && inIsVdot
++  // Stage two belongs to the instruction in stage one, NOT the current input.
++  vdot.io.enable(1) := regEnable(2) && ctrlVec(1).fuOpType === VdotOpType.vdot
+ 
+   /**
+     * [[typeMod]]'s in connection
+     */
+-  typeMod.io.in.fuOpType := fuOpType
+-  typeMod.io.in.vsew := vsew
+-  typeMod.io.in.isReverse := isReverse
+-  typeMod.io.in.isExt := isExt
+-  typeMod.io.in.isDstMask := vecCtrl.isDstMask
+-  typeMod.io.in.isMove := isMove
++  typeMod.io.in.fuOpType := macFuOpType
++  typeMod.io.in.vsew := Mux(macInputActive, vsew, 0.U)
++  typeMod.io.in.isReverse := macInputActive && isReverse
++  typeMod.io.in.isExt := macInputActive && isExt
++  typeMod.io.in.isDstMask := macInputActive && vecCtrl.isDstMask
++  typeMod.io.in.isMove := macInputActive && isMove
+ 
+   /**
+     * In connection of [[vs2Split]], [[vs1Split]] and [[oldVdSplit]]
+     */
+-  vs2Split.io.inVecData := vs2
+-  vs1Split.io.inVecData := vs1
+-  oldVdSplit.io.inVecData := oldVd
++  vs2Split.io.inVecData := Mux(macInputActive, vs2, 0.U(dataWidth.W))
++  vs1Split.io.inVecData := Mux(macInputActive, vs1, 0.U(dataWidth.W))
++  oldVdSplit.io.inVecData := Mux(macInputActive, oldVd, 0.U(dataWidth.W))
+ 
+   /**
+     * [[vimacs]]'s in connection
+@@ -98,15 +112,15 @@ class VIMacU(cfg: FuConfig)(implicit p: Parameters) extends VecPipedFuncUnit(cfg
+ 
+   vimacs.zipWithIndex.foreach {
+     case (mod, i) =>
+-      mod.io.fire        := io.in.valid
+-      mod.io.info.vm     := vm
+-      mod.io.info.ma     := vma
+-      mod.io.info.ta     := vta
+-      mod.io.info.vlmul  := vlmul
+-      mod.io.info.vl     := srcVConfig.vl
+-      mod.io.info.vstart := vstart
+-      mod.io.info.uopIdx := vuopIdx
+-      mod.io.info.vxrm   := vxrm
++      mod.io.fire        := macInputActive
++      mod.io.info.vm     := macInputActive && vm
++      mod.io.info.ma     := macInputActive && vma
++      mod.io.info.ta     := macInputActive && vta
++      mod.io.info.vlmul  := Mux(macInputActive, vlmul, 0.U)
++      mod.io.info.vl     := Mux(macInputActive, srcVConfig.vl, 0.U)
++      mod.io.info.vstart := Mux(macInputActive, vstart, 0.U)
++      mod.io.info.uopIdx := Mux(macInputActive, vuopIdx, 0.U)
++      mod.io.info.vxrm   := Mux(macInputActive, vxrm, 0.U)
+       mod.io.srcType(0)  := typeMod.io.out.vs2Type
+       mod.io.srcType(1)  := typeMod.io.out.vs1Type
+       mod.io.vdType      := typeMod.io.out.vdType
+@@ -145,7 +159,14 @@ class VIMacU(cfg: FuConfig)(implicit p: Parameters) extends VecPipedFuncUnit(cfg
+   mgu.io.in.info.dstMask := 0.B
+   mgu.io.in.isIndexedVls := false.B
+ 
+-  io.out.bits.res.data := mgu.io.out.vd
+-  io.out.bits.res.vxsat.get := (outVxsat & mgu.io.out.active).orR
+-  io.out.bits.ctrl.exceptionVec.get(ExceptionNO.illegalInstr) := mgu.io.out.illegal
++  private val outIsVdot = outCtrl.fuOpType === VdotOpType.vdot
++  private val vdotIllegal = outVConfig.vtype.illegal ||
++    outVConfig.vtype.vsew =/= 0.U || outVConfig.vtype.vlmul =/= 0.U ||
++    outVl =/= 8.U || !outVm || outVstart =/= 0.U
++
++  // Dot writes the whole register independently of mask/tail merge policies.
++  io.out.bits.res.data := Mux(outIsVdot, vdot.io.result, mgu.io.out.vd)
++  io.out.bits.res.vxsat.get := !outIsVdot && (outVxsat & mgu.io.out.active).orR
++  io.out.bits.ctrl.exceptionVec.get(ExceptionNO.illegalInstr) :=
++    outVstart =/= 0.U || Mux(outIsVdot, vdotIllegal, mgu.io.out.illegal)
+ }
+diff --git a/src/main/scala/xiangshan/package.scala b/src/main/scala/xiangshan/package.scala
+index f4694b831..1ba514a44 100644
+--- a/src/main/scala/xiangshan/package.scala
++++ b/src/main/scala/xiangshan/package.scala
+@@ -763,6 +763,11 @@ package object xiangshan {
+     }
+   }
+ 
++  object VdotOpType {
++    // Existing VimacType operations have zero in their upper two bits.
++    def vdot = "b101100000".U(9.W)
++  }
++
+   object UopSplitType {
+     def SCA_SIM          = "b000000".U //
+     def VSET             = "b010001".U // dirty: vset
+@@ -786,6 +791,7 @@ package object xiangshan {
+     def VEC_FSLIDE1DOWN  = "b100011".U // vfslide1down.vf
+     def VEC_VRED         = "b100100".U // VEC_VRED
+     def VEC_SLIDEUP      = "b100101".U // VEC_SLIDEUP
++    def VEC_VDOT         = "b100110".U // fixed one-register dot product
+     def VEC_SLIDEDOWN    = "b100111".U // VEC_SLIDEDOWN
+     def VEC_M0X          = "b101001".U // VEC_M0X  0MV
+     def VEC_MVV          = "b101010".U // VEC_MVV  VMV
+diff --git a/src/main/scala/xiangshan/backend/fu/vector/VDot8.scala b/src/main/scala/xiangshan/backend/fu/vector/VDot8.scala
+new file mode 100644
+index 000000000..a7487fbfe
+--- /dev/null
++++ b/src/main/scala/xiangshan/backend/fu/vector/VDot8.scala
+@@ -0,0 +1,36 @@
++package xiangshan.backend.fu.vector
++
++import chisel3._
++import chisel3.util._
++
++/** Two explicitly enabled stages: full signed products, then exact reduction.
++  * The owner supplies stage enables from its control pipeline. Valid/flush and
++  * destination tags remain in the existing vector execution interface.
++  */
++class VDot8 extends Module {
++  val io = IO(new Bundle {
++    val vs1 = Input(UInt(128.W))
++    val vs2 = Input(UInt(128.W))
++    val enable = Input(Vec(2, Bool()))
++    val result = Output(UInt(128.W))
++  })
++
++  // Register enables alone do not isolate the combinational multipliers.
++  // Only the low eight bytes are used; clamp them before multiplication.
++  val isolatedVs1 = Mux(io.enable(0), io.vs1(63, 0), 0.U(64.W))
++  val isolatedVs2 = Mux(io.enable(0), io.vs2(63, 0), 0.U(64.W))
++  val products = Reg(Vec(8, SInt(16.W)))
++  when(io.enable(0)) {
++    for (i <- 0 until 8) {
++      products(i) := isolatedVs1(8 * i + 7, 8 * i).asSInt *
++        isolatedVs2(8 * i + 7, 8 * i).asSInt
++    }
++  }
++  val pairs = (0 until 4).map(i => products(2 * i) +& products(2 * i + 1))
++  val quads = (0 until 2).map(i => pairs(2 * i) +& pairs(2 * i + 1))
++  val sum = RegEnable(quads(0) +& quads(1), io.enable(1))
++  require(sum.getWidth == 19)
++  val sum32 = Wire(SInt(32.W))
++  sum32 := sum
++  io.result := Cat(0.U(96.W), sum32.asUInt)
++}
+diff --git a/src/test/scala/xiangshan/VDotDecodeTest.scala b/src/test/scala/xiangshan/VDotDecodeTest.scala
+new file mode 100644
+index 000000000..133346a67
+--- /dev/null
++++ b/src/test/scala/xiangshan/VDotDecodeTest.scala
+@@ -0,0 +1,194 @@
++package xiangshan
++
++import chisel3._
++import chisel3.util._
++import chiseltest._
++import org.chipsalliance.cde.config.Parameters
++import xiangshan.backend.Bundles.DecodedInst
++import xiangshan.backend.decode._
++import xiangshan.backend.decode.isa.bitfield.XSInstBitFields
++
++/** Exercises the actual decode tables, uop count generator and legality logic. */
++class VDotDecodeHarness(implicit p: Parameters) extends Module {
++  val io = IO(new Bundle {
++    val inst = Input(UInt(32.W))
++    val sew = Input(UInt(2.W))
++    val lmul = Input(UInt(3.W))
++    val vstart = Input(UInt(8.W))
++    val vill = Input(Bool())
++    val recognized = Output(Bool())
++    val op = Output(UInt(9.W))
++    val numUops = Output(UInt(8.W))
++    val numWB = Output(UInt(8.W))
++    val complex = Output(Bool())
++    val illegal = Output(Bool())
++  })
++  val fields = io.inst.asTypeOf(new XSInstBitFields)
++  val decoded = WireInit(0.U.asTypeOf(new DecodedInst))
++  decoded.decode(io.inst, VecDecoder.table)
++  decoded.lsrc(0) := fields.RS1
++  decoded.lsrc(1) := fields.RS2
++  decoded.ldest := fields.RD
++  val uops = Module(new UopInfoGen)
++  uops.io.in.preInfo := 0.U.asTypeOf(uops.io.in.preInfo)
++  uops.io.in.preInfo.isVecArith := fields.isVecArith
++  uops.io.in.preInfo.typeOfSplit := decoded.uopSplitType
++  uops.io.in.preInfo.vsew := io.sew
++  uops.io.in.preInfo.vlmul := io.lmul
++  val exceptions = Module(new VecExceptionGen)
++  exceptions.io.inst := io.inst
++  exceptions.io.decodedInst := decoded
++  exceptions.io.vtype := 0.U.asTypeOf(exceptions.io.vtype)
++  exceptions.io.vtype.vsew := io.sew
++  exceptions.io.vtype.vlmul := io.lmul
++  exceptions.io.vtype.illegal := io.vill
++  exceptions.io.vstart := io.vstart
++  io.recognized := XVDot.VDOT_VV === io.inst
++  io.op := decoded.fuOpType
++  io.numUops := uops.io.out.uopInfo.numOfUop
++  io.numWB := uops.io.out.uopInfo.numOfWB
++  io.complex := uops.io.out.isComplex
++  io.illegal := exceptions.io.illegalInst
++}
++
++class VDotDecodeTest extends XSTester {
++  behavior of "vdot decode"
++  it should "use a unique encoding across all active decode tables" in {
++    val tables = XDecode.table ++ FpDecode.table ++ BitmanipDecode.table ++
++      ScalarCryptoDecode.table ++ XSTrapDecode.table ++ CBODecode.table ++
++      SvinvalDecode.table ++ HypervisorDecode.table ++ VecDecoder.table ++
++      ZicondDecode.table ++ ZimopDecode.table ++ ZfaDecode.table
++    val dot = XVDot.VDOT_VV
++    val overlaps = tables.filter { case (pat, _) =>
++      ((pat.value ^ dot.value) & pat.mask & dot.mask) == 0
++    }
++    overlaps.length shouldBe 1
++    overlaps.head._1 shouldBe dot
++    (VdotOpType.vdot.litValue >> 7) should not be BigInt(0)
++  }
++  it should "emit one uop and reject unsupported static configurations" in {
++    test(new VDotDecodeHarness).withAnnotations(Seq(VerilatorBackendAnnotation)) { dut =>
++      dut.io.sew.poke(0.U)
++      dut.io.lmul.poke(0.U)
++      dut.io.vstart.poke(0.U)
++      dut.io.vill.poke(false.B)
++      for (vd <- Seq(0, 1, 30, 31); vs1 <- Seq(0, 8, 31); vs2 <- Seq(0, 9, 31)) {
++        val word = BigInt(0x0200200b) | (BigInt(vs2) << 20) | (BigInt(vs1) << 15) | (BigInt(vd) << 7)
++        dut.io.inst.poke(word.U)
++        dut.io.recognized.expect(true.B)
++        dut.io.op.expect(0x160.U)
++        dut.io.numUops.expect(1.U)
++        dut.io.numWB.expect(1.U)
++        dut.io.complex.expect(true.B)
++        dut.io.illegal.expect(false.B)
++      }
++      dut.io.inst.poke(0x0294250b.U)
++      for (sew <- 1 to 3) {
++        dut.io.sew.poke(sew.U)
++        dut.io.illegal.expect(true.B)
++      }
++      dut.io.sew.poke(0.U)
++      for (lmul <- 1 to 7) {
++        dut.io.lmul.poke(lmul.U)
++        dut.io.numUops.expect(1.U)
++        dut.io.numWB.expect(1.U)
++        dut.io.illegal.expect(true.B)
++      }
++      dut.io.lmul.poke(0.U)
++      dut.io.vstart.poke(1.U)
++      dut.io.illegal.expect(true.B)
++      dut.io.vstart.poke(0.U)
++      dut.io.vill.poke(true.B)
++      dut.io.illegal.expect(true.B)
++      dut.io.vill.poke(false.B)
++      dut.io.inst.poke(0x0094250b.U) // vm=0
++      dut.io.illegal.expect(true.B)
++      for (word <- Seq(0x0294252bL, 0x0694250bL, 0x0294150bL)) {
++        dut.io.inst.poke(word.U)
++        dut.io.recognized.expect(false.B)
++      }
++    }
++  }
++}
++
++/** Exercise the actual registered complex splitter, not a copied expression. */
++class VDotSplitHarness(implicit p: Parameters) extends Module {
++  val io = IO(new Bundle {
++    val inst = Input(UInt(32.W))
++    val valid = Input(Bool())
++    val ready = Output(Bool())
++    val outValid = Output(Bool())
++    val srcType = Output(Vec(3, UInt(4.W)))
++    val lsrc = Output(Vec(3, UInt(6.W)))
++    val ldest = Output(UInt(6.W))
++  })
++  val fields = io.inst.asTypeOf(new XSInstBitFields)
++  val decoded = WireInit(0.U.asTypeOf(new DecodedInst))
++  decoded.decode(io.inst, VecDecoder.table)
++  decoded.instr := io.inst
++  decoded.lsrc(0) := fields.RS1
++  decoded.lsrc(1) := fields.RS2
++  decoded.lsrc(2) := fields.RD
++  decoded.ldest := fields.RD
++  decoded.vpu.vm := fields.VM
++  val uops = Module(new UopInfoGen)
++  uops.io.in.preInfo := 0.U.asTypeOf(uops.io.in.preInfo)
++  uops.io.in.preInfo.isVecArith := fields.isVecArith
++  uops.io.in.preInfo.typeOfSplit := decoded.uopSplitType
++  val split = Module(new DecodeUnitComp)
++  split.io.redirect := false.B
++  split.io.csrCtrl := 0.U.asTypeOf(split.io.csrCtrl)
++  split.io.vtypeBypass := 0.U.asTypeOf(split.io.vtypeBypass)
++  split.io.in.valid := io.valid
++  split.io.in.bits.simpleDecodedInst := decoded
++  split.io.in.bits.uopInfo := uops.io.out.uopInfo
++  split.io.out.complexDecodedInsts.foreach(_.ready := true.B)
++  io.ready := split.io.in.ready
++  val out = split.io.out.complexDecodedInsts.head
++  io.outValid := out.valid
++  for (i <- 0 until 3) {
++    io.srcType(i) := out.bits.srcType(i)
++    io.lsrc(i) := out.bits.lsrc(i)
++  }
++  io.ldest := out.bits.ldest
++}
++
++class VDotSplitTest extends XSTester {
++  behavior of "vdot complex split old destination elimination"
++  it should "remove only the third dot source and preserve true aliases and ordinary MAC" in {
++    val testConfig = config.alterPartial {
++      case utility.LogUtilsOptionsKey => utility.LogUtilsOptions(
++        enableDebug = false, enablePerf = false, fpgaPlatform = true)
++    }
++    test(new VDotSplitHarness()(testConfig)).withAnnotations(Seq(VerilatorBackendAnnotation)) { dut =>
++      dut.io.valid.poke(false.B)
++      dut.io.inst.poke(0.U)
++      dut.clock.step(2)
++      def check(word: BigInt, vd: Int, vs1: Int, vs2: Int, oldType: BigInt): Unit = {
++        var limit = 0
++        while (!dut.io.ready.peek().litToBoolean && limit < 10) { dut.clock.step(); limit += 1 }
++        dut.io.ready.expect(true.B)
++        dut.io.inst.poke(word.U)
++        dut.io.valid.poke(true.B)
++        dut.clock.step()
++        dut.io.valid.poke(false.B)
++        limit = 0
++        while (!dut.io.outValid.peek().litToBoolean && limit < 10) { dut.clock.step(); limit += 1 }
++        dut.io.outValid.expect(true.B)
++        dut.io.srcType(0).expect(SrcType.vp)
++        dut.io.srcType(1).expect(SrcType.vp)
++        dut.io.srcType(2).expect(oldType.U)
++        dut.io.lsrc(0).expect(vs1.U)
++        dut.io.lsrc(1).expect(vs2.U)
++        dut.io.ldest.expect(vd.U)
++        dut.clock.step(2)
++      }
++      for (vd <- Seq(0, 8, 9, 31); vs1 <- Seq(0, 8, 31); vs2 <- Seq(0, 9, 31)) {
++        val word = BigInt(0x0200200b) | (BigInt(vs2) << 20) | (BigInt(vs1) << 15) | (BigInt(vd) << 7)
++        check(word,vd,vs1,vs2,SrcType.no.litValue)
++      }
++      // vmacc.vv v10,v9,v8: an actual old-destination arithmetic dependency.
++      check(BigInt(0xb6942557L),10,8,9,SrcType.vp.litValue)
++    }
++  }
++}
+diff --git a/src/test/scala/xiangshan/backend/fu/vector/VDot8Test.scala b/src/test/scala/xiangshan/backend/fu/vector/VDot8Test.scala
+new file mode 100644
+index 000000000..fe7e4498a
+--- /dev/null
++++ b/src/test/scala/xiangshan/backend/fu/vector/VDot8Test.scala
+@@ -0,0 +1,91 @@
++package xiangshan.backend.fu.vector
++
++import chisel3._
++import chiseltest._
++import org.scalatest.flatspec.AnyFlatSpec
++import org.scalatest.matchers.should.Matchers
++import scala.util.Random
++
++class VDot8Test extends AnyFlatSpec with ChiselScalatestTester with Matchers {
++  private def pack(bytes: Seq[Int], high: BigInt): BigInt =
++    (high << 64) | bytes.zipWithIndex.map { case (b, i) => BigInt(b & 255) << (8 * i) }.reduce(_ | _)
++
++  behavior of "VDot8"
++  it should "produce exact signed sums with enabled stages, bubbles and poisoned upper bytes" in {
++    test(new VDot8).withAnnotations(Seq(VerilatorBackendAnnotation, WriteVcdAnnotation)) { dut =>
++      val random = new Random(0x56444f54L)
++      val directed = Seq(
++        (1 to 8, Seq.fill(8)(1)),
++        (1 to 8, (1 to 8).reverse),
++        ((1 to 8).map(-_), Seq.fill(8)(1)),
++        (Seq.fill(8)(-128), Seq.fill(8)(-128)),
++        (Seq.fill(8)(-128), Seq.fill(8)(127)),
++        (Seq.fill(8)(127), Seq.fill(8)(127)),
++        (Seq.fill(8)(0), Seq.fill(8)(-128))
++      )
++      val vectors = directed ++ Seq.fill(1000)(
++        (Seq.fill(8)(random.nextInt(256) - 128), Seq.fill(8)(random.nextInt(256) - 128)))
++      var stage1: Option[BigInt] = None
++      var stage2: Option[BigInt] = None
++      dut.io.enable.foreach(_.poke(false.B))
++      dut.io.vs1.poke(0.U)
++      dut.io.vs2.poke(0.U)
++      dut.clock.step()
++      for ((a, b) <- vectors) {
++        // Model each enabled register independently, including simultaneous
++        // advance, disabled holds and transfer without a new input.
++        for (_ <- 0 until (if (random.nextBoolean()) 1 else 2)) {
++          val en1 = random.nextInt(4) != 0
++          val en2 = random.nextInt(4) != 0
++          val sum = BigInt(a.zip(b).map { case (x, y) => x * y }.sum) & 0xffffffffL
++          dut.io.vs1.poke(pack(a, BigInt(64, random)).U)
++          dut.io.vs2.poke(pack(b, BigInt(64, random)).U)
++          dut.io.enable(0).poke(en1.B)
++          dut.io.enable(1).poke(en2.B)
++          val next2 = if (en2) stage1 else stage2
++          if (en1) stage1 = Some(sum)
++          dut.clock.step()
++          stage2 = next2
++          stage2.foreach(v => dut.io.result.expect(v.U))
++        }
++      }
++      // Explicit endpoint: 18 signed bits cannot hold this result.
++      dut.io.vs1.poke(pack(Seq.fill(8)(-128), 0).U)
++      dut.io.vs2.poke(pack(Seq.fill(8)(-128), 0).U)
++      dut.io.enable(0).poke(true.B)
++      dut.io.enable(1).poke(false.B)
++      dut.clock.step()
++      dut.io.enable(0).poke(false.B)
++      dut.io.enable(1).poke(true.B)
++      dut.clock.step()
++      dut.io.result.expect(BigInt(131072).U)
++    }
++  }
++
++  it should "hold a negative full-register result while disabled inputs keep changing" in {
++    test(new VDot8).withAnnotations(Seq(VerilatorBackendAnnotation)) { dut =>
++      dut.io.vs1.poke(pack(Seq.fill(8)(-128), 0).U)
++      dut.io.vs2.poke(pack(Seq.fill(8)(127), 0).U)
++      dut.io.enable(0).poke(true.B)
++      dut.io.enable(1).poke(false.B)
++      dut.clock.step()
++      dut.io.enable(0).poke(false.B)
++      dut.io.enable(1).poke(true.B)
++      dut.clock.step()
++      val expected = BigInt(-130048) & BigInt("ffffffff", 16)
++      dut.io.result.expect(expected.U)
++      dut.io.enable.foreach(_.poke(false.B))
++      val random = new Random(0x484f4c44L)
++      for (_ <- 0 until 96) {
++        dut.io.vs1.poke(BigInt(128, random).U)
++        dut.io.vs2.poke(BigInt(128, random).U)
++        dut.clock.step()
++        dut.io.result.expect(expected.U)
++      }
++      // Stage-one holds must preserve the products for a later transfer too.
++      dut.io.enable(1).poke(true.B)
++      dut.clock.step()
++      dut.io.result.expect(expected.U)
++    }
++  }
++}
+diff --git a/src/test/scala/xiangshan/backend/fu/vector/VDotIntegrationTest.scala b/src/test/scala/xiangshan/backend/fu/vector/VDotIntegrationTest.scala
+new file mode 100644
+index 000000000..42eb543b0
+--- /dev/null
++++ b/src/test/scala/xiangshan/backend/fu/vector/VDotIntegrationTest.scala
+@@ -0,0 +1,297 @@
++package xiangshan.backend.fu.vector
++
++import chisel3._
++import chisel3.util._
++import chiseltest._
++import org.chipsalliance.cde.config.Parameters
++import xiangshan._
++import xiangshan.backend.fu.{FuConfig, FuncUnitCtrlInput, FuncUnitDataInput}
++import xiangshan.backend.fu.vector.Bundles.VConfig
++import xiangshan.backend.fu.wrapper.VIMacU
++import yunsuan.VimacType
++
++/** Mirrors ExeUnit's fixed-time external control/data pipe with ready high. */
++class VDotIntegrationHarness(implicit p: Parameters) extends XSModule {
++  private val cfg = FuConfig.VimacCfg
++  val io = IO(new Bundle {
++    val valid = Input(Bool())
++    val cancel = Input(Bool())
++    val op = Input(UInt(9.W))
++    val tag = Input(UInt(6.W))
++    val vs1 = Input(UInt(128.W))
++    val vs2 = Input(UInt(128.W))
++    val oldVd = Input(UInt(128.W))
++    val mask = Input(UInt(128.W))
++    val vxrm = Input(UInt(2.W))
++    val config = Input(new VConfig)
++    val vm = Input(Bool())
++    val vstart = Input(UInt(8.W))
++    val v0Dest = Input(Bool())
++    val outValid = Output(Bool())
++    val outTag = Output(UInt(8.W))
++    val result = Output(UInt(128.W))
++    val illegal = Output(Bool())
++    val saturated = Output(Bool())
++    val vecWen = Output(Bool())
++    val v0Wen = Output(Bool())
++  })
++  val fu = Module(new VIMacU(cfg))
++  val ctrl = WireInit(0.U.asTypeOf(new FuncUnitCtrlInput(cfg)))
++  ctrl.fuOpType := io.op
++  ctrl.robIdx.value := io.tag
++  ctrl.pdest := io.tag
++  ctrl.vecWen.get := !io.v0Dest
++  ctrl.v0Wen.get := io.v0Dest
++  ctrl.vpu.get.connectVType(io.config.vtype)
++  ctrl.vpu.get.vm := io.vm
++  ctrl.vpu.get.vstart := io.vstart
++  ctrl.vpu.get.lastUop := true.B
++  val data = WireInit(0.U.asTypeOf(new FuncUnitDataInput(cfg)))
++  data.src(0) := io.vs1
++  data.src(1) := io.vs2
++  data.src(2) := io.oldVd
++  data.src(cfg.maskSrcIdx) := io.mask
++  data.src(cfg.vconfigIdx) := io.config.asUInt
++  val ctrlPipe = ctrl +: Seq.fill(2)(Reg(chiselTypeOf(ctrl)))
++  val dataPipe = data +: Seq.fill(2)(Reg(chiselTypeOf(data)))
++  val validPipe = (io.valid && !io.cancel) +: Seq.fill(2)(RegInit(false.B))
++  for (i <- 1 to 2) {
++    ctrlPipe(i) := ctrlPipe(i - 1)
++    dataPipe(i) := dataPipe(i - 1)
++    validPipe(i) := validPipe(i - 1) && !io.cancel
++  }
++  fu.io.in.bits := 0.U.asTypeOf(fu.io.in.bits)
++  fu.io.in.valid := validPipe.head
++  fu.io.in.bits.ctrl := ctrl
++  fu.io.in.bits.data := data
++  for (i <- 0 to 2) {
++    fu.io.in.bits.ctrlPipe.get(i) := ctrlPipe(i)
++    fu.io.in.bits.dataPipe.get(i) := dataPipe(i)
++    fu.io.in.bits.validPipe.get(i) := validPipe(i)
++  }
++  fu.io.flush.valid := io.cancel
++  fu.io.flush.bits := 0.U.asTypeOf(fu.io.flush.bits)
++  fu.io.out.ready := true.B
++  fu.io.vxrm.foreach(_ := io.vxrm)
++  fu.io.frm.foreach(_ := 0.U)
++  io.outValid := fu.io.out.valid
++  io.outTag := fu.io.out.bits.ctrl.pdest
++  io.result := fu.io.out.bits.res.data
++  io.illegal := fu.io.out.bits.ctrl.exceptionVec.get(ExceptionNO.illegalInstr)
++  io.saturated := fu.io.out.bits.res.vxsat.get.asBool
++  io.vecWen := fu.io.out.bits.ctrl.vecWen.get
++  io.v0Wen := fu.io.out.bits.ctrl.v0Wen.get
++}
++
++class VDotIntegrationTest extends XSTester {
++  behavior of "VIMacU vdot integration"
++  it should "align mixed operations, tags, full writes, runtime legality and canceled operations" in {
++    val testConfig = config.alterPartial {
++      case utility.LogUtilsOptionsKey => utility.LogUtilsOptions(
++        enableDebug = false, enablePerf = false, fpgaPlatform = true)
++    }
++    test(new VDotIntegrationHarness()(testConfig)).withAnnotations(Seq(VerilatorBackendAnnotation, WriteVcdAnnotation)) { dut =>
++      case class Expected(tag: Int, data: BigInt, illegal: Boolean, v0: Boolean)
++      val byteOnes = BigInt("01" * 16, 16)
++      val byteTwos = BigInt("02" * 16, 16)
++      var pending = List.fill[Option[Expected]](2)(None)
++      var issued = 0
++      var checked = 0
++      dut.io.valid.poke(false.B)
++      dut.io.cancel.poke(false.B)
++      dut.io.op.poke(VdotOpType.vdot)
++      dut.io.tag.poke(1.U)
++      dut.io.vs1.poke(byteOnes.U)
++      dut.io.vs2.poke(byteTwos.U)
++      dut.io.oldVd.poke(((BigInt(1) << 128) - 1).U)
++      dut.io.mask.poke(((BigInt(1) << 128) - 1).U)
++      dut.io.vxrm.poke(0.U)
++      dut.io.vm.poke(true.B)
++      dut.io.vstart.poke(0.U)
++      dut.io.v0Dest.poke(false.B)
++      dut.io.config.vtype.illegal.poke(false.B)
++      dut.io.config.vtype.vta.poke(false.B)
++      dut.io.config.vtype.vma.poke(false.B)
++      dut.io.config.vtype.vsew.poke(0.U)
++      dut.io.config.vtype.vlmul.poke(0.U)
++      dut.io.config.vl.poke(8.U)
++      dut.clock.step(3)
++
++      def tick(input: Option[Expected], op: BigInt = 0x160, vl: Int = 8,
++               vm: Boolean = true, start: Int = 0, cancel: Boolean = false,
++               old: BigInt = (BigInt(1) << 128) - 1): Unit = {
++        dut.io.valid.poke(input.nonEmpty.B)
++        dut.io.cancel.poke(cancel.B)
++        dut.io.op.poke(op.U)
++        dut.io.config.vl.poke(vl.U)
++        dut.io.vm.poke(vm.B)
++        dut.io.vstart.poke(start.U)
++        dut.io.oldVd.poke(old.U)
++        dut.io.tag.poke(input.map(_.tag).getOrElse(1).U)
++        dut.io.v0Dest.poke(input.exists(_.v0).B)
++        if (cancel) pending = List(None, None)
++        dut.clock.step()
++        pending = input.filter(_ => !cancel) :: pending.take(1)
++        pending(1) match {
++          case Some(e) =>
++            dut.io.outValid.expect(true.B)
++            dut.io.outTag.expect(e.tag.U)
++            dut.io.illegal.expect(e.illegal.B)
++            dut.io.saturated.expect(false.B)
++            dut.io.vecWen.expect((!e.v0).B)
++            dut.io.v0Wen.expect(e.v0.B)
++            if (!e.illegal) dut.io.result.expect(e.data.U)
++            checked += 1
++          case None => dut.io.outValid.expect(false.B)
++        }
++        if (input.nonEmpty) issued += 1
++      }
++      for (i <- 1 to 16) {
++        val isMul = i % 2 == 0
++        dut.io.config.vtype.vta.poke((!isMul && i % 3 == 0).B)
++        dut.io.config.vtype.vma.poke((i % 4 == 0).B)
++        val result = if (isMul) (byteTwos & ((BigInt(1) << 64) - 1)) else BigInt(16)
++        // vl=8/tu preserves old upper bytes for ordinary vmul, never for dot.
++        tick(Some(Expected(i, result, false, i % 5 == 0)),
++          if (isMul) VimacType.vmul.litValue else BigInt(0x160), old = 0)
++        if (i % 3 == 0) tick(None)
++      }
++      for (vl <- Seq(0, 1, 7, 9, 16)) tick(Some(Expected(20 + vl, 0, true, false)), vl = vl)
++      tick(Some(Expected(40, 0, true, false)), vm = false)
++      tick(Some(Expected(41, 0, true, false)), start = 1)
++      tick(None)
++      tick(None)
++      tick(Some(Expected(42, 16, false, false)))
++      tick(None, cancel = true)
++      tick(None)
++      tick(Some(Expected(43, 16, false, true)))
++      tick(None)
++      tick(None)
++      checked shouldBe issued - 1
++    }
++  }
++
++  it should "preserve randomized mixed traffic and ordinary mask tail multiply accumulate and saturation" in {
++    val testConfig = config.alterPartial {
++      case utility.LogUtilsOptionsKey => utility.LogUtilsOptions(
++        enableDebug = false, enablePerf = false, fpgaPlatform = true)
++    }
++    test(new VDotIntegrationHarness()(testConfig)).withAnnotations(Seq(VerilatorBackendAnnotation, WriteVcdAnnotation)) { dut =>
++      val random = new scala.util.Random(0x49534f4cL)
++      val full = (BigInt(1) << 128) - 1
++      case class Expected(tag: Int, result: BigInt, saturated: Boolean)
++      var pending = List.fill[Option[Expected]](2)(None)
++      var checked = 0
++      var issued = 0
++      var killed = 0
++
++      def signed(x: BigInt, width: Int): BigInt =
++        if (x.testBit(width - 1)) x - (BigInt(1) << width) else x
++
++      def tick(kind: String, sew: Int = 8, valid: Boolean = true, cancel: Boolean = false,
++               forceSat: Boolean = false): Unit = {
++        val dot = kind == "dot"
++        val width = if (dot) 8 else sew
++        val count = 128 / width
++        val elemMask = (BigInt(1) << width) - 1
++        val a = if (forceSat) BigInt("80" * 16, 16) else BigInt(128, random)
++        val b = if (forceSat) a else BigInt(128, random)
++        val old = BigInt(128, random)
++        val mask = BigInt(128, random)
++        val vl = if (dot) 8 else if (forceSat) count else random.nextInt(count + 1)
++        val vm = dot || forceSat || random.nextBoolean()
++        val ta = random.nextBoolean()
++        val ma = random.nextBoolean()
++        val tag = issued % 63 + 1
++        val op = kind match {
++          case "dot" => VdotOpType.vdot
++          case "mul" => VimacType.vmul
++          case "macc" => VimacType.vmacc
++          case "madd" => VimacType.vmadd
++          case "nmsac" => VimacType.vnmsac
++          case "smul" => VimacType.vsmul
++        }
++        var sat = false
++        val result = if (dot) {
++          (0 until 8).map { i =>
++            signed((a >> (8 * i)) & 255, 8) * signed((b >> (8 * i)) & 255, 8)
++          }.sum & BigInt("ffffffff", 16)
++        } else {
++          (0 until count).map { i =>
++            val x = signed((a >> (width * i)) & elemMask, width)
++            val y = signed((b >> (width * i)) & elemMask, width)
++            val z = (old >> (width * i)) & elemMask
++            val active = i < vl && (vm || mask.testBit(i))
++            val product = kind match {
++              case "mul" => x * y
++              case "macc" => x * y + z
++              case "madd" => x * signed(z, width) + y
++              case "nmsac" => z - x * y
++              case "smul" =>
++                val overflow = x == -(BigInt(1) << (width - 1)) && x == y
++                if (active && overflow) sat = true
++                if (overflow) (BigInt(1) << (width - 1)) - 1 else (x * y) >> (width - 1)
++            }
++            // vstart >= vl preserves the whole destination, even with ta/ma.
++            val value = if (vl == 0) z else if (active) product & elemMask
++              else if ((i >= vl && ta) || (i < vl && ma)) elemMask else z
++            value << (width * i)
++          }.foldLeft(BigInt(0))(_ | _)
++        }
++        dut.io.valid.poke(valid.B)
++        dut.io.cancel.poke(cancel.B)
++        dut.io.op.poke(op)
++        dut.io.tag.poke(tag.U)
++        dut.io.vs1.poke(a.U)
++        dut.io.vs2.poke(b.U)
++        dut.io.oldVd.poke(old.U)
++        dut.io.mask.poke(mask.U)
++        dut.io.vxrm.poke(2.U) // RDN: signed arithmetic shift in the oracle.
++        dut.io.vm.poke(vm.B)
++        dut.io.vstart.poke(0.U)
++        dut.io.v0Dest.poke(false.B)
++        dut.io.config.vtype.illegal.poke(false.B)
++        dut.io.config.vtype.vta.poke(ta.B)
++        dut.io.config.vtype.vma.poke(ma.B)
++        dut.io.config.vtype.vsew.poke(Integer.numberOfTrailingZeros(width / 8).U)
++        dut.io.config.vtype.vlmul.poke(0.U)
++        dut.io.config.vl.poke(vl.U)
++        if (cancel) {
++          killed += pending.take(1).count(_.nonEmpty)
++          pending = List(None, None)
++        }
++        val input = if (valid && !cancel) Some(Expected(tag, result & full, sat)) else None
++        dut.clock.step()
++        pending = input :: pending.take(1)
++        pending(1) match {
++          case Some(e) =>
++            dut.io.outValid.expect(true.B)
++            dut.io.outTag.expect(e.tag.U)
++            dut.io.illegal.expect(false.B)
++            dut.io.result.expect(e.result.U)
++            dut.io.saturated.expect(e.saturated.B)
++            checked += 1
++          case None => dut.io.outValid.expect(false.B)
++        }
++        if (input.nonEmpty) issued += 1
++      }
++
++      for (_ <- 0 until 3) tick("mul", valid = false)
++      // Long homogeneous windows also supply switching/hold audit evidence.
++      for (_ <- 0 until 32) tick("dot")
++      for (_ <- 0 until 32) tick("mul", sew = 32)
++      for (i <- 0 until 240) {
++        val kinds = Seq("dot", "mul", "macc", "madd", "nmsac", "smul")
++        tick(kinds(i % kinds.size), sew = Seq(8, 16, 32, 64)((i / 6) % 4))
++        if (i % 11 == 0) tick("mul", valid = false)
++        if (i % 37 == 0) tick("dot", valid = false, cancel = true)
++      }
++      tick("smul", forceSat = true)
++      tick("dot")
++      tick("smul", forceSat = true)
++      for (_ <- 0 until 12) tick("mul", valid = false)
++      checked shouldBe issued - killed
++      println(s"isolation functional PASS: issued=$issued checked=$checked canceled=$killed seed=0x49534f4c")
++    }
++  }
++}

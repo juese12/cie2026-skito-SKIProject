@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "contract": "e8-e16",
+  "runs": {
+    "functional": {
+      "status": "PASS",
+      "log": "stage2/logs/20261026T231913-contract-functional.full.log",
+      "log_sha256": "3882df9132d62eeaf90c3d111e6072acb16b05a7e546adb188ebfcc74e338b83",
+      "inputs": {
+        "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/sew16-fixed8/emu": "4c198af80a4ab7ce8db6e49704d5a0ce4669bc2a473c94f92d69668d6ddb8368",
+        "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/sew16/riscv64-nemu-interpreter-so": "0c5ff04f6adefd22e9577edd37acc449f2b89445ad70f98f8c9a97cf3b7b69ad",
+        "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/contract-tests/build/cie2026-contract-functional-r0-riscv64-xs.bin": "490b63a17b3847d1e47a4a3127be2607cf5b2eda61de5c299be3c9e553ea60e7"
+      },
+      "instructions": 27074,
+      "cycles": 79758,
+      "host_ms": 189942
+    },
+    "control": {
+      "status": "PASS",
+      "log": "stage2/logs/20261026T231913-contract-control.full.log",
+      "log_sha256": "abf8a8b184654d7292e7da6e7748396b0d18ff417b63184a0d590fbb739e1047",
+      "inputs": {
+        "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/sew16-fixed8/emu": "4c198af80a4ab7ce8db6e49704d5a0ce4669bc2a473c94f92d69668d6ddb8368",
+        "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/sew16/riscv64-nemu-interpreter-so": "0c5ff04f6adefd22e9577edd37acc449f2b89445ad70f98f8c9a97cf3b7b69ad",
+        "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/contract-tests/build/cie2026-contract-control-seed0x56444f54-riscv64-xs.bin": "8ba35b70e3f00b4c773f4679519a72ada492a419724d057fa6440aa73580b0e8"
+      },
+      "instructions": 368214,
+      "cycles": 232893,
+      "host_ms": 638495
+    }
+  },
+  "coordinator": "stage2/logs/20261026T231913-contract-core-regression.full.log",
+  "coordinator_sha256": "4d15d19f9a225d0cc7b8e434d803e5e2bd0318f23a01f075dfee5d755741651b",
+  "control_status": "NOT_AUDITED",
+  "qualification": "architectural difference checks; no new internal cancellation trace, no physical analysis"
+}

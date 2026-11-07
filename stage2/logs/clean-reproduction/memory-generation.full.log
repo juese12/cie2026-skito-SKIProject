@@ -1,0 +1,5 @@
+[started] 2026-11-03T13:47:14+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan
+[command] ./scripts/gen_sep_mem.sh ./scripts/vlsi_mem_gen /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/build/sew16-fixed8/rtl/SimTop.sv.conf /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/build/sew16-fixed8/rtl 
+[completed] 2026-11-03T13:47:15+08:00
+[exit] 0

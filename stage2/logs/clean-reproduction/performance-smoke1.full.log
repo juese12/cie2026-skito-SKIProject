@@ -1,0 +1,72 @@
+emu compiled at Nov  3 2026, 13:54:25
+Using seed = 101
+Using simulated 32768B flash
+Using simulated 8386560MB RAM
+The image is /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/build/cie2026-vdot-sew16-perf-v4-riscv64-xs.bin
+DRAMSIM3 config: /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/configs/XiangShan.ini
+CPU_FREQ: 3000 DRAM_FREQ: 1600
+CPU_CLOCK_CYCLE: 0.000333333 DRAM_CLOCK_CYCLE: 0.000625
+DRAMsim3 memory system initialized.
+Overwrite 312 bytes from file /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/logs/clean-reproduction-perf-smoke1.overlay.bin.
+The reference model is /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/build/sew16/riscv64-nemu-interpreter-so
+The first instruction of core 0 has commited. Difftest enabled. 
+perf4 meta schema=4 profile=1 first=1 wide=1 data=56444f54 reps=4 warm=2 random=8 deferred=1
+perf4 equivalence bits=8 dot=40 rvv=40 full128=1 CSR=1
+perf4 case bits=8 kind=0 batches=4 dots=16 expected=000000000000414a chain_steps=0 a=885ff5e9f44a0e62f14ba28868c82f25 b=cc9dd2fcef8f2abd9a05e7cc03d8f96c
+perf4 seq bits=8 kind=0 phase=0 impl=0 cycles=120,106
+perf4 seq bits=8 kind=0 phase=0 impl=1 cycles=181,166
+perf4 seq bits=8 kind=0 phase=1 impl=0 cycles=70,57,71,57
+perf4 seq bits=8 kind=0 phase=1 impl=1 cycles=148,147,148,149
+perf4 case bits=8 kind=1 batches=4 dots=16 expected=00000000ffffb229 chain_steps=0 a=7607516efdc015005da2abc6a1ca6bb6 b=0253947de568487224ef29337255fa20
+perf4 seq bits=8 kind=1 phase=0 impl=0 cycles=215,149
+perf4 seq bits=8 kind=1 phase=0 impl=1 cycles=312,262
+perf4 seq bits=8 kind=1 phase=1 impl=0 cycles=163,136,130,131
+perf4 seq bits=8 kind=1 phase=1 impl=1 cycles=262,231,230,231
+perf4 case bits=8 kind=2 batches=1 dots=4 expected=00000000ffffffb5 chain_steps=4 a=00000000000000000000000000000025 b=00000000000000000000000000000003
+perf4 seq bits=8 kind=2 phase=0 impl=0 cycles=77,76
+perf4 seq bits=8 kind=2 phase=0 impl=1 cycles=165,164
+perf4 seq bits=8 kind=2 phase=1 impl=0 cycles=61,60,61,60
+perf4 seq bits=8 kind=2 phase=1 impl=1 cycles=148,148,148,148
+perf4 case bits=8 kind=3 batches=2 dots=8 expected=0000000000000045 chain_steps=8 a=00000000000000000000000000000025 b=00000000000000000000000000000003
+perf4 seq bits=8 kind=3 phase=0 impl=0 cycles=89,89
+perf4 seq bits=8 kind=3 phase=0 impl=1 cycles=264,265
+perf4 seq bits=8 kind=3 phase=1 impl=0 cycles=88,89,88,88
+perf4 seq bits=8 kind=3 phase=1 impl=1 cycles=264,265,265,264
+perf4 case bits=8 kind=4 batches=4 dots=16 expected=0000000000000165 chain_steps=16 a=00000000000000000000000000000025 b=00000000000000000000000000000003
+perf4 seq bits=8 kind=4 phase=0 impl=0 cycles=144,144
+perf4 seq bits=8 kind=4 phase=0 impl=1 cycles=497,497
+perf4 seq bits=8 kind=4 phase=1 impl=0 cycles=144,145,144,144
+perf4 seq bits=8 kind=4 phase=1 impl=1 cycles=497,496,496,496
+perf4 equivalence bits=16 dot=40 rvv=40 full128=1 CSR=1
+perf4 case bits=16 kind=0 batches=4 dots=16 expected=ffffffffc1b0ed89 chain_steps=0 a=38c1f29adc4521e20985df96b4d98223 b=45c6d88de94fab9cd2c51be914a87b2d
+perf4 seq bits=16 kind=0 phase=0 impl=0 cycles=120,106
+perf4 seq bits=16 kind=0 phase=0 impl=1 cycles=182,168
+perf4 seq bits=16 kind=0 phase=1 impl=0 cycles=70,56,56,57
+perf4 seq bits=16 kind=0 phase=1 impl=1 cycles=148,148,147,147
+perf4 case bits=16 kind=1 batches=4 dots=16 expected=fffffffffd21e330 chain_steps=0 a=4ec5a32113949e0e3e4923963d24e5b9 b=be6554cdd12cdf0c04007e7c5c840f8a
+perf4 seq bits=16 kind=1 phase=0 impl=0 cycles=218,149
+perf4 seq bits=16 kind=1 phase=0 impl=1 cycles=313,262
+perf4 seq bits=16 kind=1 phase=1 impl=0 cycles=163,131,130,130
+perf4 seq bits=16 kind=1 phase=1 impl=1 cycles=262,231,230,231
+perf4 case bits=16 kind=2 batches=1 dots=4 expected=0000000000005151 chain_steps=4 a=00000000000000000000000000000101 b=00000000000000000000000000000003
+perf4 seq bits=16 kind=2 phase=0 impl=0 cycles=77,77
+perf4 seq bits=16 kind=2 phase=0 impl=1 cycles=165,165
+perf4 seq bits=16 kind=2 phase=1 impl=0 cycles=60,60,60,60
+perf4 seq bits=16 kind=2 phase=1 impl=1 cycles=148,149,149,148
+perf4 case bits=16 kind=3 batches=2 dots=8 expected=fffffffffffebaa1 chain_steps=8 a=00000000000000000000000000000101 b=00000000000000000000000000000003
+perf4 seq bits=16 kind=3 phase=0 impl=0 cycles=88,88
+perf4 seq bits=16 kind=3 phase=0 impl=1 cycles=265,264
+perf4 seq bits=16 kind=3 phase=1 impl=0 cycles=89,89,88,88
+perf4 seq bits=16 kind=3 phase=1 impl=1 cycles=265,265,265,264
+perf4 case bits=16 kind=4 batches=4 dots=16 expected=0000000000011841 chain_steps=16 a=00000000000000000000000000000101 b=00000000000000000000000000000003
+perf4 seq bits=16 kind=4 phase=0 impl=0 cycles=144,144
+perf4 seq bits=16 kind=4 phase=0 impl=1 cycles=497,497
+perf4 seq bits=16 kind=4 phase=1 impl=0 cycles=144,144,144,145
+perf4 seq bits=16 kind=4 phase=1 impl=1 cycles=497,497,496,496
+perf4 PASS full128=1 CSR=1 nonzero_feedback=1 exact_signed=1
+Core 0: [32mHIT GOOD TRAP at pc = 0x800014be
+[0m[35mCore-0 instrCnt = 280226, cycleCnt = 521471, IPC = 0.537376
+[0m[34mSeed=101 Guest cycle spent: 521475 (this will be different from cycleCnt if emu loads a snapshot)
+[0m[34mHost time spent: 1622935ms
+[0m
+[process exit] 0

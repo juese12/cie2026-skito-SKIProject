@@ -1,0 +1,18 @@
+{
+  "scope": "same host clean-directory reproduction",
+  "os": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "mill": "0.12.3",
+  "tools": {
+    "git": "git version 2.53.0",
+    "gcc": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "g++": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "java": "java 21.0.12 2026-07-21 LTS\nJava(TM) SE Runtime Environment Oracle GraalVM 21.0.12+7.1 (build 21.0.12+7-LTS-jvmci-23.1-b96)\nJava HotSpot(TM) 64-Bit Server VM Oracle GraalVM 21.0.12+7.1 (build 21.0.12+7-LTS-jvmci-23.1-b96, mixed mode, sharing)",
+    "python": "Python 3.14.4",
+    "verilator": "Verilator 5.048 2026-04-26 rev v5.048",
+    "riscv_gcc": "riscv64-linux-gnu-gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "firtool": "LLVM (http://llvm.org/):\n  LLVM version 18.0.0git\n  Optimized build.\nCIRCT firtool-1.62.1"
+  },
+  "cmake": "4.2.3, locally extracted Ubuntu packages; VDOT_CMAKE and LD_LIBRARY_PATH supplied",
+  "download_cache": "isolated copy of Mill launcher and Coursier dependencies; no project classes or emu copied",
+  "tested_memory": "8.7 GiB RAM and 16 GiB swap"
+}

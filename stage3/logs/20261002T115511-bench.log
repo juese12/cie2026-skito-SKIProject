@@ -1,0 +1,55 @@
+97ef3eef1700270941519d5acfc91e3632c7a33b24ab54076550f646e6a43f66  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/emu
+2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+fcc5fe0e015c540eb50c91404bf7dd91d37e48793755fe94c63615d5a0c5a374  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/build/cie2026-stage3-vdot-bench-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+bench equivalence PASS: vectors=1008 checks=1032 policies=4 baseline=vwmul+vwredsum vdot=1
+bench raw kind=batch4 impl=vdot rep=0 dots=128 cycles=252
+bench raw kind=batch4 impl=vdot rep=1 dots=128 cycles=380
+bench raw kind=batch4 impl=vdot rep=2 dots=128 cycles=477
+bench raw kind=batch4 impl=vdot rep=3 dots=128 cycles=508
+bench raw kind=batch4 impl=vdot rep=4 dots=128 cycles=525
+bench raw kind=batch4 impl=rvv rep=0 dots=128 cycles=846
+bench raw kind=batch4 impl=rvv rep=1 dots=128 cycles=1131
+bench raw kind=batch4 impl=rvv rep=2 dots=128 cycles=1149
+bench raw kind=batch4 impl=rvv rep=3 dots=128 cycles=1156
+bench raw kind=batch4 impl=rvv rep=4 dots=128 cycles=1158
+bench raw kind=e2e impl=vdot rep=0 dots=128 cycles=642
+bench raw kind=e2e impl=vdot rep=1 dots=128 cycles=933
+bench raw kind=e2e impl=vdot rep=2 dots=128 cycles=932
+bench raw kind=e2e impl=vdot rep=3 dots=128 cycles=931
+bench raw kind=e2e impl=vdot rep=4 dots=128 cycles=931
+bench raw kind=e2e impl=rvv rep=0 dots=128 cycles=1411
+bench raw kind=e2e impl=rvv rep=1 dots=128 cycles=1688
+bench raw kind=e2e impl=rvv rep=2 dots=128 cycles=1708
+bench raw kind=e2e impl=rvv rep=3 dots=128 cycles=1708
+bench raw kind=e2e impl=rvv rep=4 dots=128 cycles=1687
+bench raw kind=chain impl=vdot rep=0 dots=128 cycles=821
+bench raw kind=chain impl=vdot rep=1 dots=128 cycles=822
+bench raw kind=chain impl=vdot rep=2 dots=128 cycles=823
+bench raw kind=chain impl=vdot rep=3 dots=128 cycles=822
+bench raw kind=chain impl=vdot rep=4 dots=128 cycles=823
+bench raw kind=chain impl=rvv rep=0 dots=128 cycles=3665
+bench raw kind=chain impl=rvv rep=1 dots=128 cycles=3774
+bench raw kind=chain impl=rvv rep=2 dots=128 cycles=3772
+bench raw kind=chain impl=rvv rep=3 dots=128 cycles=3773
+bench raw kind=chain impl=rvv rep=4 dots=128 cycles=3762
+bench raw kind=empty impl=control rep=0 loops=32 cycles=537
+bench raw kind=empty impl=control rep=1 loops=32 cycles=423
+bench raw kind=empty impl=control rep=2 loops=32 cycles=187
+bench raw kind=empty impl=control rep=3 loops=32 cycles=186
+bench raw kind=empty impl=control rep=4 loops=32 cycles=96
+bench single_call sanity cycles=351 (not a latency claim)
+vdot benchmark PASS: equivalent exact i32, upper96=0; raw cycles reported
+Core 0: HIT GOOD TRAP at pc = 0x80000a20
+Core-0 instrCnt = 803805, cycleCnt = 834713, IPC = 0.962972
+Seed=0 Guest cycle spent: 834717 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 2813260ms
+kind,rvv_median_raw_cycles,vdot_median_raw_cycles,raw_speedup,rvv_cycles_per_dot,vdot_cycles_per_dot
+batch4,1149,477,2.408805,8.976562,3.726562
+e2e,1688,931,1.813104,13.187500,7.273438
+chain,3772,822,4.588808,29.468750,6.421875
+empty loop median=187 guest cycles; NOT subtracted
+benchmark audit PASS; includes timestamp/loop work; NOT isolated FU latency or PPA
+[completed] 2026-10-02T12:42:05+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261002T115511-bench.full.log

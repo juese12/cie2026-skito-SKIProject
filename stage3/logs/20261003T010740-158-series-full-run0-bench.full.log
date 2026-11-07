@@ -1,0 +1,91 @@
+[started] 2026-10-03T01:07:40+08:00
+[run id] 20261003T010740-158-series-full-run0
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/build/cie2026-stage3-vdot-bench-v2-full-order0-riscv64-xs.bin --max-cycles=10000000 -b 0 -e 0 
+[runner snapshot] ea8c5d4934d3e6db4062d3c1a16ff25b72369af9ea12989e651914e1a90e76b6  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runner-snapshot.u5uMTq/run.sh
+[artifact emu] 97ef3eef1700270941519d5acfc91e3632c7a33b24ab54076550f646e6a43f66
+[path emu] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/emu
+[artifact ref] 2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74
+[path ref] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+[artifact image] 5ccb58b4b12f63e47713d912dd9deca5e2ff242787b9a3ff88b300cc770bb62f
+[path image] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/build/cie2026-stage3-vdot-bench-v2-full-order0-riscv64-xs.bin
+emu compiled at Oct  2 2026, 02:39:12
+Using simulated 32768B flash
+Using simulated 8386560MB RAM
+The image is /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/build/cie2026-stage3-vdot-bench-v2-full-order0-riscv64-xs.bin
+DRAMSIM3 config: /home/saintrikashy/riscv/xs-env/DRAMsim3/configs/XiangShan.ini
+CPU_FREQ: 3000 DRAM_FREQ: 1600
+CPU_CLOCK_CYCLE: 0.000333333 DRAM_CLOCK_CYCLE: 0.000625
+DRAMsim3 memory system initialized.
+The reference model is /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+The first instruction of core 0 has commited. Difftest enabled. 
+bench equivalence PASS: vectors=1008 checks=1032 policies=4 baseline=vwmul+vwredsum vdot=1
+bench meta schema=2 profile=full reps=8 warmup=8 batches=256 random=1000 first=0 deferred=1 seed=56444f54 timing=mcycle_vstart_serialized
+bench warm kind=batch4 impl=vdot count=8 first_cycles=1903 last_cycles=1828
+bench warm kind=batch4 impl=rvv count=8 first_cycles=6513 last_cycles=6449
+bench raw kind=batch4 impl=vdot rep=0 slot=0 dots=1024 cycles=1828
+bench raw kind=batch4 impl=rvv rep=0 slot=1 dots=1024 cycles=6447
+bench raw kind=batch4 impl=rvv rep=1 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=1 slot=1 dots=1024 cycles=1828
+bench raw kind=batch4 impl=vdot rep=2 slot=0 dots=1024 cycles=1828
+bench raw kind=batch4 impl=rvv rep=2 slot=1 dots=1024 cycles=6449
+bench raw kind=batch4 impl=rvv rep=3 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=3 slot=1 dots=1024 cycles=1827
+bench raw kind=batch4 impl=vdot rep=4 slot=0 dots=1024 cycles=1828
+bench raw kind=batch4 impl=rvv rep=4 slot=1 dots=1024 cycles=6449
+bench raw kind=batch4 impl=rvv rep=5 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=5 slot=1 dots=1024 cycles=1827
+bench raw kind=batch4 impl=vdot rep=6 slot=0 dots=1024 cycles=1828
+bench raw kind=batch4 impl=rvv rep=6 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=7 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=7 slot=1 dots=1024 cycles=1827
+bench warm kind=e2e impl=vdot count=8 first_cycles=4766 last_cycles=4669
+bench warm kind=e2e impl=rvv count=8 first_cycles=10914 last_cycles=10815
+bench raw kind=e2e impl=vdot rep=0 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=0 slot=1 dots=1024 cycles=10814
+bench raw kind=e2e impl=rvv rep=1 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=1 slot=1 dots=1024 cycles=4923
+bench raw kind=e2e impl=vdot rep=2 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=2 slot=1 dots=1024 cycles=10814
+bench raw kind=e2e impl=rvv rep=3 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=3 slot=1 dots=1024 cycles=4923
+bench raw kind=e2e impl=vdot rep=4 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=4 slot=1 dots=1024 cycles=10814
+bench raw kind=e2e impl=rvv rep=5 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=5 slot=1 dots=1024 cycles=4923
+bench raw kind=e2e impl=vdot rep=6 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=6 slot=1 dots=1024 cycles=10814
+bench raw kind=e2e impl=rvv rep=7 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=7 slot=1 dots=1024 cycles=4923
+bench warm kind=chain impl=vdot count=8 first_cycles=7199 last_cycles=7200
+bench warm kind=chain impl=rvv count=8 first_cycles=29728 last_cycles=29728
+bench raw kind=chain impl=vdot rep=0 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=0 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=1 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=1 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=2 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=2 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=3 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=3 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=4 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=4 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=5 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=5 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=6 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=6 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=7 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=7 slot=1 dots=1024 cycles=7200
+bench raw kind=empty impl=control rep=0 loops=256 cycles=300
+bench raw kind=empty impl=control rep=1 loops=256 cycles=299
+bench raw kind=empty impl=control rep=2 loops=256 cycles=299
+bench raw kind=empty impl=control rep=3 loops=256 cycles=299
+bench raw kind=empty impl=control rep=4 loops=256 cycles=299
+bench raw kind=empty impl=control rep=5 loops=256 cycles=299
+bench raw kind=empty impl=control rep=6 loops=256 cycles=299
+bench raw kind=empty impl=control rep=7 loops=256 cycles=299
+vdot benchmark PASS: equivalent exact i32, upper96=0; raw cycles reported
+Core 0: [32mHIT GOOD TRAP at pc = 0x80000c12
+[0m[35mCore-0 instrCnt = 1300029, cycleCnt = 1999071, IPC = 0.650317
+[0m[34mSeed=0 Guest cycle spent: 1999075 (this will be different from cycleCnt if emu loads a snapshot)
+[0m[34mHost time spent: 6203072ms
+[0m
+[process exit] 0

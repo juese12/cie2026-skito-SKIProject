@@ -7,9 +7,24 @@
 
 # Simulator waveforms and large generated files
 *.vcd
+*.vcd.gz
+*.vcd.zst
+stage2/sew16/*.vcd.gz
 *.fst
 *.fsdb
 stage1/logs/*.full.log
+stage2/logs/*.full.log
+stage2/logs/core-validation.lock
+stage3/logs/*.full.log
+stage3/logs/*.lock
+stage3/logs/runner-snapshot.*/
+stage3/logs/series-snapshot.*/
+stage3/logs/validation-snapshot.*/
+stage3/logs/report-snapshot.*/
+stage3/logs/runtime-overlay.*/
+stage3/logs/p1-artifacts-*/
+__pycache__/
+stage2/vdot-run.*/
 
 # Local/private submission material
 my_submission.txt

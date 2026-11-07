@@ -1,0 +1,6 @@
+[started] 2026-11-03T13:26:45+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject
+[command] python3 stage2/sew16/check-reference.py ../NEMU/build/sew16/riscv64-nemu-interpreter-so 
+sew16 reference PASS valid=2304 illegal=96 seeds=4 ABI=1400
+[completed] 2026-11-03T13:26:46+08:00
+[exit] 0

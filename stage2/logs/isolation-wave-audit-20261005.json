@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "fixed-ready wrapper RTL, NOT CPU/PPA/power",
+  "counts": {
+    "edges": 351,
+    "outputs": 301,
+    "dot_requests": 73,
+    "mac_requests": 234,
+    "dot_stage2_transfers": 73,
+    "mixed_overlap_edges": 37,
+    "disabled_hold_checks": 4140
+  },
+  "register_sampled_bit_flips": {
+    "before": {
+      "dot_products": 19052,
+      "dot_sum": 2859,
+      "mac_wallace_stage1": 117326,
+      "mac_result_stage2": 38968
+    },
+    "after": {
+      "dot_products": 4580,
+      "dot_sum": 669,
+      "mac_wallace_stage1": 100444,
+      "mac_result_stage2": 29696
+    }
+  },
+  "operand_cycle_sampled_bit_flips": {
+    "before": {
+      "dot_multiplier_inputs": 22352,
+      "mac_inputs": 67112
+    },
+    "after": {
+      "dot_multiplier_inputs": 7344,
+      "mac_inputs": 56294
+    }
+  },
+  "limitations": "Selected signals at settled cycle/edge samples; excludes glitches, clocks, MGU, shared pipeline, cell capacitance and physical power.",
+  "wave_sha256": {
+    "before": "7519a347e1b5d9192b04eaf4d90b06a3f364a3c733935a5074bfc00098da9081",
+    "after": "ad82cf13a9b0bc0c6ea2fd6f5472297ebb848d7fc6ba1112d465de86cc836876"
+  }
+}

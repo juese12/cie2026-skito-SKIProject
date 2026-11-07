@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "documentation": {
+    "markdown_files": 57,
+    "protected_documents": 24
+  },
+  "records": [
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/XiangShan/build/operand-isolation/emu",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/NEMU/build/riscv64-nemu-interpreter-so",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime.paths",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/complete-vdot-isolation-performance.py",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/reports/vdot-performance-p1.md",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run0-bench.full.log",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run1-bench.full.log",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run2-bench.full.log",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run3-bench.full.log",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.bin",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.elf",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.elf",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/run-vdot-bench.sh",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/run-vdot-bench-series.sh",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/analyze-bench.py",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/render-bench-report.py",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/compare-bench-cores.py",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/prepare-runtime-order.py",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/test-isolation-performance.py",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/main.c",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/bench.S",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/Makefile",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/runtime-config.S",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/main.c",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/bench.S",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/XiangShan/build/emu",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/XiangShan/build/p1-oldvd/emu",
+      "status": "original artifact or recorded October-20 document edition"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala",
+      "status": "intentionally upgraded",
+      "before_sha256": "3d2df5ce6dbb4ce88c17c08e561321e6c6bb38f9d3dd129c1462543d46d9dc8b",
+      "archive": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/sew16/before/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala",
+      "current_sha256": "88f24b5df3a3abd79aa14aa9269c3ad0e2be015c9b8923f05677dfb8ecb923db"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/XiangShan/src/main/scala/xiangshan/backend/fu/vector/VDot8.scala",
+      "status": "intentionally upgraded",
+      "before_sha256": "6beadb2c7b45fbe1f13d57a367573ec83dec41c816552b5f0483174da8665bfa",
+      "archive": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/sew16/before/XiangShan/src/main/scala/xiangshan/backend/fu/vector/VDot8.scala",
+      "current_sha256": "5485c8426e11c1278e55ac99b59e69c535462e92eb3db68019eff75512ffc9b9"
+    },
+    {
+      "path": "/home/saintrikashy/riscv/xs-env/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala",
+      "status": "original artifact or recorded October-20 document edition"
+    }
+  ],
+  "qualification": "two current RTL source hashes intentionally changed; old snapshots match; old manifest not rewritten"
+}

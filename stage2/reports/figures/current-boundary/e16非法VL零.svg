@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="910" viewBox="0 0 1680 910">
+<title>e16非法VL零：已有模块波形关键采样</title>
+<desc>每列为同一上升沿的 PRE → POST 稳定值；t 是仿真时间戳，不是运行日期或整核周期</desc>
+<defs>
+<marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#416b96"/></marker>
+<marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#287b69"/></marker>
+<marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="48" y="60" font-size="34" fill="#23364d" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">e16非法VL零：已有模块波形关键采样</text>
+<text x="48" y="99" font-size="19" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">每列为同一上升沿的 沿前（PRE）→沿后（POST） 稳定值；t 是仿真时间戳，不是运行日期或整核周期</text>
+<polyline points="48,119 1632,119" fill="none" stroke="#d6dfe9" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="48" y="143" width="1584" height="110" rx="7" fill="#f7f9fc" stroke="#b2c2d4" stroke-width="2"/>
+<text x="68" y="174" font-size="20" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">目标输入 tag=50，SEW=16、LMUL=1、VL=0。</text>
+<text x="68" y="203" font-size="20" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">VL=0 不执行零长度点积，必须报告非法指令。</text>
+<text x="68" y="232" font-size="20" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出 valid 只表示异常载荷有效，不代表架构目的已写入。</text>
+<text x="495" y="295" font-size="18" fill="#64748b" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">相邻采样</text>
+<text x="495" y="320" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="17" fill="#23364d" font-weight="400" text-anchor="middle">t=62 / 63</text>
+<text x="55" y="361" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="19" fill="#23364d" font-weight="400" text-anchor="start">clock</text>
+<polyline points="378,364 495,364 495,348 612,348" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="55" y="396" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入 valid</text>
+<polyline points="378,383 495,383 495,383 612,383" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="55" y="431" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入 tag</text>
+<text x="495" y="431" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">41 → 41</text>
+<text x="55" y="466" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入 vsew：1 表示 e16</text>
+<text x="495" y="466" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<text x="55" y="501" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">实际 VL：目标为零</text>
+<text x="495" y="501" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">8 → 8</text>
+<text x="55" y="536" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">LMUL 编码：0 表示 m1</text>
+<text x="495" y="536" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<text x="55" y="571" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">vm：1 表示不使用掩码</text>
+<polyline points="378,558 495,558 495,558 612,558" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="55" y="606" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="19" fill="#23364d" font-weight="400" text-anchor="start">vstart</text>
+<text x="495" y="606" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 1</text>
+<text x="55" y="641" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出 valid</text>
+<polyline points="378,628 495,628 495,628 612,628" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="55" y="676" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出 tag</text>
+<text x="495" y="676" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">36 → 40</text>
+<text x="55" y="711" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出级实际 VL</text>
+<text x="495" y="711" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">16 → 8</text>
+<text x="55" y="746" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出级 vsew</text>
+<text x="495" y="746" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<text x="55" y="781" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出 illegal：目标为 1</text>
+<polyline points="378,768 495,768 495,768 612,768" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<rect x="620" y="273" width="250" height="540" rx="0" fill="#edf7f2" stroke="#d5e6dd" stroke-width="2"/>
+<text x="745" y="295" font-size="18" fill="#287b69" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">S1 捕获</text>
+<text x="745" y="320" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="17" fill="#23364d" font-weight="400" text-anchor="middle">t=64 / 65</text>
+<polyline points="628,364 745,364 745,348 862,348" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="628,383 745,383 745,383 862,383" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="745" y="431" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">50 → 50</text>
+<text x="745" y="466" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 1</text>
+<text x="745" y="501" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<text x="745" y="536" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="628,558 745,558 745,558 862,558" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="745" y="606" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="628,628 745,628 745,628 862,628" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="745" y="676" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">40 → 41</text>
+<text x="745" y="711" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">8 → 8</text>
+<text x="745" y="746" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="628,768 745,768 745,768 862,768" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<rect x="870" y="273" width="250" height="540" rx="0" fill="#edf7f2" stroke="#d5e6dd" stroke-width="2"/>
+<text x="995" y="295" font-size="18" fill="#287b69" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">S2 结果</text>
+<text x="995" y="320" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="17" fill="#23364d" font-weight="400" text-anchor="middle">t=66 / 67</text>
+<polyline points="878,364 995,364 995,348 1112,348" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="878,383 995,383 995,383 1112,383" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="995" y="431" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">50 → 50</text>
+<text x="995" y="466" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 1</text>
+<text x="995" y="501" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 1</text>
+<text x="995" y="536" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="878,558 995,558 995,558 1112,558" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="995" y="606" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="878,628 995,628 995,628 1112,628" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="995" y="676" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">41 → 50</text>
+<text x="995" y="711" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">8 → 0</text>
+<text x="995" y="746" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 1</text>
+<polyline points="878,768 995,768 995,768 1112,768" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="1245" y="295" font-size="18" fill="#64748b" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">相邻采样</text>
+<text x="1245" y="320" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="17" fill="#23364d" font-weight="400" text-anchor="middle">t=68 / 69</text>
+<polyline points="1128,364 1245,364 1245,348 1362,348" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1128,383 1245,383 1245,383 1362,383" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="1245" y="431" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">50 → 50</text>
+<text x="1245" y="466" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 1</text>
+<text x="1245" y="501" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">7 → 7</text>
+<text x="1245" y="536" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="1128,558 1245,558 1245,558 1362,558" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="1245" y="606" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="1128,628 1245,628 1245,628 1362,628" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="1245" y="676" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">50 → 50</text>
+<text x="1245" y="711" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 1</text>
+<text x="1245" y="746" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 1</text>
+<polyline points="1128,768 1245,768 1245,768 1362,768" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="1495" y="295" font-size="18" fill="#64748b" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">相邻采样</text>
+<text x="1495" y="320" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="17" fill="#23364d" font-weight="400" text-anchor="middle">t=70 / 71</text>
+<polyline points="1378,364 1495,364 1495,348 1612,348" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1378,383 1495,383 1495,383 1612,383" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="1495" y="431" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">50 → 50</text>
+<text x="1495" y="466" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 1</text>
+<text x="1495" y="501" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">9 → 9</text>
+<text x="1495" y="536" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="1378,558 1495,558 1495,558 1612,558" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="1495" y="606" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">0 → 0</text>
+<polyline points="1378,628 1495,628 1495,628 1612,628" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="1495" y="676" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">50 → 50</text>
+<text x="1495" y="711" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 7</text>
+<text x="1495" y="746" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="16" fill="#23364d" font-weight="400" text-anchor="middle">1 → 1</text>
+<polyline points="1378,768 1495,768 1495,768 1612,768" fill="none" stroke="#287b69" stroke-width="2" stroke-linejoin="round"/>
+<text x="48" y="852" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">图中连线仅连接稳定采样；禁用级的旧数据由对应 enable 解释，不作为另一条指令的新结果。</text>
+<text x="48" y="885" font-size="18" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">模块图证明数据通路或异常上报；架构提交、目的保持和完整差分分别由整核记录验证。</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "previous": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261007T221501-original-e2e-events",
+  "interrupted_log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261007T221501-original-e2e-events-wave.full.log",
+  "interrupted_log_sha256": "77a917ca481213685270a71a5ffebe171f9330636359f4f0a6254599821e33c0",
+  "interrupted_wave": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261007T221501-original-e2e-events.vcd",
+  "interrupted_wave_sha256": "5869900128ab0856ff6d5b31f642b2ccd08f872f7bd3045076680d11910046dc",
+  "qualification": "previous window evidence retained; previous wave run has no GOOD TRAP/recorded exit and is NOT a full PASS"
+}

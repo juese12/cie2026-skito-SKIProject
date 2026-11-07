@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "wave": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed.vcd",
+  "wave_sha256": "8794778e881cc22eecd423547e20e632c74fc6d4f951c99623e8195b51b68777",
+  "wave_bytes": 2644565481,
+  "windows": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed.windows.json",
+  "completed_locate": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261007T221501-original-e2e-events"
+}

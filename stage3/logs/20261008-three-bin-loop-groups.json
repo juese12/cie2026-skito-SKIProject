@@ -1,0 +1,193 @@
+{
+  "status": "PASS",
+  "groups": [
+    {
+      "label": "fast",
+      "target": {
+        "start": 7798661970497460625,
+        "start_pc": "0x800003d4",
+        "end": 7798661970497465040,
+        "cycles": 4415,
+        "index": 47,
+        "kind": "e2e",
+        "phase": "warm",
+        "rep": 7,
+        "slot": 1,
+        "impl": "vdot"
+      },
+      "active_without_next_complex_groups": [
+        {
+          "pcs": [
+            "0x800004ec",
+            "0x800004f0"
+          ],
+          "count": 1
+        }
+      ],
+      "tail_packets": [
+        {
+          "iq_slots_0_2_3_4": [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "slot4_blocked": 0,
+          "int_iq_enqueue_ready": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "count": 256
+        }
+      ],
+      "qualification": "sampled decode inputs and selected dispatch packets, not committed instruction counts; group events not additive total-cycle counters"
+    },
+    {
+      "label": "slow",
+      "target": {
+        "start": 7798661970497465176,
+        "start_pc": "0x800003d4",
+        "end": 7798661970497470354,
+        "cycles": 5178,
+        "index": 48,
+        "kind": "e2e",
+        "phase": "measured",
+        "rep": 0,
+        "slot": 0,
+        "impl": "vdot"
+      },
+      "active_without_next_complex_groups": [
+        {
+          "pcs": [
+            "0x80000414"
+          ],
+          "count": 256
+        },
+        {
+          "pcs": [
+            "0x8000042c"
+          ],
+          "count": 256
+        },
+        {
+          "pcs": [
+            "0x800004ec",
+            "0x800004f0",
+            "0x80000a26",
+            "0x80000a2a"
+          ],
+          "count": 1
+        }
+      ],
+      "tail_packets": [
+        {
+          "iq_slots_0_2_3_4": [
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "slot4_blocked": 1,
+          "int_iq_enqueue_ready": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "count": 256
+        }
+      ],
+      "qualification": "sampled decode inputs and selected dispatch packets, not committed instruction counts; group events not additive total-cycle counters"
+    },
+    {
+      "label": "intermediate",
+      "target": {
+        "start": 7798661970497524714,
+        "start_pc": "0x800003d4",
+        "end": 7798661970497529638,
+        "cycles": 4924,
+        "index": 55,
+        "kind": "e2e",
+        "phase": "measured",
+        "rep": 3,
+        "slot": 1,
+        "impl": "vdot"
+      },
+      "active_without_next_complex_groups": [
+        {
+          "pcs": [
+            "0x80000424"
+          ],
+          "count": 256
+        },
+        {
+          "pcs": [
+            "0x80000434",
+            "0x80000438",
+            "0x800003dc"
+          ],
+          "count": 256
+        },
+        {
+          "pcs": [
+            "0x800004ec",
+            "0x800004f0"
+          ],
+          "count": 1
+        }
+      ],
+      "tail_packets": [
+        {
+          "iq_slots_0_2_3_4": [
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "slot4_blocked": 0,
+          "int_iq_enqueue_ready": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "count": 256
+        }
+      ],
+      "qualification": "sampled decode inputs and selected dispatch packets, not committed instruction counts; group events not additive total-cycle counters"
+    }
+  ],
+  "inputs": {
+    "cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed.events.json": "ba17cdb53c8df334a354549561b6827838ed4cc6f3473621f172bb52cb274a2b",
+    "cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed.cycles.json": "3adf308826a4db54f1b8adc4da0e444b98f0d6dddc983bb2ace8c825b5600a4e",
+    "cie2026-skito-SKIProject/stage3/logs/20261008T200238-original-other-bins.events.json": "c9a747d97a7ec125ee358d443599ef7c54ca316f60794b55c809601f8a8c6ead",
+    "cie2026-skito-SKIProject/stage3/logs/20261008T200238-original-other-bins.cycles.json": "ebf86d5247e8f2261ff0518202ef0d346cc206d5636f035b8d5fad15f85f7c7f"
+  },
+  "script_sha256": "f356dc8f7e126a958a2877b24c628e294c6d14956c806f7ea696f77aa7b04ed4"
+}

@@ -1,0 +1,218 @@
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/XiangShan"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan", "checkout", "--detach", "16ae9ddcda54fc9a2fddffad73174cf793ac7814"]}
+HEAD is now at 16ae9ddcd feat(Top): make address spaces of seperate TL port configurable (#4496)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/coupledL2", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/coupledL2"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/coupledL2'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/coupledL2", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/coupledL2"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/coupledL2", "checkout", "--detach", "82079f4081bbc1f0221c790fbf8a29b1f23f48b8"]}
+HEAD is now at 82079f40 fix(CoupledL2): make RespErr obey protocol (#384)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/difftest", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/difftest"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/difftest'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/difftest", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/difftest.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/difftest", "checkout", "--detach", "62e4540c03c03aa947bdb67f4b6bf66f1a29c5d0"]}
+HEAD is now at 62e4540c0 feat(load_check): add vec load check (#594)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/fudian", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/fudian"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/fudian'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/fudian", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/fudian.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/fudian", "checkout", "--detach", "e1bd4695ca7beb36a5ce7357e9527ad9e95b9ec1"]}
+HEAD is now at e1bd469 chore: replace deprecated APIs (#22)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/huancun", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/huancun"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/huancun'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/huancun", "remote", "set-url", "origin", "https://github.com/OpenXiangshan/huancun.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/huancun", "checkout", "--detach", "90aaf5935206ff322e461c3d021436c20dd0ac85"]}
+HEAD is now at 90aaf59 feat(TopDown): add l3Miss IO for Top-Down
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/openLLC", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/OpenLLC.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC", "checkout", "--detach", "614ceb4c5d39d32e6ae786693a35da429ea32c12"]}
+HEAD is now at 614ceb4 submodule(OpenNCB): support Issue C (#47)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/openLLC/openNCB", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC/openNCB"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC/openNCB'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC/openNCB", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/OpenNCB"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC/openNCB", "checkout", "--detach", "546a621ed82302db1bd1edc900b17ba55682c15c"]}
+HEAD is now at 546a621 feat(CHI): support Issue C (#3)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/ready-to-run", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/ready-to-run"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/ready-to-run'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/ready-to-run", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/ready-to-run"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/ready-to-run", "checkout", "--detach", "ed8c30e1ec8a9c9aa6b116ce54281235d00273fa"]}
+HEAD is now at ed8c30e Bump nemu ref in ready-to-run (#103)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/rocket-chip", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/rocket-chip.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip", "checkout", "--detach", "bea0af5d855a871699b907c1988961141bbf28e7"]}
+HEAD is now at bea0af5d8 Merge pull request #33 from OpenXiangShan/fix-cnop
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/rocket-chip/cde", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/cde"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/cde'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/cde", "remote", "set-url", "origin", "https://github.com/chipsalliance/cde.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/cde", "checkout", "--detach", "52768c97a27b254c0cc0ac9401feb55b29e18c28"]}
+HEAD is now at 52768c9 upgrade to mill 0.11
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/rocket-chip/hardfloat", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/hardfloat"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/hardfloat'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/hardfloat", "remote", "set-url", "origin", "https://github.com/ucb-bar/berkeley-hardfloat.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/hardfloat", "checkout", "--detach", "d93aa570806013dea479a92ba9bb33d1f2d4f69f"]}
+HEAD is now at d93aa57 Merge pull request #78 from sequencer/new_mill
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/src/main/resources/aia", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/src/main/resources/aia"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/src/main/resources/aia'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/src/main/resources/aia", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/OpenAIA.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/src/main/resources/aia", "checkout", "--detach", "9464aee3c77b021a037f28aa1b3fe53c71b516f6"]}
+HEAD is now at 9464aee fix issue about csr illegal access
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/utility", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/utility"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/utility'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/utility", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/utility"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/utility", "checkout", "--detach", "a8ca0c6564865ee69b564d431ecbc52074ba8060"]}
+HEAD is now at a8ca0c6 feat(buskey): add MemReqSource of L3 (#109)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/XiangShan/yunsuan", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/yunsuan"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/yunsuan'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/yunsuan", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/YunSuan.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/yunsuan", "checkout", "--detach", "cadd3c2f43096e253d61296b33ac697be8354e29"]}
+HEAD is now at cadd3c2 fix(vfalu): remove f32_1_fp_a redundant logic
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/NEMU", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/NEMU"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU", "checkout", "--detach", "9ff758834c59be35f20591d38689ee58d68e99d8"]}
+HEAD is now at 9ff75883 feat(configs): Add validated GEM5 CI reference variants (#1207)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/NEMU/resource/simpoint/simpoint_repo", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/simpoint/simpoint_repo"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/simpoint/simpoint_repo'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/simpoint/simpoint_repo", "remote", "set-url", "origin", "https://github.com/shinezyy/SimPoint.3.2-fix.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/simpoint/simpoint_repo", "checkout", "--detach", "e51a936d7fddfa03c81692039f184ab6c437e99e"]}
+HEAD is now at e51a936 Remove objects
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/nexus-am", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/nexus-am"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/nexus-am'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/nexus-am", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/nexus-am"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/nexus-am", "checkout", "--detach", "8f44ce1a6feabeeac7eb5cc9ca8bd490c0525d25"]}
+HEAD is now at 8f44ce1a feat(rvv-string-bench): add rvv string micro-benchmark (#85)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/DRAMsim3", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/DRAMsim3.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3", "checkout", "--detach", "1d2a9bf6da8e050d975ef2669c42faa93943f489"]}
+HEAD is now at 1d2a9bf Merge pull request #3 from OpenXiangShan/fix-clock
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/DRAMsim3/ext/SuperLU_MT_3.1", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/SuperLU_MT_3.1"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/SuperLU_MT_3.1'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/SuperLU_MT_3.1", "remote", "set-url", "origin", "https://github.com/umd-memsys/SuperLU_MT_3.1.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/SuperLU_MT_3.1", "checkout", "--detach", "68739c5a23cc48c9a13d28793834e4fee95d33ee"]}
+HEAD is now at 68739c5 openmp make file that actually works
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/NEMU/resource/nanopb", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/nanopb"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/nanopb'...
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/nanopb", "remote", "set-url", "origin", "https://github.com/nanopb/nanopb.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/nanopb", "checkout", "--detach", "625837ed2eedacc887ee6b747576b85a1f4b82b4"]}
+HEAD is now at 625837e Reject submsg_callback on fixed_count fields
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/NEMU/resource/LibCheckpoint", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint'...
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/LibCheckpoint.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint", "checkout", "--detach", "1d8905cc2803c242ef257569128c2e68bf4272aa"]}
+HEAD is now at 1d8905c feat: make serial port configurable (#27)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/NEMU/resource/LibCheckpoint/resource/nanopb", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint/resource/nanopb"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint/resource/nanopb'...
+done.
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint/resource/nanopb", "remote", "set-url", "origin", "https://github.com/nanopb/nanopb"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint/resource/nanopb", "checkout", "--detach", "671672b4d7994a9b07a307ae654885c7202ae886"]}
+HEAD is now at 671672b Add zephyr to README integrations
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/NEMU/resource/gcpt_restore", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/gcpt_restore"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/gcpt_restore'...
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/gcpt_restore", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/LibCheckpointAlpha.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/gcpt_restore", "checkout", "--detach", "5169da768d18f4682a489eaabe7c071df6d6ef88"]}
+HEAD is now at 5169da7 feat: add make nutshell restorer for rv64imac (#14)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "clone", "--no-hardlinks", "--no-checkout", "--", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v1/NEMU/resource/softfloat/repo", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/softfloat/repo"]}
+Cloning into '/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/softfloat/repo'...
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/softfloat/repo", "remote", "set-url", "origin", "https://github.com/ucb-bar/berkeley-softfloat-3"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/softfloat/repo", "checkout", "--detach", "07ebd29db0cfb55723a79fbbffe99103ef38e305"]}
+HEAD is now at 07ebd29 Add more BF16 conversions (#51)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/XiangShan"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan", "checkout", "--detach", "16ae9ddcda54fc9a2fddffad73174cf793ac7814"]}
+HEAD is now at 16ae9ddcd feat(Top): make address spaces of seperate TL port configurable (#4496)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/coupledL2", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/coupledL2"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/coupledL2", "checkout", "--detach", "82079f4081bbc1f0221c790fbf8a29b1f23f48b8"]}
+HEAD is now at 82079f40 fix(CoupledL2): make RespErr obey protocol (#384)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/difftest", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/difftest.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/difftest", "checkout", "--detach", "62e4540c03c03aa947bdb67f4b6bf66f1a29c5d0"]}
+HEAD is now at 62e4540c0 feat(load_check): add vec load check (#594)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/fudian", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/fudian.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/fudian", "checkout", "--detach", "e1bd4695ca7beb36a5ce7357e9527ad9e95b9ec1"]}
+HEAD is now at e1bd469 chore: replace deprecated APIs (#22)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/huancun", "remote", "set-url", "origin", "https://github.com/OpenXiangshan/huancun.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/huancun", "checkout", "--detach", "90aaf5935206ff322e461c3d021436c20dd0ac85"]}
+HEAD is now at 90aaf59 feat(TopDown): add l3Miss IO for Top-Down
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/OpenLLC.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC", "checkout", "--detach", "614ceb4c5d39d32e6ae786693a35da429ea32c12"]}
+HEAD is now at 614ceb4 submodule(OpenNCB): support Issue C (#47)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC/openNCB", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/OpenNCB"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/openLLC/openNCB", "checkout", "--detach", "546a621ed82302db1bd1edc900b17ba55682c15c"]}
+HEAD is now at 546a621 feat(CHI): support Issue C (#3)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/ready-to-run", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/ready-to-run"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/ready-to-run", "checkout", "--detach", "ed8c30e1ec8a9c9aa6b116ce54281235d00273fa"]}
+HEAD is now at ed8c30e Bump nemu ref in ready-to-run (#103)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/rocket-chip.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip", "checkout", "--detach", "bea0af5d855a871699b907c1988961141bbf28e7"]}
+HEAD is now at bea0af5d8 Merge pull request #33 from OpenXiangShan/fix-cnop
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/cde", "remote", "set-url", "origin", "https://github.com/chipsalliance/cde.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/cde", "checkout", "--detach", "52768c97a27b254c0cc0ac9401feb55b29e18c28"]}
+HEAD is now at 52768c9 upgrade to mill 0.11
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/hardfloat", "remote", "set-url", "origin", "https://github.com/ucb-bar/berkeley-hardfloat.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/rocket-chip/hardfloat", "checkout", "--detach", "d93aa570806013dea479a92ba9bb33d1f2d4f69f"]}
+HEAD is now at d93aa57 Merge pull request #78 from sequencer/new_mill
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/src/main/resources/aia", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/OpenAIA.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/src/main/resources/aia", "checkout", "--detach", "9464aee3c77b021a037f28aa1b3fe53c71b516f6"]}
+HEAD is now at 9464aee fix issue about csr illegal access
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/utility", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/utility"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/utility", "checkout", "--detach", "a8ca0c6564865ee69b564d431ecbc52074ba8060"]}
+HEAD is now at a8ca0c6 feat(buskey): add MemReqSource of L3 (#109)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/yunsuan", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/YunSuan.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/yunsuan", "checkout", "--detach", "cadd3c2f43096e253d61296b33ac697be8354e29"]}
+HEAD is now at cadd3c2 fix(vfalu): remove f32_1_fp_a redundant logic
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/NEMU"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU", "checkout", "--detach", "9ff758834c59be35f20591d38689ee58d68e99d8"]}
+HEAD is now at 9ff75883 feat(configs): Add validated GEM5 CI reference variants (#1207)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/simpoint/simpoint_repo", "remote", "set-url", "origin", "https://github.com/shinezyy/SimPoint.3.2-fix.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/simpoint/simpoint_repo", "checkout", "--detach", "e51a936d7fddfa03c81692039f184ab6c437e99e"]}
+HEAD is now at e51a936 Remove objects
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/nexus-am", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/nexus-am"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/nexus-am", "checkout", "--detach", "8f44ce1a6feabeeac7eb5cc9ca8bd490c0525d25"]}
+HEAD is now at 8f44ce1a feat(rvv-string-bench): add rvv string micro-benchmark (#85)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/DRAMsim3.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3", "checkout", "--detach", "1d2a9bf6da8e050d975ef2669c42faa93943f489"]}
+HEAD is now at 1d2a9bf Merge pull request #3 from OpenXiangShan/fix-clock
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/SuperLU_MT_3.1", "remote", "set-url", "origin", "https://github.com/umd-memsys/SuperLU_MT_3.1.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/SuperLU_MT_3.1", "checkout", "--detach", "68739c5a23cc48c9a13d28793834e4fee95d33ee"]}
+HEAD is now at 68739c5 openmp make file that actually works
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/nanopb", "remote", "set-url", "origin", "https://github.com/nanopb/nanopb.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/nanopb", "checkout", "--detach", "625837ed2eedacc887ee6b747576b85a1f4b82b4"]}
+HEAD is now at 625837e Reject submsg_callback on fixed_count fields
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/LibCheckpoint.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint", "checkout", "--detach", "1d8905cc2803c242ef257569128c2e68bf4272aa"]}
+HEAD is now at 1d8905c feat: make serial port configurable (#27)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint/resource/nanopb", "remote", "set-url", "origin", "https://github.com/nanopb/nanopb"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/LibCheckpoint/resource/nanopb", "checkout", "--detach", "671672b4d7994a9b07a307ae654885c7202ae886"]}
+HEAD is now at 671672b Add zephyr to README integrations
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/gcpt_restore", "remote", "set-url", "origin", "https://github.com/OpenXiangShan/LibCheckpointAlpha.git"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/gcpt_restore", "checkout", "--detach", "5169da768d18f4682a489eaabe7c071df6d6ef88"]}
+HEAD is now at 5169da7 feat: add make nutshell restorer for rv64imac (#14)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/softfloat/repo", "remote", "set-url", "origin", "https://github.com/ucb-bar/berkeley-softfloat-3"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/resource/softfloat/repo", "checkout", "--detach", "07ebd29db0cfb55723a79fbbffe99103ef38e305"]}
+HEAD is now at 07ebd29 Add more BF16 conversions (#51)
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan", "apply", "--check", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/patches/xiangshan-vdot-sew16-fixed8.patch"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan", "apply", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/patches/xiangshan-vdot-sew16-fixed8.patch"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU", "apply", "--check", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/patches/nemu-vdot-sew16-fixed8.patch"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["git", "-C", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU", "apply", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/patches/nemu-vdot-sew16-fixed8.patch"]}
+{"cwd": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2", "command": ["bash", "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/scripts/prepare-vdot-difftest.sh", "--apply"]}
+[difftest compatibility APPLIED]

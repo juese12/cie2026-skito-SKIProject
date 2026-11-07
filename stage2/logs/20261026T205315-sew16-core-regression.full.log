@@ -1,0 +1,26 @@
+[started] 2026-10-26T20:53:15+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject
+[command] bash scripts/run-vdot-sew16.sh 
+The first instruction of core 0 has commited. Difftest enabled. 
+vdot ordinary regression PASS: vadd/vmul/vmacc/vsmul, sticky and new saturation
+vdot directed PASS: 32 cases (positive/negative/extreme/zero/cancellation; all ta/ma)
+vdot integration PASS: overlap/v0/v31/dependency-chain/v0-mask
+vdot random PASS: 1000 cases seed=0x56444f54
+vdot illegal PASS: VL=0/7/9/16, SEW, LMUL, vm, vstart, vill, VS-off
+vdot PASS: valid=1052 illegal=10; complete 128-bit results and CSR checks
+sew16 random PASS seed=56444f54 cases=128 alternating-e8-e16
+sew16 random PASS seed=1 cases=128 alternating-e8-e16
+sew16 random PASS seed=9e3779b9 cases=128 alternating-e8-e16
+sew16 random PASS seed=deadbeef cases=128 alternating-e8-e16
+sew16 control PASS: branch-training=64 branch-probes=4 younger-exceptions=4
+sew16 PASS: wide=836 seeds=4 illegal=4 e8-regression=1564 fixed-items=8; mixed/v0/chain/config/CSR
+[PERF ][time=              766322] huancun.MSHRAlloc@540d0986: mshr_latency_maxCore 0: [32mHIT GOOD TRAP at pc = 0x800017e6
+[0m[35mCore-0 instrCnt = 935006, cycleCnt = 766319, IPC = 1.220126
+[34mSeed=101 Guest cycle spent: 766323 (this will be different from cycleCnt if emu loads a snapshot)
+[0m[34mHost time spent: 2281234ms
+/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/sew16-fixed8/emu: OK
+/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/sew16/riscv64-nemu-interpreter-so: OK
+/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/sew16/build/cie2026-stage2-vdot-sew16-riscv64-xs.bin: OK
+[sew16 regression COMPLETE] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/logs/20261026T205315-sew16-core.full.log
+[completed] 2026-10-26T21:31:17+08:00
+[exit] 0

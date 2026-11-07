@@ -1,0 +1,84 @@
+{
+  "id": "20261006T060358-16-isolation-perf",
+  "frozen": {
+    "/home/saintrikashy/riscv/xs-env/XiangShan/build/operand-isolation/emu": "d67519c61294dff5606d7f932a4545291dd5766828363710055279734932c054",
+    "/home/saintrikashy/riscv/xs-env/NEMU/build/riscv64-nemu-interpreter-so": "2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime.paths": "5cc9c6d36da8365f0221d8cc344433498e6fc1499f9db254694fb6d052500f09",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/complete-vdot-isolation-performance.py": "6aa9b7f671a46dcb6782bd30256bc451cf6f00c1f647db7592f8376520488ab8",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/reports/vdot-performance-p1.md": "6d79f2a20b9f2d0e276053b58f2929b3bd19b431831d5fd2ab021d903205a425",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run0-bench.full.log": "d60e1dd98e86d07505920c3c8187590a339693c0509ccde318af46d3fd35dc96",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run1-bench.full.log": "11cdcdb53e87937c76b3464afc47b2a233eca00d3e8751378390d77bf6c4aa0b",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run2-bench.full.log": "0cca2de38daeb3c9099e2ef8ac8504772052072f528cb509daad8451424c560d",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run3-bench.full.log": "414ad1a24e9614e27bf9430dbee0aa191e17608709273e1afc2fca894c690237",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.bin": "f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin": "2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.elf": "0e078806c9116db1acca57e315b14440a422f42cc9b4ba4e53af31fe74a25981",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.elf": "a64c4a292584c782bbf1a812ca81436ff05fcac1b7fb3bf44eca81b8126869da",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/run-vdot-bench.sh": "8b855d5b42e5ebcb49534a3447ac563ecf119eca8b1319019abd6fe8b9b7faf0",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/run-vdot-bench-series.sh": "b200593779bc2551852227e0d84cb3951c3be88c681de22bed971731fdb60869",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/analyze-bench.py": "c8d5f167bdf0640a365d0be29e81c5d846a3b3e8d3099bca5c42a90dd422ea12",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/render-bench-report.py": "d5a0d902cec5c9b5cfd4e96933c51f5ee20a2ee27745c16c5c99a5c8c9de8f47",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/compare-bench-cores.py": "e40e1507d687017b79300498eb5b47242737bdad3ee2c427843e0b1da898fd45",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/prepare-runtime-order.py": "ab4666b1267e3fdd8cf31ee081db17be080fc7556dddcf143127dc1b0fb11c85",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/test-isolation-performance.py": "0ab91c3e0a8358863efd2be8cb08b1f3f6a19c3d2675f1b940d31081a8ec5250",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/main.c": "16b5298bcfa6d13431234c9c2bcd838b7e8d833a09017ff991dbfcd29c21742f",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/bench.S": "50d8046b1fda1482f55b36cb9c35b2da0ccf3697cf24bef7074e73ff21eab887",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/Makefile": "dcf53fc059118d4b0e5ee5e534662a6dbc8e827db9e58cca2a025543d3f5e274",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/runtime-config.S": "5108d0215db6fbb9dc962388477a59d3765cb6d09f033fbded91a1a784265f1e",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/main.c": "ab3ef9ae835d5fca3ca2a5517746a5ce79b29d5166488076c9b66631cbd9d120",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/bench.S": "9c49f81c39f4f7a3031ffca9af2f6398ec7f735dbe0c37ac3c3c3e915338414a",
+    "/home/saintrikashy/riscv/xs-env/XiangShan/build/emu": "97ef3eef1700270941519d5acfc91e3632c7a33b24ab54076550f646e6a43f66",
+    "/home/saintrikashy/riscv/xs-env/XiangShan/build/p1-oldvd/emu": "dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5",
+    "/home/saintrikashy/riscv/xs-env/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala": "3d2df5ce6dbb4ce88c17c08e561321e6c6bb38f9d3dd129c1462543d46d9dc8b",
+    "/home/saintrikashy/riscv/xs-env/XiangShan/src/main/scala/xiangshan/backend/fu/vector/VDot8.scala": "6beadb2c7b45fbe1f13d57a367573ec83dec41c816552b5f0483174da8665bfa",
+    "/home/saintrikashy/riscv/xs-env/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala": "1a0943e09b068b3308d9d2dd6968df8ddc1476cd4234ccca3fd5e28170151999"
+  },
+  "slots": [
+    {
+      "profile": "smoke",
+      "index": 0,
+      "summary": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-smoke-run0-20261006T060401-16-bench.log",
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-smoke-run0-20261006T060401-16-bench.full.log",
+      "log_sha256": "8290ed304353822c235d14d185c0895fd674a85d21d48a1783b5a01bcbf3aef9"
+    },
+    {
+      "profile": "smoke",
+      "index": 1,
+      "summary": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-smoke-run1-20261006T061855-16-bench.log",
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-smoke-run1-20261006T061855-16-bench.full.log",
+      "log_sha256": "b69c89839ff2b9b26ce25c7c1e26ee0d4213b78ac03cf4a8ede70f6992c7900b"
+    },
+    {
+      "profile": "full",
+      "index": 0,
+      "summary": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run0-20261006T063347-16-bench.log",
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run0-20261006T063347-16-bench.full.log",
+      "log_sha256": "0184552918d15860a6444d388f68a856e25495264ab17fc5d08d9362225dd646"
+    },
+    {
+      "profile": "full",
+      "index": 1,
+      "summary": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run1-20261006T081637-16-bench.log",
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run1-20261006T081637-16-bench.full.log",
+      "log_sha256": "c36036a8356fbfdb029f63d9e6735419c2c1c8b398ec70f86a8e9c9c67fb9910"
+    },
+    {
+      "profile": "full",
+      "index": 2,
+      "summary": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run2-20261006T095922-16-bench.log",
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run2-20261006T095922-16-bench.full.log",
+      "log_sha256": "45b5755b9c7b1f13e5728bf11f14d161c3b7afdfb382873521a34af9d35d2959"
+    },
+    {
+      "profile": "full",
+      "index": 3,
+      "summary": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run3-20261006T114338-16-bench.log",
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run3-20261006T114338-16-bench.full.log",
+      "log_sha256": "c9cfc2edc19b8e3fcac60a7c48139b3caf278353db3af673c268fbdc6e3b8c5c"
+    }
+  ],
+  "status": "DATA_REPORT_PASS",
+  "note": "two smoke then four full; first 0/1, all samples retained",
+  "strict_stability_exit": 3,
+  "report": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/reports/20261006T060358-16-isolation-perf-performance.md"
+}

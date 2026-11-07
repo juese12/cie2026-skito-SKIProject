@@ -1,0 +1,33 @@
+[started] 2026-10-03T19:16:32+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject
+[command] python3 stage3/history/v2-before-p0/stage3/tests/analyze-bench.py stage3/logs/20261003T010740-158-series-full-run0-bench.full.log stage3/logs/20261003T010740-158-series-full-run1-bench.full.log stage3/logs/20261003T010740-158-series-full-run2-bench.full.log stage3/logs/20261003T010740-158-series-full-run3-bench.full.log --strict-stability --json-out stage3/logs/p0-v2-archive-recheck.json 
+run=0 schema=2 profile=full stable=True
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.0,1828.0,3.527352,6447:6449,1827:1828,0.000093,0.000265
+e2e,10814.0,5051.0,2.140962,10814:10814,4923:5179,0.000000,0.025342
+chain,29727.0,7200.0,4.128750,29727:29727,7199:7200,0.000000,0.000067
+empty median=299.0; NOT subtracted
+run=1 schema=2 profile=full stable=True
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.0,1827.0,3.529283,6447:6449,1827:1828,0.000103,0.000265
+e2e,10814.5,5051.0,2.141061,10814:10832,4415:5179,0.000539,0.049422
+chain,29727.5,7199.5,4.129106,29727:29728,7199:7200,0.000017,0.000069
+empty median=299.0; NOT subtracted
+run=2 schema=2 profile=full stable=True
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.0,1828.0,3.527352,6447:6449,1827:1828,0.000093,0.000265
+e2e,10814.0,5051.0,2.140962,10814:10814,4923:5179,0.000000,0.025342
+chain,29727.0,7200.0,4.128750,29727:29727,7199:7200,0.000000,0.000067
+empty median=299.0; NOT subtracted
+run=3 schema=2 profile=full stable=True
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.0,1827.0,3.529283,6447:6449,1827:1828,0.000103,0.000265
+e2e,10814.5,5051.0,2.141061,10814:10832,4415:5179,0.000539,0.049422
+chain,29727.5,7199.5,4.129106,29727:29728,7199:7200,0.000017,0.000069
+empty median=299.0; NOT subtracted
+series batch4: run-speedup median=3.528318 min=3.527352 max=3.529283 cv=0.000274 order_effect=-0.000547
+series e2e: run-speedup median=2.141012 min=2.140962 max=2.141061 cv=0.000023 order_effect=-0.000046
+series chain: run-speedup median=4.128928 min=4.128750 max=4.129106 cv=0.000043 order_effect=-0.000086
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[completed] 2026-10-03T19:16:32+08:00
+[exit] 0

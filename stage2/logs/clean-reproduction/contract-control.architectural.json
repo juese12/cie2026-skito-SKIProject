@@ -1,0 +1,15 @@
+{
+  "seed": "56444f54",
+  "log_sha256": "b9f12d5e4eb1aa6c6d5dd060addb9903938bb7fd76b69129062c4ec2f7231c69",
+  "architectural_status": "PASS",
+  "printed_symbols": {
+    "control_branch_pc": 2147484202,
+    "control_branch_dot": 2147484206,
+    "control_branch_dot_v0": 2147484210,
+    "control_exception_pc": 2147484358,
+    "control_younger_dot": 2147484362,
+    "control_younger_dot_v0": 2147484366,
+    "control_younger_dot_alias": 2147484370
+  },
+  "control_status": "NOT_AUDITED"
+}

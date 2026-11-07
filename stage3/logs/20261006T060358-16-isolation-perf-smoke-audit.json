@@ -1,0 +1,602 @@
+{
+  "runs": [
+    {
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-smoke-run0-20261006T060401-16-bench.full.log",
+      "log_sha256": "8290ed304353822c235d14d185c0895fd674a85d21d48a1783b5a01bcbf3aef9",
+      "meta": {
+        "schema": 3,
+        "profile": "smoke",
+        "reps": 4,
+        "warmup": 2,
+        "batches": 8,
+        "random": 0,
+        "first": 0,
+        "deferred": 1,
+        "seed": "56444f54",
+        "timing": "mcycle_vstart_serialized"
+      },
+      "artifacts": {
+        "emu": "d67519c61294dff5606d7f932a4545291dd5766828363710055279734932c054",
+        "ref": "2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74",
+        "image": "f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5"
+      },
+      "groups": {
+        "batch4": {
+          "vdot": {
+            "n": 4,
+            "median": 89.0,
+            "min": 88,
+            "max": 89,
+            "mean": 88.75,
+            "cv": 0.00487901635934895,
+            "relative_range": 0.011235955056179775,
+            "half_drift": -0.005617977528089901,
+            "cycles_per_dot": 2.78125,
+            "raw": [
+              89,
+              89,
+              89,
+              88
+            ],
+            "slot_effect": 0.005649717514124353,
+            "warm_tail_drift": 0.4157303370786516
+          },
+          "rvv": {
+            "n": 4,
+            "median": 248.5,
+            "min": 247,
+            "max": 249,
+            "mean": 248.25,
+            "cv": 0.00334000482412427,
+            "relative_range": 0.008048289738430584,
+            "half_drift": -0.002012072434607659,
+            "cycles_per_dot": 7.765625,
+            "raw": [
+              248,
+              249,
+              249,
+              247
+            ],
+            "slot_effect": -0.002012072434607659,
+            "warm_tail_drift": 0.15492957746478875
+          },
+          "raw_speedup": 2.792134831460674,
+          "paired_speedups": [
+            2.7865168539325844,
+            2.797752808988764,
+            2.797752808988764,
+            2.8068181818181817
+          ]
+        },
+        "e2e": {
+          "vdot": {
+            "n": 4,
+            "median": 209.0,
+            "min": 198,
+            "max": 219,
+            "mean": 208.75,
+            "cv": 0.04913099759704435,
+            "relative_range": 0.10047846889952153,
+            "half_drift": -0.0023923444976076125,
+            "cycles_per_dot": 6.53125,
+            "raw": [
+              199,
+              219,
+              219,
+              198
+            ],
+            "slot_effect": 0.0023980815347721673,
+            "warm_tail_drift": 0.2153110047846889
+          },
+          "rvv": {
+            "n": 4,
+            "median": 398.5,
+            "min": 398,
+            "max": 415,
+            "mean": 402.5,
+            "cv": 0.017958797881740325,
+            "relative_range": 0.04265997490589712,
+            "half_drift": -0.019680196801967975,
+            "cycles_per_dot": 12.453125,
+            "raw": [
+              415,
+              398,
+              398,
+              399
+            ],
+            "slot_effect": -0.019680196801967975,
+            "warm_tail_drift": 0.0790464240903388
+          },
+          "raw_speedup": 1.9066985645933014,
+          "paired_speedups": [
+            2.0854271356783918,
+            1.817351598173516,
+            1.817351598173516,
+            2.015151515151515
+          ]
+        },
+        "chain": {
+          "vdot": {
+            "n": 4,
+            "median": 255.0,
+            "min": 255,
+            "max": 256,
+            "mean": 255.25,
+            "cv": 0.0016964258644161384,
+            "relative_range": 0.00392156862745098,
+            "half_drift": -0.00195694716242667,
+            "cycles_per_dot": 7.96875,
+            "raw": [
+              256,
+              255,
+              255,
+              255
+            ],
+            "slot_effect": 0.0019607843137254832,
+            "warm_tail_drift": 0.0
+          },
+          "rvv": {
+            "n": 4,
+            "median": 959.0,
+            "min": 959,
+            "max": 960,
+            "mean": 959.25,
+            "cv": 0.00045140755996061436,
+            "relative_range": 0.0010427528675703858,
+            "half_drift": 0.0005213764337852478,
+            "cycles_per_dot": 29.96875,
+            "raw": [
+              959,
+              959,
+              959,
+              960
+            ],
+            "slot_effect": 0.0005213764337852478,
+            "warm_tail_drift": 0.0
+          },
+          "raw_speedup": 3.76078431372549,
+          "paired_speedups": [
+            3.74609375,
+            3.76078431372549,
+            3.76078431372549,
+            3.764705882352941
+          ]
+        }
+      },
+      "warmup_summaries": [
+        [
+          "batch4",
+          "vdot",
+          "2",
+          "170",
+          "126"
+        ],
+        [
+          "batch4",
+          "rvv",
+          "2",
+          "312",
+          "287"
+        ],
+        [
+          "e2e",
+          "vdot",
+          "2",
+          "304",
+          "254"
+        ],
+        [
+          "e2e",
+          "rvv",
+          "2",
+          "496",
+          "430"
+        ],
+        [
+          "chain",
+          "vdot",
+          "2",
+          "255",
+          "255"
+        ],
+        [
+          "chain",
+          "rvv",
+          "2",
+          "959",
+          "959"
+        ]
+      ],
+      "runtime_parameter": {
+        "changed_offsets": [],
+        "first": 0,
+        "image_sha256": "f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5",
+        "offset": 1304,
+        "overlay_sha256": "7577da268ca522e79d00ccf3e5ff333ea56ed5b1cf35f7f1f3e33bbef04981f5",
+        "overwrite_nbytes": 1305,
+        "parameter_address": "0x80000518"
+      },
+      "empty": {
+        "n": 4,
+        "median": 60.0,
+        "min": 43,
+        "max": 68,
+        "mean": 57.75,
+        "cv": 0.15793451382644763,
+        "relative_range": 0.4166666666666667
+      },
+      "warnings": [
+        "batch4/vdot: variation, warm-tail/half drift or slot effect exceeds threshold",
+        "batch4/rvv: variation, warm-tail/half drift or slot effect exceeds threshold",
+        "e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold"
+      ],
+      "stable": false,
+      "qualification": "smoke is flow validation only; raw guest cycles, NOT isolated latency/PPA"
+    },
+    {
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-smoke-run1-20261006T061855-16-bench.full.log",
+      "log_sha256": "b69c89839ff2b9b26ce25c7c1e26ee0d4213b78ac03cf4a8ede70f6992c7900b",
+      "meta": {
+        "schema": 3,
+        "profile": "smoke",
+        "reps": 4,
+        "warmup": 2,
+        "batches": 8,
+        "random": 0,
+        "first": 1,
+        "deferred": 1,
+        "seed": "56444f54",
+        "timing": "mcycle_vstart_serialized"
+      },
+      "artifacts": {
+        "emu": "d67519c61294dff5606d7f932a4545291dd5766828363710055279734932c054",
+        "ref": "2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74",
+        "image": "f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5"
+      },
+      "groups": {
+        "batch4": {
+          "vdot": {
+            "n": 4,
+            "median": 89.0,
+            "min": 89,
+            "max": 89,
+            "mean": 89,
+            "cv": 0.0,
+            "relative_range": 0.0,
+            "half_drift": 0.0,
+            "cycles_per_dot": 2.78125,
+            "raw": [
+              89,
+              89,
+              89,
+              89
+            ],
+            "slot_effect": 0.0,
+            "warm_tail_drift": 0.4157303370786516
+          },
+          "rvv": {
+            "n": 4,
+            "median": 248.0,
+            "min": 248,
+            "max": 269,
+            "mean": 253.25,
+            "cv": 0.03590628525068749,
+            "relative_range": 0.0846774193548387,
+            "half_drift": -0.04061895551257255,
+            "cycles_per_dot": 7.75,
+            "raw": [
+              269,
+              248,
+              248,
+              248
+            ],
+            "slot_effect": 0.04233870967741926,
+            "warm_tail_drift": 0.14516129032258074
+          },
+          "raw_speedup": 2.7865168539325844,
+          "paired_speedups": [
+            3.0224719101123596,
+            2.7865168539325844,
+            2.7865168539325844,
+            2.7865168539325844
+          ]
+        },
+        "e2e": {
+          "vdot": {
+            "n": 4,
+            "median": 208.5,
+            "min": 198,
+            "max": 219,
+            "mean": 208.5,
+            "cv": 0.04802154531055345,
+            "relative_range": 0.10071942446043165,
+            "half_drift": -0.004784688995215336,
+            "cycles_per_dot": 6.515625,
+            "raw": [
+              219,
+              199,
+              218,
+              198
+            ],
+            "slot_effect": -0.09153318077803207,
+            "warm_tail_drift": 0.2230215827338129
+          },
+          "rvv": {
+            "n": 4,
+            "median": 398.5,
+            "min": 398,
+            "max": 415,
+            "mean": 402.5,
+            "cv": 0.017958797881740325,
+            "relative_range": 0.04265997490589712,
+            "half_drift": -0.019680196801967975,
+            "cycles_per_dot": 12.453125,
+            "raw": [
+              398,
+              415,
+              399,
+              398
+            ],
+            "slot_effect": -0.019680196801967975,
+            "warm_tail_drift": 0.12672521957340033
+          },
+          "raw_speedup": 1.9112709832134294,
+          "paired_speedups": [
+            1.817351598173516,
+            2.0854271356783918,
+            1.8302752293577982,
+            2.01010101010101
+          ]
+        },
+        "chain": {
+          "vdot": {
+            "n": 4,
+            "median": 255.0,
+            "min": 255,
+            "max": 255,
+            "mean": 255,
+            "cv": 0.0,
+            "relative_range": 0.0,
+            "half_drift": 0.0,
+            "cycles_per_dot": 7.96875,
+            "raw": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "slot_effect": 0.0,
+            "warm_tail_drift": 0.0
+          },
+          "rvv": {
+            "n": 4,
+            "median": 959.5,
+            "min": 959,
+            "max": 960,
+            "mean": 959.5,
+            "cv": 0.0005211047420531526,
+            "relative_range": 0.0010422094841063053,
+            "half_drift": 0.0,
+            "cycles_per_dot": 29.984375,
+            "raw": [
+              959,
+              960,
+              960,
+              959
+            ],
+            "slot_effect": 0.0,
+            "warm_tail_drift": -0.0005211047420531356
+          },
+          "raw_speedup": 3.7627450980392156,
+          "paired_speedups": [
+            3.76078431372549,
+            3.764705882352941,
+            3.764705882352941,
+            3.76078431372549
+          ]
+        }
+      },
+      "warmup_summaries": [
+        [
+          "batch4",
+          "vdot",
+          "2",
+          "170",
+          "126"
+        ],
+        [
+          "batch4",
+          "rvv",
+          "2",
+          "299",
+          "284"
+        ],
+        [
+          "e2e",
+          "vdot",
+          "2",
+          "303",
+          "255"
+        ],
+        [
+          "e2e",
+          "rvv",
+          "2",
+          "464",
+          "449"
+        ],
+        [
+          "chain",
+          "vdot",
+          "2",
+          "255",
+          "255"
+        ],
+        [
+          "chain",
+          "rvv",
+          "2",
+          "959",
+          "959"
+        ]
+      ],
+      "runtime_parameter": {
+        "changed_offsets": [
+          1304
+        ],
+        "first": 1,
+        "image_sha256": "f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5",
+        "offset": 1304,
+        "overlay_sha256": "1f0a3c83fd7483a113f3a2f15bfd78863a504225ba64322aa8de718a27d52078",
+        "overwrite_nbytes": 1305,
+        "parameter_address": "0x80000518"
+      },
+      "empty": {
+        "n": 4,
+        "median": 60.0,
+        "min": 43,
+        "max": 68,
+        "mean": 57.75,
+        "cv": 0.15793451382644763,
+        "relative_range": 0.4166666666666667
+      },
+      "warnings": [
+        "batch4/vdot: variation, warm-tail/half drift or slot effect exceeds threshold",
+        "batch4/rvv: variation, warm-tail/half drift or slot effect exceeds threshold",
+        "e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold",
+        "e2e/rvv: variation, warm-tail/half drift or slot effect exceeds threshold"
+      ],
+      "stable": false,
+      "qualification": "smoke is flow validation only; raw guest cycles, NOT isolated latency/PPA"
+    }
+  ],
+  "series": {
+    "groups": {
+      "batch4": {
+        "vdot": {
+          "n": 2,
+          "median": 89.0,
+          "min": 89.0,
+          "max": 89.0,
+          "mean": 89.0,
+          "cv": 0.0,
+          "relative_range": 0.0
+        },
+        "rvv": {
+          "n": 2,
+          "median": 248.25,
+          "min": 248.0,
+          "max": 248.5,
+          "mean": 248.25,
+          "cv": 0.0010070493454179255,
+          "relative_range": 0.002014098690835851
+        },
+        "run_speedups": [
+          2.792134831460674,
+          2.7865168539325844
+        ],
+        "speedup": {
+          "n": 2,
+          "median": 2.789325842696629,
+          "min": 2.7865168539325844,
+          "max": 2.792134831460674,
+          "mean": 2.789325842696629,
+          "cv": 0.0010070493454178682,
+          "relative_range": 0.0020140986908357365
+        },
+        "order_speedup_medians": [
+          2.792134831460674,
+          2.7865168539325844
+        ],
+        "order_effect": 0.002016129032258007
+      },
+      "e2e": {
+        "vdot": {
+          "n": 2,
+          "median": 208.75,
+          "min": 208.5,
+          "max": 209.0,
+          "mean": 208.75,
+          "cv": 0.0011976047904191617,
+          "relative_range": 0.0023952095808383233
+        },
+        "rvv": {
+          "n": 2,
+          "median": 398.5,
+          "min": 398.5,
+          "max": 398.5,
+          "mean": 398.5,
+          "cv": 0.0,
+          "relative_range": 0.0
+        },
+        "run_speedups": [
+          1.9066985645933014,
+          1.9112709832134294
+        ],
+        "speedup": {
+          "n": 2,
+          "median": 1.9089847739033654,
+          "min": 1.9066985645933014,
+          "max": 1.9112709832134294,
+          "mean": 1.9089847739033654,
+          "cv": 0.0011976047904191864,
+          "relative_range": 0.0023952095808383728
+        },
+        "order_speedup_medians": [
+          1.9066985645933014,
+          1.9112709832134294
+        ],
+        "order_effect": -0.0023923444976077235
+      },
+      "chain": {
+        "vdot": {
+          "n": 2,
+          "median": 255.0,
+          "min": 255.0,
+          "max": 255.0,
+          "mean": 255.0,
+          "cv": 0.0,
+          "relative_range": 0.0
+        },
+        "rvv": {
+          "n": 2,
+          "median": 959.25,
+          "min": 959.0,
+          "max": 959.5,
+          "mean": 959.25,
+          "cv": 0.00026062027625749283,
+          "relative_range": 0.0005212405525149857
+        },
+        "run_speedups": [
+          3.76078431372549,
+          3.7627450980392156
+        ],
+        "speedup": {
+          "n": 2,
+          "median": 3.761764705882353,
+          "min": 3.76078431372549,
+          "max": 3.7627450980392156,
+          "mean": 3.761764705882353,
+          "cv": 0.0002606202762574919,
+          "relative_range": 0.0005212405525149838
+        },
+        "order_speedup_medians": [
+          3.76078431372549,
+          3.7627450980392156
+        ],
+        "order_effect": -0.0005211047420531356
+      }
+    },
+    "warnings": [
+      "run 0: batch4/vdot: variation, warm-tail/half drift or slot effect exceeds threshold",
+      "run 0: batch4/rvv: variation, warm-tail/half drift or slot effect exceeds threshold",
+      "run 0: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold",
+      "run 1: batch4/vdot: variation, warm-tail/half drift or slot effect exceeds threshold",
+      "run 1: batch4/rvv: variation, warm-tail/half drift or slot effect exceeds threshold",
+      "run 1: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold",
+      "run 1: e2e/rvv: variation, warm-tail/half drift or slot effect exceeds threshold"
+    ],
+    "stable": false,
+    "qualification": "run medians are units; no pooled pseudo-replication or confidence interval claim"
+  }
+}

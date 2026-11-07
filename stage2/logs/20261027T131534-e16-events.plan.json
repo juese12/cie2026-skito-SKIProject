@@ -1,0 +1,34 @@
+{
+  "hashes": {
+    "/home/saintrikashy/riscv/xs-env/XiangShan/build/sew16-events/emu": "3e3ac8db24b4845c0b53d9e37099cff0089f1e5921638addfc43bf8ec5b1e817",
+    "/home/saintrikashy/riscv/xs-env/NEMU/build/sew16/riscv64-nemu-interpreter-so": "0c5ff04f6adefd22e9577edd37acc449f2b89445ad70f98f8c9a97cf3b7b69ad",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/e16-events/build/cie2026-e16-events-short-riscv64-xs.bin": "01e40465e705fa0049864c756ed703ad5754df09a81f44fd81fde62d00c0a22e",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/e16-events/build/short.symbols": "e6bb43fd14e41dfb2ba63e582be11dd13bb2a659af0ef76b4add77ef71903fb5",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/run-e16-event-experiment.py": "1f07e892b864bc7d7c9be85ecfa4f45edf58d9bfaffb72ca81e96e9eea341ff4",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/e16-events/audit.py": "d1cff959a1266eecd4546c6897f74e250176032594510481645975977cf4674a",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/e16-events/main.c": "5a60062dbdc3390f469ee8878cc834e146c935d6f8044afea10a7c509b96f283",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/e16-events/control.S": "7e1bd2cba2f71586633ee80193d70e1c2eec925ab11250e41e1c7cef89791c91",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/control-tests/control.S": "3c7ae74f1bb3791ce1b92950afbf40fa6b4fd3f63f657b0e0c2a076f02cc303b",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/control-tests/trap.S": "394c80231e2648343ce88908681fc3c8cc02ff890b985e294b1791cda44bb440",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/test-contract.h": "175ea77c2e2ff95e188597b507cbc980679fdf9560d40b33e407bef745a3c476"
+  },
+  "init_seeds": [
+    101,
+    202,
+    303,
+    404
+  ],
+  "data_seeds": [
+    "56444f54",
+    "00000001",
+    "9e3779b9",
+    "deadbeef"
+  ],
+  "pilot_seed": 101,
+  "minimum": "each seed has at least one complete branch and one complete exception e16 proof; all attempts retained",
+  "reused_baseline": {
+    "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/logs/20261027T123413-e16-events-observer-off-101.full.log",
+    "log_sha256": "0974a365f2b6fd088e8f838315fc1389cb13305dadbc4871c8c2a9e2d4b41aea",
+    "plan_sha256": "8ebb4887d956a9c976dbdd3dec30495ad48a50ca30c62653be856a597e802730"
+  }
+}

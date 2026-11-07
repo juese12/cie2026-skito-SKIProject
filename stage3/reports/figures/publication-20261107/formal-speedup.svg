@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="1560" height="1110" fill="#f4f7fb"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#172b4d}</style>
+<text x="35" y="48" font-size="30" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">隔离核正式结果：标准 RVV 基线与 vdot 对比</text>
+<text x="35" y="82" font-size="19" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">本图为统计图，不表示连续波形或孤立 FU 延迟；四个进程的全部样本均保留。</text>
+<rect x="24" y="115" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="152" font-size="26" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">batch4 | RVV / vdot = 5.171010 倍</text>
+<text x="45" y="213" font-size="22" style="fill:#172b4d">RVV</text>
+<rect x="210" y="189" width="215.613359375" height="34" fill="#64748b"/>
+<text x="440.61335937499996" y="214" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">6448.25 周期</text>
+<text x="45" y="273" font-size="22" style="fill:#172b4d">VDOT</text>
+<rect x="210" y="249" width="41.696562500000006" height="34" fill="#175cd3"/>
+<text x="266.6965625" y="274" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">1247 周期</text>
+<text x="45" y="327" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">四个进程的比值：5.171211, 5.170810, 5.171211, 5.170810</text>
+<text x="45" y="360" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">横轴统一为 0..32000 个 DUT 周期；每个样本 1024 次点积。</text>
+<rect x="24" y="400" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="437" font-size="26" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">e2e | RVV / vdot = 2.100908 倍</text>
+<text x="45" y="498" font-size="22" style="fill:#172b4d">RVV</text>
+<rect x="210" y="474" width="363.74984375" height="34" fill="#64748b"/>
+<text x="588.7498437500001" y="499" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">10878.5 周期</text>
+<text x="45" y="558" font-size="22" style="fill:#172b4d">VDOT</text>
+<rect x="210" y="534" width="173.139375" height="34" fill="#175cd3"/>
+<text x="398.139375" y="559" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">5178 周期</text>
+<text x="45" y="612" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">四个进程的比值：2.088644, 2.113171, 2.088644, 2.113171</text>
+
+<rect x="24" y="685" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="722" font-size="26" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">chain | RVV / vdot = 4.129071 倍</text>
+<text x="45" y="783" font-size="22" style="fill:#172b4d">RVV</text>
+<rect x="210" y="759" width="994.004921875" height="34" fill="#64748b"/>
+<text x="1219.004921875" y="784" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">29727.25 周期</text>
+<text x="45" y="843" font-size="22" style="fill:#172b4d">VDOT</text>
+<rect x="210" y="819" width="240.73328124999998" height="34" fill="#175cd3"/>
+<text x="465.73328125" y="844" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">7199.5 周期</text>
+<text x="45" y="897" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">四个进程的比值：4.128819, 4.129324, 4.128819, 4.129324</text>
+<text x="45" y="930" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">横轴统一为 0..32000 个 DUT 周期；每个样本 1024 次点积。</text>
+<text x="35" y="1025" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">周期取进程中位数的中位数，加速比取进程比值的中位数；不扣空循环。</text>
+<text x="35" y="1057" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">低八项输入固定为 a=1、b=2；历史依赖链使用带真实依赖的零固定点。</text>
+<text x="35" y="1089" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">这里是隔离核内部的 RVV/vdot 对比，不将其计作操作数隔离收益或 PPA 结果。</text>
+</svg>

@@ -1,0 +1,14 @@
+[started] 2026-10-26T23:20:42+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject
+[command] python3 stage2/contract-tests/test_contract_selection.py -v 
+test_control_bad_vtype_has_current_e32_e64 (__main__.ContractSelectionTests.test_control_bad_vtype_has_current_e32_e64) ... ok
+test_functional_bad_sew_is_versioned (__main__.ContractSelectionTests.test_functional_bad_sew_is_versioned) ... ok
+test_invalid_contract_rejected (__main__.ContractSelectionTests.test_invalid_contract_rejected) ... ok
+test_legacy_assembly_text_unchanged (__main__.ContractSelectionTests.test_legacy_assembly_text_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.073s
+
+OK
+[completed] 2026-10-26T23:20:42+08:00
+[exit] 0

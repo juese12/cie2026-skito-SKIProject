@@ -1,0 +1,740 @@
+{
+  "formal_rows": 1920,
+  "formal_processes": 8,
+  "current_processes": 4,
+  "stable": false,
+  "warnings": 12,
+  "strict_exit": 3,
+  "summary": [
+    {
+      "bits": 8,
+      "kind": 0,
+      "dots": 256,
+      "dot_cycles": 350.0,
+      "rvv_cycles": 1648.0,
+      "speedup_median": 4.708571428571428,
+      "speedup_min": 4.707142857142857,
+      "speedup_max": 4.708571428571428,
+      "process_ratios": [
+        4.708571428571428,
+        4.708571428571428,
+        4.707142857142857,
+        4.708571428571428
+      ],
+      "first_group_difference": 0.00015172204521318733
+    },
+    {
+      "bits": 8,
+      "kind": 1,
+      "dots": 256,
+      "dot_cycles": 1244.0,
+      "rvv_cycles": 2750.25,
+      "speedup_median": 2.212180624929279,
+      "speedup_min": 2.156862745098039,
+      "speedup_max": 2.293487221764221,
+      "process_ratios": [
+        2.156862745098039,
+        2.267106347897774,
+        2.1572549019607843,
+        2.293487221764221
+      ],
+      "first_group_difference": 0.057132406384700074
+    },
+    {
+      "bits": 8,
+      "kind": 2,
+      "dots": 16,
+      "dot_cycles": 144.0,
+      "rvv_cycles": 496.25,
+      "speedup_median": 3.4461805555555554,
+      "speedup_min": 3.4444444444444446,
+      "speedup_max": 3.451388888888889,
+      "process_ratios": [
+        3.4444444444444446,
+        3.4444444444444446,
+        3.451388888888889,
+        3.4479166666666665
+      ],
+      "first_group_difference": -0.0005035246727090881
+    },
+    {
+      "bits": 8,
+      "kind": 3,
+      "dots": 64,
+      "dot_cycles": 480.25,
+      "rvv_cycles": 1888.75,
+      "speedup_median": 3.932848812001388,
+      "speedup_min": 3.9292403746097815,
+      "speedup_max": 3.935416666666667,
+      "process_ratios": [
+        3.935416666666667,
+        3.935416666666667,
+        3.9302809573361084,
+        3.9292403746097815
+      ],
+      "first_group_difference": -0.00013229376160506234
+    },
+    {
+      "bits": 8,
+      "kind": 4,
+      "dots": 256,
+      "dot_cycles": 1824.0,
+      "rvv_cycles": 7456.5,
+      "speedup_median": 4.087856359649123,
+      "speedup_min": 4.08687311592217,
+      "speedup_max": 4.087993421052632,
+      "process_ratios": [
+        4.087993421052632,
+        4.087719298245614,
+        4.08687311592217,
+        4.087993421052632
+      ],
+      "first_group_difference": 0.00010351023097654455
+    },
+    {
+      "bits": 16,
+      "kind": 0,
+      "dots": 256,
+      "dot_cycles": 350.0,
+      "rvv_cycles": 1648.0,
+      "speedup_median": 4.708571428571428,
+      "speedup_min": 4.707142857142857,
+      "speedup_max": 4.708571428571428,
+      "process_ratios": [
+        4.707142857142857,
+        4.708571428571428,
+        4.708571428571428,
+        4.708571428571428
+      ],
+      "first_group_difference": 0.00015172204521318733
+    },
+    {
+      "bits": 16,
+      "kind": 1,
+      "dots": 256,
+      "dot_cycles": 1181.5,
+      "rvv_cycles": 2750.5,
+      "speedup_median": 2.329411448439012,
+      "speedup_min": 2.267518549051937,
+      "speedup_max": 2.391739130434783,
+      "process_ratios": [
+        2.391739130434783,
+        2.267518549051937,
+        2.391304347826087,
+        2.267518549051937
+      ],
+      "first_group_difference": -0.05185116574503135
+    },
+    {
+      "bits": 16,
+      "kind": 2,
+      "dots": 16,
+      "dot_cycles": 144.0,
+      "rvv_cycles": 496.75,
+      "speedup_median": 3.4496527777777777,
+      "speedup_min": 3.43598615916955,
+      "speedup_max": 3.451388888888889,
+      "process_ratios": [
+        3.451388888888889,
+        3.451388888888889,
+        3.4479166666666665,
+        3.43598615916955
+      ],
+      "first_group_difference": -0.0017292330947001888
+    },
+    {
+      "bits": 16,
+      "kind": 3,
+      "dots": 64,
+      "dot_cycles": 480.25,
+      "rvv_cycles": 1888.5,
+      "speedup_median": 3.932327978668054,
+      "speedup_min": 3.9251559251559254,
+      "speedup_max": 3.935416666666667,
+      "process_ratios": [
+        3.9251559251559254,
+        3.935416666666667,
+        3.934375,
+        3.9302809573361084
+      ],
+      "first_group_difference": 0.0007846141080904978
+    },
+    {
+      "bits": 16,
+      "kind": 4,
+      "dots": 256,
+      "dot_cycles": 1824.0,
+      "rvv_cycles": 7456.5,
+      "speedup_median": 4.087993421052632,
+      "speedup_min": 4.087993421052632,
+      "speedup_max": 4.088267543859649,
+      "process_ratios": [
+        4.087993421052632,
+        4.087993421052632,
+        4.087993421052632,
+        4.088267543859649
+      ],
+      "first_group_difference": 3.352779454157684e-05
+    }
+  ],
+  "fits": [
+    {
+      "bits": 8,
+      "impl": 0,
+      "processes": [
+        {
+          "bits": 8,
+          "impl": 0,
+          "slope_cycles_per_dot": 7.0,
+          "intercept_cycles": 32.0,
+          "points": [
+            [
+              16,
+              144.0
+            ],
+            [
+              64,
+              480.0
+            ],
+            [
+              256,
+              1824.0
+            ]
+          ],
+          "residuals": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_relative_residual": 0.0,
+          "r_squared": 1.0,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 8,
+          "impl": 0,
+          "slope_cycles_per_dot": 7.0,
+          "intercept_cycles": 32.0,
+          "points": [
+            [
+              16,
+              144.0
+            ],
+            [
+              64,
+              480.0
+            ],
+            [
+              256,
+              1824.0
+            ]
+          ],
+          "residuals": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_relative_residual": 0.0,
+          "r_squared": 1.0,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 8,
+          "impl": 0,
+          "slope_cycles_per_dot": 7.001488095238095,
+          "intercept_cycles": 32.16666666666674,
+          "points": [
+            [
+              16,
+              144.0
+            ],
+            [
+              64,
+              480.5
+            ],
+            [
+              256,
+              1824.5
+            ]
+          ],
+          "residuals": [
+            -0.19047619047626085,
+            0.23809523809518396,
+            -0.04761904761903679
+          ],
+          "max_relative_residual": 0.0013227513227518114,
+          "r_squared": 0.9999999397690859,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 8,
+          "impl": 0,
+          "slope_cycles_per_dot": 6.9992559523809526,
+          "intercept_cycles": 32.249999999999886,
+          "points": [
+            [
+              16,
+              144.0
+            ],
+            [
+              64,
+              480.5
+            ],
+            [
+              256,
+              1824.0
+            ]
+          ],
+          "residuals": [
+            -0.23809523809512712,
+            0.2976190476191505,
+            -0.05952380952385283
+          ],
+          "max_relative_residual": 0.0016534391534383827,
+          "r_squared": 0.9999999058291642,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        }
+      ],
+      "slope": 7.0,
+      "max_relative_residual": 0.0016534391534383827
+    },
+    {
+      "bits": 8,
+      "impl": 1,
+      "processes": [
+        {
+          "bits": 8,
+          "impl": 1,
+          "slope_cycles_per_dot": 29.000744047619047,
+          "intercept_cycles": 32.416666666666515,
+          "points": [
+            [
+              16,
+              496.0
+            ],
+            [
+              64,
+              1889.0
+            ],
+            [
+              256,
+              7456.5
+            ]
+          ],
+          "residuals": [
+            -0.4285714285712743,
+            0.5357142857144481,
+            -0.107142857143117
+          ],
+          "max_relative_residual": 0.0008640552995388594,
+          "r_squared": 0.9999999822275648,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 8,
+          "impl": 1,
+          "slope_cycles_per_dot": 28.9985119047619,
+          "intercept_cycles": 32.500000000000455,
+          "points": [
+            [
+              16,
+              496.0
+            ],
+            [
+              64,
+              1889.0
+            ],
+            [
+              256,
+              7456.0
+            ]
+          ],
+          "residuals": [
+            -0.4761904761908795,
+            0.5952380952378462,
+            -0.11904761904770567
+          ],
+          "max_relative_residual": 0.0009600614439332248,
+          "r_squared": 0.9999999780553441,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 8,
+          "impl": 1,
+          "slope_cycles_per_dot": 28.99851190476191,
+          "intercept_cycles": 32.833333333332575,
+          "points": [
+            [
+              16,
+              497.0
+            ],
+            [
+              64,
+              1888.5
+            ],
+            [
+              256,
+              7456.5
+            ]
+          ],
+          "residuals": [
+            0.19047619047688613,
+            -0.2380952380947292,
+            0.04761904761835467
+          ],
+          "max_relative_residual": 0.00038325189230761797,
+          "r_squared": 0.999999996488855,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 8,
+          "impl": 1,
+          "slope_cycles_per_dot": 29.000744047619044,
+          "intercept_cycles": 32.250000000000455,
+          "points": [
+            [
+              16,
+              496.5
+            ],
+            [
+              64,
+              1888.0
+            ],
+            [
+              256,
+              7456.5
+            ]
+          ],
+          "residuals": [
+            0.2380952380948429,
+            -0.29761904761926417,
+            0.05952380952476233
+          ],
+          "max_relative_residual": 0.0004795473073410733,
+          "r_squared": 0.9999999945146805,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        }
+      ],
+      "slope": 28.999627976190474,
+      "max_relative_residual": 0.0009600614439332248
+    },
+    {
+      "bits": 16,
+      "impl": 0,
+      "processes": [
+        {
+          "bits": 16,
+          "impl": 0,
+          "slope_cycles_per_dot": 6.998511904761905,
+          "intercept_cycles": 32.5,
+          "points": [
+            [
+              16,
+              144.0
+            ],
+            [
+              64,
+              481.0
+            ],
+            [
+              256,
+              1824.0
+            ]
+          ],
+          "residuals": [
+            -0.4761904761904816,
+            0.5952380952380736,
+            -0.11904761904770567
+          ],
+          "max_relative_residual": 0.0033068783068783444,
+          "r_squared": 0.9999996232366647,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 16,
+          "impl": 0,
+          "slope_cycles_per_dot": 7.0,
+          "intercept_cycles": 32.0,
+          "points": [
+            [
+              16,
+              144.0
+            ],
+            [
+              64,
+              480.0
+            ],
+            [
+              256,
+              1824.0
+            ]
+          ],
+          "residuals": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_relative_residual": 0.0,
+          "r_squared": 1.0,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 16,
+          "impl": 0,
+          "slope_cycles_per_dot": 7.0,
+          "intercept_cycles": 32.0,
+          "points": [
+            [
+              16,
+              144.0
+            ],
+            [
+              64,
+              480.0
+            ],
+            [
+              256,
+              1824.0
+            ]
+          ],
+          "residuals": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_relative_residual": 0.0,
+          "r_squared": 1.0,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 16,
+          "impl": 0,
+          "slope_cycles_per_dot": 6.997767857142857,
+          "intercept_cycles": 32.58333333333337,
+          "points": [
+            [
+              16,
+              144.5
+            ],
+            [
+              64,
+              480.5
+            ],
+            [
+              256,
+              1824.0
+            ]
+          ],
+          "residuals": [
+            -0.047619047619093635,
+            0.05952380952379599,
+            -0.011904761904588668
+          ],
+          "max_relative_residual": 0.0003295435821390563,
+          "r_squared": 0.999999996231564,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        }
+      ],
+      "slope": 6.9992559523809526,
+      "max_relative_residual": 0.0033068783068783444
+    },
+    {
+      "bits": 16,
+      "impl": 1,
+      "processes": [
+        {
+          "bits": 16,
+          "impl": 1,
+          "slope_cycles_per_dot": 28.999255952380953,
+          "intercept_cycles": 32.583333333333485,
+          "points": [
+            [
+              16,
+              497.0
+            ],
+            [
+              64,
+              1888.0
+            ],
+            [
+              256,
+              7456.5
+            ]
+          ],
+          "residuals": [
+            0.4285714285712743,
+            -0.5357142857144481,
+            0.107142857143117
+          ],
+          "max_relative_residual": 0.0008623167576886807,
+          "r_squared": 0.9999999822257408,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 16,
+          "impl": 1,
+          "slope_cycles_per_dot": 28.997767857142854,
+          "intercept_cycles": 33.08333333333394,
+          "points": [
+            [
+              16,
+              497.0
+            ],
+            [
+              64,
+              1889.0
+            ],
+            [
+              256,
+              7456.5
+            ]
+          ],
+          "residuals": [
+            -0.047619047619605226,
+            0.059523809523398086,
+            -0.011904761904588668
+          ],
+          "max_relative_residual": 9.581297307767651e-05,
+          "r_squared": 0.9999999997805422,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 16,
+          "impl": 1,
+          "slope_cycles_per_dot": 29.0,
+          "intercept_cycles": 32.5,
+          "points": [
+            [
+              16,
+              496.5
+            ],
+            [
+              64,
+              1888.5
+            ],
+            [
+              256,
+              7456.5
+            ]
+          ],
+          "residuals": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_relative_residual": 0.0,
+          "r_squared": 1.0,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        },
+        {
+          "bits": 16,
+          "impl": 1,
+          "slope_cycles_per_dot": 29.002232142857146,
+          "intercept_cycles": 32.41666666666606,
+          "points": [
+            [
+              16,
+              496.5
+            ],
+            [
+              64,
+              1888.5
+            ],
+            [
+              256,
+              7457.0
+            ]
+          ],
+          "residuals": [
+            0.047619047619605226,
+            -0.059523809523398086,
+            0.011904761904588668
+          ],
+          "max_relative_residual": 9.590946146949693e-05,
+          "r_squared": 0.9999999997806097,
+          "interpretation": "effective dependency-chain slope including loop/configuration costs; not isolated FU latency"
+        }
+      ],
+      "slope": 28.999627976190474,
+      "max_relative_residual": 0.0008623167576886807
+    }
+  ],
+  "port": {
+    "checked_outputs": 400,
+    "calls": 168,
+    "examples": [
+      {
+        "bits": 8,
+        "seq": 811,
+        "tag": 325,
+        "pc": 2147485698,
+        "instr": 43263755,
+        "dispatch": 10217,
+        "input": {
+          "tag": 325,
+          "sew": 0,
+          "vl": 8,
+          "lmul": 0,
+          "vm": 1,
+          "start": 0,
+          "vill": 0,
+          "a": "48039dfd545edcf80807060504030201",
+          "b": "1fe57879e68805720101010101010101",
+          "cycle": 10222
+        },
+        "output": {
+          "tag": 325,
+          "sew": 0,
+          "vl": 8,
+          "lmul": 0,
+          "vm": 1,
+          "start": 0,
+          "vill": 0,
+          "illegal": 0,
+          "result": "00000000000000000000000000000024",
+          "cycle": 10224
+        },
+        "commit": 10230
+      },
+      {
+        "bits": 16,
+        "seq": 28559,
+        "tag": 336,
+        "pc": 2147486322,
+        "instr": 43263755,
+        "dispatch": 35401,
+        "input": {
+          "tag": 336,
+          "sew": 1,
+          "vl": 8,
+          "lmul": 0,
+          "vm": 1,
+          "start": 0,
+          "vill": 0,
+          "a": "00080007000600050004000300020001",
+          "b": "00010001000100010001000100010001",
+          "cycle": 35406
+        },
+        "output": {
+          "tag": 336,
+          "sew": 1,
+          "vl": 8,
+          "lmul": 0,
+          "vm": 1,
+          "start": 0,
+          "vill": 0,
+          "illegal": 0,
+          "result": "00000000000000000000000000000024",
+          "cycle": 35408
+        },
+        "commit": 35414
+      }
+    ]
+  },
+  "sources": {
+    "results": "stage3/logs/20261027T190338-sew16-perf4-full.results.json",
+    "statistics": "stage3/logs/20261027T190338-sew16-perf4-full.analysis.json",
+    "events": "stage3/logs/20261027T174613-sew16-perf4-preflight-probe.jsonl",
+    "timer_audit": "stage3/logs/20261027T174613-sew16-perf4-preflight.timer-audit.json"
+  }
+}

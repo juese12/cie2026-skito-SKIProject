@@ -1,0 +1,1260 @@
+{
+  "label": "smoke0",
+  "core": "new",
+  "params": {
+    "profile": 1,
+    "first": 0,
+    "wide": 1,
+    "data": 1447317332,
+    "seed": 101
+  },
+  "inputs": {
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/build/sew16-fixed8/emu": "35216f5f6772a545e7eaf8bf0f46e882662b6e765018d3919440b059b7d3384d",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/build/sew16/riscv64-nemu-interpreter-so": "2ca8bbbce7e3b31a440d5a14ff36750f26d41e17620146aa151d8529fde64a2c",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/build/cie2026-vdot-sew16-perf-v4-riscv64-xs.bin": "8255a40cc52006945970f86fffc87bc8df8459dc1513e42b329cc0eff099b1b8",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/build/cie2026-vdot-sew16-perf-v4-riscv64-xs.elf": "166171388194b24195b86afb8f409e210ffd0c3e6ff692d8eef2826d39f3842f",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/main.c": "99653204147ec03843e8e4cbd4ad426205d41dea70a6ab55cda01feb9789aa08",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/bench.S": "91b0aeff9479ad2685096ae8e84cab200b9a3a70464fd704f8119a95898e9bc6",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/params.S": "4f593d9c30e93c13c1bd6fcb7dafc341abe6b930568152a5aaf04ebaf2ff96c8",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/Makefile": "2da6abd6d3eb52d9c13a813152c4161b97df0b745436232d3e7ead6a63eeb9f0",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/common.py": "b3799368cb8acd9f8a41f312252a1698aa253b8dfd1ec723070874317d765e8c"
+  },
+  "overlay": {
+    "offset": 304,
+    "overwrite_nbytes": 312,
+    "changed_offsets": [],
+    "overlay_sha256": "cbc8859ac4e8ca5b93abe7426db530bae601fabb57184d0e4d1cc25e4bd32664"
+  },
+  "command": [
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/build/sew16-fixed8/emu",
+    "--diff=/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/build/sew16/riscv64-nemu-interpreter-so",
+    "-i",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/sew16-perf/build/cie2026-vdot-sew16-perf-v4-riscv64-xs.bin",
+    "--seed=101",
+    "--max-cycles=10000000",
+    "-b",
+    "0",
+    "-e",
+    "0",
+    "--gcpt-restore=/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/logs/clean-reproduction-perf-smoke0.overlay.bin",
+    "--overwrite-nbytes=312"
+  ],
+  "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/logs/clean-reproduction-perf-smoke0.full.log",
+  "audit": {
+    "status": "PASS",
+    "meta": {
+      "schema": "4",
+      "profile": "1",
+      "first": "0",
+      "wide": "1",
+      "data": "56444f54",
+      "reps": "4",
+      "warm": "2",
+      "random": "8",
+      "deferred": "1"
+    },
+    "equivalence": [
+      {
+        "bits": "8",
+        "dot": "40",
+        "rvv": "40",
+        "full128": "1",
+        "CSR": "1"
+      },
+      {
+        "bits": "16",
+        "dot": "40",
+        "rvv": "40",
+        "full128": "1",
+        "CSR": "1"
+      }
+    ],
+    "cases": [
+      {
+        "bits": "8",
+        "kind": "0",
+        "batches": "4",
+        "dots": "16",
+        "expected": "000000000000414a",
+        "chain_steps": "0",
+        "a": "885ff5e9f44a0e62f14ba28868c82f25",
+        "b": "cc9dd2fcef8f2abd9a05e7cc03d8f96c"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "batches": "4",
+        "dots": "16",
+        "expected": "00000000ffffb229",
+        "chain_steps": "0",
+        "a": "7607516efdc015005da2abc6a1ca6bb6",
+        "b": "0253947de568487224ef29337255fa20"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "batches": "1",
+        "dots": "4",
+        "expected": "00000000ffffffb5",
+        "chain_steps": "4",
+        "a": "00000000000000000000000000000025",
+        "b": "00000000000000000000000000000003"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "batches": "2",
+        "dots": "8",
+        "expected": "0000000000000045",
+        "chain_steps": "8",
+        "a": "00000000000000000000000000000025",
+        "b": "00000000000000000000000000000003"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "batches": "4",
+        "dots": "16",
+        "expected": "0000000000000165",
+        "chain_steps": "16",
+        "a": "00000000000000000000000000000025",
+        "b": "00000000000000000000000000000003"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "batches": "4",
+        "dots": "16",
+        "expected": "ffffffffc1b0ed89",
+        "chain_steps": "0",
+        "a": "38c1f29adc4521e20985df96b4d98223",
+        "b": "45c6d88de94fab9cd2c51be914a87b2d"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "batches": "4",
+        "dots": "16",
+        "expected": "fffffffffd21e330",
+        "chain_steps": "0",
+        "a": "4ec5a32113949e0e3e4923963d24e5b9",
+        "b": "be6554cdd12cdf0c04007e7c5c840f8a"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "batches": "1",
+        "dots": "4",
+        "expected": "0000000000005151",
+        "chain_steps": "4",
+        "a": "00000000000000000000000000000101",
+        "b": "00000000000000000000000000000003"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "batches": "2",
+        "dots": "8",
+        "expected": "fffffffffffebaa1",
+        "chain_steps": "8",
+        "a": "00000000000000000000000000000101",
+        "b": "00000000000000000000000000000003"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "batches": "4",
+        "dots": "16",
+        "expected": "0000000000011841",
+        "chain_steps": "16",
+        "a": "00000000000000000000000000000101",
+        "b": "00000000000000000000000000000003"
+      }
+    ],
+    "samples": [
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "120"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "107"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "182"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "166"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "70"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "70"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "70"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "70"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "8",
+        "kind": "0",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "147"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "214"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "149"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "313"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "262"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "163"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "130"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "130"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "130"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "263"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "231"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "230"
+      },
+      {
+        "bits": "8",
+        "kind": "1",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "231"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "77"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "77"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "164"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "164"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "60"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "61"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "61"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "60"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "149"
+      },
+      {
+        "bits": "8",
+        "kind": "2",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "149"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "88"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "88"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "265"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "265"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "88"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "89"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "88"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "89"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "264"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "265"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "265"
+      },
+      {
+        "bits": "8",
+        "kind": "3",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "265"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "144"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "144"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "497"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "497"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "144"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "144"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "145"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "144"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "496"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "496"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "496"
+      },
+      {
+        "bits": "8",
+        "kind": "4",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "497"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "120"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "107"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "181"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "167"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "70"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "70"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "70"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "70"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "147"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "147"
+      },
+      {
+        "bits": "16",
+        "kind": "0",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "215"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "149"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "313"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "279"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "164"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "130"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "131"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "131"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "263"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "230"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "230"
+      },
+      {
+        "bits": "16",
+        "kind": "1",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "231"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "77"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "76"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "165"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "165"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "61"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "61"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "60"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "61"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "149"
+      },
+      {
+        "bits": "16",
+        "kind": "2",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "148"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "88"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "89"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "264"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "265"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "88"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "88"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "89"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "88"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "264"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "264"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "265"
+      },
+      {
+        "bits": "16",
+        "kind": "3",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "264"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "0",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "145"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "0",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "145"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "0",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "496"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "0",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "496"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "1",
+        "rep": "0",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "145"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "1",
+        "rep": "1",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "144"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "1",
+        "rep": "2",
+        "slot": "0",
+        "impl": "0",
+        "cycles": "144"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "1",
+        "rep": "3",
+        "slot": "1",
+        "impl": "0",
+        "cycles": "145"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "1",
+        "rep": "0",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "496"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "1",
+        "rep": "1",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "497"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "1",
+        "rep": "2",
+        "slot": "1",
+        "impl": "1",
+        "cycles": "497"
+      },
+      {
+        "bits": "16",
+        "kind": "4",
+        "phase": "1",
+        "rep": "3",
+        "slot": "0",
+        "impl": "1",
+        "cycles": "496"
+      }
+    ],
+    "instructions": 280228,
+    "cycles": 521405,
+    "log_sha256": "69ec570258bb56cc31c7c598f92b273493287e2062ab27a8578637822e5f8c57"
+  }
+}

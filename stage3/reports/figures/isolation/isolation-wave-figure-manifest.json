@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "generator": "stage3/tests/render-isolation-wave-figures.py",
+  "generator_sha256": "8740735349dee790f4f988f4f5f34f8fc71e3f3f5fe1ccd4fea4ca8e2e2eee2f",
+  "dependencies": {
+    "stage2/logs/isolation-wave-audit-20261005.json": "2a66b365014e5a9492d9188b41632278cd6f969c39085e9874c80a985f5c95cc",
+    "stage2/tests/check-isolation-wave.py": "04e7bf59e6ce71b18b18c1d50d55603e280872f80b2bee36786a3b96c9179149",
+    "stage3/tests/render-p1-wave-figures.py": "88a093945a22fea45967c415b547be7baa92e8d6546fa19f6cdee5b0a876528e"
+  },
+  "source_wave_sha256": {
+    "before": "7519a347e1b5d9192b04eaf4d90b06a3f364a3c733935a5074bfc00098da9081",
+    "after": "ad82cf13a9b0bc0c6ea2fd6f5472297ebb848d7fc6ba1112d465de86cc836876"
+  },
+  "files": {
+    "isolation-dot-hold.png": "993fb0cf8259d1c39d243b846a889f884a24a1990570d61da0a0996537326f04",
+    "isolation-dot-hold.svg": "3e0e8c577f561659f3050b3dfb1f0a122c0aa374a5a02d3bbfb5f4c914c8f377",
+    "isolation-mac-hold.png": "769f900487d8451fb06d96d372f79b6d32a51b477b5ee773c4bad0e11bb80f44",
+    "isolation-mac-hold.svg": "83204eae20d1052310b637a0bd0bc867fb52608188d30632ba2bcebb836ff791",
+    "isolation-overlap.png": "6276b0fbb34e3e0dba02406cd656ffd4cf383fd43ffc28b90e9c2f3b67d9f936",
+    "isolation-overlap.svg": "86df2821f87582ef07427f971ba36d90abe81f7dd5c6e69ddfd166c9ad46d101",
+    "isolation-wave-excerpts.json": "baf736e3e062a0669d4bfeeeb4dcf343ce9e302d7e4a69e204a54b05d8b22b21"
+  }
+}

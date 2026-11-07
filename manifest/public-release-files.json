@@ -1,0 +1,3687 @@
+{
+  "schema": 1,
+  "status": "EXPORTED",
+  "files": [
+    {
+      "path": ".gitignore",
+      "role": "source/documentation",
+      "bytes": 618,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "README.md",
+      "role": "source/documentation",
+      "bytes": 690,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "docs/公开交付与干净复现操作手册.md",
+      "role": "source/documentation",
+      "bytes": 14542,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "docs/发布材料清单.md",
+      "role": "source/documentation",
+      "bytes": 10034,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "docs/提交文档阅读指南.md",
+      "role": "source/documentation",
+      "bytes": 3673,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "docs/文档总索引.md",
+      "role": "source/documentation",
+      "bytes": 9160,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "docs/核与参考库版本选择.md",
+      "role": "source/documentation",
+      "bytes": 8731,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "docs/比赛要求与交付文档对照.md",
+      "role": "source/documentation",
+      "bytes": 4104,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "docs/项目文档目录.md",
+      "role": "source/documentation",
+      "bytes": 18329,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "docs/项目状态与遗留工作.md",
+      "role": "source/documentation",
+      "bytes": 10280,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/chinese-edition-20261102.json",
+      "role": "manifest/figure evidence",
+      "bytes": 3260287,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/chinese-figure-edition.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1982315,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/document-consolidation-20261006.json",
+      "role": "manifest/figure evidence",
+      "bytes": 3022,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/document-publication-20261107.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1098286,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/document-refresh-20261018.json",
+      "role": "manifest/figure evidence",
+      "bytes": 17966,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/document-review-edition-20261020.json",
+      "role": "manifest/figure evidence",
+      "bytes": 912827,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/document-review-edition-20261101.json",
+      "role": "manifest/figure evidence",
+      "bytes": 650100,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/document-unification-20261026.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1379,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/document-version-entry-20261026.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1299,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/final-document-review.json",
+      "role": "manifest/figure evidence",
+      "bytes": 434658,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/isolation-evidence-replay.json",
+      "role": "manifest/figure evidence",
+      "bytes": 7828,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/isolation-wave-retirement.json",
+      "role": "manifest/figure evidence",
+      "bytes": 2539,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/publication-figures-20261107.json",
+      "role": "manifest/figure evidence",
+      "bytes": 811,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/release-dependencies.json",
+      "role": "manifest/figure evidence",
+      "bytes": 4471,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/release-toolchain.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1708,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/reviewer-delivery-edition.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1352885,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/storage-cleanup-stale-builds-20261102.json",
+      "role": "manifest/figure evidence",
+      "bytes": 8890,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/storage-cleanup-v01-p1-20261026.json",
+      "role": "manifest/figure evidence",
+      "bytes": 3324,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/submodule-commits.txt",
+      "role": "manifest/figure evidence",
+      "bytes": 439,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/tool-versions.txt",
+      "role": "manifest/figure evidence",
+      "bytes": 298,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/不完整波形清理记录.md",
+      "role": "source/documentation",
+      "bytes": 2337,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/仓库关系.md",
+      "role": "source/documentation",
+      "bytes": 1221,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/作品仓库合规核查.md",
+      "role": "source/documentation",
+      "bytes": 4056,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "manifest/存储清理台账.md",
+      "role": "source/documentation",
+      "bytes": 21022,
+      "public_link_adjustment": true
+    },
+    {
+      "path": "manifest/编译缓存清理记录.md",
+      "role": "source/documentation",
+      "bytes": 3697,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/analyze-vdot-wave.sh",
+      "role": "source/documentation",
+      "bytes": 214,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/analyze-vector-wave.sh",
+      "role": "source/documentation",
+      "bytes": 2434,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-e16-event-emulator.py",
+      "role": "source/documentation",
+      "bytes": 6280,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-hello.sh",
+      "role": "source/documentation",
+      "bytes": 640,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-int8-gemv.sh",
+      "role": "source/documentation",
+      "bytes": 194,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-bench-p0.sh",
+      "role": "source/documentation",
+      "bytes": 772,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-bench.sh",
+      "role": "source/documentation",
+      "bytes": 1233,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-control.sh",
+      "role": "source/documentation",
+      "bytes": 919,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-isolation-core.sh",
+      "role": "source/documentation",
+      "bytes": 2757,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-ordinary.sh",
+      "role": "source/documentation",
+      "bytes": 372,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-p1-core.sh",
+      "role": "source/documentation",
+      "bytes": 2535,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-rtl-separated.sh",
+      "role": "source/documentation",
+      "bytes": 1302,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-sew16-core.sh",
+      "role": "source/documentation",
+      "bytes": 3245,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot-smoke.sh",
+      "role": "source/documentation",
+      "bytes": 450,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vdot.sh",
+      "role": "source/documentation",
+      "bytes": 234,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/build-vector-add.sh",
+      "role": "source/documentation",
+      "bytes": 562,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/capture-original-e2e-events.py",
+      "role": "source/documentation",
+      "bytes": 10389,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/check-documentation.py",
+      "role": "source/documentation",
+      "bytes": 5219,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/check-public-release.py",
+      "role": "source/documentation",
+      "bytes": 4190,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/check-vdot-control.py",
+      "role": "source/documentation",
+      "bytes": 16730,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/chinese-edition.py",
+      "role": "source/documentation",
+      "bytes": 6937,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/cleanup-incomplete-waves-20261006.sh",
+      "role": "source/documentation",
+      "bytes": 2337,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/cleanup-stale-builds-20261102.py",
+      "role": "source/documentation",
+      "bytes": 6260,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/cleanup-v01-p1-waves-20261026.py",
+      "role": "source/documentation",
+      "bytes": 8673,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/complete-vdot-isolation-performance.py",
+      "role": "source/documentation",
+      "bytes": 13585,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/complete-vdot-p0.sh",
+      "role": "source/documentation",
+      "bytes": 2686,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/complete-vdot-p1.sh",
+      "role": "source/documentation",
+      "bytes": 5430,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/diagnose-e2e-context.py",
+      "role": "source/documentation",
+      "bytes": 6819,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/dump-vdot-wave.sh",
+      "role": "source/documentation",
+      "bytes": 838,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/dump-vector-add-wave.sh",
+      "role": "source/documentation",
+      "bytes": 1705,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/export-public-release.py",
+      "role": "source/documentation",
+      "bytes": 7545,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/export-vdot-patches.sh",
+      "role": "source/documentation",
+      "bytes": 1433,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/finalize-e16-event-collector.py",
+      "role": "source/documentation",
+      "bytes": 2574,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/finalize-vdot-bench-report.sh",
+      "role": "source/documentation",
+      "bytes": 1000,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/finish-vdot-rtl.sh",
+      "role": "source/documentation",
+      "bytes": 988,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/prepare-clean-workspace.py",
+      "role": "source/documentation",
+      "bytes": 5197,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/prepare-vdot-difftest.sh",
+      "role": "source/documentation",
+      "bytes": 1025,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/prepare-vdot-dramsim.sh",
+      "role": "source/documentation",
+      "bytes": 674,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/probe-e2e-other-bins.py",
+      "role": "source/documentation",
+      "bytes": 9391,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/render-clean-module-wave.py",
+      "role": "source/documentation",
+      "bytes": 2168,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/replay-isolation-evidence.py",
+      "role": "source/documentation",
+      "bytes": 10790,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/resume-original-e2e-capture.py",
+      "role": "source/documentation",
+      "bytes": 5633,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/retire-isolation-waves.py",
+      "role": "source/documentation",
+      "bytes": 4236,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/review-submission.py",
+      "role": "source/documentation",
+      "bytes": 2015,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-clean-regressions.py",
+      "role": "source/documentation",
+      "bytes": 9397,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-e16-event-experiment.py",
+      "role": "source/documentation",
+      "bytes": 5809,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-hello.sh",
+      "role": "source/documentation",
+      "bytes": 1297,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-int8-gemv.sh",
+      "role": "source/documentation",
+      "bytes": 161,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-vdot-bench-series.sh",
+      "role": "source/documentation",
+      "bytes": 2824,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-vdot-bench.sh",
+      "role": "source/documentation",
+      "bytes": 3503,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-vdot-contract-tests.sh",
+      "role": "source/documentation",
+      "bytes": 2319,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-vdot-control.sh",
+      "role": "source/documentation",
+      "bytes": 2220,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-vdot-isolation-regression.sh",
+      "role": "source/documentation",
+      "bytes": 2857,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-vdot-sew16.sh",
+      "role": "source/documentation",
+      "bytes": 1299,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-vdot.sh",
+      "role": "source/documentation",
+      "bytes": 1702,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/run-vector-add.sh",
+      "role": "source/documentation",
+      "bytes": 1564,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/start-int8-gemv-durable.sh",
+      "role": "source/documentation",
+      "bytes": 162,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/surver-remote.py",
+      "role": "source/documentation",
+      "bytes": 10888,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/test-public-release.py",
+      "role": "source/documentation",
+      "bytes": 6517,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/test-release-entrypoints.py",
+      "role": "source/documentation",
+      "bytes": 10976,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/validate-vdot-bench-v2.sh",
+      "role": "source/documentation",
+      "bytes": 1313,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/validate-vdot-core.sh",
+      "role": "source/documentation",
+      "bytes": 1429,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/vdot-step.sh",
+      "role": "source/documentation",
+      "bytes": 866,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/verify-e2e-controlled.py",
+      "role": "source/documentation",
+      "bytes": 8757,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "scripts/verify-stage1-env.sh",
+      "role": "source/documentation",
+      "bytes": 1560,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/docs/向量加法指令执行过程.md",
+      "role": "source/documentation",
+      "bytes": 3163,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/docs/向量加法波形分析.md",
+      "role": "source/documentation",
+      "bytes": 4297,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/docs/环境与RVV基线验收.md",
+      "role": "source/documentation",
+      "bytes": 6877,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/docs/环境部署与操作日志.md",
+      "role": "source/documentation",
+      "bytes": 4386,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/hello-xiangshan/Makefile",
+      "role": "source/documentation",
+      "bytes": 75,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/hello-xiangshan/main.c",
+      "role": "source/documentation",
+      "bytes": 121,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/hello截图.png",
+      "role": "manifest/figure evidence",
+      "bytes": 317188,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/logs/20260922-hello-run.log",
+      "role": "linked evidence",
+      "bytes": 850,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/logs/20261101-hello-build.log",
+      "role": "linked evidence",
+      "bytes": 942,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/logs/20261101-hello-run.log",
+      "role": "linked evidence",
+      "bytes": 811,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/logs/environment-check.log",
+      "role": "linked evidence",
+      "bytes": 872,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/logs/vector-add-wave-analysis.log",
+      "role": "linked evidence",
+      "bytes": 1449,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/vector-add/Makefile",
+      "role": "source/documentation",
+      "bytes": 169,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/vector-add/main.c",
+      "role": "source/documentation",
+      "bytes": 1842,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/vector-add/vector_add.S",
+      "role": "source/documentation",
+      "bytes": 572,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/waveform/向量加法波形说明.md",
+      "role": "source/documentation",
+      "bytes": 596,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage1/第一阶段说明.md",
+      "role": "source/documentation",
+      "bytes": 1832,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/Makefile",
+      "role": "source/documentation",
+      "bytes": 926,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/audit_results.py",
+      "role": "source/documentation",
+      "bytes": 2880,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/before/stage2/control-tests/control.S",
+      "role": "source/documentation",
+      "bytes": 4290,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/before/stage2/control-tests/main.c",
+      "role": "source/documentation",
+      "bytes": 7621,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/before/stage2/tests/check-nemu-vdot.py",
+      "role": "source/documentation",
+      "bytes": 6348,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/before/stage2/vdot-tests/main.c",
+      "role": "source/documentation",
+      "bytes": 7068,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/before/stage2/vdot-tests/vdot.S",
+      "role": "source/documentation",
+      "bytes": 4401,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/control-legacy.S",
+      "role": "source/documentation",
+      "bytes": 56,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/control-main.c",
+      "role": "source/documentation",
+      "bytes": 59,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/control-trap.S",
+      "role": "source/documentation",
+      "bytes": 35,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/control.S",
+      "role": "source/documentation",
+      "bytes": 62,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/functional-main.c",
+      "role": "source/documentation",
+      "bytes": 56,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/functional-trap.S",
+      "role": "source/documentation",
+      "bytes": 32,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/functional.S",
+      "role": "source/documentation",
+      "bytes": 56,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/test_contract_selection.py",
+      "role": "source/documentation",
+      "bytes": 2547,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/contract-tests/旧测试约定适配手册.md",
+      "role": "source/documentation",
+      "bytes": 4477,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/control-tests/Makefile",
+      "role": "source/documentation",
+      "bytes": 315,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/control-tests/control.S",
+      "role": "source/documentation",
+      "bytes": 4695,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/control-tests/legacy.S",
+      "role": "source/documentation",
+      "bytes": 32,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/control-tests/main.c",
+      "role": "source/documentation",
+      "bytes": 8060,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/control-tests/test_control_audit.py",
+      "role": "source/documentation",
+      "bytes": 6989,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/control-tests/trap.S",
+      "role": "source/documentation",
+      "bytes": 917,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/control-tests/整核控制与多种子验收手册.md",
+      "role": "source/documentation",
+      "bytes": 6141,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/figures/vdot-design/datapath.png",
+      "role": "manifest/figure evidence",
+      "bytes": 217594,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/figures/vdot-design/datapath.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 23153,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/figures/vdot-design/figure-index.json",
+      "role": "manifest/figure evidence",
+      "bytes": 918,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/figures/vdot-design/microarchitecture.png",
+      "role": "manifest/figure evidence",
+      "bytes": 345445,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/figures/vdot-design/microarchitecture.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 15186,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/figures/vdot-design/pipeline.png",
+      "role": "manifest/figure evidence",
+      "bytes": 321847,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/figures/vdot-design/pipeline.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 14720,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/vdot历史设计说明v0.1.md",
+      "role": "source/documentation",
+      "bytes": 33161,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/vdot历史集成操作手册v0.1.md",
+      "role": "source/documentation",
+      "bytes": 33081,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/vdot指令设计说明.md",
+      "role": "source/documentation",
+      "bytes": 35498,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/docs/远程波形查看操作手册.md",
+      "role": "source/documentation",
+      "bytes": 6782,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/Makefile",
+      "role": "source/documentation",
+      "bytes": 170,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/audit.py",
+      "role": "source/documentation",
+      "bytes": 10756,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/check-experiment.py",
+      "role": "source/documentation",
+      "bytes": 3864,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/collector.h",
+      "role": "source/documentation",
+      "bytes": 3810,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/control.S",
+      "role": "source/documentation",
+      "bytes": 217,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/e16短控制实验操作手册.md",
+      "role": "source/documentation",
+      "bytes": 5087,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/main.c",
+      "role": "source/documentation",
+      "bytes": 3610,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/test_audit.py",
+      "role": "source/documentation",
+      "bytes": 3571,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/e16-events/trap.S",
+      "role": "source/documentation",
+      "bytes": 35,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261002T112457-nemu-vdot-tval-api.full.log",
+      "role": "linked evidence",
+      "bytes": 378,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261002T113045-vdot-run.log",
+      "role": "linked evidence",
+      "bytes": 1711,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261002T114458-core-wave-commit-audit.full.log",
+      "role": "linked evidence",
+      "bytes": 3339,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261003T152953-timer-probe-wave-window2.full.log",
+      "role": "linked evidence",
+      "bytes": 189827,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261003T153443-p0-timer-wave-audit.full.log",
+      "role": "linked evidence",
+      "bytes": 7390,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261003T191632-p0-v2-archived-recheck.full.log",
+      "role": "linked evidence",
+      "bytes": 2381,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261004T232856-p1-complete.full.log",
+      "role": "linked evidence",
+      "bytes": 50462,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261004T234828-vdot-run.full.log",
+      "role": "linked evidence",
+      "bytes": 3683349,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261004T235202-vdot-run.full.log",
+      "role": "linked evidence",
+      "bytes": 3683352,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261006T154426-incomplete-wave-cleanup.full.log",
+      "role": "linked evidence",
+      "bytes": 2171,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261006T160246-surver-smoke-check-verified.full.log",
+      "role": "linked evidence",
+      "bytes": 545,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261006T160344-surver-p1-remote-check.full.log",
+      "role": "linked evidence",
+      "bytes": 543,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261006T160607-surver-final-remote-check.full.log",
+      "role": "linked evidence",
+      "bytes": 543,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026-contract-core-audit.json",
+      "role": "linked evidence",
+      "bytes": 2148,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026-contract-preservation.json",
+      "role": "linked evidence",
+      "bytes": 7230,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026-sew16-core-audit.json",
+      "role": "linked evidence",
+      "bytes": 1312,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026-sew16-isolation.json",
+      "role": "linked evidence",
+      "bytes": 543,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026-v01-p1-wave-cleanup.full.log",
+      "role": "linked evidence",
+      "bytes": 766,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026T205315-sew16-core-regression.full.log",
+      "role": "linked evidence",
+      "bytes": 1886,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026T205315-sew16-core.full.log",
+      "role": "linked evidence",
+      "bytes": 3684887,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026T231735-contract-reference-legacy.full.log",
+      "role": "linked evidence",
+      "bytes": 417,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026T231852-contract-control-auditor-tests.full.log",
+      "role": "linked evidence",
+      "bytes": 311,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026T231913-contract-control.full.log",
+      "role": "linked evidence",
+      "bytes": 3684393,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026T231913-contract-functional.full.log",
+      "role": "linked evidence",
+      "bytes": 3684567,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261026T232042-contract-selection-tests.full.log",
+      "role": "linked evidence",
+      "bytes": 773,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261027-e16-summary-full-core-review.json",
+      "role": "linked evidence",
+      "bytes": 1312,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261027T131534-e16-events.observer.json",
+      "role": "linked evidence",
+      "bytes": 154,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261027T131534-e16-events.plan.json",
+      "role": "linked evidence",
+      "bytes": 2420,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261027T131534-e16-events.results.json",
+      "role": "linked evidence",
+      "bytes": 1240315,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/20261102-stale-build-cleanup.full.log",
+      "role": "linked evidence",
+      "bytes": 881,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/chirrtl.full.log",
+      "role": "linked evidence",
+      "bytes": 295192,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/completed-build-stages.json",
+      "role": "linked evidence",
+      "bytes": 2059,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/contract-control.architectural.json",
+      "role": "linked evidence",
+      "bytes": 487,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/contract-control.full.log",
+      "role": "linked evidence",
+      "bytes": 3684506,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/contract-functional.full.log",
+      "role": "linked evidence",
+      "bytes": 3684683,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/core-build.full.log",
+      "role": "linked evidence",
+      "bytes": 596071,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/cpp-build.full.log",
+      "role": "linked evidence",
+      "bytes": 7580,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/dramsim-build.full.log",
+      "role": "linked evidence",
+      "bytes": 4904,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/final-source-equivalence.json",
+      "role": "linked evidence",
+      "bytes": 1895,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/firtool.full.log",
+      "role": "linked evidence",
+      "bytes": 96829,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/hello.full.log",
+      "role": "linked evidence",
+      "bytes": 3684647,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/memory-generation.full.log",
+      "role": "linked evidence",
+      "bytes": 410,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/module-isolation.json",
+      "role": "linked evidence",
+      "bytes": 597,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/module-mixed.full.log",
+      "role": "linked evidence",
+      "bytes": 1425,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/nemu-build.full.log",
+      "role": "linked evidence",
+      "bytes": 4271,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/patch-source-equivalence.json",
+      "role": "linked evidence",
+      "bytes": 2827,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/performance-smoke0.audit.json",
+      "role": "linked evidence",
+      "bytes": 26347,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/performance-smoke0.full.log",
+      "role": "linked evidence",
+      "bytes": 5301,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/performance-smoke1.audit.json",
+      "role": "linked evidence",
+      "bytes": 26362,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/performance-smoke1.full.log",
+      "role": "linked evidence",
+      "bytes": 5301,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/prepare-workspace.full.log",
+      "role": "linked evidence",
+      "bytes": 38366,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/prepare-workspace.json",
+      "role": "linked evidence",
+      "bytes": 3899,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/reference.full.log",
+      "role": "linked evidence",
+      "bytes": 330,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/sew16-audit.json",
+      "role": "linked evidence",
+      "bytes": 1549,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/sew16-core.full.log",
+      "role": "linked evidence",
+      "bytes": 3685055,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/summary.json",
+      "role": "linked evidence",
+      "bytes": 8879,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/tool-setup.json",
+      "role": "linked evidence",
+      "bytes": 1119,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/vadd.full.log",
+      "role": "linked evidence",
+      "bytes": 3684763,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/clean-reproduction/wave-collection-recovery-before.json",
+      "role": "linked evidence",
+      "bytes": 5615,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/isolation-wave-audit-20261005.json",
+      "role": "linked evidence",
+      "bytes": 1160,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/isolation-wave-retirement.full.log",
+      "role": "linked evidence",
+      "bytes": 844,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/logs/operations.tsv",
+      "role": "linked evidence",
+      "bytes": 42065,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/patches/difftest-sync-compat.patch",
+      "role": "source/documentation",
+      "bytes": 2145,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/patches/nemu-vdot-sew16-fixed8.patch",
+      "role": "source/documentation",
+      "bytes": 12743,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/patches/nemu-vdot-v0.1.patch",
+      "role": "source/documentation",
+      "bytes": 12500,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/patches/vdot补丁选择与应用说明.md",
+      "role": "source/documentation",
+      "bytes": 4608,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/patches/xiangshan-vdot-operand-isolation.patch",
+      "role": "source/documentation",
+      "bytes": 38419,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/patches/xiangshan-vdot-sew16-fixed8.patch",
+      "role": "source/documentation",
+      "bytes": 41738,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/patches/xiangshan-vdot-v0.1.patch",
+      "role": "source/documentation",
+      "bytes": 24764,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/e16整核仿真与关键信号图解.md",
+      "role": "source/documentation",
+      "bytes": 11542,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/e16整核取消与独立初始化实验报告.md",
+      "role": "source/documentation",
+      "bytes": 6210,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/clean-reproduction/e16-negative.png",
+      "role": "manifest/figure evidence",
+      "bytes": 329169,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/clean-reproduction/e16-negative.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 27432,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/clean-reproduction/e16-positive.png",
+      "role": "manifest/figure evidence",
+      "bytes": 332092,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/clean-reproduction/e16-positive.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 27420,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/clean-reproduction/wave-evidence.json",
+      "role": "manifest/figure evidence",
+      "bytes": 39688,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/boundary-evidence-excerpts.json",
+      "role": "manifest/figure evidence",
+      "bytes": 44132,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e16最大正和整核事件.png",
+      "role": "manifest/figure evidence",
+      "bytes": 205352,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e16最大正和整核事件.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 9942,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e16非法VL零.png",
+      "role": "manifest/figure evidence",
+      "bytes": 183593,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e16非法VL零.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 18350,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e8最大正和.png",
+      "role": "manifest/figure evidence",
+      "bytes": 335099,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e8最大正和.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 24090,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e8最小负和乘积与保持.png",
+      "role": "manifest/figure evidence",
+      "bytes": 345753,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e8最小负和乘积与保持.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 24206,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e8零结果.png",
+      "role": "manifest/figure evidence",
+      "bytes": 320239,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/current-boundary/e8零结果.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 23961,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/e16-summary/core-e16-branch.png",
+      "role": "manifest/figure evidence",
+      "bytes": 168290,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/e16-summary/core-e16-branch.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 37220,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/e16-summary/core-e16-exception.png",
+      "role": "manifest/figure evidence",
+      "bytes": 207130,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/e16-summary/core-e16-exception.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 63259,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/e16-summary/e16-evidence-excerpts.json",
+      "role": "manifest/figure evidence",
+      "bytes": 49902,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/e16-summary/e16-evidence-manifest.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1922,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/review-edition-20261101/e16-summary/module-e16-negative.png",
+      "role": "manifest/figure evidence",
+      "bytes": 328287,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/review-edition-20261101/e16-summary/module-e16-negative.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 27424,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/review-edition-20261101/e16-summary/module-e16-positive.png",
+      "role": "manifest/figure evidence",
+      "bytes": 331304,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/figures/review-edition-20261101/e16-summary/module-e16-positive.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 27412,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/vdot功能与整核控制验收报告.md",
+      "role": "source/documentation",
+      "bytes": 9043,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/vdot原始核执行与提交波形.md",
+      "role": "source/documentation",
+      "bytes": 3980,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/vdot原始版本实施记录.md",
+      "role": "source/documentation",
+      "bytes": 7844,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/vdot基础功能测试与验收报告v0.1.md",
+      "role": "source/documentation",
+      "bytes": 9118,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/公开包独立目录复现报告.md",
+      "role": "source/documentation",
+      "bytes": 11741,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/固定八项e8e16实施与验收报告.md",
+      "role": "source/documentation",
+      "bytes": 10244,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/当前vdot基础功能测试报告.md",
+      "role": "source/documentation",
+      "bytes": 3635,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/操作数隔离与寄存器更新门控报告.md",
+      "role": "source/documentation",
+      "bytes": 6609,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/旧测试元素宽度约定修复记录.md",
+      "role": "source/documentation",
+      "bytes": 3646,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/reports/隔离版本整核构建与控制验证报告.md",
+      "role": "source/documentation",
+      "bytes": 10912,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/Makefile",
+      "role": "source/documentation",
+      "bytes": 202,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/before/NEMU/src/isa/riscv64/instr/rvv/vcompute.h",
+      "role": "source/documentation",
+      "bytes": 27316,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/before/NEMU/src/isa/riscv64/system/intr.c",
+      "role": "source/documentation",
+      "bytes": 14176,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/before/XiangShan/src/main/scala/xiangshan/backend/decode/VecExceptionGen.scala",
+      "role": "source/documentation",
+      "bytes": 13758,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/before/XiangShan/src/main/scala/xiangshan/backend/fu/vector/VDot8.scala",
+      "role": "source/documentation",
+      "bytes": 1323,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/before/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala",
+      "role": "source/documentation",
+      "bytes": 7477,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/before/XiangShan/src/test/scala/xiangshan/VDotDecodeTest.scala",
+      "role": "source/documentation",
+      "bytes": 7497,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/before/XiangShan/src/test/scala/xiangshan/backend/fu/vector/VDot8Test.scala",
+      "role": "source/documentation",
+      "bytes": 3646,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/before/XiangShan/src/test/scala/xiangshan/backend/fu/vector/VDotIntegrationTest.scala",
+      "role": "source/documentation",
+      "bytes": 12082,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/check-core.py",
+      "role": "source/documentation",
+      "bytes": 2431,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/check-isolation.py",
+      "role": "source/documentation",
+      "bytes": 2233,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/check-preservation.py",
+      "role": "source/documentation",
+      "bytes": 1889,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/check-reference.py",
+      "role": "source/documentation",
+      "bytes": 4266,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/control-trap.S",
+      "role": "source/documentation",
+      "bytes": 35,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/control.S",
+      "role": "source/documentation",
+      "bytes": 234,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/legacy.S",
+      "role": "source/documentation",
+      "bytes": 131,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/main.c",
+      "role": "source/documentation",
+      "bytes": 6210,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/render-e16-evidence.py",
+      "role": "source/documentation",
+      "bytes": 14368,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/trap.S",
+      "role": "source/documentation",
+      "bytes": 32,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/wide.S",
+      "role": "source/documentation",
+      "bytes": 1657,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/sew16/固定八项e8e16扩展操作手册.md",
+      "role": "source/documentation",
+      "bytes": 6013,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/test-contract.h",
+      "role": "source/documentation",
+      "bytes": 629,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/check-core-wave.py",
+      "role": "source/documentation",
+      "bytes": 8107,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/check-isolation-wave.py",
+      "role": "source/documentation",
+      "bytes": 8659,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/check-nemu-vdot.py",
+      "role": "source/documentation",
+      "bytes": 7699,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/check-wrapper-wave.py",
+      "role": "source/documentation",
+      "bytes": 3141,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/fixtures/core-wave-parser.vcd.txt",
+      "role": "protocol/test data",
+      "bytes": 1583,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/render-current-boundaries.py",
+      "role": "source/documentation",
+      "bytes": 17384,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/render-functional-wave.py",
+      "role": "source/documentation",
+      "bytes": 14213,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/render-vdot-design-diagrams.py",
+      "role": "source/documentation",
+      "bytes": 19238,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/tests/test-isolation-wave.py",
+      "role": "source/documentation",
+      "bytes": 4469,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/vdot-tests/Makefile",
+      "role": "source/documentation",
+      "bytes": 296,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/vdot-tests/main.c",
+      "role": "source/documentation",
+      "bytes": 8715,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/vdot-tests/trap.S",
+      "role": "source/documentation",
+      "bytes": 810,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/vdot-tests/vdot.S",
+      "role": "source/documentation",
+      "bytes": 4562,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/waveform/20261006T033620-isolation-control-resumed.vcd.control.json",
+      "role": "protocol/test data",
+      "bytes": 167431,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/waveform/control-harness-p1-20261006.vcd.control.json",
+      "role": "protocol/test data",
+      "bytes": 167431,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/waveform/vdot波形证据说明.md",
+      "role": "source/documentation",
+      "bytes": 11133,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage2/第二阶段录屏讲稿.md",
+      "role": "source/documentation",
+      "bytes": 24057,
+      "public_link_adjustment": true
+    },
+    {
+      "path": "stage2/第二阶段说明.md",
+      "role": "source/documentation",
+      "bytes": 4576,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/docs/历史隔离核性能测量与复核手册v3.md",
+      "role": "source/documentation",
+      "bytes": 9718,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-controlled/Makefile",
+      "role": "source/documentation",
+      "bytes": 181,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-controlled/bench.S",
+      "role": "source/documentation",
+      "bytes": 567,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-controlled/main.c",
+      "role": "source/documentation",
+      "bytes": 1864,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-controlled/端到端上下文受控验证手册.md",
+      "role": "source/documentation",
+      "bytes": 4751,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-diagnosis/Makefile",
+      "role": "source/documentation",
+      "bytes": 286,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-diagnosis/bench.S",
+      "role": "source/documentation",
+      "bytes": 33,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-diagnosis/main.c",
+      "role": "source/documentation",
+      "bytes": 3029,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-diagnosis/runtime-config.S",
+      "role": "source/documentation",
+      "bytes": 273,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-diagnosis/test_analysis.py",
+      "role": "source/documentation",
+      "bytes": 1235,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-diagnosis/test_audit.py",
+      "role": "source/documentation",
+      "bytes": 2258,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/e2e-diagnosis/端到端调用上下文诊断手册.md",
+      "role": "source/documentation",
+      "bytes": 3700,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/scripts/run-vdot-bench-series.sh",
+      "role": "source/documentation",
+      "bytes": 2478,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/scripts/run-vdot-bench.sh",
+      "role": "source/documentation",
+      "bytes": 2737,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/scripts/validate-vdot-bench-v2.sh",
+      "role": "source/documentation",
+      "bytes": 1315,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/stage3/tests/analyze-bench.py",
+      "role": "source/documentation",
+      "bytes": 12298,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/stage3/tests/render-bench-report.py",
+      "role": "source/documentation",
+      "bytes": 9772,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/stage3/vdot-bench/Makefile",
+      "role": "source/documentation",
+      "bytes": 639,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/stage3/vdot-bench/bench.S",
+      "role": "source/documentation",
+      "bytes": 4363,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/stage3/vdot-bench/main.c",
+      "role": "source/documentation",
+      "bytes": 7152,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/history/v2-before-p0/v2历史源码快照说明.md",
+      "role": "source/documentation",
+      "bytes": 1183,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/INT8矩阵向量乘应用说明.md",
+      "role": "source/documentation",
+      "bytes": 8683,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/Makefile",
+      "role": "source/documentation",
+      "bytes": 218,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/analyze.py",
+      "role": "source/documentation",
+      "bytes": 6151,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/audit-timer.py",
+      "role": "source/documentation",
+      "bytes": 5418,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/build-wave-observer.py",
+      "role": "source/documentation",
+      "bytes": 5789,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/check-nemu.py",
+      "role": "source/documentation",
+      "bytes": 3927,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/continue.py",
+      "role": "source/documentation",
+      "bytes": 2830,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/durable.py",
+      "role": "source/documentation",
+      "bytes": 8947,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/finalize.py",
+      "role": "source/documentation",
+      "bytes": 2738,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/gemv.h",
+      "role": "source/documentation",
+      "bytes": 1233,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/gemv_rvv.S",
+      "role": "source/documentation",
+      "bytes": 1680,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/gemv_scalar.c",
+      "role": "source/documentation",
+      "bytes": 231,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/gemv_vdot.S",
+      "role": "source/documentation",
+      "bytes": 2412,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/main.c",
+      "role": "source/documentation",
+      "bytes": 6741,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/measure.S",
+      "role": "source/documentation",
+      "bytes": 799,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/oracle.c",
+      "role": "source/documentation",
+      "bytes": 343,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/pack.c",
+      "role": "source/documentation",
+      "bytes": 802,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/params.S",
+      "role": "source/documentation",
+      "bytes": 227,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/protocol.json",
+      "role": "protocol/test data",
+      "bytes": 1028,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/render-evidence.py",
+      "role": "source/documentation",
+      "bytes": 11240,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/report.py",
+      "role": "source/documentation",
+      "bytes": 14048,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/run.py",
+      "role": "source/documentation",
+      "bytes": 5631,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/signals.py",
+      "role": "source/documentation",
+      "bytes": 2061,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/test-tools.py",
+      "role": "source/documentation",
+      "bytes": 7305,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/int8-gemv/wave.py",
+      "role": "source/documentation",
+      "bytes": 1700,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261002T115511-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 3141,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261002T115511-bench.log",
+      "role": "linked evidence",
+      "bytes": 3567,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T010740-158-series-full-run0-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 6594,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T010740-158-series-full-run1-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 6594,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T010740-158-series-full-run2-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 6594,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T010740-158-series-full-run3-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 6594,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T155604-301-series-full-runtime-e2e-diagnosis.json",
+      "role": "linked evidence",
+      "bytes": 4016,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T155604-301-series-full-runtime-run0-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7176,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T155604-301-series-full-runtime-run1-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7180,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T155604-301-series-full-runtime-run2-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7176,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261003T155604-301-series-full-runtime-run3-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7180,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261004T232857-17-p1-after-wave-audit.json",
+      "role": "linked evidence",
+      "bytes": 2061460,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261004T232857-17-p1-formal-core-comparison.json",
+      "role": "linked evidence",
+      "bytes": 75390,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261005T004545-274-series-full-runtime-run0-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7194,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261005T004545-274-series-full-runtime-run1-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7198,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261005T004545-274-series-full-runtime-run2-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7194,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261005T004545-274-series-full-runtime-run3-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7198,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261005T004545-274-series-full-runtime.paths",
+      "role": "linked evidence",
+      "bytes": 496,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-comparison.json",
+      "role": "linked evidence",
+      "bytes": 74712,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-full-run0-20261006T063347-16-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7090,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-full-run1-20261006T081637-16-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7094,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-full-run2-20261006T095922-16-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7090,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-full-run3-20261006T114338-16-bench.full.log",
+      "role": "linked evidence",
+      "bytes": 7094,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-full.paths",
+      "role": "linked evidence",
+      "bytes": 568,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-report.json",
+      "role": "linked evidence",
+      "bytes": 32526,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-smoke-audit.json",
+      "role": "linked evidence",
+      "bytes": 16737,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf-smoke.paths",
+      "role": "linked evidence",
+      "bytes": 286,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261006T060358-16-isolation-perf.state.json",
+      "role": "linked evidence",
+      "bytes": 8567,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261007-e2e-context-complete-analysis.json",
+      "role": "linked evidence",
+      "bytes": 88938,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261007T135026-e2e-context-b32.results.json",
+      "role": "linked evidence",
+      "bytes": 37787,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261007T152202-e2e-context-b256.results.json",
+      "role": "linked evidence",
+      "bytes": 38305,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008-reused-e2e-entry-context.json",
+      "role": "linked evidence",
+      "bytes": 3791,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008-three-bin-entry-context.json",
+      "role": "linked evidence",
+      "bytes": 5394,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008-three-bin-loop-groups.json",
+      "role": "linked evidence",
+      "bytes": 4625,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T114324-original-e2e-recovery.coordinator.log",
+      "role": "linked evidence",
+      "bytes": 427,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T114325-original-e2e-events-resumed-wave.audit.json",
+      "role": "linked evidence",
+      "bytes": 6891,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T114325-original-e2e-events-resumed-wave.full.log",
+      "role": "linked evidence",
+      "bytes": 1162485,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T114325-original-e2e-events-resumed.capture.json",
+      "role": "linked evidence",
+      "bytes": 538,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T114325-original-e2e-events-resumed.cycles.json",
+      "role": "linked evidence",
+      "bytes": 32266790,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T114325-original-e2e-events-resumed.events.json",
+      "role": "linked evidence",
+      "bytes": 6685196,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T114325-original-e2e-events-resumed.recovery.json",
+      "role": "linked evidence",
+      "bytes": 724,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T200238-original-other-bins.audit.json",
+      "role": "linked evidence",
+      "bytes": 6729,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T200238-original-other-bins.events.json",
+      "role": "linked evidence",
+      "bytes": 24759392,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T214323-e2e-controlled.results.json",
+      "role": "linked evidence",
+      "bytes": 34988,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261008T2341-e2e-controlled-analysis.json",
+      "role": "linked evidence",
+      "bytes": 62190,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T174613-sew16-perf4-preflight-probe.jsonl",
+      "role": "linked evidence",
+      "bytes": 4778679,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T174613-sew16-perf4-preflight.timer-audit.json",
+      "role": "linked evidence",
+      "bytes": 62600,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full-new0.full.log",
+      "role": "portable performance replay",
+      "bytes": 6259,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full-new1.full.log",
+      "role": "portable performance replay",
+      "bytes": 6259,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full-new2.full.log",
+      "role": "portable performance replay",
+      "bytes": 6259,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full-new3.full.log",
+      "role": "portable performance replay",
+      "bytes": 6259,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full-old0.full.log",
+      "role": "portable performance replay",
+      "bytes": 3712,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full-old1.full.log",
+      "role": "portable performance replay",
+      "bytes": 3712,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full-old2.full.log",
+      "role": "portable performance replay",
+      "bytes": 3712,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full-old3.full.log",
+      "role": "portable performance replay",
+      "bytes": 3712,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full.analysis.json",
+      "role": "linked evidence",
+      "bytes": 160741,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full.analysis.samples.csv",
+      "role": "linked evidence",
+      "bytes": 87504,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261027T190338-sew16-perf4-full.results.json",
+      "role": "linked evidence",
+      "bytes": 443769,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/20261028-sew16-perf4-final-review.json",
+      "role": "linked evidence",
+      "bytes": 1200,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-development/nemu-zero-row-groups.log",
+      "role": "linked evidence",
+      "bytes": 258,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-full/full-101.full.log",
+      "role": "linked evidence",
+      "bytes": 2817,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-full/full-202.full.log",
+      "role": "linked evidence",
+      "bytes": 2820,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-full/full-303.full.log",
+      "role": "linked evidence",
+      "bytes": 2811,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-full/full-404.full.log",
+      "role": "linked evidence",
+      "bytes": 2811,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-full/results.json",
+      "role": "linked evidence",
+      "bytes": 4365,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-probe/probe.full.log",
+      "role": "linked evidence",
+      "bytes": 1140,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-probe/timer-audit.json",
+      "role": "linked evidence",
+      "bytes": 53163,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-smoke/results.json",
+      "role": "linked evidence",
+      "bytes": 1067,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107-smoke/smoke.full.log",
+      "role": "linked evidence",
+      "bytes": 2240,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107.analysis.csv",
+      "role": "linked evidence",
+      "bytes": 17985,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/int8-gemv-20261107.analysis.json",
+      "role": "linked evidence",
+      "bytes": 135400,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/logs/timer-probe-20261003-window2-audit.json",
+      "role": "linked evidence",
+      "bytes": 7022,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/oldvd-probe/Makefile",
+      "role": "source/documentation",
+      "bytes": 163,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/oldvd-probe/main.c",
+      "role": "source/documentation",
+      "bytes": 1555,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/oldvd-probe/probe.S",
+      "role": "source/documentation",
+      "bytes": 1729,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/patches/vdot-oldvd-p1.patch",
+      "role": "source/documentation",
+      "bytes": 609,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/INT8GEMV实施与操作记录.md",
+      "role": "source/documentation",
+      "bytes": 9270,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/INT8矩阵向量乘应用测试与性能报告.md",
+      "role": "source/documentation",
+      "bytes": 9636,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/NEMU扩展与协同仿真验证报告.md",
+      "role": "source/documentation",
+      "bytes": 4237,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/P0完善与验收记录.md",
+      "role": "source/documentation",
+      "bytes": 11080,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/P1核正式性能实测报告.md",
+      "role": "source/documentation",
+      "bytes": 7057,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/P1至隔离核优化对比报告.md",
+      "role": "source/documentation",
+      "bytes": 15473,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/e8e16正式性能分析报告v4.md",
+      "role": "source/documentation",
+      "bytes": 5060,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/comparison/baseline-vdot-wave.png",
+      "role": "manifest/figure evidence",
+      "bytes": 163419,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/comparison/baseline-vdot-wave.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 78277,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/comparison/formal-speedup.png",
+      "role": "manifest/figure evidence",
+      "bytes": 202590,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/comparison/formal-speedup.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 5113,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/comparison/probe-samples.json",
+      "role": "manifest/figure evidence",
+      "bytes": 572360,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/control-cancellation.png",
+      "role": "manifest/figure evidence",
+      "bytes": 212311,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/control-cancellation.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 8616,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/e2e-periods.png",
+      "role": "manifest/figure evidence",
+      "bytes": 205950,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/e2e-periods.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 18096,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/stage1-vadd-events.png",
+      "role": "manifest/figure evidence",
+      "bytes": 199929,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/stage1-vadd-events.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 9623,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/timer-boundaries.png",
+      "role": "manifest/figure evidence",
+      "bytes": 176768,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/timer-boundaries.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 7114,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/vdot-result-events.png",
+      "role": "manifest/figure evidence",
+      "bytes": 161940,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/evidence/vdot-result-events.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 6054,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/all127.png",
+      "role": "manifest/figure evidence",
+      "bytes": 256428,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/all127.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 46760,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/cancellation.png",
+      "role": "manifest/figure evidence",
+      "bytes": 241705,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/cancellation.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 46145,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/functional-samples.json",
+      "role": "manifest/figure evidence",
+      "bytes": 114293,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/maximum.png",
+      "role": "manifest/figure evidence",
+      "bytes": 268185,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/maximum.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 47026,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/minimum.png",
+      "role": "manifest/figure evidence",
+      "bytes": 267601,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/minimum.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 46785,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/negative.png",
+      "role": "manifest/figure evidence",
+      "bytes": 238730,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/negative.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 46924,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/positive-asymmetric.png",
+      "role": "manifest/figure evidence",
+      "bytes": 245214,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/positive-asymmetric.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 46373,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/positive.png",
+      "role": "manifest/figure evidence",
+      "bytes": 225568,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/positive.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 43699,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/zero.png",
+      "role": "manifest/figure evidence",
+      "bytes": 245444,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional/zero.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 46927,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/functional-signals/signal-excerpts.json",
+      "role": "manifest/figure evidence",
+      "bytes": 121437,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/int8-gemv/signal-evidence.json",
+      "role": "manifest/figure evidence",
+      "bytes": 503913,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/int8-gemv/四行结果与提交.png",
+      "role": "manifest/figure evidence",
+      "bytes": 309326,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/int8-gemv/四行结果与提交.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 15298,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/int8-gemv/尾部七项补零.png",
+      "role": "manifest/figure evidence",
+      "bytes": 486466,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/int8-gemv/尾部七项补零.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 31632,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/int8-gemv/点积两级流水.png",
+      "role": "manifest/figure evidence",
+      "bytes": 538637,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/int8-gemv/点积两级流水.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 33961,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation/isolation-dot-hold.png",
+      "role": "manifest/figure evidence",
+      "bytes": 447717,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation/isolation-dot-hold.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 59812,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation/isolation-mac-hold.png",
+      "role": "manifest/figure evidence",
+      "bytes": 396850,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation/isolation-mac-hold.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 59370,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation/isolation-overlap.png",
+      "role": "manifest/figure evidence",
+      "bytes": 450548,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation/isolation-overlap.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 59870,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation/isolation-wave-excerpts.json",
+      "role": "manifest/figure evidence",
+      "bytes": 443968,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation/isolation-wave-figure-manifest.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1449,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/control-signals.png",
+      "role": "manifest/figure evidence",
+      "bytes": 212089,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/control-signals.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 100530,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/e2e-signals.png",
+      "role": "manifest/figure evidence",
+      "bytes": 186914,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/e2e-signals.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 16261,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/evidence-manifest.json",
+      "role": "manifest/figure evidence",
+      "bytes": 619,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/signal-excerpts.json",
+      "role": "manifest/figure evidence",
+      "bytes": 603941,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/latency-levels/evidence.json",
+      "role": "manifest/figure evidence",
+      "bytes": 18858,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/latency-levels/kernel-intervals.png",
+      "role": "manifest/figure evidence",
+      "bytes": 164249,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/latency-levels/kernel-intervals.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 10078,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/latency-levels/port-and-chain.png",
+      "role": "manifest/figure evidence",
+      "bytes": 228680,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/latency-levels/port-and-chain.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 11417,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/p1/p1-wave-excerpts.json",
+      "role": "manifest/figure evidence",
+      "bytes": 231731,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/p1/p1-wave-figure-manifest.json",
+      "role": "manifest/figure evidence",
+      "bytes": 1588,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/publication-20261107/e2e-signals.png",
+      "role": "manifest/figure evidence",
+      "bytes": 172474,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/publication-20261107/e2e-signals.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 16023,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/publication-20261107/formal-speedup.png",
+      "role": "manifest/figure evidence",
+      "bytes": 187718,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/publication-20261107/formal-speedup.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 4884,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/publication-20261107/kernel-intervals.png",
+      "role": "manifest/figure evidence",
+      "bytes": 152140,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/publication-20261107/kernel-intervals.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 9849,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/review-edition-20261101/p1/p1-oldvd.png",
+      "role": "manifest/figure evidence",
+      "bytes": 248320,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/review-edition-20261101/p1/p1-oldvd.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 63426,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/review-edition-20261101/p1/p1-true.png",
+      "role": "manifest/figure evidence",
+      "bytes": 260428,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/review-edition-20261101/p1/p1-true.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 95494,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/review-edition-20261101/p1/p1-v0.png",
+      "role": "manifest/figure evidence",
+      "bytes": 254517,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/review-edition-20261101/p1/p1-v0.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 73487,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/vdot原始版本等价基线与性能实测.md",
+      "role": "source/documentation",
+      "bytes": 4382,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/vdot正式性能实测报告v2.md",
+      "role": "source/documentation",
+      "bytes": 5893,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/原始核正式性能实测报告v3.md",
+      "role": "source/documentation",
+      "bytes": 7069,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/原始核至P1优化对比报告.md",
+      "role": "source/documentation",
+      "bytes": 10186,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/原镜像端到端快慢窗口事件诊断.md",
+      "role": "source/documentation",
+      "bytes": 11986,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/基线与vdot延迟加速图文分析.md",
+      "role": "source/documentation",
+      "bytes": 25008,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/性能测量可信度改进记录v2.md",
+      "role": "source/documentation",
+      "bytes": 6692,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/旧目的假依赖定向验证与修改记录.md",
+      "role": "source/documentation",
+      "bytes": 11642,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/端到端单调用与上下文受控验证报告.md",
+      "role": "source/documentation",
+      "bytes": 10785,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/端到端预热偏差与调用上下文诊断记录.md",
+      "role": "source/documentation",
+      "bytes": 5827,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/隔离核正式性能分析报告v3.md",
+      "role": "source/documentation",
+      "bytes": 9468,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/隔离核正式测量进度与恢复记录.md",
+      "role": "source/documentation",
+      "bytes": 3784,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/Makefile",
+      "role": "source/documentation",
+      "bytes": 172,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/analyze.py",
+      "role": "source/documentation",
+      "bytes": 14935,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/audit-timer.py",
+      "role": "source/documentation",
+      "bytes": 6777,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/bench.S",
+      "role": "source/documentation",
+      "bytes": 3084,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/build-bounded-observer.py",
+      "role": "source/documentation",
+      "bytes": 3075,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/check-image.py",
+      "role": "source/documentation",
+      "bytes": 1494,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/common.py",
+      "role": "source/documentation",
+      "bytes": 8895,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/history/20261027-before-compact-output/original-invocation.json",
+      "role": "protocol/test data",
+      "bytes": 2700,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/history/20261027-before-compact-output/preflight.py",
+      "role": "source/documentation",
+      "bytes": 776,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/history/20261027-before-compact-output/stage3/sew16-perf/Makefile",
+      "role": "source/documentation",
+      "bytes": 172,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/history/20261027-before-compact-output/stage3/sew16-perf/bench.S",
+      "role": "source/documentation",
+      "bytes": 3044,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/history/20261027-before-compact-output/stage3/sew16-perf/common.py",
+      "role": "source/documentation",
+      "bytes": 7555,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/history/20261027-before-compact-output/stage3/sew16-perf/main.c",
+      "role": "source/documentation",
+      "bytes": 6882,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/history/20261027-before-compact-output/stage3/sew16-perf/params.S",
+      "role": "source/documentation",
+      "bytes": 331,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/main.c",
+      "role": "source/documentation",
+      "bytes": 6899,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/params.S",
+      "role": "source/documentation",
+      "bytes": 380,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/pipeline.py",
+      "role": "source/documentation",
+      "bytes": 3146,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/preflight.py",
+      "role": "source/documentation",
+      "bytes": 796,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/protocol.json",
+      "role": "protocol/test data",
+      "bytes": 831,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/review-public-data.py",
+      "role": "source/documentation",
+      "bytes": 8477,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/review.py",
+      "role": "source/documentation",
+      "bytes": 5330,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/series.py",
+      "role": "source/documentation",
+      "bytes": 4354,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/test-aggregate.py",
+      "role": "source/documentation",
+      "bytes": 2831,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/test-analysis.py",
+      "role": "source/documentation",
+      "bytes": 1393,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/test-tools.py",
+      "role": "source/documentation",
+      "bytes": 4170,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/sew16-perf/性能测量与复核手册v4.md",
+      "role": "source/documentation",
+      "bytes": 7350,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/analyze-bench.py",
+      "role": "source/documentation",
+      "bytes": 13597,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/analyze-e2e-context.py",
+      "role": "source/documentation",
+      "bytes": 4800,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/analyze-e2e-controlled.py",
+      "role": "source/documentation",
+      "bytes": 3541,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/analyze-e2e-entry-context.py",
+      "role": "source/documentation",
+      "bytes": 4348,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/analyze-e2e-loop-groups.py",
+      "role": "source/documentation",
+      "bytes": 3097,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/analyze-e2e-variation.py",
+      "role": "source/documentation",
+      "bytes": 1425,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/analyze-original-e2e-events.py",
+      "role": "source/documentation",
+      "bytes": 19672,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/check-bench-image.py",
+      "role": "source/documentation",
+      "bytes": 1403,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/check-oldvd-wave.py",
+      "role": "source/documentation",
+      "bytes": 11187,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/check-timer-wave.py",
+      "role": "source/documentation",
+      "bytes": 7398,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/chinese-figure-edition.py",
+      "role": "source/documentation",
+      "bytes": 11827,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/chinese-figure-labels.py",
+      "role": "source/documentation",
+      "bytes": 28328,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/compare-bench-cores.py",
+      "role": "source/documentation",
+      "bytes": 3896,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/compare-oldvd.py",
+      "role": "source/documentation",
+      "bytes": 3717,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/prepare-runtime-order.py",
+      "role": "source/documentation",
+      "bytes": 2078,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/render-baseline-comparison.py",
+      "role": "source/documentation",
+      "bytes": 12758,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/render-bench-report.py",
+      "role": "source/documentation",
+      "bytes": 12291,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/render-document-evidence.py",
+      "role": "source/documentation",
+      "bytes": 15685,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/render-isolation-retained-signals.py",
+      "role": "source/documentation",
+      "bytes": 11692,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/render-isolation-wave-figures.py",
+      "role": "source/documentation",
+      "bytes": 11338,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/render-latency-evidence.py",
+      "role": "source/documentation",
+      "bytes": 14614,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/render-p1-wave-figures.py",
+      "role": "source/documentation",
+      "bytes": 19750,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/render-vdot-functional-waveforms.py",
+      "role": "source/documentation",
+      "bytes": 12464,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/run-tool-tests.py",
+      "role": "source/documentation",
+      "bytes": 712,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-analyze-bench.py",
+      "role": "source/documentation",
+      "bytes": 6702,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-baseline-comparison.py",
+      "role": "source/documentation",
+      "bytes": 3125,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-bench-report.py",
+      "role": "source/documentation",
+      "bytes": 4030,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-bench-runners.py",
+      "role": "source/documentation",
+      "bytes": 7141,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-chinese-edition.py",
+      "role": "source/documentation",
+      "bytes": 5035,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-chinese-figures.py",
+      "role": "source/documentation",
+      "bytes": 2447,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-compare-bench-cores.py",
+      "role": "source/documentation",
+      "bytes": 2858,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-compare-oldvd.py",
+      "role": "source/documentation",
+      "bytes": 3005,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-document-evidence.py",
+      "role": "source/documentation",
+      "bytes": 2669,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-documentation.py",
+      "role": "source/documentation",
+      "bytes": 8029,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-e2e-controlled.py",
+      "role": "source/documentation",
+      "bytes": 10807,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-functional-wave-figures.py",
+      "role": "source/documentation",
+      "bytes": 2695,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-isolation-performance.py",
+      "role": "source/documentation",
+      "bytes": 6014,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-isolation-retirement.py",
+      "role": "source/documentation",
+      "bytes": 3445,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-isolation-wave-figures.py",
+      "role": "source/documentation",
+      "bytes": 3179,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-latency-evidence.py",
+      "role": "source/documentation",
+      "bytes": 2907,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-oldvd-wave.py",
+      "role": "source/documentation",
+      "bytes": 4338,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-original-e2e-events.py",
+      "role": "source/documentation",
+      "bytes": 10682,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-p1-wave-figures.py",
+      "role": "source/documentation",
+      "bytes": 5631,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-review-document-edition.py",
+      "role": "source/documentation",
+      "bytes": 3819,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-reviewer-delivery.py",
+      "role": "source/documentation",
+      "bytes": 4036,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-runtime-order.py",
+      "role": "source/documentation",
+      "bytes": 4100,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-stage1-review-documents.py",
+      "role": "source/documentation",
+      "bytes": 3979,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-timer-wave.py",
+      "role": "source/documentation",
+      "bytes": 3736,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/tests/test-v01-p1-cleanup.py",
+      "role": "source/documentation",
+      "bytes": 1935,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/timer-probe/Makefile",
+      "role": "source/documentation",
+      "bytes": 177,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/timer-probe/main.c",
+      "role": "source/documentation",
+      "bytes": 1266,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench/Makefile",
+      "role": "source/documentation",
+      "bytes": 639,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench/bench.S",
+      "role": "source/documentation",
+      "bytes": 4406,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench/main.c",
+      "role": "source/documentation",
+      "bytes": 7621,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench/共享基准与历史v2说明.md",
+      "role": "source/documentation",
+      "bytes": 5353,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench-p0/Makefile",
+      "role": "source/documentation",
+      "bytes": 561,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench-p0/bench.S",
+      "role": "source/documentation",
+      "bytes": 33,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench-p0/main.c",
+      "role": "source/documentation",
+      "bytes": 121,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench-p0/runtime-config.S",
+      "role": "source/documentation",
+      "bytes": 382,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench-p0/同镜像运行时选序基准v3说明.md",
+      "role": "source/documentation",
+      "bytes": 1054,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/第三阶段INT8应用补拍讲稿.md",
+      "role": "source/documentation",
+      "bytes": 16860,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/第三阶段录屏讲稿.md",
+      "role": "source/documentation",
+      "bytes": 24245,
+      "public_link_adjustment": true
+    },
+    {
+      "path": "stage3/第三阶段说明.md",
+      "role": "source/documentation",
+      "bytes": 4613,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "【开芯院】2026CIE.pdf",
+      "role": "competition reference",
+      "bytes": 834939,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "项目说明.md",
+      "role": "source/documentation",
+      "bytes": 7474,
+      "public_link_adjustment": false
+    }
+  ],
+  "generated": [
+    "manifest/开发归档说明.md",
+    "manifest/public-release-files.json"
+  ],
+  "omitted_linked_artifacts": {
+    "stage3/logs/20261007T221412-original-e2e-events-boot.vcd": 104585538,
+    "stage3/logs/p1-artifacts-20261004/emu-before": 252697232
+  },
+  "scope": "source plus review figures and selected data; no historical core binaries/full waveforms"
+}

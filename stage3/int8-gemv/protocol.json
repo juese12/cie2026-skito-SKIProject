@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "implementations": ["scalar", "rvv4-vl16", "vdot1", "vdot4"],
+  "modes": ["compute_padded", "one_shot_e2e"],
+  "full_shapes": [[16,64],[17,65]],
+  "full_warmups": 2,
+  "full_samples": 6,
+  "process_seeds": [101,202,303,404],
+  "data_seeds": [1447317332,1,2654435769,3735928559],
+  "first_implementations": [0,1,2,3],
+  "monitor_interval_seconds": 2400,
+  "warning_sample_range_fraction": 0.10,
+  "max_cycles": 2000000,
+  "scope": "signed INT8 row-major W and x, INT32 y; M<=32 K<=256; no requantization",
+  "compute": "all implementations read identical zero-padded arrays; all loads, config, sums and stores included",
+  "e2e": "scalar/RVV read original inputs; dot packs original weights and x on every call",
+  "timing": "mcycle with vstart markers; no subtraction; validate dynamic ordering in new image",
+  "sampling": "rotate four implementations by (first+rep+slot)%4; preserve all warmups and samples",
+  "wave": "one 4x17 vdot4 call, short actual RTL VCD window, independently check products/sums"
+}

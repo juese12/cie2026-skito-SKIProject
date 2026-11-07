@@ -1,0 +1,129 @@
+{
+  "status": "PREPARED",
+  "repositories": [
+    {
+      "path": "XiangShan",
+      "commit": "16ae9ddcda54fc9a2fddffad73174cf793ac7814",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/coupledL2",
+      "commit": "82079f4081bbc1f0221c790fbf8a29b1f23f48b8",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/difftest",
+      "commit": "62e4540c03c03aa947bdb67f4b6bf66f1a29c5d0",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/fudian",
+      "commit": "e1bd4695ca7beb36a5ce7357e9527ad9e95b9ec1",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/huancun",
+      "commit": "90aaf5935206ff322e461c3d021436c20dd0ac85",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/openLLC",
+      "commit": "614ceb4c5d39d32e6ae786693a35da429ea32c12",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/openLLC/openNCB",
+      "commit": "546a621ed82302db1bd1edc900b17ba55682c15c",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/ready-to-run",
+      "commit": "ed8c30e1ec8a9c9aa6b116ce54281235d00273fa",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/rocket-chip",
+      "commit": "bea0af5d855a871699b907c1988961141bbf28e7",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/rocket-chip/cde",
+      "commit": "52768c97a27b254c0cc0ac9401feb55b29e18c28",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/rocket-chip/hardfloat",
+      "commit": "d93aa570806013dea479a92ba9bb33d1f2d4f69f",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/src/main/resources/aia",
+      "commit": "9464aee3c77b021a037f28aa1b3fe53c71b516f6",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/utility",
+      "commit": "a8ca0c6564865ee69b564d431ecbc52074ba8060",
+      "source": "local object mirror"
+    },
+    {
+      "path": "XiangShan/yunsuan",
+      "commit": "cadd3c2f43096e253d61296b33ac697be8354e29",
+      "source": "local object mirror"
+    },
+    {
+      "path": "NEMU",
+      "commit": "9ff758834c59be35f20591d38689ee58d68e99d8",
+      "source": "local object mirror"
+    },
+    {
+      "path": "NEMU/resource/simpoint/simpoint_repo",
+      "commit": "e51a936d7fddfa03c81692039f184ab6c437e99e",
+      "source": "local object mirror"
+    },
+    {
+      "path": "nexus-am",
+      "commit": "8f44ce1a6feabeeac7eb5cc9ca8bd490c0525d25",
+      "source": "local object mirror"
+    },
+    {
+      "path": "DRAMsim3",
+      "commit": "1d2a9bf6da8e050d975ef2669c42faa93943f489",
+      "source": "local object mirror"
+    },
+    {
+      "path": "DRAMsim3/ext/SuperLU_MT_3.1",
+      "commit": "68739c5a23cc48c9a13d28793834e4fee95d33ee",
+      "source": "local object mirror"
+    },
+    {
+      "path": "NEMU/resource/nanopb",
+      "commit": "625837ed2eedacc887ee6b747576b85a1f4b82b4",
+      "source": "local object mirror"
+    },
+    {
+      "path": "NEMU/resource/LibCheckpoint",
+      "commit": "1d8905cc2803c242ef257569128c2e68bf4272aa",
+      "source": "local object mirror"
+    },
+    {
+      "path": "NEMU/resource/LibCheckpoint/resource/nanopb",
+      "commit": "671672b4d7994a9b07a307ae654885c7202ae886",
+      "source": "local object mirror"
+    },
+    {
+      "path": "NEMU/resource/gcpt_restore",
+      "commit": "5169da768d18f4682a489eaabe7c071df6d6ef88",
+      "source": "local object mirror"
+    },
+    {
+      "path": "NEMU/resource/softfloat/repo",
+      "commit": "07ebd29db0cfb55723a79fbbffe99103ef38e305",
+      "source": "local object mirror"
+    }
+  ],
+  "project": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject",
+  "compiled_artifacts_copied": false,
+  "patches_applied": 3,
+  "scope": "new source checkout, same host toolchain; not a new OS/container"
+}

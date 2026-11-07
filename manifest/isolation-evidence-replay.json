@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "paths": {
+    "emu": "/home/saintrikashy/riscv/xs-env/XiangShan/build/operand-isolation/emu",
+    "ref": "/home/saintrikashy/riscv/xs-env/NEMU/build/riscv64-nemu-interpreter-so",
+    "bench": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin",
+    "bench_elf": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.elf",
+    "control": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/control-tests/build/cie2026-stage2-control-seed56444f54-riscv64-xs.bin",
+    "control_elf": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/control-tests/build/cie2026-stage2-control-seed56444f54-riscv64-xs.elf",
+    "symbols": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/control-tests/build/cie2026-stage2-control-seed56444f54.symbols",
+    "overlay": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runtime-overlay.mCdaF2/parameter.bin",
+    "dram_config": "/home/saintrikashy/riscv/xs-env/DRAMsim3/configs/XiangShan.ini"
+  },
+  "identities": {
+    "/home/saintrikashy/riscv/xs-env/XiangShan/build/operand-isolation/emu": "d67519c61294dff5606d7f932a4545291dd5766828363710055279734932c054",
+    "/home/saintrikashy/riscv/xs-env/NEMU/build/riscv64-nemu-interpreter-so": "2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin": "2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.elf": "a64c4a292584c782bbf1a812ca81436ff05fcac1b7fb3bf44eca81b8126869da",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/control-tests/build/cie2026-stage2-control-seed56444f54-riscv64-xs.bin": "3388a598a7d3f479817f99cad1632a459a85e344c918b95e7bdd722936f2847d",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/control-tests/build/cie2026-stage2-control-seed56444f54-riscv64-xs.elf": "31143cfe01403151eaefe36aa55aa44b90a1207f1a8f02fb476bda9f2d2219cc",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/control-tests/build/cie2026-stage2-control-seed56444f54.symbols": "403e321a1df76a3409b9066680636cbc6364df1488c8ed25047b46da32a2f02a",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runtime-overlay.mCdaF2/parameter.bin": "7caf58948bc9f81a1232ed43c0bf0f2b75be0beb090d596475280ed66bf9a998",
+    "/home/saintrikashy/riscv/xs-env/DRAMsim3/configs/xiangshan_DDR4_8Gb_x8_3200_2ch_xmp.ini": "1fef276831971fdf6dd5ede982285d28c89dfb3c2c69bf2477f864ddab2d1763",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/waveform/20261006T033620-isolation-control-resumed.vcd.control.json": "38d8e1012653d0e6c9b45846775a6162cda4cc62189f3623ae0cea0e21077914",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/logs/20261006T033620-32-control-56444f54.full.log": "41c56b46403b0abf51fb7be620affa818ac18f5a9f55f9e61659de0638b85716",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed.events.json": "ba17cdb53c8df334a354549561b6827838ed4cc6f3473621f172bb52cb274a2b",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed.cycles.json": "3adf308826a4db54f1b8adc4da0e444b98f0d6dddc983bb2ace8c825b5600a4e",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed-wave.full.log": "52eb27a7eb725c7870ee1093abcb3262b872c793c7e8c6e16b5b12aede48c6ad",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T200238-original-other-bins.events.json": "c9a747d97a7ec125ee358d443599ef7c54ca316f60794b55c809601f8a8c6ead",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T200238-original-other-bins.cycles.json": "ebf86d5247e8f2261ff0518202ef0d346cc206d5636f035b8d5fad15f85f7c7f",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T200238-original-other-bins-wave.full.log": "87727442bb6ea32ed73a74de1874b296adb4912e2e2b6c423c1f9669272ea849",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261007T221501-original-e2e-events.windows.json": "853d067e341951127d9b53340cabcacddf75c9a8502559ab886604a6ae27ceb3",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261007T221501-original-e2e-events.calibration.json": "72d370f03efedb847d134364fbaf0e4915747344f972568c75ff9ae5d8f46734",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261006T060358-16-isolation-perf-full-run0-20261006T063347-16-bench.full.log": "0184552918d15860a6444d388f68a856e25495264ab17fc5d08d9362225dd646",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/reports/figures/isolation-retained/signal-excerpts.json": "76af036895773f2bc1fff132d270b2378577cf277e69095ab2a41b1bc97cca26",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/check-vdot-control.py": "bd8a298c4bd705119eaffb7c89bf2e14d4c186d8e333964d5a8e30c07410ccb9",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/analyze-original-e2e-events.py": "71db644083604542e37df66da0be91bdaa47cfbe3acc5a4de2d15f918824b69a",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/tests/analyze-bench.py": "982939d13cb13cb0dc5f365af5f8ae160c936b1cc87208517f5e04bb50b42fd2",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/replay-isolation-evidence.py": "3368408354d83b6d8195d61c620678e9525044918fe430a1baee92825814244a",
+    "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6": "4633a4be13fdf05cb0f859e04fb06077a1fe30a90e405721a23873bd1f3d88a8",
+    "/usr/lib/x86_64-linux-gnu/libz.so.1.3.1": "27fa6c6cb94fb5b099ead61758a300dbc392d1dbf307fff6c16a9b8e57fdc9de",
+    "/usr/lib/x86_64-linux-gnu/libzstd.so.1.5.7": "060eeb79531d435306665fd78329d8a9dd579f95876c5960bb67937825362a80",
+    "/usr/lib/x86_64-linux-gnu/libatomic.so.1.2.0": "eac440708f874c4d446671efb5353cebeaa829bd1f18cd8d5065cd6efefa387b",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.35": "5bb0d21308f123b6ad46c6f35b42cedfcb8d6d439a53aa3dae04d880aaffdde3",
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": "1c488db6f4fe8cecb72456bc018de000b7a9b539c2994864b0416b5e8371b3d8",
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": "9d339ecb409578d6a5d587e6c537a8f9589b8a13fefba30d167433a4b5758bee",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": "85e64f97e348786a8fb4d9f3d52fec289e2fb86bba20f0731dfe61990525e0f7",
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": "bda779ea9e9ad234f60315477d7cfd0bdde861cd8ddd9df8cdaf62f18c4cec14"
+  },
+  "windows": {
+    "control": [
+      0,
+      26000
+    ],
+    "e2e": [
+      828182,
+      838423
+    ],
+    "middle": [
+      892399,
+      897515
+    ]
+  },
+  "seeds": {
+    "control": 101,
+    "e2e": 0,
+    "middle": 0
+  },
+  "expected_cycles": {
+    "fast": 4415,
+    "middle": 4924,
+    "slow": 5178
+  },
+  "original_control": "stage2/waveform/20261006T033620-isolation-control-resumed.vcd.control.json",
+  "original_control_log": "stage2/logs/20261006T033620-32-control-56444f54.full.log",
+  "original_fast": "stage3/logs/20261008T114325-original-e2e-events-resumed",
+  "original_middle": "stage3/logs/20261008T200238-original-other-bins",
+  "qualification": "Exact retained old binaries/images and local runtime environment; original VCDs are NOT required. Reproduction means equivalent measurements/control coverage, not byte-identical dumps."
+}

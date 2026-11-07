@@ -1,0 +1,328 @@
+{
+  "status": "PASS",
+  "wave_sha256": "5098053cc076c28055da35110821ff766d4e53f9d3dd3f2e6616a040c8caf06d",
+  "log_sha256": "0f4f69d0c3c5dea528f95832229657c240c1d405be7ccb6792d2e936b7197dce",
+  "checked_pairs": [
+    {
+      "kind": 0,
+      "impl": 0,
+      "cycles": 170,
+      "start": {
+        "dispatch_time": 18411,
+        "pc": "0x80000232",
+        "inst": "0xb0002373",
+        "tag": [
+          1,
+          19
+        ],
+        "output_time": 18421,
+        "data": 7798661970496641345
+      },
+      "end": {
+        "dispatch_time": 18751,
+        "pc": "0x80000326",
+        "inst": "0xb0002e73",
+        "tag": [
+          1,
+          87
+        ],
+        "output_time": 18761,
+        "data": 7798661970496641515
+      },
+      "markers": [
+        {
+          "dispatch_time": 18429,
+          "pc": "0x80000236",
+          "inst": "0x805073",
+          "tag": [
+            1,
+            20
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 18439,
+          "data": 0
+        },
+        {
+          "dispatch_time": 18733,
+          "pc": "0x80000322",
+          "inst": "0x805073",
+          "tag": [
+            1,
+            86
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 18743,
+          "data": 0
+        }
+      ]
+    },
+    {
+      "kind": 0,
+      "impl": 1,
+      "cycles": 313,
+      "start": {
+        "dispatch_time": 19099,
+        "pc": "0x800001aa",
+        "inst": "0xb0002373",
+        "tag": [
+          0,
+          14
+        ],
+        "output_time": 19109,
+        "data": 7798661970496641689
+      },
+      "end": {
+        "dispatch_time": 19725,
+        "pc": "0x80000326",
+        "inst": "0xb0002e73",
+        "tag": [
+          0,
+          130
+        ],
+        "output_time": 19735,
+        "data": 7798661970496642002
+      },
+      "markers": [
+        {
+          "dispatch_time": 19117,
+          "pc": "0x800001ae",
+          "inst": "0x805073",
+          "tag": [
+            0,
+            15
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 19127,
+          "data": 0
+        },
+        {
+          "dispatch_time": 19707,
+          "pc": "0x80000322",
+          "inst": "0x805073",
+          "tag": [
+            0,
+            129
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 19717,
+          "data": 0
+        }
+      ]
+    },
+    {
+      "kind": 1,
+      "impl": 0,
+      "cycles": 302,
+      "start": {
+        "dispatch_time": 20069,
+        "pc": "0x80000232",
+        "inst": "0xb0002373",
+        "tag": [
+          1,
+          60
+        ],
+        "output_time": 20079,
+        "data": 7798661970496642174
+      },
+      "end": {
+        "dispatch_time": 20673,
+        "pc": "0x80000326",
+        "inst": "0xb0002e73",
+        "tag": [
+          0,
+          96
+        ],
+        "output_time": 20683,
+        "data": 7798661970496642476
+      },
+      "markers": [
+        {
+          "dispatch_time": 20087,
+          "pc": "0x80000236",
+          "inst": "0x805073",
+          "tag": [
+            1,
+            61
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 20097,
+          "data": 0
+        },
+        {
+          "dispatch_time": 20655,
+          "pc": "0x80000322",
+          "inst": "0x805073",
+          "tag": [
+            0,
+            95
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 20665,
+          "data": 0
+        }
+      ]
+    },
+    {
+      "kind": 1,
+      "impl": 1,
+      "cycles": 497,
+      "start": {
+        "dispatch_time": 20901,
+        "pc": "0x800001aa",
+        "inst": "0xb0002373",
+        "tag": [
+          1,
+          23
+        ],
+        "output_time": 20911,
+        "data": 7798661970496642590
+      },
+      "end": {
+        "dispatch_time": 21895,
+        "pc": "0x80000326",
+        "inst": "0xb0002e73",
+        "tag": [
+          0,
+          107
+        ],
+        "output_time": 21905,
+        "data": 7798661970496643087
+      },
+      "markers": [
+        {
+          "dispatch_time": 20919,
+          "pc": "0x800001ae",
+          "inst": "0x805073",
+          "tag": [
+            1,
+            24
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 20929,
+          "data": 0
+        },
+        {
+          "dispatch_time": 21877,
+          "pc": "0x80000322",
+          "inst": "0x805073",
+          "tag": [
+            0,
+            106
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 21887,
+          "data": 0
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "impl": 0,
+      "cycles": 255,
+      "start": {
+        "dispatch_time": 22173,
+        "pc": "0x800002fe",
+        "inst": "0xb0002373",
+        "tag": [
+          1,
+          35
+        ],
+        "output_time": 22183,
+        "data": 7798661970496643226
+      },
+      "end": {
+        "dispatch_time": 22683,
+        "pc": "0x80000326",
+        "inst": "0xb0002e73",
+        "tag": [
+          1,
+          87
+        ],
+        "output_time": 22693,
+        "data": 7798661970496643481
+      },
+      "markers": [
+        {
+          "dispatch_time": 22191,
+          "pc": "0x80000302",
+          "inst": "0x805073",
+          "tag": [
+            1,
+            36
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 22201,
+          "data": 0
+        },
+        {
+          "dispatch_time": 22665,
+          "pc": "0x80000322",
+          "inst": "0x805073",
+          "tag": [
+            1,
+            86
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 22675,
+          "data": 0
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "impl": 1,
+      "cycles": 959,
+      "start": {
+        "dispatch_time": 22901,
+        "pc": "0x800002a6",
+        "inst": "0xb0002373",
+        "tag": [
+          0,
+          11
+        ],
+        "output_time": 22911,
+        "data": 7798661970496643590
+      },
+      "end": {
+        "dispatch_time": 24819,
+        "pc": "0x80000326",
+        "inst": "0xb0002e73",
+        "tag": [
+          0,
+          159
+        ],
+        "output_time": 24829,
+        "data": 7798661970496644549
+      },
+      "markers": [
+        {
+          "dispatch_time": 22919,
+          "pc": "0x800002aa",
+          "inst": "0x805073",
+          "tag": [
+            0,
+            12
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 22929,
+          "data": 0
+        },
+        {
+          "dispatch_time": 24801,
+          "pc": "0x80000322",
+          "inst": "0x805073",
+          "tag": [
+            0,
+            158
+          ],
+          "rob_empty_at_dispatch": true,
+          "output_time": 24811,
+          "data": 0
+        }
+      ]
+    }
+  ],
+  "checked_markers": 19,
+  "blocked_low_phases": 179,
+  "boundary": "CSR dispatch drain/block and timestamp output order; NOT DRAM store durability, wrong-path proof or PPA"
+}

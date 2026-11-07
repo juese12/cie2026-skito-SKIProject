@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="1560" height="1110" fill="#fff"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="51" font-size="31" fill="#192f46" font-weight="bold" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">独立指令流内核与端到端区间对比</text>
+<text x="44" y="84" font-size="19" fill="#68798d" font-weight="normal" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">当前核｜每个样本 256 次点积｜周期越少越好｜v4 正式数据</text>
+<rect x="44" y="112" width="23" height="16" rx="4" fill="#176db5"/>
+<text x="77" y="128" font-size="20" fill="#176db5" font-weight="normal" text-anchor="start">vdot</text>
+<rect x="180" y="112" width="23" height="16" rx="4" fill="#68798d"/>
+<text x="213" y="128" font-size="20" fill="#68798d" font-weight="normal" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">精确 RVV 基线</text>
+<text x="940" y="128" font-size="20" fill="#192f46" font-weight="bold" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">RVV / vdot：四个进程的比值</text>
+<line x1="190.0" y1="165" x2="190.0" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="190.0" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle">0</text>
+<line x1="398.33333333333337" y1="165" x2="398.33333333333337" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="398.33333333333337" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle">1000</text>
+<line x1="606.6666666666667" y1="165" x2="606.6666666666667" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="606.6666666666667" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle">2000</text>
+<line x1="815.0" y1="165" x2="815.0" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="815.0" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle">3000</text>
+<line x1="1010.0" y1="165" x2="1010.0" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="1010.0" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">0 倍</text>
+<line x1="1098.0" y1="165" x2="1098.0" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="1098.0" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">1 倍</text>
+<line x1="1186.0" y1="165" x2="1186.0" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="1186.0" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">2 倍</text>
+<line x1="1274.0" y1="165" x2="1274.0" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="1274.0" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">3 倍</text>
+<line x1="1362.0" y1="165" x2="1362.0" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="1362.0" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">4 倍</text>
+<line x1="1450.0" y1="165" x2="1450.0" y2="855" stroke="#dce3eb" stroke-width="2"/>
+<text x="1450.0" y="884" font-size="18" fill="#68798d" font-weight="normal" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">5 倍</text>
+<text x="44" y="234" font-size="23" fill="#192f46" font-weight="bold" text-anchor="start">e8</text>
+<text x="44" y="265" font-size="21" fill="#192f46" font-weight="normal" text-anchor="start">batch4</text>
+<rect x="190" y="217" width="72.91666666666667" height="27" rx="4" fill="#176db5"/>
+<text x="272.9166666666667" y="238" font-size="19" fill="#176db5" font-weight="bold" text-anchor="start">350</text>
+<rect x="190" y="256" width="343.3333333333333" height="27" rx="4" fill="#68798d"/>
+<text x="543.3333333333333" y="277" font-size="19" fill="#68798d" font-weight="bold" text-anchor="start">1648</text>
+<line x1="1424.2285714285715" y1="252" x2="1424.3542857142857" y2="252" stroke="#176db5" stroke-width="5"/>
+<circle cx="1424.3542857142857" cy="252" r="6" fill="#176db5"/>
+<circle cx="1424.3542857142857" cy="252" r="6" fill="#176db5"/>
+<circle cx="1424.2285714285715" cy="252" r="6" fill="#176db5"/>
+<circle cx="1424.3542857142857" cy="252" r="6" fill="#176db5"/>
+<text x="1010" y="297" font-size="20" fill="#176db5" font-weight="bold" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">中位数 4.708571 倍</text>
+<text x="1010" y="326" font-size="16" fill="#68798d" font-weight="normal" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">范围 4.707143～4.708571</text>
+<text x="44" y="401" font-size="23" fill="#192f46" font-weight="bold" text-anchor="start">e16</text>
+<text x="44" y="432" font-size="21" fill="#192f46" font-weight="normal" text-anchor="start">batch4</text>
+<rect x="190" y="384" width="72.91666666666667" height="27" rx="4" fill="#176db5"/>
+<text x="272.9166666666667" y="405" font-size="19" fill="#176db5" font-weight="bold" text-anchor="start">350</text>
+<rect x="190" y="423" width="343.3333333333333" height="27" rx="4" fill="#68798d"/>
+<text x="543.3333333333333" y="444" font-size="19" fill="#68798d" font-weight="bold" text-anchor="start">1648</text>
+<line x1="1424.2285714285715" y1="419" x2="1424.3542857142857" y2="419" stroke="#176db5" stroke-width="5"/>
+<circle cx="1424.2285714285715" cy="419" r="6" fill="#176db5"/>
+<circle cx="1424.3542857142857" cy="419" r="6" fill="#176db5"/>
+<circle cx="1424.3542857142857" cy="419" r="6" fill="#176db5"/>
+<circle cx="1424.3542857142857" cy="419" r="6" fill="#176db5"/>
+<text x="1010" y="464" font-size="20" fill="#176db5" font-weight="bold" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">中位数 4.708571 倍</text>
+<text x="1010" y="493" font-size="16" fill="#68798d" font-weight="normal" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">范围 4.707143～4.708571</text>
+<text x="44" y="568" font-size="23" fill="#192f46" font-weight="bold" text-anchor="start">e8</text>
+<text x="44" y="599" font-size="21" fill="#192f46" font-weight="normal" text-anchor="start">e2e</text>
+<rect x="190" y="551" width="259.1666666666667" height="27" rx="4" fill="#176db5"/>
+<text x="459.1666666666667" y="572" font-size="19" fill="#176db5" font-weight="bold" text-anchor="start">1244</text>
+<rect x="190" y="590" width="572.96875" height="27" rx="4" fill="#68798d"/>
+<text x="772.96875" y="611" font-size="19" fill="#68798d" font-weight="bold" text-anchor="start">2750.25</text>
+<line x1="1199.8039215686274" y1="586" x2="1211.8268755152515" y2="586" stroke="#176db5" stroke-width="5"/>
+<circle cx="1199.8039215686274" cy="586" r="6" fill="#176db5"/>
+<circle cx="1209.505358615004" cy="586" r="6" fill="#176db5"/>
+<circle cx="1199.838431372549" cy="586" r="6" fill="#176db5"/>
+<circle cx="1211.8268755152515" cy="586" r="6" fill="#176db5"/>
+<text x="1010" y="631" font-size="20" fill="#176db5" font-weight="bold" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">中位数 2.212181 倍</text>
+<text x="1010" y="660" font-size="16" fill="#68798d" font-weight="normal" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">范围 2.156863～2.293487</text>
+<text x="44" y="735" font-size="23" fill="#192f46" font-weight="bold" text-anchor="start">e16</text>
+<text x="44" y="766" font-size="21" fill="#192f46" font-weight="normal" text-anchor="start">e2e</text>
+<rect x="190" y="718" width="246.14583333333334" height="27" rx="4" fill="#176db5"/>
+<text x="446.14583333333337" y="739" font-size="19" fill="#176db5" font-weight="bold" text-anchor="start">1181.5</text>
+<rect x="190" y="757" width="573.0208333333334" height="27" rx="4" fill="#68798d"/>
+<text x="773.0208333333334" y="778" font-size="19" fill="#68798d" font-weight="bold" text-anchor="start">2750.5</text>
+<line x1="1209.5416323165705" y1="753" x2="1220.473043478261" y2="753" stroke="#176db5" stroke-width="5"/>
+<circle cx="1220.473043478261" cy="753" r="6" fill="#176db5"/>
+<circle cx="1209.5416323165705" cy="753" r="6" fill="#176db5"/>
+<circle cx="1220.4347826086957" cy="753" r="6" fill="#176db5"/>
+<circle cx="1209.5416323165705" cy="753" r="6" fill="#176db5"/>
+<text x="1010" y="798" font-size="20" fill="#176db5" font-weight="bold" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">中位数 2.329411 倍</text>
+<text x="1010" y="827" font-size="16" fill="#68798d" font-weight="normal" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">范围 2.267519～2.391739</text>
+<text x="44" y="947" font-size="21" fill="#192f46" font-weight="bold" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">batch4：输入预加载，四个独立目的寄存器，测量内核区间。</text>
+<text x="44" y="985" font-size="21" fill="#192f46" font-weight="normal" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">e2e：测量区间包含操作数加载、初始化和结果保存。</text>
+
+<text x="44" y="1072" font-size="18" fill="#68798d" font-weight="normal" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">柱形取进程中位数的中位数；比值取各进程比值的中位数与范围，不扣空循环。</text>
+</g></svg>

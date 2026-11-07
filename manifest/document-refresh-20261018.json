@@ -1,0 +1,396 @@
+{
+  "date": "2026-10-18",
+  "scope": "Documentation only; no RTL/NEMU/benchmark mutations, simulation, waveform generation, deletion, commit/push/PR/upload. Historical protected bytes unchanged.",
+  "original_markdown_count": 47,
+  "updated_existing_count": 23,
+  "unchanged_protected_count": 24,
+  "new_markdown_count": 4,
+  "total_markdown_count": 51,
+  "original_documents": [
+    {
+      "path": "README.md",
+      "title": "# SKIProject",
+      "protected": false,
+      "sha256": "98aea391ee98c5847136aa1c7b00ef7430ef542fedc766063d0cd022121f95ff",
+      "action": "update current status/navigation",
+      "purpose": "作品定位、当前总览、主题入口与隐私边界"
+    },
+    {
+      "path": "docs/README.md",
+      "title": "# 主题文档总索引",
+      "protected": false,
+      "sha256": "c795fad9c3e6ea60c21abc1e70b9f25e8de418ab8adae57d9661780c9e176e94",
+      "action": "update current status/navigation",
+      "purpose": "主题导航、历史附件及维护规则"
+    },
+    {
+      "path": "manifest/incomplete-wave-cleanup-20261006.md",
+      "title": "# 不完整波形清理记录",
+      "protected": true,
+      "sha256": "1dd21c4db355504e346fd87ed1751bf4b9465ffcd372767d910849d6e47efb1b",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "两份中断波形的授权删除、哈希及成功替代"
+    },
+    {
+      "path": "manifest/repositories.md",
+      "title": "# 仓库关系",
+      "protected": false,
+      "sha256": "fa8b5f775a873607e0ef7d314c2711460f0075c0ead6c29d2a6123e2767e9d41",
+      "action": "update current status/navigation",
+      "purpose": "xs-env/XS/NEMU/AM/作品仓库关系"
+    },
+    {
+      "path": "manifest/storage-cleanup-20261006.md",
+      "title": "# 编译缓存清理记录",
+      "protected": true,
+      "sha256": "39b796adc869690cde9d2d612d2b1cb93a27ff7a7f8dbd570b315711dc7e0920",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "编译缓存清理、权限失败及归档"
+    },
+    {
+      "path": "manifest/storage-cleanup-ledger.md",
+      "title": "# 存储清理台账",
+      "protected": false,
+      "sha256": "5c44fced23a9114d1d7f104fac48f9c221f1c47dbc7f4676bec3e898c8960ac5",
+      "action": "update current status/navigation",
+      "purpose": "两次授权清理及证据保留/恢复边界"
+    },
+    {
+      "path": "manifest/submission-audit.md",
+      "title": "# 作品仓库合规核查",
+      "protected": false,
+      "sha256": "ca231b0e545d48f483a48de80b6f6675576359e03ce409ebd16692e6416e87d0",
+      "action": "update current status/navigation",
+      "purpose": "历史合规、加密提交边界、当前体积/隐私风险"
+    },
+    {
+      "path": "stage1/README.md",
+      "title": "# 第一阶段：环境与标准 RVV 基线",
+      "protected": false,
+      "sha256": "2594a52244495077e29e77dc220af9754901e296f0114ce5ea29457eb304974f",
+      "action": "update current status/navigation",
+      "purpose": "阶段一阅读入口与目录定位"
+    },
+    {
+      "path": "stage1/docs/environment-rvv-baseline.md",
+      "title": "# 环境、依赖与 RVV 基线验收",
+      "protected": false,
+      "sha256": "3abc615da188650214809ac2cc5a523d5bafe342e1fb3216364c3ccbb4204f79",
+      "action": "update current status/navigation",
+      "purpose": "环境、Hello、37 元素 vadd、波形/复现汇总"
+    },
+    {
+      "path": "stage1/docs/向量加法指令执行过程.md",
+      "title": "# RVV 向量加法指令执行过程",
+      "protected": true,
+      "sha256": "49b0f411816db08b2981db54c5f66b7b786de745cc5999784db600e78cc1b896",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "vadd 构建/编码、分块运行和结果"
+    },
+    {
+      "path": "stage1/docs/向量加法波形分析.md",
+      "title": "# RVV 向量加法波形分析",
+      "protected": true,
+      "sha256": "6a3b087e38d0ea2172527ffe09f79d60e4a3047d844f58f06411c502dde7418d",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "10 次执行/写回与配置/操作数"
+    },
+    {
+      "path": "stage1/docs/环境部署与操作日志.md",
+      "title": "# 第一阶段环境部署与操作日志",
+      "protected": true,
+      "sha256": "83ead52eb0cbb7f0ea9868d04617e2816adcf8868ac6f7788a7105ca70ba01c2",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "原环境部署、工具/依赖和 Hello 时间线"
+    },
+    {
+      "path": "stage1/waveform/README.md",
+      "title": "# 本地波形目录",
+      "protected": false,
+      "sha256": "deacc88455f8206bc4b86979bbf7a163d4100e26ae8230ef8cdfc2fd6176675a",
+      "action": "update current status/navigation",
+      "purpose": "vadd 波形位置、解析及重新生成入口"
+    },
+    {
+      "path": "stage2/README.md",
+      "title": "# 第二阶段：指令实现与功能验证",
+      "protected": false,
+      "sha256": "b91a5e92e91d90217ffaf153feab2b6fc77cbfe5827c4d3cc6722161800a3119",
+      "action": "update current status/navigation",
+      "purpose": "原设计＋当前补充＋功能验收阅读顺序"
+    },
+    {
+      "path": "stage2/control-tests/README.md",
+      "title": "# 整核控制与多种子验收",
+      "protected": false,
+      "sha256": "6b7cd54f389016646c59875b40496ae534cdf2488768582ab46126bfd28f6482",
+      "action": "update current status/navigation",
+      "purpose": "四 seed 控制、实际取消判据和复审命令"
+    },
+    {
+      "path": "stage2/docs/surver-remote-manual.md",
+      "title": "# Surver 本机远程波形操作手册",
+      "protected": false,
+      "sha256": "df4e2b6584e242712ff06e816f59c71bacff3d1ef2b5a481fdf4913d31a7a4fa",
+      "action": "update current status/navigation",
+      "purpose": "回环远程波形服务、资源保护、令牌/连接操作"
+    },
+    {
+      "path": "stage2/docs/vdot-integration-manual.md",
+      "title": "# vdot.vv 修改与操作手册",
+      "protected": true,
+      "sha256": "69d9aa2ca9dad0227a95f6025e95212b9bc24c16696a6846871e7dc01a7ee52d",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "逐文件通路、实施顺序、原命令与故障定位"
+    },
+    {
+      "path": "stage2/docs/vdot-vv-design.md",
+      "title": "# vdot.vv 完整设计说明",
+      "protected": true,
+      "sha256": "797a3878cfb2b5d5bbc43b3a348c275959601ddbf2ffcea53a0796d7321850fd",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "ISA、参数/信号、编码、微架构、数据通路"
+    },
+    {
+      "path": "stage2/patches/README.md",
+      "title": "# vdot v0.1 补丁包",
+      "protected": false,
+      "sha256": "e463c7433ddb848ee67219c9198387dc90d0c680b1d9dd7e8eaa875173e5080b",
+      "action": "update current status/navigation",
+      "purpose": "XS 整合/旧补丁选择、NEMU 配置及应用检查"
+    },
+    {
+      "path": "stage2/reports/v0.1-progress.md",
+      "title": "# vdot v0.1 实施进度与操作记录",
+      "protected": true,
+      "sha256": "5656dc2a6e8aa4982a939fab19b38a16f3c6567246f33f8defd5e79d3bc32de0",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "v0.1/P0 原实施日志、失败恢复及数据"
+    },
+    {
+      "path": "stage2/reports/vdot-acceptance.md",
+      "title": "# vdot v0.1 功能验收摘要",
+      "protected": true,
+      "sha256": "e6354111f4ad87fc2ed282539dced7d23d506a3eeaaf4b781695d24671cff208",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "v0.1 基础/随机/非法及补丁验收"
+    },
+    {
+      "path": "stage2/reports/vdot-core-wave.md",
+      "title": "# vdot v0.1 整核执行与提交波形",
+      "protected": true,
+      "sha256": "2d2ead6ab4130802cb6c1de847bb7d3ac7b11b06b2792811ea1a34227ccc1414",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "v0.1 29 条执行与实际提交关联"
+    },
+    {
+      "path": "stage2/reports/vdot-functional-validation.md",
+      "title": "# vdot 功能、集成与整核控制验收",
+      "protected": false,
+      "sha256": "bea14562e17a9182a47ffcbb8294c5b3740ac54fc477613321b3fb252011a187",
+      "action": "update current status/navigation",
+      "purpose": "各核身份、合法/非法、CSR、v0、混发及取消"
+    },
+    {
+      "path": "stage2/reports/vdot-isolation-core-control.md",
+      "title": "# 隔离版本整核构建与控制验证",
+      "protected": true,
+      "sha256": "4ee6b34903004988b1d5ad969a77d2caf00a211302c39c08fc960a442f4b12e7",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "隔离独立构建、四 seed 与实际取消联合证据"
+    },
+    {
+      "path": "stage2/reports/vdot-operand-isolation.md",
+      "title": "# vdot 操作数隔离与寄存器更新门控",
+      "protected": true,
+      "sha256": "0db8b6a392368060b6c64f015ee1d6ce55cd49dea2e8d6877ca5b0820b146275",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "隔离/逻辑使能原理、模块前后验证及活动"
+    },
+    {
+      "path": "stage2/waveform/README.md",
+      "title": "# vdot 波形证据",
+      "protected": false,
+      "sha256": "26392aeb019e96c4aebfb53f9b81b8dd87ca274a243d0dcaa02f8f5b85f419a0",
+      "action": "update current status/navigation",
+      "purpose": "算术/wrapper/整核控制波形和审计入口"
+    },
+    {
+      "path": "stage3/README.md",
+      "title": "# 第三阶段：性能、优化与交付",
+      "protected": false,
+      "sha256": "0ffcaa372341e2f5da88a1f0a9c9794cafe3f5ee1de653b1cc72b965e220548a",
+      "action": "update current status/navigation",
+      "purpose": "性能、优化与三档诊断的阶段导航"
+    },
+    {
+      "path": "stage3/docs/vdot-measurement-manual.md",
+      "title": "# 当前 v3 性能测量与复核手册",
+      "protected": false,
+      "sha256": "0880aa7c0ea014db65d91ba8555cb507991c61257e2dc108f0ef94a5e38ee53e",
+      "action": "update current status/navigation",
+      "purpose": "当前 v3 方法、核选路、统计、诊断/复核/恢复"
+    },
+    {
+      "path": "stage3/e2e-controlled/README.md",
+      "title": "# E2E 上下文受控验证：小波形方案",
+      "protected": false,
+      "sha256": "713311111fa5b49a0b0737702c1eba3538bec880e48d7552bd3933d0753a194f",
+      "action": "update current status/navigation",
+      "purpose": "单调用 gzip 和 12 组无波形干预操作/局限"
+    },
+    {
+      "path": "stage3/e2e-diagnosis/README.md",
+      "title": "# e2e 预热/测量调用上下文诊断",
+      "protected": false,
+      "sha256": "dd6d6ee832f56b478e6301126a45a4f1d0795b51e9fb5c7f6d63a7df7895a722",
+      "action": "update current status/navigation",
+      "purpose": "八组调用驱动诊断及全样本复算"
+    },
+    {
+      "path": "stage3/history/v2-before-p0/README.md",
+      "title": "# v2 正式测量交付时的源码快照",
+      "protected": true,
+      "sha256": "4c74021af176d2ff0eb0390d4bef0f8dd46dda2ce1296d83093d34ceafad42c4",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "v2 源码快照、指纹与复算说明"
+    },
+    {
+      "path": "stage3/reports/20261006T060358-16-isolation-perf-performance.md",
+      "title": "# 隔离核 vdot 正式性能实测报告 v3",
+      "protected": true,
+      "sha256": "916525a78662b38aa321cc4fac09de43f3569ef3f34d9744e58022558265efe8",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "当前正式四进程全样本、周期比及稳定性警告"
+    },
+    {
+      "path": "stage3/reports/vdot-e2e-context-diagnosis.md",
+      "title": "# e2e预热偏差：调用上下文诊断记录",
+      "protected": false,
+      "sha256": "a7df15ac4ddb3f3ec2205f7094ab92db7e415897813463a8a6856932a11b26e9",
+      "action": "update current status/navigation",
+      "purpose": "八组/512 调用、位置效应和原同位置残差"
+    },
+    {
+      "path": "stage3/reports/vdot-e2e-controlled-validation.md",
+      "title": "# E2E 单调用补采与调用上下文受控验证",
+      "protected": false,
+      "sha256": "3a96cd93a380cc80155fa812832500e8f4ac6641362bd367a8323ce7abf6e92e",
+      "action": "update current status/navigation",
+      "purpose": "三档精确分解、唯一新波形、12 组负干预结果"
+    },
+    {
+      "path": "stage3/reports/vdot-isolation-performance-progress.md",
+      "title": "# 隔离核正式性能测量：进度与恢复",
+      "protected": true,
+      "sha256": "e1d41e1d26dadf07082811201cfab79c3f996a4fb026d8e55e01130a49b27ea0",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "隔离正式队列构建/长测/恢复时间线"
+    },
+    {
+      "path": "stage3/reports/vdot-isolation-review.md",
+      "title": "# P1 → 隔离核：评审图文版",
+      "protected": true,
+      "sha256": "de92efbdbb575e46694151acfb1b9535ef2b575b497a9836e13c171125de9045",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "隔离原理、图文波形、活动与整核/性能对照"
+    },
+    {
+      "path": "stage3/reports/vdot-measurement-v2.md",
+      "title": "# vdot 性能测量可信度改进 v2",
+      "protected": true,
+      "sha256": "35a33a3df52560cab94335c3879ca2b255ae69e4e077f3a43da6db6354aecee9",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "串行计时、延后打印等方法演进"
+    },
+    {
+      "path": "stage3/reports/vdot-original-e2e-events.md",
+      "title": "# 原正式镜像 E2E 快慢窗口内部事件诊断",
+      "protected": false,
+      "sha256": "bd5eb7262048a81e47745db391cbfae82ead8773bf62c86c28145b978619b3d2",
+      "action": "update current status/navigation",
+      "purpose": "原快慢窗口完整恢复、内部事件和 763 净差"
+    },
+    {
+      "path": "stage3/reports/vdot-p0-completion.md",
+      "title": "# 第三阶段 P0 完善与验收记录",
+      "protected": true,
+      "sha256": "d347d659e389ba777b700234b4498ed0a4ed50a76b2a33f7f6a16b03cff73c33",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "同镜像参数注入、真实边界与 P0 审核"
+    },
+    {
+      "path": "stage3/reports/vdot-p1-oldvd.md",
+      "title": "# P1：oldVd 假依赖定向证据与最小修改",
+      "protected": true,
+      "sha256": "af8e404e7b28f44cff9c3d506b7a9be59e9ff14bc8bd4fbc4587dbeffb1e50f5",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "oldVd 去依赖的原合同和操作记录"
+    },
+    {
+      "path": "stage3/reports/vdot-p1-review.md",
+      "title": "# v0.1 → P1：评审图文版",
+      "protected": true,
+      "sha256": "3d4640a606e4d794062fc52f471ee926fa2bbb5471d5b7f2011be928b5aa9210",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "误等待 632→0、真实依赖及前后性能图文"
+    },
+    {
+      "path": "stage3/reports/vdot-performance-p1.md",
+      "title": "# vdot 正式性能实测报告 v3",
+      "protected": true,
+      "sha256": "6d79f2a20b9f2d0e276053b58f2929b3bd19b431831d5fd2ab021d903205a425",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "P1 四进程全样本正式数据"
+    },
+    {
+      "path": "stage3/reports/vdot-performance-v2.md",
+      "title": "# vdot 正式性能实测报告 v2",
+      "protected": true,
+      "sha256": "88eb8abeedf1ed75376cb21c4430b07f56a787574e0738fc2af9c22dce7e3794",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "历史 v2 协议四进程结果"
+    },
+    {
+      "path": "stage3/reports/vdot-performance-v3.md",
+      "title": "# vdot 正式性能实测报告 v3",
+      "protected": true,
+      "sha256": "6c13cdda9472f8437e79f5390ff778494ff75a0f93c09b23f840d522047d5ff0",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "默认 v0.1 核的 P0/v3 正式数据"
+    },
+    {
+      "path": "stage3/reports/vdot-performance.md",
+      "title": "# vdot v0.1 等价基线与性能实测",
+      "protected": true,
+      "sha256": "d35c107a5fdaad2aafb37d7dbcf210701351c8038c9ca10e7439f4466e8adcf5",
+      "action": "preserve original bytes; per-document current-status cross-reference",
+      "purpose": "首次微基准及早期计时结果"
+    },
+    {
+      "path": "stage3/vdot-bench/README.md",
+      "title": "# 共享基准源码与历史 v2 入口",
+      "protected": false,
+      "sha256": "6ac21fa6cd25ea818c2e958ee11a303bf72bb330d629d96282b04fd859d19728",
+      "action": "update current status/navigation",
+      "purpose": "共享基准源码与历史 v2 入口"
+    },
+    {
+      "path": "stage3/vdot-bench-p0/README.md",
+      "title": "# 同镜像运行时选序基准 v3",
+      "protected": false,
+      "sha256": "021c37c9bbd1730f12ae97460887bb86c9823cf168dd835fe6e2dc5466339c7d",
+      "action": "update current status/navigation",
+      "purpose": "同镜像运行时选序、v3 构建与测量入口"
+    }
+  ],
+  "new_markdown": [
+    "docs/project-status.md",
+    "docs/competition-deliverables.md",
+    "docs/document-status-register.md",
+    "stage2/docs/vdot-current-design.md"
+  ],
+  "official_source": "https://api.rv.cie.org.cn/api/subject/index?race_id=8",
+  "official_request_header": "server: 1",
+  "subject_id": 36
+}

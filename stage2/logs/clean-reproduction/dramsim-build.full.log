@@ -1,0 +1,54 @@
+[started] 2026-11-03T13:26:30+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject
+[command] /home/saintrikashy/riscv/xs-env/cleanworkspaces/tools/cmake-root/usr/bin/cmake --build /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/../DRAMsim3/build --target dramsim3 -j2 
+[  7%] Building CXX object CMakeFiles/dramsim3.dir/src/channel_state.cc.o
+[ 14%] Building CXX object CMakeFiles/dramsim3.dir/src/bankstate.cc.o
+[ 21%] Building CXX object CMakeFiles/dramsim3.dir/src/command_queue.cc.o
+[ 28%] Building CXX object CMakeFiles/dramsim3.dir/src/common.cc.o
+In file included from /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/common.cc:2:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/fmt/include/fmt/format.h:404:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  404 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/command_queue.cc: In member function ‘bool dramsim3::CommandQueue::QueueEmpty() const’:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/command_queue.cc:118:21: warning: loop variable ‘q’ creates a copy from type ‘const std::vector<dramsim3::Command>’ [-Wrange-loop-construct]
+  118 |     for (const auto q : queues_) {
+      |                     ^
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/command_queue.cc:118:21: note: use reference type to prevent copying
+  118 |     for (const auto q : queues_) {
+      |                     ^
+      |                     &
+[ 35%] Building CXX object CMakeFiles/dramsim3.dir/src/configuration.cc.o
+In file included from /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/configuration.h:8,
+                 from /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/configuration.cc:1:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/headers/INIReader.h: In constructor ‘dramsim3::Config::Config(std::string, std::string)’:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/headers/INIReader.h:163:12: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ output may be truncated copying 49 bytes from a string of length 199 [-Wstringop-truncation]
+  163 |     strncpy(dest, src, size);
+      |            ^
+[ 42%] Building CXX object CMakeFiles/dramsim3.dir/src/controller.cc.o
+[ 50%] Building CXX object CMakeFiles/dramsim3.dir/src/dram_system.cc.o
+[ 57%] Building CXX object CMakeFiles/dramsim3.dir/src/hmc.cc.o
+[ 64%] Building CXX object CMakeFiles/dramsim3.dir/src/refresh.cc.o
+[ 71%] Building CXX object CMakeFiles/dramsim3.dir/src/simple_stats.cc.o
+In file included from /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/simple_stats.cc:3:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/fmt/include/fmt/format.h:404:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  404 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 78%] Building CXX object CMakeFiles/dramsim3.dir/src/timing.cc.o
+[ 85%] Building CXX object CMakeFiles/dramsim3.dir/src/memory_system.cc.o
+[ 92%] Building CXX object CMakeFiles/dramsim3.dir/src/cosimulation.cc.o
+In file included from /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/cosimulation.cc:1:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/cosimulation.h: In constructor ‘CoDRAMRequest::CoDRAMRequest(uint64_t, bool)’:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/cosimulation.h:17:44: warning: member ‘CoDRAMRequest::meta’ is used uninitialized [-Wuninitialized]
+   17 |         : CoDRAMRequest(address, is_write, meta) { }
+      |                                            ^~~~
+In file included from /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/configuration.h:8,
+                 from /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/memory_system.h:7,
+                 from /home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/src/cosimulation.cc:2:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/headers/INIReader.h: In constructor ‘ComplexCoDRAMsim3::ComplexCoDRAMsim3(const std::string&, const std::string&, uint64_t)’:
+/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/DRAMsim3/ext/headers/INIReader.h:163:12: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ output may be truncated copying 49 bytes from a string of length 199 [-Wstringop-truncation]
+  163 |     strncpy(dest, src, size);
+      |            ^
+[100%] Linking CXX static library libdramsim3.a
+[100%] Built target dramsim3
+[completed] 2026-11-03T13:26:41+08:00
+[exit] 0

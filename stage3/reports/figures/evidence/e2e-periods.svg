@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="1560" height="1110" fill="#f4f7fb"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#172b4d}</style>
+<text x="35" y="48" font-size="30" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">原端到端调用：实际观察到的重复分派模式</text>
+<text x="35" y="82" font-size="19" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">经审核的稳态事件偏移，以实际循环首条加载为锚点；未重建连续波形。</text>
+<rect x="24" y="115" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="149" font-size="23" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">快档：4415 周期｜周期档位 17｜255 个实际间隔</text>
+<path d="M370.0,275 L370.0,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="362.0" y="311" font-size="16" style="fill:#172b4d">0</text>
+<path d="M420.4761904761905,275 L420.4761904761905,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="412.4761904761905" y="311" font-size="16" style="fill:#172b4d">1</text>
+<path d="M470.95238095238096,275 L470.95238095238096,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="462.95238095238096" y="311" font-size="16" style="fill:#172b4d">2</text>
+<path d="M521.4285714285714,275 L521.4285714285714,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="513.4285714285714" y="311" font-size="16" style="fill:#172b4d">3</text>
+<path d="M571.9047619047619,275 L571.9047619047619,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="563.9047619047619" y="311" font-size="16" style="fill:#172b4d">4</text>
+<path d="M622.3809523809524,275 L622.3809523809524,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="614.3809523809524" y="311" font-size="16" style="fill:#172b4d">5</text>
+<path d="M672.8571428571429,275 L672.8571428571429,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="664.8571428571429" y="311" font-size="16" style="fill:#172b4d">6</text>
+<path d="M723.3333333333333,275 L723.3333333333333,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="715.3333333333333" y="311" font-size="16" style="fill:#172b4d">7</text>
+<path d="M773.8095238095239,275 L773.8095238095239,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="765.8095238095239" y="311" font-size="16" style="fill:#172b4d">8</text>
+<path d="M824.2857142857142,275 L824.2857142857142,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="816.2857142857142" y="311" font-size="16" style="fill:#172b4d">9</text>
+<path d="M874.7619047619048,275 L874.7619047619048,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="866.7619047619048" y="311" font-size="16" style="fill:#172b4d">10</text>
+<path d="M925.2380952380952,275 L925.2380952380952,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="917.2380952380952" y="311" font-size="16" style="fill:#172b4d">11</text>
+<path d="M975.7142857142857,275 L975.7142857142857,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="967.7142857142857" y="311" font-size="16" style="fill:#172b4d">12</text>
+<path d="M1026.1904761904761,275 L1026.1904761904761,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1018.1904761904761" y="311" font-size="16" style="fill:#172b4d">13</text>
+<path d="M1076.6666666666665,275 L1076.6666666666665,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1068.6666666666665" y="311" font-size="16" style="fill:#172b4d">14</text>
+<path d="M1127.142857142857,275 L1127.142857142857,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1119.142857142857" y="311" font-size="16" style="fill:#172b4d">15</text>
+<path d="M1177.6190476190477,275 L1177.6190476190477,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1169.6190476190477" y="311" font-size="16" style="fill:#172b4d">16</text>
+<path d="M1228.095238095238,275 L1228.095238095238,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1220.095238095238" y="311" font-size="16" style="fill:#172b4d">17</text>
+<path d="M1278.5714285714284,275 L1278.5714285714284,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1270.5714285714284" y="311" font-size="16" style="fill:#172b4d">18</text>
+<path d="M1329.047619047619,275 L1329.047619047619,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1321.047619047619" y="311" font-size="16" style="fill:#172b4d">19</text>
+<path d="M1379.5238095238096,275 L1379.5238095238096,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1371.5238095238096" y="311" font-size="16" style="fill:#172b4d">20</text>
+<path d="M1430.0,275 L1430.0,288" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1422.0" y="311" font-size="16" style="fill:#172b4d">21</text>
+<path d="M370,280 L1430,280" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="370" y="344" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">相对循环锚点的 DUT 周期</text>
+<text x="45" y="188" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">实际加载锚点</text>
+<path d="M370,182 L1430,182" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="370.0" cy="182" r="6" fill="#175cd3"/>
+<circle cx="1228.095238095238" cy="182" r="6" fill="#175cd3"/>
+<text x="45" y="227" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">无有效分派</text>
+<path d="M370,221 L1430,221" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<text x="420" y="215" font-size="17" style="fill:#667085" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">重复区间内未出现</text>
+<text x="45" y="266" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">IQ2 第三请求受阻</text>
+<path d="M370,260 L1430,260" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<text x="420" y="254" font-size="17" style="fill:#667085" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">重复区间内未出现</text>
+<rect x="24" y="400" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="434" font-size="23" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">中档：4924 周期｜周期档位 19｜255 个实际间隔</text>
+<path d="M370.0,560 L370.0,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="362.0" y="596" font-size="16" style="fill:#172b4d">0</text>
+<path d="M420.4761904761905,560 L420.4761904761905,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="412.4761904761905" y="596" font-size="16" style="fill:#172b4d">1</text>
+<path d="M470.95238095238096,560 L470.95238095238096,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="462.95238095238096" y="596" font-size="16" style="fill:#172b4d">2</text>
+<path d="M521.4285714285714,560 L521.4285714285714,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="513.4285714285714" y="596" font-size="16" style="fill:#172b4d">3</text>
+<path d="M571.9047619047619,560 L571.9047619047619,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="563.9047619047619" y="596" font-size="16" style="fill:#172b4d">4</text>
+<path d="M622.3809523809524,560 L622.3809523809524,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="614.3809523809524" y="596" font-size="16" style="fill:#172b4d">5</text>
+<path d="M672.8571428571429,560 L672.8571428571429,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="664.8571428571429" y="596" font-size="16" style="fill:#172b4d">6</text>
+<path d="M723.3333333333333,560 L723.3333333333333,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="715.3333333333333" y="596" font-size="16" style="fill:#172b4d">7</text>
+<path d="M773.8095238095239,560 L773.8095238095239,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="765.8095238095239" y="596" font-size="16" style="fill:#172b4d">8</text>
+<path d="M824.2857142857142,560 L824.2857142857142,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="816.2857142857142" y="596" font-size="16" style="fill:#172b4d">9</text>
+<path d="M874.7619047619048,560 L874.7619047619048,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="866.7619047619048" y="596" font-size="16" style="fill:#172b4d">10</text>
+<path d="M925.2380952380952,560 L925.2380952380952,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="917.2380952380952" y="596" font-size="16" style="fill:#172b4d">11</text>
+<path d="M975.7142857142857,560 L975.7142857142857,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="967.7142857142857" y="596" font-size="16" style="fill:#172b4d">12</text>
+<path d="M1026.1904761904761,560 L1026.1904761904761,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1018.1904761904761" y="596" font-size="16" style="fill:#172b4d">13</text>
+<path d="M1076.6666666666665,560 L1076.6666666666665,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1068.6666666666665" y="596" font-size="16" style="fill:#172b4d">14</text>
+<path d="M1127.142857142857,560 L1127.142857142857,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1119.142857142857" y="596" font-size="16" style="fill:#172b4d">15</text>
+<path d="M1177.6190476190477,560 L1177.6190476190477,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1169.6190476190477" y="596" font-size="16" style="fill:#172b4d">16</text>
+<path d="M1228.095238095238,560 L1228.095238095238,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1220.095238095238" y="596" font-size="16" style="fill:#172b4d">17</text>
+<path d="M1278.5714285714284,560 L1278.5714285714284,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1270.5714285714284" y="596" font-size="16" style="fill:#172b4d">18</text>
+<path d="M1329.047619047619,560 L1329.047619047619,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1321.047619047619" y="596" font-size="16" style="fill:#172b4d">19</text>
+<path d="M1379.5238095238096,560 L1379.5238095238096,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1371.5238095238096" y="596" font-size="16" style="fill:#172b4d">20</text>
+<path d="M1430.0,560 L1430.0,573" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1422.0" y="596" font-size="16" style="fill:#172b4d">21</text>
+<path d="M370,565 L1430,565" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="370" y="629" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">相对循环锚点的 DUT 周期</text>
+<text x="45" y="473" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">实际加载锚点</text>
+<path d="M370,467 L1430,467" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="370.0" cy="467" r="6" fill="#175cd3"/>
+<circle cx="1329.047619047619" cy="467" r="6" fill="#175cd3"/>
+<text x="45" y="512" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">无有效分派</text>
+<path d="M370,506 L1430,506" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1127.142857142857" cy="506" r="6" fill="#b42318"/>
+<circle cx="1278.5714285714284" cy="506" r="6" fill="#b42318"/>
+<text x="45" y="551" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">IQ2 第三请求受阻</text>
+<path d="M370,545 L1430,545" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<text x="420" y="539" font-size="17" style="fill:#667085" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">重复区间内未出现</text>
+<rect x="24" y="685" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="719" font-size="23" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">慢档：5178 周期｜周期档位 20｜255 个实际间隔</text>
+<path d="M370.0,845 L370.0,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="362.0" y="881" font-size="16" style="fill:#172b4d">0</text>
+<path d="M420.4761904761905,845 L420.4761904761905,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="412.4761904761905" y="881" font-size="16" style="fill:#172b4d">1</text>
+<path d="M470.95238095238096,845 L470.95238095238096,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="462.95238095238096" y="881" font-size="16" style="fill:#172b4d">2</text>
+<path d="M521.4285714285714,845 L521.4285714285714,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="513.4285714285714" y="881" font-size="16" style="fill:#172b4d">3</text>
+<path d="M571.9047619047619,845 L571.9047619047619,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="563.9047619047619" y="881" font-size="16" style="fill:#172b4d">4</text>
+<path d="M622.3809523809524,845 L622.3809523809524,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="614.3809523809524" y="881" font-size="16" style="fill:#172b4d">5</text>
+<path d="M672.8571428571429,845 L672.8571428571429,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="664.8571428571429" y="881" font-size="16" style="fill:#172b4d">6</text>
+<path d="M723.3333333333333,845 L723.3333333333333,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="715.3333333333333" y="881" font-size="16" style="fill:#172b4d">7</text>
+<path d="M773.8095238095239,845 L773.8095238095239,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="765.8095238095239" y="881" font-size="16" style="fill:#172b4d">8</text>
+<path d="M824.2857142857142,845 L824.2857142857142,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="816.2857142857142" y="881" font-size="16" style="fill:#172b4d">9</text>
+<path d="M874.7619047619048,845 L874.7619047619048,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="866.7619047619048" y="881" font-size="16" style="fill:#172b4d">10</text>
+<path d="M925.2380952380952,845 L925.2380952380952,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="917.2380952380952" y="881" font-size="16" style="fill:#172b4d">11</text>
+<path d="M975.7142857142857,845 L975.7142857142857,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="967.7142857142857" y="881" font-size="16" style="fill:#172b4d">12</text>
+<path d="M1026.1904761904761,845 L1026.1904761904761,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1018.1904761904761" y="881" font-size="16" style="fill:#172b4d">13</text>
+<path d="M1076.6666666666665,845 L1076.6666666666665,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1068.6666666666665" y="881" font-size="16" style="fill:#172b4d">14</text>
+<path d="M1127.142857142857,845 L1127.142857142857,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1119.142857142857" y="881" font-size="16" style="fill:#172b4d">15</text>
+<path d="M1177.6190476190477,845 L1177.6190476190477,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1169.6190476190477" y="881" font-size="16" style="fill:#172b4d">16</text>
+<path d="M1228.095238095238,845 L1228.095238095238,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1220.095238095238" y="881" font-size="16" style="fill:#172b4d">17</text>
+<path d="M1278.5714285714284,845 L1278.5714285714284,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1270.5714285714284" y="881" font-size="16" style="fill:#172b4d">18</text>
+<path d="M1329.047619047619,845 L1329.047619047619,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1321.047619047619" y="881" font-size="16" style="fill:#172b4d">19</text>
+<path d="M1379.5238095238096,845 L1379.5238095238096,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1371.5238095238096" y="881" font-size="16" style="fill:#172b4d">20</text>
+<path d="M1430.0,845 L1430.0,858" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1422.0" y="881" font-size="16" style="fill:#172b4d">21</text>
+<path d="M370,850 L1430,850" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="370" y="914" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">相对循环锚点的 DUT 周期</text>
+<text x="45" y="758" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">实际加载锚点</text>
+<path d="M370,752 L1430,752" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="370.0" cy="752" r="6" fill="#175cd3"/>
+<circle cx="1379.5238095238096" cy="752" r="6" fill="#175cd3"/>
+<text x="45" y="797" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">无有效分派</text>
+<path d="M370,791 L1430,791" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1026.1904761904761" cy="791" r="6" fill="#b42318"/>
+<circle cx="1228.095238095238" cy="791" r="6" fill="#b42318"/>
+<text x="45" y="836" font-size="20" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">IQ2 第三请求受阻</text>
+<path d="M370,830 L1430,830" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1278.5714285714284" cy="830" r="6" fill="#b54708"/>
+<text x="35" y="1012" font-size="19" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">每次调用提交 256 次迭代；MAC 输入和输出各 1024 次，三个窗口中的采样间隔均为 2 周期。</text>
+<text x="35" y="1048" font-size="21" style="fill:#172b4d">4924 - 4415 = 255 x 2 - 1 = 509; 5178 - 4924 = 255 x 1 - 1 = 254.</text>
+<text x="35" y="1080" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">来源：已有原始窗口事件审计；这些观察尚未证明唯一上游触发条件。</text>
+</svg>

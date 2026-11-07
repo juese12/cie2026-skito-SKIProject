@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="1560" height="1110" fill="#f4f7fb"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#172b4d}</style>
+<text x="35" y="48" font-size="30" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">vdot v0.1：正数、负数与边界结果事件</text>
+<text x="35" y="82" font-size="19" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">取已有 29 次执行审计中每类结果的首个实例；横轴为原 VCD 时标。</text>
+<rect x="24" y="115" width="1512" height="900" rx="10" fill="white" stroke="#d5dfeb"/>
+<path d="M370.0,870 L370.0,883" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="362.0" y="906" font-size="16" style="fill:#172b4d">40000</text>
+<path d="M546.6666666666666,870 L546.6666666666666,883" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="538.6666666666666" y="906" font-size="16" style="fill:#172b4d">42000</text>
+<path d="M723.3333333333333,870 L723.3333333333333,883" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="715.3333333333333" y="906" font-size="16" style="fill:#172b4d">44000</text>
+<path d="M900.0,870 L900.0,883" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="892.0" y="906" font-size="16" style="fill:#172b4d">46000</text>
+<path d="M1076.6666666666665,870 L1076.6666666666665,883" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1068.6666666666665" y="906" font-size="16" style="fill:#172b4d">48000</text>
+<path d="M1253.3333333333335,870 L1253.3333333333335,883" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1245.3333333333335" y="906" font-size="16" style="fill:#172b4d">50000</text>
+<path d="M1430.0,870 L1430.0,883" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1422.0" y="906" font-size="16" style="fill:#172b4d">52000</text>
+<path d="M370,875 L1430,875" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="370" y="939" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">VCD 仿真时标（不表示物理时间或 FU 延迟）</text>
+<text x="45" y="166" font-size="24" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果 36</text>
+<text x="45" y="199" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">低 32 位 = 0x00000024</text>
+<path d="M370,183 L1430,183" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="382.985" cy="183" r="6" fill="#175cd3"/>
+<text x="392.985" y="173" font-size="18" style="fill:#175cd3">t=40147; ROB=0:105</text>
+<text x="45" y="278" font-size="24" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果 -36</text>
+<text x="45" y="311" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">低 32 位 = 0xffffffdc</text>
+<path d="M370,295 L1430,295" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="609.6483333333333" cy="295" r="6" fill="#175cd3"/>
+<text x="619.6483333333333" y="285" font-size="18" style="fill:#175cd3">t=42713; ROB=0:65</text>
+<text x="45" y="390" font-size="24" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果 131072</text>
+<text x="45" y="423" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">低 32 位 = 0x00020000</text>
+<path d="M370,407 L1430,407" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="752.2183333333332" cy="407" r="6" fill="#175cd3"/>
+<text x="762.2183333333332" y="397" font-size="18" style="fill:#175cd3">t=44327; ROB=0:83</text>
+<text x="45" y="502" font-size="24" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果 -130048</text>
+<text x="45" y="535" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">低 32 位 = 0xfffe0400</text>
+<path d="M370,519 L1430,519" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="901.6783333333333" cy="519" r="6" fill="#175cd3"/>
+<text x="911.6783333333333" y="509" font-size="18" style="fill:#175cd3">t=46019; ROB=0:118</text>
+<text x="45" y="614" font-size="24" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果 129032</text>
+<text x="45" y="647" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">低 32 位 = 0x0001f808</text>
+<path d="M370,631 L1430,631" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1038.4183333333333" cy="631" r="6" fill="#175cd3"/>
+<text x="1048.4183333333333" y="621" font-size="18" style="fill:#175cd3">t=47567; ROB=1:9</text>
+<text x="45" y="726" font-size="24" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果 0</text>
+<text x="45" y="759" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">低 32 位 = 0x00000000</text>
+<path d="M370,743 L1430,743" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1177.1016666666667" cy="743" r="6" fill="#175cd3"/>
+<text x="1187.1016666666667" y="733" font-size="18" style="fill:#175cd3">t=49137; ROB=1:66</text>
+<text x="45" y="970" font-size="24" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">图中全部完整 128 位结果的高 96 位均为零。</text>
+<text x="35" y="1048" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">来源：原整核执行与提交审计；图中圆点为 FU 结果，未绘制退休时刻。</text>
+<text x="35" y="1080" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">原审计将全部 29 次结果与 29 次提交关联；本图不扩展声称冲刷或 v0 覆盖。</text>
+</svg>

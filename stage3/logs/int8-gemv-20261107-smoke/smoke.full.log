@@ -1,0 +1,42 @@
+emu compiled at Oct 26 2026, 20:26:36
+Using seed = 101
+Using simulated 32768B flash
+Using simulated 8386560MB RAM
+The image is /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/int8-gemv/build/cie2026-int8-gemv-riscv64-xs.bin
+DRAMSIM3 config: /home/saintrikashy/riscv/xs-env/DRAMsim3/configs/XiangShan.ini
+CPU_FREQ: 3000 DRAM_FREQ: 1600
+CPU_CLOCK_CYCLE: 0.000333333 DRAM_CLOCK_CYCLE: 0.000625
+DRAMsim3 memory system initialized.
+Overwrite 312 bytes from file /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/int8-gemv-20261107-smoke/smoke.overlay.bin.
+The reference model is /home/saintrikashy/riscv/xs-env/NEMU/build/sew16/riscv64-nemu-interpreter-so
+The first instruction of core 0 has commited. Difftest enabled. 
+gemv meta schema=1 profile=1 first=0 seed=56444f54 warm=1 reps=2 cases=12
+gemv checks impl=0 calls=36
+gemv checks impl=1 calls=36
+gemv checks impl=2 calls=36
+gemv checks impl=3 calls=36
+gemv case id=0 m=4 k=16 kp=16 data=4513d48b y=-7853,40288,24692,10118
+gemv seq case=0 mode=0 impl=0 cycles=293,200,188
+gemv seq case=0 mode=0 impl=1 cycles=134,134,132
+gemv seq case=0 mode=0 impl=2 cycles=220,206,189
+gemv seq case=0 mode=0 impl=3 cycles=163,130,130
+gemv seq case=0 mode=1 impl=0 cycles=202,212,213
+gemv seq case=0 mode=1 impl=1 cycles=152,134,134
+gemv seq case=0 mode=1 impl=2 cycles=425,387,349
+gemv seq case=0 mode=1 impl=3 cycles=373,298,269
+gemv case id=1 m=5 k=17 kp=24 data=70eb78ea y=-17499,9742,26626,32358,24369
+gemv seq case=1 mode=0 impl=0 cycles=379,307,291
+gemv seq case=1 mode=0 impl=1 cycles=255,232,232
+gemv seq case=1 mode=0 impl=2 cycles=329,319,319
+gemv seq case=1 mode=0 impl=3 cycles=250,235,226
+gemv seq case=1 mode=1 impl=0 cycles=282,292,216
+gemv seq case=1 mode=1 impl=1 cycles=232,233,233
+gemv seq case=1 mode=1 impl=2 cycles=730,656,667
+gemv seq case=1 mode=1 impl=3 cycles=594,561,527
+gemv PASS profile=1 checked_each_row=1 guards=1 signed=1 data_seeds=4
+Core 0: [32mHIT GOOD TRAP at pc = 0x8000139c
+[0m[35mCore-0 instrCnt = 296179, cycleCnt = 237969, IPC = 1.244612
+[0m[34mSeed=101 Guest cycle spent: 237973 (this will be different from cycleCnt if emu loads a snapshot)
+[0m[34mHost time spent: 637098ms
+[0m
+[process exit] 0

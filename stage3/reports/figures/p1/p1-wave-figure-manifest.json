@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "generator": "stage3/tests/render-p1-wave-figures.py",
+  "generator_sha256": "88a093945a22fea45967c415b547be7baa92e8d6546fa19f6cdee5b0a876528e",
+  "sources": {
+    "before": {
+      "wave": "stage3/logs/p1-before-20261004.vcd",
+      "wave_sha256": "ac570efea512d3c43990c3e17f92a1ac679259e11f433de7298ca4aafad50e7f",
+      "audit": "stage3/logs/p1-before-wave-source-audit.json",
+      "audit_sha256": "bad79b1ff47c38bf6e71538d50376c76abaf0c3914cd366162a551ff36529992"
+    },
+    "after": {
+      "wave": "stage3/logs/20261004T232857-17-p1-after.vcd",
+      "wave_sha256": "423adb38220fa307c92aead18546b86810d3521c41802c1b3b86e017cc2be77e",
+      "audit": "stage3/logs/20261004T232857-17-p1-after-wave-audit.json",
+      "audit_sha256": "94676ab72b31f63da4c1f4d614b71d4ae1bbb7d95dfad71925421aa2fff7c6e5"
+    }
+  },
+  "files": {
+    "p1-oldvd.png": "3c3fbc72893b75f0918461ae22a12239e8828033b525c405d55005a097539ff4",
+    "p1-oldvd.svg": "cb22ed77014338818c36b1524a769134f32ad223f16724eb65efbac6b3c9bd5e",
+    "p1-true.png": "5dea6121c790b8950a7bf9d6abbc62aafb8cee1004cf9df026f4a0da1eb594d7",
+    "p1-true.svg": "6b14fe828478fabe604a95ced8b2a499d5173dde899551e2c6f164fe31669ad9",
+    "p1-v0.png": "268419abc37f8130f00ebc6443c0279ad31bb3f44dd064d553b78dd48e783135",
+    "p1-v0.svg": "8f4ce09644652ec8006e1299558593a9598cc8391cca7eed5b20ad7b029612ee",
+    "p1-wave-excerpts.json": "f533ce4181e8a886ba8b79e2a8837cc4e96c7f35861cdb47f66905eecef53552"
+  },
+  "cross_checks": "dispatch opcode/PC/ROB, first IQ observation, all wait phases, FU output time/full128 result"
+}

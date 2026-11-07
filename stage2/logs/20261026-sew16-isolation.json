@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "counts": {
+    "edges": 1158,
+    "e8": 113,
+    "e16": 80,
+    "disabled_holds": 13221,
+    "mixed_overlap": 142
+  },
+  "wave": "../XiangShan/out/xiangshan/test/testOnly.dest/sandbox/test_run_dir/VIMacU_vdot_integration_should_preserve_randomized_mixed_traffic_and_ordinary_mask_tail_multiply_accumulate_and_saturation/VDotIntegrationHarness.vcd",
+  "sha256": "056d02154689f88987ffbef74a7f190fbfde716918ac8ef58d14886c9107116a",
+  "scope": "module settled-edge isolation and hold checks; not PPA or CPU commit proof"
+}

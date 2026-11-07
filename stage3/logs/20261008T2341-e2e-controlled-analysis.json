@@ -1,0 +1,3301 @@
+{
+  "arms": [
+    {
+      "phase": 0,
+      "pressure": 0,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4704,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4704": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "1/0": {
+          "raw": [
+            10846,
+            10814,
+            10815
+          ],
+          "bins": {
+            "10846": 1,
+            "10814": 1,
+            "10815": 1
+          },
+          "median": 10815
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10863": 1,
+            "10814": 2
+          },
+          "median": 10814
+        }
+      }
+    },
+    {
+      "phase": 1,
+      "pressure": 0,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4705
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5179
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 1,
+            "5179": 1
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4705,
+            5179,
+            5179
+          ],
+          "bins": {
+            "4705": 1,
+            "5179": 2
+          },
+          "median": 5179
+        },
+        "1/0": {
+          "raw": [
+            10846,
+            10815,
+            10815
+          ],
+          "bins": {
+            "10846": 1,
+            "10815": 2
+          },
+          "median": 10815
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10815,
+            10815
+          ],
+          "bins": {
+            "10863": 1,
+            "10815": 2
+          },
+          "median": 10815
+        }
+      }
+    },
+    {
+      "phase": 2,
+      "pressure": 0,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10847
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4705
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5179
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 1,
+            "5179": 1
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4705,
+            5179,
+            5179
+          ],
+          "bins": {
+            "4705": 1,
+            "5179": 2
+          },
+          "median": 5179
+        },
+        "1/0": {
+          "raw": [
+            10847,
+            10815,
+            10815
+          ],
+          "bins": {
+            "10847": 1,
+            "10815": 2
+          },
+          "median": 10815
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10815,
+            10815
+          ],
+          "bins": {
+            "10863": 1,
+            "10815": 2
+          },
+          "median": 10815
+        }
+      }
+    },
+    {
+      "phase": 3,
+      "pressure": 0,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10847
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4704,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4704": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "1/0": {
+          "raw": [
+            10847,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10847": 1,
+            "10814": 2
+          },
+          "median": 10814
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10863": 1,
+            "10814": 2
+          },
+          "median": 10814
+        }
+      }
+    },
+    {
+      "phase": 4,
+      "pressure": 0,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4704,
+            5178,
+            5179
+          ],
+          "bins": {
+            "4704": 1,
+            "5178": 1,
+            "5179": 1
+          },
+          "median": 5178
+        },
+        "1/0": {
+          "raw": [
+            10846,
+            10814,
+            10815
+          ],
+          "bins": {
+            "10846": 1,
+            "10814": 1,
+            "10815": 1
+          },
+          "median": 10815
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10863": 1,
+            "10814": 2
+          },
+          "median": 10814
+        }
+      }
+    },
+    {
+      "phase": 5,
+      "pressure": 0,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4704,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4704": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "1/0": {
+          "raw": [
+            10846,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10846": 1,
+            "10814": 2
+          },
+          "median": 10814
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10863": 1,
+            "10814": 2
+          },
+          "median": 10814
+        }
+      }
+    },
+    {
+      "phase": 0,
+      "pressure": 1,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4704,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4704": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "1/0": {
+          "raw": [
+            10846,
+            10814,
+            10815
+          ],
+          "bins": {
+            "10846": 1,
+            "10814": 1,
+            "10815": 1
+          },
+          "median": 10815
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10863": 1,
+            "10814": 2
+          },
+          "median": 10814
+        }
+      }
+    },
+    {
+      "phase": 1,
+      "pressure": 1,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4705
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5179
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 1,
+            "5179": 1
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4705,
+            5179,
+            5179
+          ],
+          "bins": {
+            "4705": 1,
+            "5179": 2
+          },
+          "median": 5179
+        },
+        "1/0": {
+          "raw": [
+            10846,
+            10815,
+            10815
+          ],
+          "bins": {
+            "10846": 1,
+            "10815": 2
+          },
+          "median": 10815
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10815,
+            10815
+          ],
+          "bins": {
+            "10863": 1,
+            "10815": 2
+          },
+          "median": 10815
+        }
+      }
+    },
+    {
+      "phase": 2,
+      "pressure": 1,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10847
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4705
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5179
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 1,
+            "5179": 1
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4705,
+            5179,
+            5179
+          ],
+          "bins": {
+            "4705": 1,
+            "5179": 2
+          },
+          "median": 5179
+        },
+        "1/0": {
+          "raw": [
+            10847,
+            10815,
+            10815
+          ],
+          "bins": {
+            "10847": 1,
+            "10815": 2
+          },
+          "median": 10815
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10815,
+            10815
+          ],
+          "bins": {
+            "10863": 1,
+            "10815": 2
+          },
+          "median": 10815
+        }
+      }
+    },
+    {
+      "phase": 3,
+      "pressure": 1,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10847
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4704,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4704": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "1/0": {
+          "raw": [
+            10847,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10847": 1,
+            "10814": 2
+          },
+          "median": 10814
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10863": 1,
+            "10814": 2
+          },
+          "median": 10814
+        }
+      }
+    },
+    {
+      "phase": 4,
+      "pressure": 1,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4704,
+            5178,
+            5179
+          ],
+          "bins": {
+            "4704": 1,
+            "5178": 1,
+            "5179": 1
+          },
+          "median": 5178
+        },
+        "1/0": {
+          "raw": [
+            10846,
+            10814,
+            10815
+          ],
+          "bins": {
+            "10846": 1,
+            "10814": 1,
+            "10815": 1
+          },
+          "median": 10815
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10863": 1,
+            "10814": 2
+          },
+          "median": 10814
+        }
+      }
+    },
+    {
+      "phase": 5,
+      "pressure": 1,
+      "all_calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "groups": {
+        "0/0": {
+          "raw": [
+            4718,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4718": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "0/1": {
+          "raw": [
+            4704,
+            5178,
+            5178
+          ],
+          "bins": {
+            "4704": 1,
+            "5178": 2
+          },
+          "median": 5178
+        },
+        "1/0": {
+          "raw": [
+            10846,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10846": 1,
+            "10814": 2
+          },
+          "median": 10814
+        },
+        "1/1": {
+          "raw": [
+            10863,
+            10814,
+            10814
+          ],
+          "bins": {
+            "10863": 1,
+            "10814": 2
+          },
+          "median": 10814
+        }
+      }
+    }
+  ],
+  "matched_differences": [
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        0
+      ],
+      "changed": [
+        1,
+        0
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4705,
+          "delta": 1
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        0
+      ],
+      "changed": [
+        2,
+        0
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4705,
+          "delta": 1
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10847,
+          "delta": 1
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        0
+      ],
+      "changed": [
+        3,
+        0
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10847,
+          "delta": 1
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10814,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        0
+      ],
+      "changed": [
+        4,
+        0
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        0
+      ],
+      "changed": [
+        5,
+        0
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10814,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        1
+      ],
+      "changed": [
+        1,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4705,
+          "delta": 1
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        1
+      ],
+      "changed": [
+        2,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4705,
+          "delta": 1
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10847,
+          "delta": 1
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10815,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        1
+      ],
+      "changed": [
+        3,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10847,
+          "delta": 1
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10814,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        1
+      ],
+      "changed": [
+        4,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5179,
+          "delta": 1
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "phase",
+      "baseline": [
+        0,
+        1
+      ],
+      "changed": [
+        5,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10814,
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "factor": "pressure",
+      "baseline": [
+        0,
+        0
+      ],
+      "changed": [
+        0,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "pressure",
+      "baseline": [
+        1,
+        0
+      ],
+      "changed": [
+        1,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4705,
+          "changed": 4705,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5179,
+          "changed": 5179,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5179,
+          "changed": 5179,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5179,
+          "changed": 5179,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "pressure",
+      "baseline": [
+        2,
+        0
+      ],
+      "changed": [
+        2,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4705,
+          "changed": 4705,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10847,
+          "changed": 10847,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5179,
+          "changed": 5179,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5179,
+          "changed": 5179,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5179,
+          "changed": 5179,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "pressure",
+      "baseline": [
+        3,
+        0
+      ],
+      "changed": [
+        3,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10847,
+          "changed": 10847,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "pressure",
+      "baseline": [
+        4,
+        0
+      ],
+      "changed": [
+        4,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5179,
+          "changed": 5179,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10815,
+          "changed": 10815,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "factor": "pressure",
+      "baseline": [
+        5,
+        0
+      ],
+      "changed": [
+        5,
+        1
+      ],
+      "matched_calls": [
+        {
+          "round": 0,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 4718,
+          "changed": 4718,
+          "delta": 0
+        },
+        {
+          "round": 0,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10863,
+          "changed": 10863,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 4704,
+          "changed": 4704,
+          "delta": 0
+        },
+        {
+          "round": 1,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10846,
+          "changed": 10846,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 2,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 3,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 0,
+          "slot": 0,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 4,
+          "impl": 1,
+          "slot": 1,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 0,
+          "slot": 1,
+          "baseline": 5178,
+          "changed": 5178,
+          "delta": 0
+        },
+        {
+          "round": 5,
+          "impl": 1,
+          "slot": 0,
+          "baseline": 10814,
+          "changed": 10814,
+          "delta": 0
+        }
+      ]
+    }
+  ],
+  "total_calls": 144,
+  "qualification": "deterministic seed=0, 3 calls per position per arm; NO internal wave in matrix; timing sensitivity is not unique decoder/IQ causal proof; all calls retained",
+  "status": "PASS",
+  "results": "stage3/logs/20261008T214323-e2e-controlled.results.json",
+  "results_sha256": "3e2312681369bfb0c5ffadf1ceeca34f0cbca1485aefa0b122806817e508b770"
+}

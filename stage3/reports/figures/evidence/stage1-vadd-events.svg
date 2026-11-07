@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="1560" height="1110" fill="#f4f7fb"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#172b4d}</style>
+<text x="35" y="48" font-size="30" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">标准 RVV 向量加法：实际执行与写回事件</text>
+<text x="35" y="82" font-size="19" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">复用已有解析日志；每条线段关联一次实际执行与其匹配的结果。</text>
+<rect x="24" y="115" width="1512" height="900" rx="10" fill="white" stroke="#d5dfeb"/>
+<path d="M370.0,875 L370.0,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="362.0" y="911" font-size="16" style="fill:#172b4d">2910</text>
+<path d="M432.3529411764706,875 L432.3529411764706,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="424.3529411764706" y="911" font-size="16" style="fill:#172b4d">2920</text>
+<path d="M494.70588235294116,875 L494.70588235294116,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="486.70588235294116" y="911" font-size="16" style="fill:#172b4d">2930</text>
+<path d="M557.0588235294117,875 L557.0588235294117,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="549.0588235294117" y="911" font-size="16" style="fill:#172b4d">2940</text>
+<path d="M619.4117647058823,875 L619.4117647058823,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="611.4117647058823" y="911" font-size="16" style="fill:#172b4d">2950</text>
+<path d="M681.7647058823529,875 L681.7647058823529,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="673.7647058823529" y="911" font-size="16" style="fill:#172b4d">2960</text>
+<path d="M744.1176470588235,875 L744.1176470588235,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="736.1176470588235" y="911" font-size="16" style="fill:#172b4d">2970</text>
+<path d="M806.4705882352941,875 L806.4705882352941,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="798.4705882352941" y="911" font-size="16" style="fill:#172b4d">2980</text>
+<path d="M868.8235294117646,875 L868.8235294117646,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="860.8235294117646" y="911" font-size="16" style="fill:#172b4d">2990</text>
+<path d="M931.1764705882352,875 L931.1764705882352,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="923.1764705882352" y="911" font-size="16" style="fill:#172b4d">3000</text>
+<path d="M993.5294117647059,875 L993.5294117647059,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="985.5294117647059" y="911" font-size="16" style="fill:#172b4d">3010</text>
+<path d="M1055.8823529411766,875 L1055.8823529411766,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1047.8823529411766" y="911" font-size="16" style="fill:#172b4d">3020</text>
+<path d="M1118.235294117647,875 L1118.235294117647,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1110.235294117647" y="911" font-size="16" style="fill:#172b4d">3030</text>
+<path d="M1180.5882352941176,875 L1180.5882352941176,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1172.5882352941176" y="911" font-size="16" style="fill:#172b4d">3040</text>
+<path d="M1242.9411764705883,875 L1242.9411764705883,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1234.9411764705883" y="911" font-size="16" style="fill:#172b4d">3050</text>
+<path d="M1305.2941176470588,875 L1305.2941176470588,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1297.2941176470588" y="911" font-size="16" style="fill:#172b4d">3060</text>
+<path d="M1367.6470588235293,875 L1367.6470588235293,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1359.6470588235293" y="911" font-size="16" style="fill:#172b4d">3070</text>
+<path d="M1430.0,875 L1430.0,888" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1422.0" y="911" font-size="16" style="fill:#172b4d">3080</text>
+<path d="M370,880 L1430,880" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="370" y="944" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">横轴：DUT 周期；圆点为事件，不表示连续有效电平</text>
+<text x="45" y="165" font-size="21" style="fill:#172b4d">#1: 100 + (-40) = 60</text>
+<path d="M394.94117647058823,158 L407.4117647058824,158" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="394.94117647058823" cy="158" r="6" fill="#175cd3"/>
+<circle cx="407.4117647058824" cy="158" r="6" fill="#15803d"/>
+<text x="1130" y="145" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 2914 → 写回 2916；通道 15</text>
+<text x="45" y="233" font-size="21" style="fill:#172b4d">#2: 92 + (-28) = 64</text>
+<path d="M538.3529411764706,226 L550.8235294117646,226" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="538.3529411764706" cy="226" r="6" fill="#175cd3"/>
+<circle cx="550.8235294117646" cy="226" r="6" fill="#15803d"/>
+<text x="1130" y="213" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 2937 → 写回 2939；通道 13</text>
+<text x="45" y="301" font-size="21" style="fill:#172b4d">#3: 84 + (-16) = 68</text>
+<path d="M681.7647058823529,294 L694.2352941176471,294" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="681.7647058823529" cy="294" r="6" fill="#175cd3"/>
+<circle cx="694.2352941176471" cy="294" r="6" fill="#15803d"/>
+<text x="1130" y="281" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 2960 → 写回 2962；通道 15</text>
+<text x="45" y="369" font-size="21" style="fill:#172b4d">#4: 76 + (-4) = 72</text>
+<path d="M843.8823529411765,362 L856.3529411764706,362" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="843.8823529411765" cy="362" r="6" fill="#175cd3"/>
+<circle cx="856.3529411764706" cy="362" r="6" fill="#15803d"/>
+<text x="1130" y="349" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 2986 → 写回 2988；通道 13</text>
+<text x="45" y="437" font-size="21" style="fill:#172b4d">#5: 68 + (8) = 76</text>
+<path d="M968.5882352941177,430 L981.0588235294117,430" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="968.5882352941177" cy="430" r="6" fill="#175cd3"/>
+<circle cx="981.0588235294117" cy="430" r="6" fill="#15803d"/>
+<text x="1130" y="417" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 3006 → 写回 3008；通道 15</text>
+<text x="45" y="505" font-size="21" style="fill:#172b4d">#6: 60 + (20) = 80</text>
+<path d="M1006.0,498 L1018.4705882352941,498" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="1006.0" cy="498" r="6" fill="#175cd3"/>
+<circle cx="1018.4705882352941" cy="498" r="6" fill="#15803d"/>
+<text x="1130" y="485" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 3012 → 写回 3014；通道 15</text>
+<text x="45" y="573" font-size="21" style="fill:#172b4d">#7: 52 + (32) = 84</text>
+<path d="M1049.6470588235293,566 L1062.1176470588234,566" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="1049.6470588235293" cy="566" r="6" fill="#175cd3"/>
+<circle cx="1062.1176470588234" cy="566" r="6" fill="#15803d"/>
+<text x="1130" y="553" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 3019 → 写回 3021；通道 13</text>
+<text x="45" y="641" font-size="21" style="fill:#172b4d">#8: 44 + (44) = 88</text>
+<path d="M1199.2941176470588,634 L1211.764705882353,634" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="1199.2941176470588" cy="634" r="6" fill="#175cd3"/>
+<circle cx="1211.764705882353" cy="634" r="6" fill="#15803d"/>
+<text x="380" y="621" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 3043 → 写回 3045；通道 15</text>
+<text x="45" y="709" font-size="21" style="fill:#172b4d">#9: 36 + (56) = 92</text>
+<path d="M1324.0,702 L1336.4705882352941,702" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="1324.0" cy="702" r="6" fill="#175cd3"/>
+<circle cx="1336.4705882352941" cy="702" r="6" fill="#15803d"/>
+<text x="380" y="689" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 3063 → 写回 3065；通道 13</text>
+<text x="45" y="777" font-size="21" style="fill:#172b4d">#10: 28 + (68) = 96</text>
+<path d="M1367.6470588235293,770 L1380.1176470588234,770" stroke="#175cd3" stroke-width="4" fill="none"/>
+<circle cx="1367.6470588235293" cy="770" r="6" fill="#175cd3"/>
+<circle cx="1380.1176470588234" cy="770" r="6" fill="#15803d"/>
+<text x="380" y="757" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 3070 → 写回 3072；通道 15</text>
+<text x="45" y="982" font-size="23" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">执行 10 次、写回 10 次；全部观察到的间隔均为 2 个 DUT 周期。</text>
+<text x="35" y="1060" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">来源：stage1/logs/vector-add-wave-analysis.log；图示低 32 位，完整软件检查覆盖 37 个元素。</text>
+</svg>

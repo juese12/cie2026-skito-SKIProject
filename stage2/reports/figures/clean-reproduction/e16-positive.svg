@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="100%" height="100%" fill="#f6f8fc"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#172b4d}</style>
+<text x="28" y="35" font-size="23" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">模块波形：e16 有符号正结果与流水级混发交叠</text>
+<text x="28" y="64" font-size="14" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">干净目录的 e8/e16 包装模块 RTL；输入标签 44，精确点积和 = 2924450966；来自该目录的模块仿真。</text>
+<text x="28" y="91" font-size="14" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">每列展示同一上升沿前后的稳定值：沿前（PRE）→沿后（POST）；t 为原 VCD 时标。</text>
+<text x="330" y="123" font-size="12" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">边沿 396：t=794/795</text>
+<text x="330" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿前（PRE）</text>
+<text x="450.0" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿后（POST）</text>
+<path d="M325,148 L325,975" fill="none" stroke="#d4dfeb" stroke-width="1"/>
+<text x="20" y="167" font-size="13" fill="#172b4d">clock</text>
+<path d="M329,170 L445.0,170" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,170 L445.0,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,156 L561,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="195" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">FU 输入有效</text>
+<path d="M329,184 L445.0,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,184 L445.0,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,184 L561,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="223" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">取消</text>
+<path d="M329,226 L445.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,226 L445.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,226 L561,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="251" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入操作 / 标签</text>
+<text x="330" y="251" font-size="10" fill="#172b4d">066/43 &gt; 066/43</text>
+<text x="20" y="279" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入 vsew（0=e8，1=e16）</text>
+<text x="330" y="279" font-size="10" fill="#172b4d">0 &gt; 0</text>
+<text x="20" y="307" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入 VL</text>
+<text x="330" y="307" font-size="10" fill="#172b4d">0 &gt; 0</text>
+<text x="20" y="335" font-size="13" fill="#172b4d">vs1 [127:0]</text>
+<text x="330" y="335" font-size="10" fill="#172b4d">aaa95..cc6f4 &gt; aaa95..cc6f4</text>
+<text x="20" y="363" font-size="13" fill="#172b4d">vs2 [127:0]</text>
+<text x="330" y="363" font-size="10" fill="#172b4d">f930a..3341c &gt; f930a..3341c</text>
+<text x="20" y="391" font-size="13" fill="#172b4d">isolatedVs1 [127:0]</text>
+<text x="330" y="391" font-size="10" fill="#172b4d">00000..00000 &gt; 00000..00000</text>
+<text x="20" y="419" font-size="13" fill="#172b4d">isolatedVs2 [127:0]</text>
+<text x="330" y="419" font-size="10" fill="#172b4d">00000..00000 &gt; 00000..00000</text>
+<text x="20" y="447" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积 enable[0]</text>
+<path d="M329,450 L445.0,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,450 L445.0,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,450 L561,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="475" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积 enable[1]</text>
+<path d="M329,478 L445.0,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,478 L445.0,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,478 L561,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="503" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">S1 的 e16 模式</text>
+<path d="M329,506 L445.0,506" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,506 L445.0,506" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,506 L561,506" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="531" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">S2 的 e16 模式</text>
+<path d="M329,534 L445.0,534" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,534 L445.0,534" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,534 L561,534" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="559" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">products_0 32 位有符号</text>
+<text x="330" y="559" font-size="10" fill="#172b4d">7276 &gt; 7276</text>
+<text x="20" y="587" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">products_1 32 位有符号</text>
+<text x="330" y="587" font-size="10" fill="#172b4d">1520 &gt; 1520</text>
+<text x="20" y="615" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">products_2 32 位有符号</text>
+<text x="330" y="615" font-size="10" fill="#172b4d">5767 &gt; 5767</text>
+<text x="20" y="643" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">products_3 32 位有符号</text>
+<text x="330" y="643" font-size="10" fill="#172b4d">15875 &gt; 15875</text>
+<text x="20" y="671" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">products_4 32 位有符号</text>
+<text x="330" y="671" font-size="10" fill="#172b4d">-6083 &gt; -6083</text>
+<text x="20" y="699" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">products_5 32 位有符号</text>
+<text x="330" y="699" font-size="10" fill="#172b4d">-5060 &gt; -5060</text>
+<text x="20" y="727" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">products_6 32 位有符号</text>
+<text x="330" y="727" font-size="10" fill="#172b4d">6405 &gt; 6405</text>
+<text x="20" y="755" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">products_7 32 位有符号</text>
+<text x="330" y="755" font-size="10" fill="#172b4d">32 &gt; 32</text>
+<text x="20" y="783" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">sum 35 位有符号</text>
+<text x="330" y="783" font-size="10" fill="#172b4d">25732 &gt; 25732</text>
+<text x="20" y="811" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 输入接受 fire</text>
+<path d="M329,800 L445.0,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,800 L445.0,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,800 L561,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="839" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出有效</text>
+<path d="M329,828 L445.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,828 L445.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M445.0,828 L561,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="20" y="867" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">有效输出标签</text>
+<text x="330" y="867" font-size="10" fill="#172b4d">41 &gt; 42</text>
+<text x="20" y="895" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">有效输出的 illegal</text>
+<text x="330" y="895" font-size="10" fill="#172b4d">0 &gt; 0</text>
+<text x="20" y="923" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出低 64 位（有效时，十六进制）</text>
+<text x="330" y="923" font-size="10" fill="#172b4d">2bad42e6e7ecdb96 &gt; ffffffffffff4eff</text>
+<text x="20" y="951" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出高 64 位（有效时，十六进制）</text>
+<text x="330" y="951" font-size="10" fill="#172b4d">f90a9e224f5bcf66 &gt; ffffffffffffffff</text>
+<rect x="565" y="103" width="240" height="880" fill="#eaf4ef"/>
+<text x="570" y="123" font-size="12" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">边沿 397：t=796/797</text>
+<text x="570" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿前（PRE）</text>
+<text x="690.0" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿后（POST）</text>
+<path d="M565,148 L565,975" fill="none" stroke="#d4dfeb" stroke-width="1"/>
+<path d="M569,170 L685.0,170" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,170 L685.0,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,156 L801,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M569,184 L685.0,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,184 L685.0,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,184 L801,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M569,226 L685.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,226 L685.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,226 L801,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="570" y="251" font-size="10" fill="#172b4d">160/44 &gt; 160/44</text>
+<text x="570" y="279" font-size="10" fill="#172b4d">1 &gt; 1</text>
+<text x="570" y="307" font-size="10" fill="#172b4d">8 &gt; 8</text>
+<text x="570" y="335" font-size="10" fill="#172b4d">776e8..2be82 &gt; 776e8..2be82</text>
+<text x="570" y="363" font-size="10" fill="#172b4d">4df79..bca03 &gt; 4df79..bca03</text>
+<text x="570" y="391" font-size="10" fill="#172b4d">776e8..2be82 &gt; 776e8..2be82</text>
+<text x="570" y="419" font-size="10" fill="#172b4d">4df79..bca03 &gt; 4df79..bca03</text>
+<path d="M569,436 L685.0,436" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,436 L685.0,436" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,436 L801,436" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M569,478 L685.0,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,478 L685.0,464" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,464 L801,464" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M569,506 L685.0,506" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,506 L685.0,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,492 L801,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M569,534 L685.0,534" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,534 L685.0,534" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,534 L801,534" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="570" y="559" font-size="10" fill="#172b4d">7276 &gt; 231722886</text>
+<text x="570" y="587" font-size="10" fill="#172b4d">1520 &gt; 924549542</text>
+<text x="570" y="615" font-size="10" fill="#172b4d">5767 &gt; 92052674</text>
+<text x="570" y="643" font-size="10" fill="#172b4d">15875 &gt; 31611038</text>
+<text x="570" y="671" font-size="10" fill="#172b4d">-6083 &gt; -44019360</text>
+<text x="570" y="699" font-size="10" fill="#172b4d">-5060 &gt; 245825052</text>
+<text x="570" y="727" font-size="10" fill="#172b4d">6405 &gt; 832482668</text>
+<text x="570" y="755" font-size="10" fill="#172b4d">32 &gt; 610226466</text>
+<text x="570" y="783" font-size="10" fill="#172b4d">25732 &gt; 25732</text>
+<path d="M569,814 L685.0,814" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,814 L685.0,814" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,814 L801,814" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M569,828 L685.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,828 L685.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M685.0,828 L801,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="570" y="867" font-size="10" fill="#172b4d">42 &gt; 43</text>
+<text x="570" y="895" font-size="10" fill="#172b4d">0 &gt; 0</text>
+<text x="570" y="923" font-size="10" fill="#172b4d">ffffffffffff4eff &gt; 3b5fcafbe056a2f8</text>
+<text x="570" y="951" font-size="10" fill="#172b4d">ffffffffffffffff &gt; d311447af2b8b4f4</text>
+<rect x="805" y="103" width="240" height="880" fill="#eaf4ef"/>
+<text x="810" y="123" font-size="12" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">边沿 398：t=798/799</text>
+<text x="810" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿前（PRE）</text>
+<text x="930.0" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿后（POST）</text>
+<path d="M805,148 L805,975" fill="none" stroke="#d4dfeb" stroke-width="1"/>
+<path d="M809,170 L925.0,170" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,170 L925.0,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,156 L1041,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M809,184 L925.0,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,184 L925.0,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,184 L1041,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M809,226 L925.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,226 L925.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,226 L1041,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="810" y="251" font-size="10" fill="#172b4d">060/45 &gt; 060/45</text>
+<text x="810" y="279" font-size="10" fill="#172b4d">1 &gt; 1</text>
+<text x="810" y="307" font-size="10" fill="#172b4d">1 &gt; 1</text>
+<text x="810" y="335" font-size="10" fill="#172b4d">21250..2ccc0 &gt; 21250..2ccc0</text>
+<text x="810" y="363" font-size="10" fill="#172b4d">d8b8b..83029 &gt; d8b8b..83029</text>
+<text x="810" y="391" font-size="10" fill="#172b4d">00000..00000 &gt; 00000..00000</text>
+<text x="810" y="419" font-size="10" fill="#172b4d">00000..00000 &gt; 00000..00000</text>
+<path d="M809,450 L925.0,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,450 L925.0,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,450 L1041,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M809,464 L925.0,464" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,464 L925.0,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,478 L1041,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M809,492 L925.0,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,492 L925.0,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,492 L1041,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M809,534 L925.0,534" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,534 L925.0,520" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,520 L1041,520" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="810" y="559" font-size="10" fill="#172b4d">231722886 &gt; 231722886</text>
+<text x="810" y="587" font-size="10" fill="#172b4d">924549542 &gt; 924549542</text>
+<text x="810" y="615" font-size="10" fill="#172b4d">92052674 &gt; 92052674</text>
+<text x="810" y="643" font-size="10" fill="#172b4d">31611038 &gt; 31611038</text>
+<text x="810" y="671" font-size="10" fill="#172b4d">-44019360 &gt; -44019360</text>
+<text x="810" y="699" font-size="10" fill="#172b4d">245825052 &gt; 245825052</text>
+<text x="810" y="727" font-size="10" fill="#172b4d">832482668 &gt; 832482668</text>
+<text x="810" y="755" font-size="10" fill="#172b4d">610226466 &gt; 610226466</text>
+<text x="810" y="783" font-size="10" fill="#172b4d">25732 &gt; 2924450966</text>
+<path d="M809,800 L925.0,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,800 L925.0,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,800 L1041,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M809,828 L925.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,828 L925.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,828 L1041,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="810" y="867" font-size="10" fill="#172b4d">43 &gt; 44</text>
+<text x="810" y="895" font-size="10" fill="#172b4d">0 &gt; 0</text>
+<text x="810" y="923" font-size="10" fill="#172b4d">3b5fcafbe056a2f8 &gt; 00000000ae4f9496</text>
+<text x="810" y="951" font-size="10" fill="#172b4d">d311447af2b8b4f4 &gt; 0000000000000000</text>
+<text x="1050" y="123" font-size="12" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">边沿 399：t=800/801</text>
+<text x="1050" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿前（PRE）</text>
+<text x="1170.0" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿后（POST）</text>
+<path d="M1045,148 L1045,975" fill="none" stroke="#d4dfeb" stroke-width="1"/>
+<path d="M1049,170 L1165.0,170" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,170 L1165.0,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,156 L1281,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1049,198 L1165.0,198" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,198 L1165.0,198" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,198 L1281,198" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1049,226 L1165.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,226 L1165.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,226 L1281,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="1050" y="251" font-size="10" fill="#172b4d">060/46 &gt; 060/46</text>
+<text x="1050" y="279" font-size="10" fill="#172b4d">0 &gt; 0</text>
+<text x="1050" y="307" font-size="10" fill="#172b4d">16 &gt; 16</text>
+<text x="1050" y="335" font-size="10" fill="#172b4d">93956..65070 &gt; 93956..65070</text>
+<text x="1050" y="363" font-size="10" fill="#172b4d">eea73..ee5d5 &gt; eea73..ee5d5</text>
+<text x="1050" y="391" font-size="10" fill="#172b4d">00000..00000 &gt; 00000..00000</text>
+<text x="1050" y="419" font-size="10" fill="#172b4d">00000..00000 &gt; 00000..00000</text>
+<path d="M1049,450 L1165.0,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,450 L1165.0,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,450 L1281,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1049,478 L1165.0,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,478 L1165.0,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,478 L1281,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1049,492 L1165.0,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,492 L1165.0,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,492 L1281,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1049,520 L1165.0,520" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,520 L1165.0,520" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,520 L1281,520" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="1050" y="559" font-size="10" fill="#172b4d">231722886 &gt; 231722886</text>
+<text x="1050" y="587" font-size="10" fill="#172b4d">924549542 &gt; 924549542</text>
+<text x="1050" y="615" font-size="10" fill="#172b4d">92052674 &gt; 92052674</text>
+<text x="1050" y="643" font-size="10" fill="#172b4d">31611038 &gt; 31611038</text>
+<text x="1050" y="671" font-size="10" fill="#172b4d">-44019360 &gt; -44019360</text>
+<text x="1050" y="699" font-size="10" fill="#172b4d">245825052 &gt; 245825052</text>
+<text x="1050" y="727" font-size="10" fill="#172b4d">832482668 &gt; 832482668</text>
+<text x="1050" y="755" font-size="10" fill="#172b4d">610226466 &gt; 610226466</text>
+<text x="1050" y="783" font-size="10" fill="#172b4d">2924450966 &gt; 2924450966</text>
+<path d="M1049,814 L1165.0,814" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,814 L1165.0,814" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,814 L1281,814" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1049,828 L1165.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,828 L1165.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1165.0,828 L1281,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="1050" y="867" font-size="10" fill="#172b4d">44 &gt; 45</text>
+<text x="1050" y="895" font-size="10" fill="#172b4d">0 &gt; 0</text>
+<text x="1050" y="923" font-size="10" fill="#172b4d">00000000ae4f9496 &gt; c3e7b7765808cac0</text>
+<text x="1050" y="951" font-size="10" fill="#172b4d">0000000000000000 &gt; 43857b2f6a67ec5c</text>
+<text x="1290" y="123" font-size="12" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">边沿 400：t=802/803</text>
+<text x="1290" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿前（PRE）</text>
+<text x="1410.0" y="143" font-size="11" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">沿后（POST）</text>
+<path d="M1285,148 L1285,975" fill="none" stroke="#d4dfeb" stroke-width="1"/>
+<path d="M1289,170 L1405.0,170" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,170 L1405.0,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,156 L1521,156" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1289,184 L1405.0,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,184 L1405.0,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,184 L1521,184" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1289,226 L1405.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,226 L1405.0,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,226 L1521,226" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="1290" y="251" font-size="10" fill="#172b4d">072/46 &gt; 072/46</text>
+<text x="1290" y="279" font-size="10" fill="#172b4d">1 &gt; 1</text>
+<text x="1290" y="307" font-size="10" fill="#172b4d">4 &gt; 4</text>
+<text x="1290" y="335" font-size="10" fill="#172b4d">f29ba..92d82 &gt; f29ba..92d82</text>
+<text x="1290" y="363" font-size="10" fill="#172b4d">ee53b..af825 &gt; ee53b..af825</text>
+<text x="1290" y="391" font-size="10" fill="#172b4d">00000..00000 &gt; 00000..00000</text>
+<text x="1290" y="419" font-size="10" fill="#172b4d">00000..00000 &gt; 00000..00000</text>
+<path d="M1289,450 L1405.0,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,450 L1405.0,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,450 L1521,450" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1289,478 L1405.0,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,478 L1405.0,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,478 L1521,478" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1289,492 L1405.0,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,492 L1405.0,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,492 L1521,492" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1289,520 L1405.0,520" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,520 L1405.0,520" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,520 L1521,520" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="1290" y="559" font-size="10" fill="#172b4d">231722886 &gt; 231722886</text>
+<text x="1290" y="587" font-size="10" fill="#172b4d">924549542 &gt; 924549542</text>
+<text x="1290" y="615" font-size="10" fill="#172b4d">92052674 &gt; 92052674</text>
+<text x="1290" y="643" font-size="10" fill="#172b4d">31611038 &gt; 31611038</text>
+<text x="1290" y="671" font-size="10" fill="#172b4d">-44019360 &gt; -44019360</text>
+<text x="1290" y="699" font-size="10" fill="#172b4d">245825052 &gt; 245825052</text>
+<text x="1290" y="727" font-size="10" fill="#172b4d">832482668 &gt; 832482668</text>
+<text x="1290" y="755" font-size="10" fill="#172b4d">610226466 &gt; 610226466</text>
+<text x="1290" y="783" font-size="10" fill="#172b4d">2924450966 &gt; 2924450966</text>
+<path d="M1289,800 L1405.0,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,800 L1405.0,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,800 L1521,800" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1289,828 L1405.0,828" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,828 L1405.0,842" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1405.0,842 L1521,842" fill="none" stroke="#087f5b" stroke-width="2"/>
+<text x="1290" y="867" font-size="10" fill="#172b4d">45 &gt; -</text>
+<text x="1290" y="895" font-size="10" fill="#172b4d">0 &gt; -</text>
+<text x="1290" y="923" font-size="10" fill="#172b4d">c3e7b7765808cac0 &gt; -</text>
+<text x="1290" y="951" font-size="10" fill="#172b4d">43857b2f6a67ec5c &gt; -</text>
+<text x="28" y="1020" font-size="14" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">绿色列：S1 捕获八个 32 位有符号乘积；下一沿 S2 捕获 35 位和，同时普通 MAC 进入 S1。</text>
+<text x="28" y="1047" font-size="14" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">目标点积输出：高 64 位清零，低 64 位为总和的符号扩展；普通 MAC 输出按其完整向量语义解释。</text>
+<text x="28" y="1074" font-size="14" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">完整位宽采样、信号声明、各路输入及乘积保存在 wave-evidence.json。</text>
+<text x="28" y="1098" font-size="13" fill="#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">范围：固定 ready 包装模块的真实 VCD；本图不代表整核波形或物理时序、功耗测量。</text>
+</svg>

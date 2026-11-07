@@ -1,0 +1,638 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="100%" height="100%" fill="#f4f7fb"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#172b4d}</style>
+<text x="30" y="37" font-size="23" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积分支空闲：输入夹零，乘积寄存器保持</text>
+<text x="30" y="64" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">固定激励包装模块；重点边沿 35，沿前/沿后时标 72/73，输入标签 33</text>
+<text x="30" y="89" font-size="16" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">上升沿前后的实际稳定采样；总线用十六进制，a..b 表示缩写，完整值保存在 JSON。</text>
+<rect x="20" y="108" width="1520" height="442" rx="12" fill="white" stroke="#d5dfeb"/>
+<text x="35" y="135" font-size="20" style="fill:#b54708" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">优化前：未隔离数据通路（v0.1 / P1 共用）</text>
+<text x="346.0" y="157" font-size="12" style="fill:#172b4d">#33  t=68/69</text>
+<path d="M340.0,163 L340.0,534" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<text x="35" y="180" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">包装单元输入有效</text>
+<path d="M342.0,169 L423.57142857142856,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,169 L423.57142857142856,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,169 L505.1428571428571,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="342.0" cy="169" r="2" fill="#b54708"/>
+<circle cx="423.57142857142856" cy="169" r="2" fill="#b54708"/>
+<text x="35" y="202" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入操作 / 输入标签</text>
+<text x="344.0" y="201" font-size="11" style="fill:#b54708">160/31 &gt; 160/31</text>
+<text x="35" y="224" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积 enable[0]（乘积）</text>
+<path d="M342.0,213 L423.57142857142856,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,213 L423.57142857142856,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,213 L505.1428571428571,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="342.0" cy="213" r="2" fill="#b54708"/>
+<circle cx="423.57142857142856" cy="213" r="2" fill="#b54708"/>
+<text x="35" y="246" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积 enable[1]（总和）</text>
+<path d="M342.0,235 L423.57142857142856,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,235 L423.57142857142856,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,235 L505.1428571428571,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="342.0" cy="235" r="2" fill="#b54708"/>
+<circle cx="423.57142857142856" cy="235" r="2" fill="#b54708"/>
+<text x="35" y="268" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积乘法输入 vs1 [63:0]</text>
+<text x="344.0" y="267" font-size="11" style="fill:#b54708">fc4..492 &gt; fc4..492</text>
+<text x="35" y="290" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积乘法输入 vs2 [63:0]</text>
+<text x="344.0" y="289" font-size="11" style="fill:#b54708">9e3..9e0 &gt; 9e3..9e0</text>
+<text x="35" y="312" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积 products_0 [15:0]</text>
+<text x="344.0" y="311" font-size="11" style="fill:#b54708">ee08 &gt; dc0</text>
+<text x="35" y="334" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积总和 sum [18:0]</text>
+<text x="344.0" y="333" font-size="11" style="fill:#b54708">7df16 &gt; 7e0af</text>
+<text x="35" y="356" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 第一级 io_fire</text>
+<path d="M342.0,345 L423.57142857142856,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,345 L423.57142857142856,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,345 L505.1428571428571,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="342.0" cy="345" r="2" fill="#b54708"/>
+<circle cx="423.57142857142856" cy="345" r="2" fill="#b54708"/>
+<text x="35" y="378" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 第二级 fireS1_last_r</text>
+<path d="M342.0,367 L423.57142857142856,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,367 L423.57142857142856,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,367 L505.1428571428571,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="342.0" cy="367" r="2" fill="#b54708"/>
+<circle cx="423.57142857142856" cy="367" r="2" fill="#b54708"/>
+<text x="35" y="400" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 的 vs1 输入</text>
+<text x="344.0" y="399" font-size="11" style="fill:#b54708">fc4..492 &gt; fc4..492</text>
+<text x="35" y="422" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 Wallace 第一级寄存器 0</text>
+<text x="344.0" y="421" font-size="11" style="fill:#b54708">fce..de6 &gt; f94..13e</text>
+<text x="35" y="444" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 第二级 walOut_r</text>
+<text x="344.0" y="443" font-size="11" style="fill:#b54708">84f..424 &gt; e0f..e08</text>
+<text x="35" y="466" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出有效</text>
+<path d="M342.0,455 L423.57142857142856,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,455 L423.57142857142856,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M423.57142857142856,455 L505.1428571428571,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="342.0" cy="455" r="2" fill="#b54708"/>
+<circle cx="423.57142857142856" cy="455" r="2" fill="#b54708"/>
+<text x="35" y="488" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">有效输出标签</text>
+<text x="344.0" y="487" font-size="11" style="fill:#b54708">1d &gt; 1e</text>
+<text x="35" y="510" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">有效输出低 32 位 *</text>
+<text x="344.0" y="509" font-size="11" style="fill:#b54708">ffffdf16 &gt; ffffe0af</text>
+<text x="513.1428571428571" y="157" font-size="12" style="fill:#172b4d">#34  t=70/71</text>
+<path d="M507.1428571428571,163 L507.1428571428571,534" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M509.1428571428571,169 L590.7142857142857,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,169 L590.7142857142857,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,169 L672.2857142857142,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="169" r="2" fill="#b54708"/>
+<circle cx="590.7142857142857" cy="169" r="2" fill="#b54708"/>
+<text x="511.1428571428571" y="201" font-size="11" style="fill:#b54708">160/32 &gt; 160/32</text>
+<path d="M509.1428571428571,213 L590.7142857142857,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,213 L590.7142857142857,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,213 L672.2857142857142,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="213" r="2" fill="#b54708"/>
+<circle cx="590.7142857142857" cy="213" r="2" fill="#b54708"/>
+<path d="M509.1428571428571,235 L590.7142857142857,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,235 L590.7142857142857,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,235 L672.2857142857142,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="235" r="2" fill="#b54708"/>
+<circle cx="590.7142857142857" cy="235" r="2" fill="#b54708"/>
+<text x="511.1428571428571" y="267" font-size="11" style="fill:#b54708">b12..ee0 &gt; b12..ee0</text>
+<text x="511.1428571428571" y="289" font-size="11" style="fill:#b54708">f2b..ee9 &gt; f2b..ee9</text>
+<text x="511.1428571428571" y="311" font-size="11" style="fill:#b54708">dc0 &gt; 2e0</text>
+<text x="511.1428571428571" y="333" font-size="11" style="fill:#b54708">7e0af &gt; 7cbb1</text>
+<path d="M509.1428571428571,345 L590.7142857142857,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,345 L590.7142857142857,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,345 L672.2857142857142,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="345" r="2" fill="#b54708"/>
+<circle cx="590.7142857142857" cy="345" r="2" fill="#b54708"/>
+<path d="M509.1428571428571,367 L590.7142857142857,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,367 L590.7142857142857,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,367 L672.2857142857142,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="367" r="2" fill="#b54708"/>
+<circle cx="590.7142857142857" cy="367" r="2" fill="#b54708"/>
+<text x="511.1428571428571" y="399" font-size="11" style="fill:#b54708">b12..ee0 &gt; b12..ee0</text>
+<text x="511.1428571428571" y="421" font-size="11" style="fill:#b54708">f94..13e &gt; fb1..2c0</text>
+<text x="511.1428571428571" y="443" font-size="11" style="fill:#b54708">e0f..e08 &gt; fa4..dc0</text>
+<path d="M509.1428571428571,455 L590.7142857142857,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,455 L590.7142857142857,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M590.7142857142857,455 L672.2857142857142,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="455" r="2" fill="#b54708"/>
+<circle cx="590.7142857142857" cy="455" r="2" fill="#b54708"/>
+<text x="511.1428571428571" y="487" font-size="11" style="fill:#b54708">1e &gt; 1f</text>
+<text x="511.1428571428571" y="509" font-size="11" style="fill:#b54708">ffffe0af &gt; ffffcbb1</text>
+<rect x="674.2857142857142" y="142" width="167.14285714285714" height="399" fill="#805ad5" opacity="0.07"/>
+<text x="680.2857142857142" y="157" font-size="12" style="fill:#172b4d">#35  t=72/73</text>
+<path d="M674.2857142857142,163 L674.2857142857142,534" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M676.2857142857142,169 L757.8571428571428,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,169 L757.8571428571428,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,169 L839.4285714285713,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="169" r="2" fill="#b54708"/>
+<circle cx="757.8571428571428" cy="169" r="2" fill="#b54708"/>
+<text x="678.2857142857142" y="201" font-size="11" style="fill:#b54708">60/33 &gt; 60/33</text>
+<path d="M676.2857142857142,213 L757.8571428571428,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,213 L757.8571428571428,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,213 L839.4285714285713,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="213" r="2" fill="#b54708"/>
+<circle cx="757.8571428571428" cy="213" r="2" fill="#b54708"/>
+<path d="M676.2857142857142,235 L757.8571428571428,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,235 L757.8571428571428,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,235 L839.4285714285713,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="235" r="2" fill="#b54708"/>
+<circle cx="757.8571428571428" cy="235" r="2" fill="#b54708"/>
+<text x="678.2857142857142" y="267" font-size="11" style="fill:#b54708">604..183 &gt; 604..183</text>
+<text x="678.2857142857142" y="289" font-size="11" style="fill:#b54708">917..229 &gt; 917..229</text>
+<text x="678.2857142857142" y="311" font-size="11" style="fill:#b54708">2e0 &gt; ebfb</text>
+<text x="678.2857142857142" y="333" font-size="11" style="fill:#b54708">7cbb1 &gt; 53ed</text>
+<path d="M676.2857142857142,345 L757.8571428571428,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,345 L757.8571428571428,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,345 L839.4285714285713,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="345" r="2" fill="#b54708"/>
+<circle cx="757.8571428571428" cy="345" r="2" fill="#b54708"/>
+<path d="M676.2857142857142,367 L757.8571428571428,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,367 L757.8571428571428,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,367 L839.4285714285713,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="367" r="2" fill="#b54708"/>
+<circle cx="757.8571428571428" cy="367" r="2" fill="#b54708"/>
+<text x="678.2857142857142" y="399" font-size="11" style="fill:#b54708">604..183 &gt; 604..183</text>
+<text x="678.2857142857142" y="421" font-size="11" style="fill:#b54708">fb1..2c0 &gt; 3e0..bfb</text>
+<text x="678.2857142857142" y="443" font-size="11" style="fill:#b54708">fa4..dc0 &gt; 452..2e0</text>
+<path d="M676.2857142857142,455 L757.8571428571428,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,455 L757.8571428571428,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M757.8571428571428,455 L839.4285714285713,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="455" r="2" fill="#b54708"/>
+<circle cx="757.8571428571428" cy="455" r="2" fill="#b54708"/>
+<text x="678.2857142857142" y="487" font-size="11" style="fill:#b54708">1f &gt; 20</text>
+<text x="678.2857142857142" y="509" font-size="11" style="fill:#b54708">ffffcbb1 &gt; 53ed</text>
+<text x="847.4285714285714" y="157" font-size="12" style="fill:#172b4d">#36  t=74/75</text>
+<path d="M841.4285714285714,163 L841.4285714285714,534" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M843.4285714285714,169 L925.0,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,169 L925.0,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,169 L1006.5714285714286,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="169" r="2" fill="#b54708"/>
+<circle cx="925.0" cy="169" r="2" fill="#b54708"/>
+<text x="845.4285714285714" y="201" font-size="11" style="fill:#b54708">60/34 &gt; 60/34</text>
+<path d="M843.4285714285714,213 L925.0,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,213 L925.0,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,213 L1006.5714285714286,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="213" r="2" fill="#b54708"/>
+<circle cx="925.0" cy="213" r="2" fill="#b54708"/>
+<path d="M843.4285714285714,235 L925.0,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,235 L925.0,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,235 L1006.5714285714286,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="235" r="2" fill="#b54708"/>
+<circle cx="925.0" cy="235" r="2" fill="#b54708"/>
+<text x="845.4285714285714" y="267" font-size="11" style="fill:#b54708">b72..720 &gt; b72..720</text>
+<text x="845.4285714285714" y="289" font-size="11" style="fill:#b54708">d38..bc3 &gt; d38..bc3</text>
+<text x="845.4285714285714" y="311" font-size="11" style="fill:#b54708">ebfb &gt; f860</text>
+<text x="845.4285714285714" y="333" font-size="11" style="fill:#b54708">53ed &gt; 7fd17</text>
+<path d="M843.4285714285714,345 L925.0,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,345 L925.0,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,345 L1006.5714285714286,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="345" r="2" fill="#b54708"/>
+<circle cx="925.0" cy="345" r="2" fill="#b54708"/>
+<path d="M843.4285714285714,367 L925.0,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,367 L925.0,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,367 L1006.5714285714286,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="367" r="2" fill="#b54708"/>
+<circle cx="925.0" cy="367" r="2" fill="#b54708"/>
+<text x="845.4285714285714" y="399" font-size="11" style="fill:#b54708">b72..720 &gt; b72..720</text>
+<text x="845.4285714285714" y="421" font-size="11" style="fill:#b54708">3e0..bfb &gt; f67..b40</text>
+<text x="845.4285714285714" y="443" font-size="11" style="fill:#b54708">452..2e0 &gt; d66..3fb</text>
+<path d="M843.4285714285714,455 L925.0,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,455 L925.0,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M925.0,455 L1006.5714285714286,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="455" r="2" fill="#b54708"/>
+<circle cx="925.0" cy="455" r="2" fill="#b54708"/>
+<text x="845.4285714285714" y="487" font-size="11" style="fill:#b54708">20 &gt; 21</text>
+<text x="845.4285714285714" y="509" font-size="11" style="fill:#b54708">53ed &gt; e0bd63fb</text>
+<text x="1014.5714285714286" y="157" font-size="12" style="fill:#172b4d">#37  t=76/77</text>
+<path d="M1008.5714285714286,163 L1008.5714285714286,534" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M1010.5714285714286,169 L1092.142857142857,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,169 L1092.142857142857,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,169 L1173.7142857142858,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="169" r="2" fill="#b54708"/>
+<circle cx="1092.142857142857" cy="169" r="2" fill="#b54708"/>
+<text x="1012.5714285714286" y="201" font-size="11" style="fill:#b54708">60/35 &gt; 60/35</text>
+<path d="M1010.5714285714286,213 L1092.142857142857,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,213 L1092.142857142857,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,213 L1173.7142857142858,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="213" r="2" fill="#b54708"/>
+<circle cx="1092.142857142857" cy="213" r="2" fill="#b54708"/>
+<path d="M1010.5714285714286,235 L1092.142857142857,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,235 L1092.142857142857,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,235 L1173.7142857142858,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="235" r="2" fill="#b54708"/>
+<circle cx="1092.142857142857" cy="235" r="2" fill="#b54708"/>
+<text x="1012.5714285714286" y="267" font-size="11" style="fill:#b54708">31b..5d5 &gt; 31b..5d5</text>
+<text x="1012.5714285714286" y="289" font-size="11" style="fill:#b54708">34b..4c6 &gt; 34b..4c6</text>
+<text x="1012.5714285714286" y="311" font-size="11" style="fill:#b54708">f860 &gt; 9be</text>
+<text x="1012.5714285714286" y="333" font-size="11" style="fill:#b54708">7fd17 &gt; 3870</text>
+<path d="M1010.5714285714286,345 L1092.142857142857,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,345 L1092.142857142857,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,345 L1173.7142857142858,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="345" r="2" fill="#b54708"/>
+<circle cx="1092.142857142857" cy="345" r="2" fill="#b54708"/>
+<path d="M1010.5714285714286,367 L1092.142857142857,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,367 L1092.142857142857,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,367 L1173.7142857142858,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="367" r="2" fill="#b54708"/>
+<circle cx="1092.142857142857" cy="367" r="2" fill="#b54708"/>
+<text x="1012.5714285714286" y="399" font-size="11" style="fill:#b54708">31b..5d5 &gt; 31b..5d5</text>
+<text x="1012.5714285714286" y="421" font-size="11" style="fill:#b54708">f67..b40 &gt; cda..53e</text>
+<text x="1012.5714285714286" y="443" font-size="11" style="fill:#b54708">d66..3fb &gt; caa..d60</text>
+<path d="M1010.5714285714286,455 L1092.142857142857,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,455 L1092.142857142857,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1092.142857142857,455 L1173.7142857142858,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="455" r="2" fill="#b54708"/>
+<circle cx="1092.142857142857" cy="455" r="2" fill="#b54708"/>
+<text x="1012.5714285714286" y="487" font-size="11" style="fill:#b54708">21 &gt; 22</text>
+<text x="1012.5714285714286" y="509" font-size="11" style="fill:#b54708">e0bd63fb &gt; b1ae521e</text>
+<text x="1181.7142857142858" y="157" font-size="12" style="fill:#172b4d">#38  t=78/79</text>
+<path d="M1175.7142857142858,163 L1175.7142857142858,534" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M1177.7142857142858,169 L1259.2857142857144,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,169 L1259.2857142857144,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,169 L1340.857142857143,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="169" r="2" fill="#b54708"/>
+<circle cx="1259.2857142857144" cy="169" r="2" fill="#b54708"/>
+<text x="1179.7142857142858" y="201" font-size="11" style="fill:#b54708">60/36 &gt; 60/36</text>
+<path d="M1177.7142857142858,213 L1259.2857142857144,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,213 L1259.2857142857144,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,213 L1340.857142857143,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="213" r="2" fill="#b54708"/>
+<circle cx="1259.2857142857144" cy="213" r="2" fill="#b54708"/>
+<path d="M1177.7142857142858,235 L1259.2857142857144,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,235 L1259.2857142857144,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,235 L1340.857142857143,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="235" r="2" fill="#b54708"/>
+<circle cx="1259.2857142857144" cy="235" r="2" fill="#b54708"/>
+<text x="1179.7142857142858" y="267" font-size="11" style="fill:#b54708">52e..a24 &gt; 52e..a24</text>
+<text x="1179.7142857142858" y="289" font-size="11" style="fill:#b54708">b9f..dff &gt; b9f..dff</text>
+<text x="1179.7142857142858" y="311" font-size="11" style="fill:#b54708">9be &gt; ffdc</text>
+<text x="1179.7142857142858" y="333" font-size="11" style="fill:#b54708">3870 &gt; 4372</text>
+<path d="M1177.7142857142858,345 L1259.2857142857144,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,345 L1259.2857142857144,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,345 L1340.857142857143,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="345" r="2" fill="#b54708"/>
+<circle cx="1259.2857142857144" cy="345" r="2" fill="#b54708"/>
+<path d="M1177.7142857142858,367 L1259.2857142857144,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,367 L1259.2857142857144,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,367 L1340.857142857143,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="367" r="2" fill="#b54708"/>
+<circle cx="1259.2857142857144" cy="367" r="2" fill="#b54708"/>
+<text x="1179.7142857142858" y="399" font-size="11" style="fill:#b54708">52e..a24 &gt; 52e..a24</text>
+<text x="1179.7142857142858" y="421" font-size="11" style="fill:#b54708">cda..53e &gt; 442..39c</text>
+<text x="1179.7142857142858" y="443" font-size="11" style="fill:#b54708">caa..d60 &gt; a3d..6be</text>
+<path d="M1177.7142857142858,455 L1259.2857142857144,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,455 L1259.2857142857144,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1259.2857142857144,455 L1340.857142857143,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="455" r="2" fill="#b54708"/>
+<circle cx="1259.2857142857144" cy="455" r="2" fill="#b54708"/>
+<text x="1179.7142857142858" y="487" font-size="11" style="fill:#b54708">22 &gt; 23</text>
+<text x="1179.7142857142858" y="509" font-size="11" style="fill:#b54708">b1ae521e &gt; 1cc83008</text>
+<text x="1348.857142857143" y="157" font-size="12" style="fill:#172b4d">#39  t=80/81</text>
+<path d="M1342.857142857143,163 L1342.857142857143,534" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M1344.857142857143,169 L1426.4285714285716,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,169 L1426.4285714285716,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,169 L1508.0,169" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="169" r="2" fill="#b54708"/>
+<circle cx="1426.4285714285716" cy="169" r="2" fill="#b54708"/>
+<text x="1346.857142857143" y="201" font-size="11" style="fill:#b54708">60/37 &gt; 60/37</text>
+<path d="M1344.857142857143,213 L1426.4285714285716,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,213 L1426.4285714285716,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,213 L1508.0,213" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="213" r="2" fill="#b54708"/>
+<circle cx="1426.4285714285716" cy="213" r="2" fill="#b54708"/>
+<path d="M1344.857142857143,235 L1426.4285714285716,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,235 L1426.4285714285716,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,235 L1508.0,235" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="235" r="2" fill="#b54708"/>
+<circle cx="1426.4285714285716" cy="235" r="2" fill="#b54708"/>
+<text x="1346.857142857143" y="267" font-size="11" style="fill:#b54708">ef3..74f &gt; ef3..74f</text>
+<text x="1346.857142857143" y="289" font-size="11" style="fill:#b54708">5c3..9dc &gt; 5c3..9dc</text>
+<text x="1346.857142857143" y="311" font-size="11" style="fill:#b54708">ffdc &gt; f4e4</text>
+<text x="1346.857142857143" y="333" font-size="11" style="fill:#b54708">4372 &gt; 7ee94</text>
+<path d="M1344.857142857143,345 L1426.4285714285716,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,345 L1426.4285714285716,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,345 L1508.0,345" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="345" r="2" fill="#b54708"/>
+<circle cx="1426.4285714285716" cy="345" r="2" fill="#b54708"/>
+<path d="M1344.857142857143,367 L1426.4285714285716,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,367 L1426.4285714285716,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,367 L1508.0,367" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="367" r="2" fill="#b54708"/>
+<circle cx="1426.4285714285716" cy="367" r="2" fill="#b54708"/>
+<text x="1346.857142857143" y="399" font-size="11" style="fill:#b54708">ef3..74f &gt; ef3..74f</text>
+<text x="1346.857142857143" y="421" font-size="11" style="fill:#b54708">442..39c &gt; e6c..0e2</text>
+<text x="1346.857142857143" y="443" font-size="11" style="fill:#b54708">a3d..6be &gt; e95..ddc</text>
+<path d="M1344.857142857143,455 L1426.4285714285716,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,455 L1426.4285714285716,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<path d="M1426.4285714285716,455 L1508.0,455" fill="none" stroke="#b54708" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="455" r="2" fill="#b54708"/>
+<circle cx="1426.4285714285716" cy="455" r="2" fill="#b54708"/>
+<text x="1346.857142857143" y="487" font-size="11" style="fill:#b54708">23 &gt; 24</text>
+<text x="1346.857142857143" y="509" font-size="11" style="fill:#b54708">1cc83008 &gt; fcf12ddc</text>
+<text x="35" y="542" font-size="13" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">每列为沿前→沿后稳定值，紫色列为重点；编号为十进制边沿序号，t 为原 VCD 时标。</text>
+<rect x="20" y="562" width="1520" height="442" rx="12" fill="white" stroke="#d5dfeb"/>
+<text x="35" y="589" font-size="20" style="fill:#087f5b" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">优化后：操作数隔离与寄存器更新使能</text>
+<text x="346.0" y="611" font-size="12" style="fill:#172b4d">#33  t=68/69</text>
+<path d="M340.0,617 L340.0,988" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<text x="35" y="634" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">包装单元输入有效</text>
+<path d="M342.0,623 L423.57142857142856,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,623 L423.57142857142856,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,623 L505.1428571428571,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="342.0" cy="623" r="2" fill="#087f5b"/>
+<circle cx="423.57142857142856" cy="623" r="2" fill="#087f5b"/>
+<text x="35" y="656" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入操作 / 输入标签</text>
+<text x="344.0" y="655" font-size="11" style="fill:#087f5b">160/31 &gt; 160/31</text>
+<text x="35" y="678" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积 enable[0]（乘积）</text>
+<path d="M342.0,667 L423.57142857142856,667" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,667 L423.57142857142856,667" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,667 L505.1428571428571,667" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="342.0" cy="667" r="2" fill="#087f5b"/>
+<circle cx="423.57142857142856" cy="667" r="2" fill="#087f5b"/>
+<text x="35" y="700" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积 enable[1]（总和）</text>
+<path d="M342.0,689 L423.57142857142856,689" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,689 L423.57142857142856,689" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,689 L505.1428571428571,689" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="342.0" cy="689" r="2" fill="#087f5b"/>
+<circle cx="423.57142857142856" cy="689" r="2" fill="#087f5b"/>
+<text x="35" y="722" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积乘法输入 vs1 [63:0]</text>
+<text x="344.0" y="721" font-size="11" style="fill:#087f5b">fc4..492 &gt; fc4..492</text>
+<text x="35" y="744" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积乘法输入 vs2 [63:0]</text>
+<text x="344.0" y="743" font-size="11" style="fill:#087f5b">9e3..9e0 &gt; 9e3..9e0</text>
+<text x="35" y="766" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积 products_0 [15:0]</text>
+<text x="344.0" y="765" font-size="11" style="fill:#087f5b">ee08 &gt; dc0</text>
+<text x="35" y="788" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积总和 sum [18:0]</text>
+<text x="344.0" y="787" font-size="11" style="fill:#087f5b">7df16 &gt; 7e0af</text>
+<text x="35" y="810" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 第一级 io_fire</text>
+<path d="M342.0,811 L423.57142857142856,811" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,811 L423.57142857142856,811" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,811 L505.1428571428571,811" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="342.0" cy="811" r="2" fill="#087f5b"/>
+<circle cx="423.57142857142856" cy="811" r="2" fill="#087f5b"/>
+<text x="35" y="832" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 第二级 fireS1_last_r</text>
+<path d="M342.0,833 L423.57142857142856,833" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,833 L423.57142857142856,833" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,833 L505.1428571428571,833" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="342.0" cy="833" r="2" fill="#087f5b"/>
+<circle cx="423.57142857142856" cy="833" r="2" fill="#087f5b"/>
+<text x="35" y="854" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 的 vs1 输入</text>
+<text x="344.0" y="853" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="35" y="876" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 Wallace 第一级寄存器 0</text>
+<text x="344.0" y="875" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="35" y="898" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">MAC0 第二级 walOut_r</text>
+<text x="344.0" y="897" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="35" y="920" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出有效</text>
+<path d="M342.0,909 L423.57142857142856,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,909 L423.57142857142856,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M423.57142857142856,909 L505.1428571428571,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="342.0" cy="909" r="2" fill="#087f5b"/>
+<circle cx="423.57142857142856" cy="909" r="2" fill="#087f5b"/>
+<text x="35" y="942" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">有效输出标签</text>
+<text x="344.0" y="941" font-size="11" style="fill:#087f5b">1d &gt; 1e</text>
+<text x="35" y="964" font-size="14" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">有效输出低 32 位 *</text>
+<text x="344.0" y="963" font-size="11" style="fill:#087f5b">ffffdf16 &gt; ffffe0af</text>
+<text x="513.1428571428571" y="611" font-size="12" style="fill:#172b4d">#34  t=70/71</text>
+<path d="M507.1428571428571,617 L507.1428571428571,988" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M509.1428571428571,623 L590.7142857142857,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,623 L590.7142857142857,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,623 L672.2857142857142,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="623" r="2" fill="#087f5b"/>
+<circle cx="590.7142857142857" cy="623" r="2" fill="#087f5b"/>
+<text x="511.1428571428571" y="655" font-size="11" style="fill:#087f5b">160/32 &gt; 160/32</text>
+<path d="M509.1428571428571,667 L590.7142857142857,667" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,667 L590.7142857142857,667" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,667 L672.2857142857142,667" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="667" r="2" fill="#087f5b"/>
+<circle cx="590.7142857142857" cy="667" r="2" fill="#087f5b"/>
+<path d="M509.1428571428571,689 L590.7142857142857,689" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,689 L590.7142857142857,689" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,689 L672.2857142857142,689" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="689" r="2" fill="#087f5b"/>
+<circle cx="590.7142857142857" cy="689" r="2" fill="#087f5b"/>
+<text x="511.1428571428571" y="721" font-size="11" style="fill:#087f5b">b12..ee0 &gt; b12..ee0</text>
+<text x="511.1428571428571" y="743" font-size="11" style="fill:#087f5b">f2b..ee9 &gt; f2b..ee9</text>
+<text x="511.1428571428571" y="765" font-size="11" style="fill:#087f5b">dc0 &gt; 2e0</text>
+<text x="511.1428571428571" y="787" font-size="11" style="fill:#087f5b">7e0af &gt; 7cbb1</text>
+<path d="M509.1428571428571,811 L590.7142857142857,811" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,811 L590.7142857142857,811" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,811 L672.2857142857142,811" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="811" r="2" fill="#087f5b"/>
+<circle cx="590.7142857142857" cy="811" r="2" fill="#087f5b"/>
+<path d="M509.1428571428571,833 L590.7142857142857,833" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,833 L590.7142857142857,833" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,833 L672.2857142857142,833" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="833" r="2" fill="#087f5b"/>
+<circle cx="590.7142857142857" cy="833" r="2" fill="#087f5b"/>
+<text x="511.1428571428571" y="853" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="511.1428571428571" y="875" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="511.1428571428571" y="897" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<path d="M509.1428571428571,909 L590.7142857142857,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,909 L590.7142857142857,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M590.7142857142857,909 L672.2857142857142,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="509.1428571428571" cy="909" r="2" fill="#087f5b"/>
+<circle cx="590.7142857142857" cy="909" r="2" fill="#087f5b"/>
+<text x="511.1428571428571" y="941" font-size="11" style="fill:#087f5b">1e &gt; 1f</text>
+<text x="511.1428571428571" y="963" font-size="11" style="fill:#087f5b">ffffe0af &gt; ffffcbb1</text>
+<rect x="674.2857142857142" y="596" width="167.14285714285714" height="399" fill="#805ad5" opacity="0.07"/>
+<text x="680.2857142857142" y="611" font-size="12" style="fill:#172b4d">#35  t=72/73</text>
+<path d="M674.2857142857142,617 L674.2857142857142,988" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M676.2857142857142,623 L757.8571428571428,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,623 L757.8571428571428,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,623 L839.4285714285713,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="623" r="2" fill="#087f5b"/>
+<circle cx="757.8571428571428" cy="623" r="2" fill="#087f5b"/>
+<text x="678.2857142857142" y="655" font-size="11" style="fill:#087f5b">60/33 &gt; 60/33</text>
+<path d="M676.2857142857142,679 L757.8571428571428,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,679 L757.8571428571428,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,679 L839.4285714285713,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="679" r="2" fill="#087f5b"/>
+<circle cx="757.8571428571428" cy="679" r="2" fill="#087f5b"/>
+<path d="M676.2857142857142,689 L757.8571428571428,689" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,689 L757.8571428571428,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,701 L839.4285714285713,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="689" r="2" fill="#087f5b"/>
+<circle cx="757.8571428571428" cy="701" r="2" fill="#087f5b"/>
+<text x="678.2857142857142" y="721" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="678.2857142857142" y="743" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="678.2857142857142" y="765" font-size="11" style="fill:#087f5b">2e0 &gt; 2e0</text>
+<text x="678.2857142857142" y="787" font-size="11" style="fill:#087f5b">7cbb1 &gt; 53ed</text>
+<path d="M676.2857142857142,799 L757.8571428571428,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,799 L757.8571428571428,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,799 L839.4285714285713,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="799" r="2" fill="#087f5b"/>
+<circle cx="757.8571428571428" cy="799" r="2" fill="#087f5b"/>
+<path d="M676.2857142857142,833 L757.8571428571428,833" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,833 L757.8571428571428,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,821 L839.4285714285713,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="833" r="2" fill="#087f5b"/>
+<circle cx="757.8571428571428" cy="821" r="2" fill="#087f5b"/>
+<text x="678.2857142857142" y="853" font-size="11" style="fill:#087f5b">604..183 &gt; 604..183</text>
+<text x="678.2857142857142" y="875" font-size="11" style="fill:#087f5b">0 &gt; 3e0..bfb</text>
+<text x="678.2857142857142" y="897" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<path d="M676.2857142857142,909 L757.8571428571428,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,909 L757.8571428571428,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M757.8571428571428,909 L839.4285714285713,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="676.2857142857142" cy="909" r="2" fill="#087f5b"/>
+<circle cx="757.8571428571428" cy="909" r="2" fill="#087f5b"/>
+<text x="678.2857142857142" y="941" font-size="11" style="fill:#087f5b">1f &gt; 20</text>
+<text x="678.2857142857142" y="963" font-size="11" style="fill:#087f5b">ffffcbb1 &gt; 53ed</text>
+<text x="847.4285714285714" y="611" font-size="12" style="fill:#172b4d">#36  t=74/75</text>
+<path d="M841.4285714285714,617 L841.4285714285714,988" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M843.4285714285714,623 L925.0,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,623 L925.0,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,623 L1006.5714285714286,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="623" r="2" fill="#087f5b"/>
+<circle cx="925.0" cy="623" r="2" fill="#087f5b"/>
+<text x="845.4285714285714" y="655" font-size="11" style="fill:#087f5b">60/34 &gt; 60/34</text>
+<path d="M843.4285714285714,679 L925.0,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,679 L925.0,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,679 L1006.5714285714286,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="679" r="2" fill="#087f5b"/>
+<circle cx="925.0" cy="679" r="2" fill="#087f5b"/>
+<path d="M843.4285714285714,701 L925.0,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,701 L925.0,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,701 L1006.5714285714286,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="701" r="2" fill="#087f5b"/>
+<circle cx="925.0" cy="701" r="2" fill="#087f5b"/>
+<text x="845.4285714285714" y="721" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="845.4285714285714" y="743" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="845.4285714285714" y="765" font-size="11" style="fill:#087f5b">2e0 &gt; 2e0</text>
+<text x="845.4285714285714" y="787" font-size="11" style="fill:#087f5b">53ed &gt; 53ed</text>
+<path d="M843.4285714285714,799 L925.0,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,799 L925.0,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,799 L1006.5714285714286,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="799" r="2" fill="#087f5b"/>
+<circle cx="925.0" cy="799" r="2" fill="#087f5b"/>
+<path d="M843.4285714285714,821 L925.0,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,821 L925.0,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,821 L1006.5714285714286,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="821" r="2" fill="#087f5b"/>
+<circle cx="925.0" cy="821" r="2" fill="#087f5b"/>
+<text x="845.4285714285714" y="853" font-size="11" style="fill:#087f5b">b72..720 &gt; b72..720</text>
+<text x="845.4285714285714" y="875" font-size="11" style="fill:#087f5b">3e0..bfb &gt; f67..b40</text>
+<text x="845.4285714285714" y="897" font-size="11" style="fill:#087f5b">0 &gt; d66..3fb</text>
+<path d="M843.4285714285714,909 L925.0,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,909 L925.0,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M925.0,909 L1006.5714285714286,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="843.4285714285714" cy="909" r="2" fill="#087f5b"/>
+<circle cx="925.0" cy="909" r="2" fill="#087f5b"/>
+<text x="845.4285714285714" y="941" font-size="11" style="fill:#087f5b">20 &gt; 21</text>
+<text x="845.4285714285714" y="963" font-size="11" style="fill:#087f5b">53ed &gt; e0bd63fb</text>
+<text x="1014.5714285714286" y="611" font-size="12" style="fill:#172b4d">#37  t=76/77</text>
+<path d="M1008.5714285714286,617 L1008.5714285714286,988" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M1010.5714285714286,623 L1092.142857142857,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,623 L1092.142857142857,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,623 L1173.7142857142858,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="623" r="2" fill="#087f5b"/>
+<circle cx="1092.142857142857" cy="623" r="2" fill="#087f5b"/>
+<text x="1012.5714285714286" y="655" font-size="11" style="fill:#087f5b">60/35 &gt; 60/35</text>
+<path d="M1010.5714285714286,679 L1092.142857142857,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,679 L1092.142857142857,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,679 L1173.7142857142858,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="679" r="2" fill="#087f5b"/>
+<circle cx="1092.142857142857" cy="679" r="2" fill="#087f5b"/>
+<path d="M1010.5714285714286,701 L1092.142857142857,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,701 L1092.142857142857,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,701 L1173.7142857142858,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="701" r="2" fill="#087f5b"/>
+<circle cx="1092.142857142857" cy="701" r="2" fill="#087f5b"/>
+<text x="1012.5714285714286" y="721" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="1012.5714285714286" y="743" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="1012.5714285714286" y="765" font-size="11" style="fill:#087f5b">2e0 &gt; 2e0</text>
+<text x="1012.5714285714286" y="787" font-size="11" style="fill:#087f5b">53ed &gt; 53ed</text>
+<path d="M1010.5714285714286,799 L1092.142857142857,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,799 L1092.142857142857,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,799 L1173.7142857142858,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="799" r="2" fill="#087f5b"/>
+<circle cx="1092.142857142857" cy="799" r="2" fill="#087f5b"/>
+<path d="M1010.5714285714286,821 L1092.142857142857,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,821 L1092.142857142857,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,821 L1173.7142857142858,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="821" r="2" fill="#087f5b"/>
+<circle cx="1092.142857142857" cy="821" r="2" fill="#087f5b"/>
+<text x="1012.5714285714286" y="853" font-size="11" style="fill:#087f5b">31b..5d5 &gt; 31b..5d5</text>
+<text x="1012.5714285714286" y="875" font-size="11" style="fill:#087f5b">f67..b40 &gt; cda..53e</text>
+<text x="1012.5714285714286" y="897" font-size="11" style="fill:#087f5b">d66..3fb &gt; caa..d60</text>
+<path d="M1010.5714285714286,909 L1092.142857142857,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,909 L1092.142857142857,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1092.142857142857,909 L1173.7142857142858,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1010.5714285714286" cy="909" r="2" fill="#087f5b"/>
+<circle cx="1092.142857142857" cy="909" r="2" fill="#087f5b"/>
+<text x="1012.5714285714286" y="941" font-size="11" style="fill:#087f5b">21 &gt; 22</text>
+<text x="1012.5714285714286" y="963" font-size="11" style="fill:#087f5b">e0bd63fb &gt; b1ae521e</text>
+<text x="1181.7142857142858" y="611" font-size="12" style="fill:#172b4d">#38  t=78/79</text>
+<path d="M1175.7142857142858,617 L1175.7142857142858,988" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M1177.7142857142858,623 L1259.2857142857144,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,623 L1259.2857142857144,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,623 L1340.857142857143,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="623" r="2" fill="#087f5b"/>
+<circle cx="1259.2857142857144" cy="623" r="2" fill="#087f5b"/>
+<text x="1179.7142857142858" y="655" font-size="11" style="fill:#087f5b">60/36 &gt; 60/36</text>
+<path d="M1177.7142857142858,679 L1259.2857142857144,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,679 L1259.2857142857144,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,679 L1340.857142857143,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="679" r="2" fill="#087f5b"/>
+<circle cx="1259.2857142857144" cy="679" r="2" fill="#087f5b"/>
+<path d="M1177.7142857142858,701 L1259.2857142857144,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,701 L1259.2857142857144,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,701 L1340.857142857143,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="701" r="2" fill="#087f5b"/>
+<circle cx="1259.2857142857144" cy="701" r="2" fill="#087f5b"/>
+<text x="1179.7142857142858" y="721" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="1179.7142857142858" y="743" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="1179.7142857142858" y="765" font-size="11" style="fill:#087f5b">2e0 &gt; 2e0</text>
+<text x="1179.7142857142858" y="787" font-size="11" style="fill:#087f5b">53ed &gt; 53ed</text>
+<path d="M1177.7142857142858,799 L1259.2857142857144,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,799 L1259.2857142857144,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,799 L1340.857142857143,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="799" r="2" fill="#087f5b"/>
+<circle cx="1259.2857142857144" cy="799" r="2" fill="#087f5b"/>
+<path d="M1177.7142857142858,821 L1259.2857142857144,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,821 L1259.2857142857144,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,821 L1340.857142857143,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="821" r="2" fill="#087f5b"/>
+<circle cx="1259.2857142857144" cy="821" r="2" fill="#087f5b"/>
+<text x="1179.7142857142858" y="853" font-size="11" style="fill:#087f5b">52e..a24 &gt; 52e..a24</text>
+<text x="1179.7142857142858" y="875" font-size="11" style="fill:#087f5b">cda..53e &gt; 442..39c</text>
+<text x="1179.7142857142858" y="897" font-size="11" style="fill:#087f5b">caa..d60 &gt; a3d..6be</text>
+<path d="M1177.7142857142858,909 L1259.2857142857144,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,909 L1259.2857142857144,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1259.2857142857144,909 L1340.857142857143,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1177.7142857142858" cy="909" r="2" fill="#087f5b"/>
+<circle cx="1259.2857142857144" cy="909" r="2" fill="#087f5b"/>
+<text x="1179.7142857142858" y="941" font-size="11" style="fill:#087f5b">22 &gt; 23</text>
+<text x="1179.7142857142858" y="963" font-size="11" style="fill:#087f5b">b1ae521e &gt; 1cc83008</text>
+<text x="1348.857142857143" y="611" font-size="12" style="fill:#172b4d">#39  t=80/81</text>
+<path d="M1342.857142857143,617 L1342.857142857143,988" fill="none" stroke="#dce4ee" stroke-width="1"/>
+<path d="M1344.857142857143,623 L1426.4285714285716,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,623 L1426.4285714285716,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,623 L1508.0,623" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="623" r="2" fill="#087f5b"/>
+<circle cx="1426.4285714285716" cy="623" r="2" fill="#087f5b"/>
+<text x="1346.857142857143" y="655" font-size="11" style="fill:#087f5b">60/37 &gt; 60/37</text>
+<path d="M1344.857142857143,679 L1426.4285714285716,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,679 L1426.4285714285716,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,679 L1508.0,679" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="679" r="2" fill="#087f5b"/>
+<circle cx="1426.4285714285716" cy="679" r="2" fill="#087f5b"/>
+<path d="M1344.857142857143,701 L1426.4285714285716,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,701 L1426.4285714285716,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,701 L1508.0,701" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="701" r="2" fill="#087f5b"/>
+<circle cx="1426.4285714285716" cy="701" r="2" fill="#087f5b"/>
+<text x="1346.857142857143" y="721" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="1346.857142857143" y="743" font-size="11" style="fill:#087f5b">0 &gt; 0</text>
+<text x="1346.857142857143" y="765" font-size="11" style="fill:#087f5b">2e0 &gt; 2e0</text>
+<text x="1346.857142857143" y="787" font-size="11" style="fill:#087f5b">53ed &gt; 53ed</text>
+<path d="M1344.857142857143,799 L1426.4285714285716,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,799 L1426.4285714285716,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,799 L1508.0,799" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="799" r="2" fill="#087f5b"/>
+<circle cx="1426.4285714285716" cy="799" r="2" fill="#087f5b"/>
+<path d="M1344.857142857143,821 L1426.4285714285716,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,821 L1426.4285714285716,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,821 L1508.0,821" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="821" r="2" fill="#087f5b"/>
+<circle cx="1426.4285714285716" cy="821" r="2" fill="#087f5b"/>
+<text x="1346.857142857143" y="853" font-size="11" style="fill:#087f5b">ef3..74f &gt; ef3..74f</text>
+<text x="1346.857142857143" y="875" font-size="11" style="fill:#087f5b">442..39c &gt; e6c..0e2</text>
+<text x="1346.857142857143" y="897" font-size="11" style="fill:#087f5b">a3d..6be &gt; e95..ddc</text>
+<path d="M1344.857142857143,909 L1426.4285714285716,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,909 L1426.4285714285716,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<path d="M1426.4285714285716,909 L1508.0,909" fill="none" stroke="#087f5b" stroke-width="2"/>
+<circle cx="1344.857142857143" cy="909" r="2" fill="#087f5b"/>
+<circle cx="1426.4285714285716" cy="909" r="2" fill="#087f5b"/>
+<text x="1346.857142857143" y="941" font-size="11" style="fill:#087f5b">23 &gt; 24</text>
+<text x="1346.857142857143" y="963" font-size="11" style="fill:#087f5b">1cc83008 &gt; fcf12ddc</text>
+<text x="35" y="996" font-size="13" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">每列为沿前→沿后稳定值，紫色列为重点；编号为十进制边沿序号，t 为原 VCD 时标。</text>
+<text x="30" y="1045" font-size="15" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">* low32 为便于阅读的派生值；完整记录已核对全部 128 位结果、标签、标志与输出时序。</text>
+<text x="30" y="1071" font-size="15" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">优化前的 enable/fire 来自未隔离设计，尚非操作专用使能；应按原设计含义阅读。</text>
+<text x="30" y="1097" font-size="15" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">本图仅证明固定 ready 模块的行为；整核提交、物理时钟门控与功耗需各自验证。</text>
+</svg>

@@ -1,0 +1,221 @@
+{
+  "status": "PASS",
+  "workspace": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2",
+  "scope": "same-host clean builds and architectural regressions; module VCD is not CPU commit proof",
+  "repositories": 24,
+  "patches": 3,
+  "patched_source_files_byte_equal": 20,
+  "steps": {
+    "hello": {
+      "status": "PASS",
+      "started": "2026-11-03T14:14:27+08:00",
+      "command": [
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/build/sew16-fixed8/emu",
+        "--diff=/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/build/sew16/riscv64-nemu-interpreter-so",
+        "-i",
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage1/hello-xiangshan/build/cie2026-stage1-hello-riscv64-xs.bin",
+        "--max-cycles=300000",
+        "--seed=101"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/hello.full.log",
+      "completed": "2026-11-03T14:15:16+08:00",
+      "elapsed_seconds": 48.714,
+      "exit": 0
+    },
+    "sew16-regression": {
+      "status": "PASS",
+      "started": "2026-11-03T14:14:27+08:00",
+      "command": [
+        "bash",
+        "scripts/vdot-step.sh",
+        "clean-sew16-regression",
+        "bash",
+        "scripts/run-vdot-sew16.sh"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/sew16-regression.full.log",
+      "completed": "2026-11-03T14:57:36+08:00",
+      "elapsed_seconds": 2588.98,
+      "exit": 0
+    },
+    "contract-regression": {
+      "status": "PASS",
+      "started": "2026-11-03T14:14:27+08:00",
+      "command": [
+        "bash",
+        "scripts/run-vdot-contract-tests.sh"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/contract-regression.full.log",
+      "completed": "2026-11-03T14:32:50+08:00",
+      "elapsed_seconds": 1102.128,
+      "exit": 0
+    },
+    "vadd": {
+      "status": "PASS",
+      "started": "2026-11-03T14:15:16+08:00",
+      "command": [
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/build/sew16-fixed8/emu",
+        "--diff=/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/NEMU/build/sew16/riscv64-nemu-interpreter-so",
+        "-i",
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage1/vector-add/build/cie2026-stage1-vector-add-riscv64-xs.bin",
+        "--max-cycles=300000",
+        "--seed=101"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/vadd.full.log",
+      "completed": "2026-11-03T14:16:49+08:00",
+      "elapsed_seconds": 92.973,
+      "exit": 0
+    },
+    "performance-smoke0": {
+      "status": "PASS",
+      "started": "2026-11-03T14:16:49+08:00",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; import common as C; C.run(Path('/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/logs/clean-reproduction-perf'), \"smoke0\", \"new\", 1, 0, 1, 0x56444f54, 101)"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/performance-smoke0.full.log",
+      "completed": "2026-11-03T14:46:10+08:00",
+      "elapsed_seconds": 1761.307,
+      "exit": 0
+    },
+    "performance-smoke1": {
+      "status": "PASS",
+      "started": "2026-11-03T14:46:10+08:00",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; import common as C; C.run(Path('/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage3/logs/clean-reproduction-perf'), \"smoke1\", \"new\", 1, 1, 1, 0x56444f54, 101)"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/performance-smoke1.full.log",
+      "completed": "2026-11-03T15:13:14+08:00",
+      "elapsed_seconds": 1623.475,
+      "exit": 0
+    },
+    "sew16-audit": {
+      "status": "PASS",
+      "started": "2026-11-03T14:57:36+08:00",
+      "command": [
+        "/usr/bin/python3",
+        "stage2/sew16/check-core.py",
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T141427-sew16-core.full.log",
+        "--coordinator",
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/sew16-regression.full.log",
+        "--out",
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/sew16-audit.json"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/sew16-audit.full.log",
+      "completed": "2026-11-03T14:57:37+08:00",
+      "elapsed_seconds": 0.215,
+      "exit": 0
+    },
+    "module-mixed": {
+      "status": "PASS",
+      "started": "2026-11-03T15:13:14+08:00",
+      "command": [
+        "mill",
+        "-i",
+        "-Djvm-xmx=3G",
+        "-Djvm-xss=16m",
+        "xiangshan.test.testOnly",
+        "xiangshan.backend.fu.vector.VDotIntegrationTest",
+        "--",
+        "-z",
+        "preserve randomized"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/module-mixed.full.log",
+      "completed": "2026-11-03T15:13:46+08:00",
+      "elapsed_seconds": 32.56,
+      "exit": 0
+    },
+    "module-isolation-audit": {
+      "status": "PASS",
+      "started": "2026-11-03T15:15:29+08:00",
+      "command": [
+        "/usr/bin/python3",
+        "stage2/sew16/check-isolation.py",
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/out/xiangshan/test/testOnly.dest/sandbox/test_run_dir/VIMacU_vdot_integration_should_preserve_randomized_mixed_traffic_and_ordinary_mask_tail_multiply_accumulate_and_saturation/VDotIntegrationHarness.vcd",
+        "--out",
+        "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/module-isolation.json"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/module-isolation-audit.full.log",
+      "completed": "2026-11-03T15:15:30+08:00",
+      "elapsed_seconds": 1.319,
+      "exit": 0
+    }
+  },
+  "module_wave": {
+    "raw": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/out/xiangshan/test/testOnly.dest/sandbox/test_run_dir/VIMacU_vdot_integration_should_preserve_randomized_mixed_traffic_and_ordinary_mask_tail_multiply_accumulate_and_saturation/VDotIntegrationHarness.vcd",
+    "compressed": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/mixed-module.vcd.gz",
+    "bytes": 8408599
+  },
+  "wave_collection_recovery": "Mill sandbox wave discovered and reused; no tests or emu rerun",
+  "performance_smoke": [
+    {
+      "first": 0,
+      "seed": 101,
+      "samples": 120,
+      "equivalence": [
+        {
+          "bits": "8",
+          "dot": "40",
+          "rvv": "40",
+          "full128": "1",
+          "CSR": "1"
+        },
+        {
+          "bits": "16",
+          "dot": "40",
+          "rvv": "40",
+          "full128": "1",
+          "CSR": "1"
+        }
+      ],
+      "instructions": 280228,
+      "cycles": 521405
+    },
+    {
+      "first": 1,
+      "seed": 101,
+      "samples": 120,
+      "equivalence": [
+        {
+          "bits": "8",
+          "dot": "40",
+          "rvv": "40",
+          "full128": "1",
+          "CSR": "1"
+        },
+        {
+          "bits": "16",
+          "dot": "40",
+          "rvv": "40",
+          "full128": "1",
+          "CSR": "1"
+        }
+      ],
+      "instructions": 280226,
+      "cycles": 521471
+    }
+  ],
+  "hello": {
+    "instructions": 1418,
+    "cycles": 14542
+  },
+  "vadd": {
+    "instructions": 5983,
+    "cycles": 27434
+  },
+  "module_isolation": {
+    "status": "PASS",
+    "counts": {
+      "edges": 1158,
+      "e8": 113,
+      "e16": 80,
+      "disabled_holds": 13221,
+      "mixed_overlap": 142
+    },
+    "wave": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/XiangShan/out/xiangshan/test/testOnly.dest/sandbox/test_run_dir/VIMacU_vdot_integration_should_preserve_randomized_mixed_traffic_and_ordinary_mask_tail_multiply_accumulate_and_saturation/VDotIntegrationHarness.vcd",
+    "sha256": "056d02154689f88987ffbef74a7f190fbfde716918ac8ef58d14886c9107116a",
+    "scope": "module settled-edge isolation and hold checks; not PPA or CPU commit proof"
+  }
+}

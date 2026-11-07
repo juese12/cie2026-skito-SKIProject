@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="1560" height="1110" fill="#f4f7fb"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#172b4d}</style>
+<text x="35" y="48" font-size="30" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">计时边界：CSR 时间戳与串行标记</text>
+<text x="35" y="82" font-size="19" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">复用整核 batch4 / vdot 的 8 批探针；该示例不作为完整规模正式性能样本。</text>
+<rect x="24" y="115" width="1512" height="880" rx="10" fill="white" stroke="#d5dfeb"/>
+<path d="M370.0,830 L370.0,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="362.0" y="866" font-size="16" style="fill:#172b4d">0</text>
+<path d="M487.77777777777777,830 L487.77777777777777,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="479.77777777777777" y="866" font-size="16" style="fill:#172b4d">40</text>
+<path d="M605.5555555555555,830 L605.5555555555555,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="597.5555555555555" y="866" font-size="16" style="fill:#172b4d">80</text>
+<path d="M723.3333333333333,830 L723.3333333333333,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="715.3333333333333" y="866" font-size="16" style="fill:#172b4d">120</text>
+<path d="M841.1111111111111,830 L841.1111111111111,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="833.1111111111111" y="866" font-size="16" style="fill:#172b4d">160</text>
+<path d="M958.8888888888889,830 L958.8888888888889,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="950.8888888888889" y="866" font-size="16" style="fill:#172b4d">200</text>
+<path d="M1076.6666666666665,830 L1076.6666666666665,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1068.6666666666665" y="866" font-size="16" style="fill:#172b4d">240</text>
+<path d="M1194.4444444444443,830 L1194.4444444444443,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1186.4444444444443" y="866" font-size="16" style="fill:#172b4d">280</text>
+<path d="M1312.2222222222222,830 L1312.2222222222222,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1304.2222222222222" y="866" font-size="16" style="fill:#172b4d">320</text>
+<path d="M1430.0,830 L1430.0,843" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1422.0" y="866" font-size="16" style="fill:#172b4d">360</text>
+<path d="M370,835 L1430,835" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="370" y="899" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">横轴为相对 VCD 时标；串行标记成本保留在测量区间内</text>
+<text x="45" y="182" font-size="21" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">起始 mcycle：分派</text>
+<path d="M370,176 L1430,176" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="370.0" cy="176" r="6" fill="#175cd3"/>
+<text x="610" y="162" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">t=18411；偏移 +0</text>
+<text x="45" y="260" font-size="21" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">起始 mcycle：输出</text>
+<path d="M370,254 L1430,254" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="399.44444444444446" cy="254" r="6" fill="#175cd3"/>
+<text x="610" y="240" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">t=18421；偏移 +10</text>
+<text x="45" y="338" font-size="21" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">起始标记：分派</text>
+<path d="M370,332 L1430,332" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="423.0" cy="332" r="6" fill="#15803d"/>
+<text x="610" y="318" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">t=18429；偏移 +18</text>
+<text x="45" y="416" font-size="21" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">起始标记：输出</text>
+<path d="M370,410 L1430,410" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="452.44444444444446" cy="410" r="6" fill="#15803d"/>
+<text x="610" y="396" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">t=18439；偏移 +28</text>
+<text x="45" y="494" font-size="21" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结束标记：分派</text>
+<path d="M370,488 L1430,488" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1318.111111111111" cy="488" r="6" fill="#15803d"/>
+<text x="400" y="474" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">t=18733；偏移 +322</text>
+<text x="45" y="572" font-size="21" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结束标记：输出</text>
+<path d="M370,566 L1430,566" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1347.5555555555557" cy="566" r="6" fill="#15803d"/>
+<text x="400" y="552" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">t=18743；偏移 +332</text>
+<text x="45" y="650" font-size="21" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结束 mcycle：分派</text>
+<path d="M370,644 L1430,644" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1371.111111111111" cy="644" r="6" fill="#175cd3"/>
+<text x="400" y="630" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">t=18751；偏移 +340</text>
+<text x="45" y="728" font-size="21" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结束 mcycle：输出</text>
+<path d="M370,722 L1430,722" stroke="#e1e7ef" stroke-width="2" fill="none"/>
+<circle cx="1400.5555555555557" cy="722" r="6" fill="#175cd3"/>
+<text x="400" y="708" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">t=18761；偏移 +350</text>
+<text x="45" y="938" font-size="22" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">两次标记分派时均观察到 ROB 为空；结束计数减起始计数为 170 个 DUT 周期。</text>
+<text x="35" y="1045" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">六组完整探针均通过顺序和时标检查；已审核 19 个标记及 179 个低电平阻塞观察值。</text>
+<text x="35" y="1077" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">来源：既有第二窗口计时审计；这里验证的是指定香山版本的 CSR 写行为，不外推为通用 RISC-V 屏障。</text>
+</svg>

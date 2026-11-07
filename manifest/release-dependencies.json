@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "scope": "sew16-fixed8 clean source build including NEMU make-time repositories",
+  "repositories": [
+    {
+      "path": "XiangShan",
+      "commit": "16ae9ddcda54fc9a2fddffad73174cf793ac7814",
+      "url": "https://github.com/OpenXiangShan/XiangShan"
+    },
+    {
+      "path": "XiangShan/coupledL2",
+      "commit": "82079f4081bbc1f0221c790fbf8a29b1f23f48b8",
+      "url": "https://github.com/OpenXiangShan/coupledL2"
+    },
+    {
+      "path": "XiangShan/difftest",
+      "commit": "62e4540c03c03aa947bdb67f4b6bf66f1a29c5d0",
+      "url": "https://github.com/OpenXiangShan/difftest.git"
+    },
+    {
+      "path": "XiangShan/fudian",
+      "commit": "e1bd4695ca7beb36a5ce7357e9527ad9e95b9ec1",
+      "url": "https://github.com/OpenXiangShan/fudian.git"
+    },
+    {
+      "path": "XiangShan/huancun",
+      "commit": "90aaf5935206ff322e461c3d021436c20dd0ac85",
+      "url": "https://github.com/OpenXiangshan/huancun.git"
+    },
+    {
+      "path": "XiangShan/openLLC",
+      "commit": "614ceb4c5d39d32e6ae786693a35da429ea32c12",
+      "url": "https://github.com/OpenXiangShan/OpenLLC.git"
+    },
+    {
+      "path": "XiangShan/openLLC/openNCB",
+      "commit": "546a621ed82302db1bd1edc900b17ba55682c15c",
+      "url": "https://github.com/OpenXiangShan/OpenNCB"
+    },
+    {
+      "path": "XiangShan/ready-to-run",
+      "commit": "ed8c30e1ec8a9c9aa6b116ce54281235d00273fa",
+      "url": "https://github.com/OpenXiangShan/ready-to-run"
+    },
+    {
+      "path": "XiangShan/rocket-chip",
+      "commit": "bea0af5d855a871699b907c1988961141bbf28e7",
+      "url": "https://github.com/OpenXiangShan/rocket-chip.git"
+    },
+    {
+      "path": "XiangShan/rocket-chip/cde",
+      "commit": "52768c97a27b254c0cc0ac9401feb55b29e18c28",
+      "url": "https://github.com/chipsalliance/cde.git"
+    },
+    {
+      "path": "XiangShan/rocket-chip/hardfloat",
+      "commit": "d93aa570806013dea479a92ba9bb33d1f2d4f69f",
+      "url": "https://github.com/ucb-bar/berkeley-hardfloat.git"
+    },
+    {
+      "path": "XiangShan/src/main/resources/aia",
+      "commit": "9464aee3c77b021a037f28aa1b3fe53c71b516f6",
+      "url": "https://github.com/OpenXiangShan/OpenAIA.git"
+    },
+    {
+      "path": "XiangShan/utility",
+      "commit": "a8ca0c6564865ee69b564d431ecbc52074ba8060",
+      "url": "https://github.com/OpenXiangShan/utility"
+    },
+    {
+      "path": "XiangShan/yunsuan",
+      "commit": "cadd3c2f43096e253d61296b33ac697be8354e29",
+      "url": "https://github.com/OpenXiangShan/YunSuan.git"
+    },
+    {
+      "path": "NEMU",
+      "commit": "9ff758834c59be35f20591d38689ee58d68e99d8",
+      "url": "https://github.com/OpenXiangShan/NEMU"
+    },
+    {
+      "path": "NEMU/resource/simpoint/simpoint_repo",
+      "commit": "e51a936d7fddfa03c81692039f184ab6c437e99e",
+      "url": "https://github.com/shinezyy/SimPoint.3.2-fix.git"
+    },
+    {
+      "path": "nexus-am",
+      "commit": "8f44ce1a6feabeeac7eb5cc9ca8bd490c0525d25",
+      "url": "https://github.com/OpenXiangShan/nexus-am"
+    },
+    {
+      "path": "DRAMsim3",
+      "commit": "1d2a9bf6da8e050d975ef2669c42faa93943f489",
+      "url": "https://github.com/OpenXiangShan/DRAMsim3.git"
+    },
+    {
+      "path": "DRAMsim3/ext/SuperLU_MT_3.1",
+      "commit": "68739c5a23cc48c9a13d28793834e4fee95d33ee",
+      "url": "https://github.com/umd-memsys/SuperLU_MT_3.1.git"
+    },
+    {
+      "path": "NEMU/resource/nanopb",
+      "commit": "625837ed2eedacc887ee6b747576b85a1f4b82b4",
+      "url": "https://github.com/nanopb/nanopb.git",
+      "kind": "NEMU make-time dependency"
+    },
+    {
+      "path": "NEMU/resource/LibCheckpoint",
+      "commit": "1d8905cc2803c242ef257569128c2e68bf4272aa",
+      "url": "https://github.com/OpenXiangShan/LibCheckpoint.git",
+      "kind": "NEMU make-time dependency"
+    },
+    {
+      "path": "NEMU/resource/LibCheckpoint/resource/nanopb",
+      "commit": "671672b4d7994a9b07a307ae654885c7202ae886",
+      "url": "https://github.com/nanopb/nanopb",
+      "kind": "NEMU make-time dependency"
+    },
+    {
+      "path": "NEMU/resource/gcpt_restore",
+      "commit": "5169da768d18f4682a489eaabe7c071df6d6ef88",
+      "url": "https://github.com/OpenXiangShan/LibCheckpointAlpha.git",
+      "kind": "NEMU make-time dependency"
+    },
+    {
+      "path": "NEMU/resource/softfloat/repo",
+      "commit": "07ebd29db0cfb55723a79fbbffe99103ef38e305",
+      "url": "https://github.com/ucb-bar/berkeley-softfloat-3",
+      "kind": "NEMU make-time dependency"
+    }
+  ]
+}

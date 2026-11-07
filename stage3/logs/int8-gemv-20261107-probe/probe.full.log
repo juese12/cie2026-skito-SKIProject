@@ -1,0 +1,20 @@
+emu compiled at Oct 27 2026, 12:01:47
+Using seed = 101
+Using simulated 32768B flash
+Using simulated 8386560MB RAM
+The image is /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/int8-gemv/build/cie2026-int8-gemv-riscv64-xs.bin
+DRAMSIM3 config: /home/saintrikashy/riscv/xs-env/DRAMsim3/configs/XiangShan.ini
+CPU_FREQ: 3000 DRAM_FREQ: 1600
+CPU_CLOCK_CYCLE: 0.000333333 DRAM_CLOCK_CYCLE: 0.000625
+DRAMsim3 memory system initialized.
+Overwrite 312 bytes from file /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/int8-gemv-20261107-probe/probe.overlay.bin.
+The reference model is /home/saintrikashy/riscv/xs-env/NEMU/build/sew16/riscv64-nemu-interpreter-so
+The first instruction of core 0 has commited. Difftest enabled. 
+gemv probe m=4 k=17 kp=24 seed=56444f54 cycles=364 y=-30201,8331,7212,14266
+gemv PASS profile=0 checked_rows=4
+Core 0: [32mHIT GOOD TRAP at pc = 0x8000139c
+[0m[35mCore-0 instrCnt = 23104, cycleCnt = 38611, IPC = 0.598379
+[0m[34mSeed=101 Guest cycle spent: 38615 (this will be different from cycleCnt if emu loads a snapshot)
+[0m[34mHost time spent: 100608ms
+[0m
+[process exit] 0

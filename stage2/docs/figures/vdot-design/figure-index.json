@@ -1,0 +1,47 @@
+{
+  "edition": "2026-11-02",
+  "kind": "RTL design illustrations, not sampled waveforms",
+  "generator": "stage2/tests/render-vdot-design-diagrams.py",
+  "implementation": "fixed-eight e8/e16, VLEN=128, VIMacU two-stage interface",
+  "figures": [
+    {
+      "name": "microarchitecture",
+      "svg": "microarchitecture.svg",
+      "png": "microarchitecture.png",
+      "vector_size": [
+        1680,
+        1260
+      ],
+      "image_size": [
+        3360,
+        2520
+      ]
+    },
+    {
+      "name": "datapath",
+      "svg": "datapath.svg",
+      "png": "datapath.png",
+      "vector_size": [
+        1680,
+        1390
+      ],
+      "image_size": [
+        3360,
+        2780
+      ]
+    },
+    {
+      "name": "pipeline",
+      "svg": "pipeline.svg",
+      "png": "pipeline.png",
+      "vector_size": [
+        1680,
+        1190
+      ],
+      "image_size": [
+        3360,
+        2380
+      ]
+    }
+  ]
+}

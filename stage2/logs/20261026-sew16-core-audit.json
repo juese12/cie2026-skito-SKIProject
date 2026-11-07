@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "e8_checks": 1564,
+  "e16_checks": 836,
+  "data_seeds": [
+    "56444f54",
+    "1",
+    "9e3779b9",
+    "deadbeef"
+  ],
+  "e8_illegal": 10,
+  "e16_illegal": 4,
+  "branch_training": 64,
+  "branch_probes": 4,
+  "younger_exceptions": 4,
+  "instructions": 935006,
+  "core_cycles": 766319,
+  "host_ms": 2281234,
+  "inputs": {
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/sew16-fixed8/emu": "4c198af80a4ab7ce8db6e49704d5a0ce4669bc2a473c94f92d69668d6ddb8368",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/sew16/riscv64-nemu-interpreter-so": "0c5ff04f6adefd22e9577edd37acc449f2b89445ad70f98f8c9a97cf3b7b69ad",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/sew16/build/cie2026-stage2-vdot-sew16-riscv64-xs.bin": "9ce990750540054c64e9f1284842938b87198f0f5583fb043b6c0d0bc2b770e1"
+  },
+  "log": "stage2/logs/20261026T205315-sew16-core.full.log",
+  "log_sha256": "edd0d57686f8a631a81a082d41b34ddd3c5d425f25a1250fa7a534f29003df75",
+  "coordinator": "stage2/logs/20261026T205315-sew16-core-regression.full.log",
+  "coordinator_sha256": "795c133c110b2693dede1d7aee9fc9966e1b9ce0c9c246bc744f5702f633296b",
+  "qualification": "one CPU process, init seed=101, four data seeds; no CPU waveform or physical PPA claim"
+}

@@ -1,0 +1,21 @@
+[started] 2026-10-02T11:30:45+08:00
+[command] /home/saintrikashy/riscv/xs-env/XiangShan/build/emu --diff=/home/saintrikashy/riscv/xs-env/NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/vdot-tests/build/cie2026-stage2-vdot-riscv64-xs.bin --max-cycles=10000000
+97ef3eef1700270941519d5acfc91e3632c7a33b24ab54076550f646e6a43f66  /home/saintrikashy/riscv/xs-env/XiangShan/build/emu
+2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74  /home/saintrikashy/riscv/xs-env/NEMU/build/riscv64-nemu-interpreter-so
+4e96a0ced89890d3880de5e0915928cff59e8f555370b110929296cf89220fe7  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/vdot-tests/build/cie2026-stage2-vdot-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+vdot ordinary regression PASS: vadd/vmul/vmacc/vsmul, sticky and new saturation
+vdot directed PASS: 32 cases (positive/negative/extreme/zero/cancellation; all ta/ma)
+vdot integration PASS: overlap/v0/v31/dependency-chain/v0-mask
+vdot random PASS: 1000 cases seed=0x56444f54
+vdot illegal PASS: VL=0/7/9/16, SEW, LMUL, vm, vstart, vill, VS-off
+vdot PASS: valid=1052 illegal=10; complete 128-bit results and CSR checks
+[PERF ][time=              429070] SimTop.l_soCore 0: HIT GOOD TRAP at pc = 0x80000bce
+Core-0 instrCnt = 507883, cycleCnt = 429067, IPC = 1.183692
+Seed=0 Guest cycle spent: 429071 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 1465102ms
+[process exit] 0
+[verification exit] 0
+[completed] 2026-10-02T11:55:11+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/logs/20261002T113045-vdot-run.full.log

@@ -1,0 +1,1564 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "phase": 0,
+      "pressure": 0,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 2
+        },
+        "0/1": {
+          "4704": 1,
+          "5178": 2
+        },
+        "1/0": {
+          "10846": 1,
+          "10814": 1,
+          "10815": 1
+        },
+        "1/1": {
+          "10863": 1,
+          "10814": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s0-p0.full.log",
+      "log_sha256": "1c00fee6c577f135ee4c9bedb4ae8723560d2311a0fde536de2b461c3381de10",
+      "variant": {
+        "phase": 0,
+        "pressure": 0,
+        "extra_nop_instructions": 0,
+        "changed_offsets": [],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "7f3d0dfdf7618d919e5dcfb271930071b32c575aea2c80fd8b4f0e99d3197977",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 1,
+      "pressure": 0,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4705
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 1,
+          "5179": 1
+        },
+        "0/1": {
+          "4705": 1,
+          "5179": 2
+        },
+        "1/0": {
+          "10846": 1,
+          "10815": 2
+        },
+        "1/1": {
+          "10863": 1,
+          "10815": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s1-p0.full.log",
+      "log_sha256": "d660141de7c75879c5f399f67d5296e0053974b01f3c188c6a146ec9edd81d3f",
+      "variant": {
+        "phase": 1,
+        "pressure": 0,
+        "extra_nop_instructions": 1,
+        "changed_offsets": [
+          3120,
+          3122,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "92ad2afec9210a758bff5cd51e37e50d8ad3966712a95a7614f2f4787ba9fac7",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 2,
+      "pressure": 0,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10847
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4705
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 1,
+          "5179": 1
+        },
+        "0/1": {
+          "4705": 1,
+          "5179": 2
+        },
+        "1/0": {
+          "10847": 1,
+          "10815": 2
+        },
+        "1/1": {
+          "10863": 1,
+          "10815": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s2-p0.full.log",
+      "log_sha256": "7830cf1bd59f3b62ac318cb3707c8eff5a73bde4bab4a77426002f221b2e97aa",
+      "variant": {
+        "phase": 2,
+        "pressure": 0,
+        "extra_nop_instructions": 2,
+        "changed_offsets": [
+          3120,
+          3122,
+          3124,
+          3126,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "a129dd5e650acd64fc23485356826c28356966f357eb1fcaf54bbaa2d7cf1e0c",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 3,
+      "pressure": 0,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10847
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 2
+        },
+        "0/1": {
+          "4704": 1,
+          "5178": 2
+        },
+        "1/0": {
+          "10847": 1,
+          "10814": 2
+        },
+        "1/1": {
+          "10863": 1,
+          "10814": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s3-p0.full.log",
+      "log_sha256": "7e83b2d9b840deca775805ad5eb1d93816c4168295099b14f32fd8413e43a0d7",
+      "variant": {
+        "phase": 3,
+        "pressure": 0,
+        "extra_nop_instructions": 3,
+        "changed_offsets": [
+          3120,
+          3122,
+          3124,
+          3126,
+          3128,
+          3130,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "66d514aed2b718e6d4a54c284829c942fa32b2f91302ce23d23c62a0df2ca76c",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 4,
+      "pressure": 0,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 2
+        },
+        "0/1": {
+          "4704": 1,
+          "5178": 1,
+          "5179": 1
+        },
+        "1/0": {
+          "10846": 1,
+          "10814": 1,
+          "10815": 1
+        },
+        "1/1": {
+          "10863": 1,
+          "10814": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s4-p0.full.log",
+      "log_sha256": "dd07bb2b977e1a7023f684a736f181a37a862cbbefb2e8c841a8e1bcee7781de",
+      "variant": {
+        "phase": 4,
+        "pressure": 0,
+        "extra_nop_instructions": 4,
+        "changed_offsets": [
+          3120,
+          3122,
+          3124,
+          3126,
+          3128,
+          3130,
+          3132,
+          3134,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "91c3c9da15bc83edbb0c9d6828e45d46647bd19ed075fab1d7241459ec064556",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 5,
+      "pressure": 0,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 2
+        },
+        "0/1": {
+          "4704": 1,
+          "5178": 2
+        },
+        "1/0": {
+          "10846": 1,
+          "10814": 2
+        },
+        "1/1": {
+          "10863": 1,
+          "10814": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s5-p0.full.log",
+      "log_sha256": "5c6d8f7eed4e70ba2aee7215c54ed1cdf9ada66097f839d732b249142aedb979",
+      "variant": {
+        "phase": 5,
+        "pressure": 0,
+        "extra_nop_instructions": 5,
+        "changed_offsets": [
+          3120,
+          3122,
+          3124,
+          3126,
+          3128,
+          3130,
+          3132,
+          3134,
+          3136,
+          3138,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "8fbdf38863329117e0d77a750d9505d2b80dadcdfa683df790ee9583dd7d71db",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 0,
+      "pressure": 1,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 2
+        },
+        "0/1": {
+          "4704": 1,
+          "5178": 2
+        },
+        "1/0": {
+          "10846": 1,
+          "10814": 1,
+          "10815": 1
+        },
+        "1/1": {
+          "10863": 1,
+          "10814": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s0-p1.full.log",
+      "log_sha256": "d2d44546fdfc06fac0d75c4e53649b9f5043d21d1d390ac058dfa852302ee047",
+      "variant": {
+        "phase": 0,
+        "pressure": 1,
+        "extra_nop_instructions": 0,
+        "changed_offsets": [
+          3096,
+          3098,
+          3099,
+          3100,
+          3102,
+          3103,
+          3104,
+          3106,
+          3107,
+          3108,
+          3110,
+          3111,
+          3112,
+          3114,
+          3115,
+          3116,
+          3118,
+          3119,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "ec07d53e021f58c5477520a63073e2d6fb646c5fd99a167a64eb33a2577eb672",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 1,
+      "pressure": 1,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4705
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 1,
+          "5179": 1
+        },
+        "0/1": {
+          "4705": 1,
+          "5179": 2
+        },
+        "1/0": {
+          "10846": 1,
+          "10815": 2
+        },
+        "1/1": {
+          "10863": 1,
+          "10815": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s1-p1.full.log",
+      "log_sha256": "d2ac245475c600ec53a68fdb3138bd3fade54bdb8839838746d5465ec8d73936",
+      "variant": {
+        "phase": 1,
+        "pressure": 1,
+        "extra_nop_instructions": 1,
+        "changed_offsets": [
+          3096,
+          3098,
+          3099,
+          3100,
+          3102,
+          3103,
+          3104,
+          3106,
+          3107,
+          3108,
+          3110,
+          3111,
+          3112,
+          3114,
+          3115,
+          3116,
+          3118,
+          3119,
+          3120,
+          3122,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "fd4729bb444f9f0696b9a69caf81b811f2174ceb60a6f08d2ea28bff6a572386",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 2,
+      "pressure": 1,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10847
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4705
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5179
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 1,
+          "5179": 1
+        },
+        "0/1": {
+          "4705": 1,
+          "5179": 2
+        },
+        "1/0": {
+          "10847": 1,
+          "10815": 2
+        },
+        "1/1": {
+          "10863": 1,
+          "10815": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s2-p1.full.log",
+      "log_sha256": "6c5d6a9c3c64ff4890ceec715ad9516267b45d931c7adf600202b77002ad90f1",
+      "variant": {
+        "phase": 2,
+        "pressure": 1,
+        "extra_nop_instructions": 2,
+        "changed_offsets": [
+          3096,
+          3098,
+          3099,
+          3100,
+          3102,
+          3103,
+          3104,
+          3106,
+          3107,
+          3108,
+          3110,
+          3111,
+          3112,
+          3114,
+          3115,
+          3116,
+          3118,
+          3119,
+          3120,
+          3122,
+          3124,
+          3126,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "aa47b933de7315e473e57b4e3ddaf38f69cc48f38b8c49e8e4530acc0512c2cf",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 3,
+      "pressure": 1,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10847
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 2
+        },
+        "0/1": {
+          "4704": 1,
+          "5178": 2
+        },
+        "1/0": {
+          "10847": 1,
+          "10814": 2
+        },
+        "1/1": {
+          "10863": 1,
+          "10814": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s3-p1.full.log",
+      "log_sha256": "3b29087c3e0ea5d54ff74be5373c2ce822a8f7e7f37bc9ea134a78ec3e035220",
+      "variant": {
+        "phase": 3,
+        "pressure": 1,
+        "extra_nop_instructions": 3,
+        "changed_offsets": [
+          3096,
+          3098,
+          3099,
+          3100,
+          3102,
+          3103,
+          3104,
+          3106,
+          3107,
+          3108,
+          3110,
+          3111,
+          3112,
+          3114,
+          3115,
+          3116,
+          3118,
+          3119,
+          3120,
+          3122,
+          3124,
+          3126,
+          3128,
+          3130,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "80e35b1feb9ef6ad27eb15d37f1e7b8ed0eeda33c7da6272190360e97bfca99c",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 4,
+      "pressure": 1,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10815
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5179
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 2
+        },
+        "0/1": {
+          "4704": 1,
+          "5178": 1,
+          "5179": 1
+        },
+        "1/0": {
+          "10846": 1,
+          "10814": 1,
+          "10815": 1
+        },
+        "1/1": {
+          "10863": 1,
+          "10814": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s4-p1.full.log",
+      "log_sha256": "2bc100d0e0e3c663f68a49367a5c5d1bcb8e2c28ba411d3dace58c4653bb1599",
+      "variant": {
+        "phase": 4,
+        "pressure": 1,
+        "extra_nop_instructions": 4,
+        "changed_offsets": [
+          3096,
+          3098,
+          3099,
+          3100,
+          3102,
+          3103,
+          3104,
+          3106,
+          3107,
+          3108,
+          3110,
+          3111,
+          3112,
+          3114,
+          3115,
+          3116,
+          3118,
+          3119,
+          3120,
+          3122,
+          3124,
+          3126,
+          3128,
+          3130,
+          3132,
+          3134,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "febc1a20b2b832866cd0dc5379da1cf22d36855758f8bd174273576b0a8a003d",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    },
+    {
+      "phase": 5,
+      "pressure": 1,
+      "calls": [
+        {
+          "round": 0,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 4718
+        },
+        {
+          "round": 0,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10863
+        },
+        {
+          "round": 1,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10846
+        },
+        {
+          "round": 1,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 4704
+        },
+        {
+          "round": 2,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 2,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 3,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 0,
+          "impl": 0,
+          "cycles": 5178
+        },
+        {
+          "round": 4,
+          "slot": 1,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 0,
+          "impl": 1,
+          "cycles": 10814
+        },
+        {
+          "round": 5,
+          "slot": 1,
+          "impl": 0,
+          "cycles": 5178
+        }
+      ],
+      "all_call_bins_by_impl_slot": {
+        "0/0": {
+          "4718": 1,
+          "5178": 2
+        },
+        "0/1": {
+          "4704": 1,
+          "5178": 2
+        },
+        "1/0": {
+          "10846": 1,
+          "10814": 2
+        },
+        "1/1": {
+          "10863": 1,
+          "10814": 2
+        }
+      },
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T214323-e2e-controlled-s5-p1.full.log",
+      "log_sha256": "652003e019dd480b34e6b41b3e75ce005464dd1e54559031f782d6be90881436",
+      "variant": {
+        "phase": 5,
+        "pressure": 1,
+        "extra_nop_instructions": 5,
+        "changed_offsets": [
+          3096,
+          3098,
+          3099,
+          3100,
+          3102,
+          3103,
+          3104,
+          3106,
+          3107,
+          3108,
+          3110,
+          3111,
+          3112,
+          3114,
+          3115,
+          3116,
+          3118,
+          3119,
+          3120,
+          3122,
+          3124,
+          3126,
+          3128,
+          3130,
+          3132,
+          3134,
+          3136,
+          3138,
+          9816
+        ],
+        "symbols": {
+          "bench_kernel": "0x80000a10",
+          "diag_pressure": "0x80000c18",
+          "diag_phase": "0x80000c30",
+          "diag_parameter": "0x80002658"
+        },
+        "image_sha256": "857eebbfe7ca74363dfd39f37cfcdb915d69253931b273fd6454ae91eb281610",
+        "kernel_sha256": "e01d3b79fba11982a629828df5ced4f40df3a91a0e2d452b62f17b2763d6b593"
+      }
+    }
+  ],
+  "inputs": {
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/e2e-controlled/build/cie2026-e2e-controlled-riscv64-xs.bin": "7f3d0dfdf7618d919e5dcfb271930071b32c575aea2c80fd8b4f0e99d3197977",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/e2e-controlled/build/cie2026-e2e-controlled-riscv64-xs.elf": "512987e7745c525b1d2626a496062df400e67d318191faf66b285a7b5e8b1730",
+    "/home/saintrikashy/riscv/xs-env/XiangShan/build/operand-isolation/emu": "d67519c61294dff5606d7f932a4545291dd5766828363710055279734932c054",
+    "/home/saintrikashy/riscv/xs-env/NEMU/build/riscv64-nemu-interpreter-so": "2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin": "2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/scripts/verify-e2e-controlled.py": "b7ad84946e932f2000c3a6c835c76eab45fa5d304ae01595660ba6a60cfc21f8",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/main.c": "ab3ef9ae835d5fca3ca2a5517746a5ce79b29d5166488076c9b66631cbd9d120",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench/bench.S": "9c49f81c39f4f7a3031ffca9af2f6398ec7f735dbe0c37ac3c3c3e915338414a",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T200238-original-other-bins.events.json": "c9a747d97a7ec125ee358d443599ef7c54ca316f60794b55c809601f8a8c6ead",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/e2e-controlled/main.c": "4f2dcbaeaa9147373700be34d988c2362410c78dde2d9c6b99d32f9074d656a6",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/e2e-controlled/bench.S": "18c3e401fa7f956d98accb6f0518f526f0acb7be35fa3d40ad79ec2d5a56cd13",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/e2e-controlled/Makefile": "87b291297721310d8cfe8071229f5bb7887514fb08c44a543dc1ae34f6fe086b"
+  },
+  "qualification": "NO new waveform. Timing intervention demonstrates sensitivity, not direct decoder/IQ causal isolation. No sample removed. Not formal performance."
+}

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1260" viewBox="0 0 1680 1260">
+<title>图 4-1　vdot.vv 整核微架构通路</title>
+<desc>固定八项 e8/e16 · VLEN=128 · 复用向量乱序后端、VIMacU 与顺序提交通路</desc>
+<defs>
+<marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#416b96"/></marker>
+<marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#287b69"/></marker>
+<marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="48" y="60" font-size="34" fill="#23364d" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">图 4-1　vdot.vv 整核微架构通路</text>
+<text x="48" y="99" font-size="19" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">固定八项 e8/e16 · VLEN=128 · 复用向量乱序后端、VIMacU 与顺序提交通路</text>
+<polyline points="48,119 1632,119" fill="none" stroke="#d6dfe9" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="40" y="140" width="1600" height="230" rx="10" fill="#fafcfe" stroke="#b2c2d4" stroke-width="2"/>
+<text x="60" y="174" font-size="23" fill="#416b96" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">前端译码、依赖建立与发射</text>
+<g>
+<rect x="65" y="194" width="270" height="108" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="200" y="230" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">取指与精确译码</text>
+<text x="200" y="257" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">custom-0 指令族</text>
+<text x="200" y="284" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">vm=0 仍进入非法检查</text>
+</g>
+<g>
+<rect x="373" y="194" width="270" height="108" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="508" y="230" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">固定一条 uop</text>
+<text x="508" y="257" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle">VEC_VDOT</text>
+<text x="508" y="284" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">一个完整向量目的</text>
+</g>
+<g>
+<rect x="681" y="194" width="270" height="108" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="816" y="230" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">向量重命名</text>
+<text x="816" y="257" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">vs1 / vs2 / 目的</text>
+<text x="816" y="284" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">保留配置与真实源依赖</text>
+</g>
+<g>
+<rect x="989" y="194" width="270" height="108" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="1124" y="230" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">向量 IQ</text>
+<text x="1124" y="257" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">等待 vs1 / vs2 / VL</text>
+<text x="1124" y="284" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">复用既有调度与唤醒</text>
+</g>
+<g>
+<rect x="1297" y="194" width="315" height="108" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="1454.5" y="230" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">读源与旁路</text>
+<text x="1454.5" y="257" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">两路 128 位向量数据</text>
+<text x="1454.5" y="284" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">VL 数据及 VPU 控制</text>
+</g>
+<polyline points="335,248 373,248" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<polyline points="643,248 681,248" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<polyline points="951,248 989,248" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<polyline points="1259,248 1297,248" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<text x="70" y="342" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">配置：VL 走依赖数据；SEW / LMUL / vill 随本条 uop 控制传递</text>
+<text x="850" y="342" font-size="19" fill="#287b69" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积去掉 oldVd 假读依赖，保留真实 v0 读写</text>
+<rect x="40" y="394" width="1600" height="510" rx="10" fill="#fafdfc" stroke="#287b69" stroke-width="2"/>
+<text x="60" y="428" font-size="23" fill="#287b69" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">VIMacU　共享执行接口</text>
+<g>
+<rect x="70" y="448" width="1540" height="70" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="840" y="479" font-size="23" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">共享输入与类型判别</text>
+<text x="840" y="506" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">fuOpType / vs1 / vs2 / oldVd / VL / VPU 控制 / ROB 标签与目的</text>
+</g>
+<polyline points="1454.5,302 1454.5,448" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<g>
+<rect x="70" y="564" width="710" height="96" rx="7" fill="#ecf7f3" stroke="#287b69" stroke-width="2"/>
+<text x="425" y="594" font-size="22" fill="#287b69" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">新增 VDot8 点积分支</text>
+<text x="425" y="621" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">S1：隔离、八路乘法　　S2：35 位精确归约</text>
+<text x="425" y="648" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">e8 / e16 共用八个 16 位有符号 × 16 位有符号 乘法器</text>
+</g>
+<g>
+<rect x="900" y="564" width="710" height="96" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="1255" y="594" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">原普通向量乘法 / 乘加分支</text>
+<text x="1255" y="621" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">普通输入有效时开启；vdot 输入时夹零</text>
+<text x="1255" y="648" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">两个 VIMac64b，保留内部 fireS1 完成较老指令</text>
+</g>
+<polyline points="425,518 425,564" fill="none" stroke="#287b69" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowGreen)"/>
+<polyline points="1255,518 1255,564" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<g>
+<rect x="70" y="699" width="710" height="70" rx="7" fill="#ecf7f3" stroke="#287b69" stroke-width="2"/>
+<text x="425" y="729.5" font-size="22" fill="#287b69" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积结果打包</text>
+<text x="425" y="756.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">e8：低 32 位 / 高 96 位零；e16：低 64 位 / 高 64 位零</text>
+</g>
+<g>
+<rect x="900" y="699" width="710" height="70" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="1255" y="729.5" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">原 MGU 合并</text>
+<text x="1255" y="756.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">普通指令的掩码与尾部处理</text>
+</g>
+<polyline points="425,660 425,699" fill="none" stroke="#287b69" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowGreen)"/>
+<polyline points="1255,660 1255,699" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<g>
+<rect x="530" y="816" width="620" height="65" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="840" y="844" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出级选择与异常复核</text>
+<text x="840" y="871" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">按 outIsVdot 选结果，携带对应控制与异常</text>
+</g>
+<polyline points="425,769 425,848 530,848" fill="none" stroke="#287b69" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowGreen)"/>
+<polyline points="1255,769 1255,848 1150,848" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<g>
+<rect x="90" y="956" width="410" height="98" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="295" y="987" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">共享写回与旁路唤醒</text>
+<text x="295" y="1014" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">完整 128 位 / pdest / ROB</text>
+<text x="295" y="1041" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">异常随同一条 uop 上报</text>
+</g>
+<g>
+<rect x="635" y="956" width="410" height="98" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="840" y="987" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">ROB 顺序提交 / 取消</text>
+<text x="840" y="1014" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">误预测或较老异常触发取消</text>
+<text x="840" y="1041" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">提交后更新架构可见状态</text>
+</g>
+<g>
+<rect x="1180" y="956" width="430" height="98" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="1395" y="987" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle">NEMU / Difftest</text>
+<text x="1395" y="1014" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">参考模型按提交执行</text>
+<text x="1395" y="1041" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">完整向量状态及相关 CSR 核对</text>
+</g>
+<polyline points="840,881 840,926 295,926 295,956" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<polyline points="500,1005 635,1005" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<polyline points="1045,1005 1180,1005" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)"/>
+<rect x="55" y="1090" width="1570" height="78" rx="7" fill="#f7f9fc" stroke="#b2c2d4" stroke-width="2"/>
+<text x="78" y="1122" font-size="21" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">提交约束：物理结果产生或写回不等于架构提交；取消按 ROB 标签与分配代次核对。</text>
+<text x="78" y="1150" font-size="19" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">点积绕过 MGU，整条指令沿既有写回、异常、恢复及顺序提交流程完成。</text>
+<rect x="55" y="1197" width="26" height="23" rx="3" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="94" y="1216" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">既有通路 / 共享接口</text>
+<rect x="460" y="1197" width="26" height="23" rx="3" fill="#ecf7f3" stroke="#287b69" stroke-width="2"/>
+<text x="499" y="1216" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">新增点积算术 / 隔离逻辑</text>
+<rect x="990" y="1197" width="26" height="23" rx="3" fill="#fff6e5" stroke="#a57225" stroke-width="2"/>
+<text x="1029" y="1216" font-size="19" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">受使能控制的寄存器</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="960" viewBox="0 0 1680 960">
+<title>e16 最大正和：整核接收、有效输出与提交事件</title>
+<desc>来源为当前核稀疏实测事件；只显示已观察事件，不补造连续总线波形或乘积寄存器</desc>
+<defs>
+<marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#416b96"/></marker>
+<marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#287b69"/></marker>
+<marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="48" y="60" font-size="34" fill="#23364d" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">e16 最大正和：整核接收、有效输出与提交事件</text>
+<text x="48" y="99" font-size="19" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">来源为当前核稀疏实测事件；只显示已观察事件，不补造连续总线波形或乘积寄存器</text>
+<polyline points="48,119 1632,119" fill="none" stroke="#d6dfe9" stroke-width="1.5" stroke-linejoin="round"/>
+<g>
+<rect x="60" y="156" width="1560" height="108" rx="7" fill="#ecf7f3" stroke="#287b69" stroke-width="2"/>
+<text x="840" y="205.5" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="22" fill="#287b69" font-weight="700" text-anchor="middle">a = b = [-32768, -32768, -32768, -32768, -32768, -32768, -32768, -32768]</text>
+<text x="840" y="232.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">8 × 1073741824 = 8589934592；完整结果 0x00000000000000000000000200000000</text>
+</g>
+<text x="615" y="325" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">整核周期 9360</text>
+<text x="60" y="380" font-size="22" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">FU 接收</text>
+<text x="615" y="380" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#287b69" font-weight="400" text-anchor="middle">1</text>
+<text x="60" y="429" font-size="22" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">配置 vsew / VL / vm</text>
+<text x="615" y="429" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">1 / 8 / 1</text>
+<text x="60" y="478" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="22" fill="#23364d" font-weight="400" text-anchor="start">vstart / vill</text>
+<text x="615" y="478" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">0 / 0</text>
+<text x="60" y="527" font-size="22" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出有效与非法标志</text>
+<text x="615" y="527" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="60" y="576" font-size="22" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">完整结果低 64 位</text>
+<text x="615" y="576" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="60" y="625" font-size="22" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">完整结果高 64 位</text>
+<text x="615" y="625" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="60" y="674" font-size="22" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">ROB tag / 分配代次</text>
+<text x="615" y="674" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">272 / 288</text>
+<text x="60" y="723" font-size="22" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">同代次架构提交</text>
+<text x="615" y="723" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1000" y="325" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">整核周期 9362</text>
+<text x="1000" y="380" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1000" y="429" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">1 / 8 / 1</text>
+<text x="1000" y="478" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">0 / 0</text>
+<text x="1000" y="527" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">valid=1 / illegal=0</text>
+<text x="1000" y="576" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">0000000200000000</text>
+<text x="1000" y="625" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">0000000000000000</text>
+<text x="1000" y="674" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">272 / 288</text>
+<text x="1000" y="723" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1385" y="325" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">整核周期 9613</text>
+<text x="1385" y="380" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1385" y="429" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1385" y="478" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1385" y="527" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1385" y="576" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1385" y="625" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">—</text>
+<text x="1385" y="674" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#23364d" font-weight="400" text-anchor="middle">272 / 288</text>
+<text x="1385" y="723" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="21" fill="#287b69" font-weight="400" text-anchor="middle">1</text>
+<text x="900" y="788" font-size="23" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">接收 → 输出：2 周期；输出 → 提交：251 周期</text>
+<text x="60" y="848" font-size="21" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">事件列之间的时间间隙省略；“—”表示该事件没有记录该字段，不表示信号为零。</text>
+<text x="60" y="885" font-size="20" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果超过 32 位范围，高 64 位清零；输入、输出和提交按相同 ROB 标签及分配代次关联。</text>
+<text x="60" y="922" font-size="19" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">本图不包含乘法器 products 或归约 sum 的连续波形；逐级算术由模块采样另行验证。</text>
+</svg>

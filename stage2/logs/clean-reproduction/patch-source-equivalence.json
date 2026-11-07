@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "patched_files": [
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/backend/decode/Instructions.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/backend/decode/UopInfoGen.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/backend/decode/VecDecoder.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/backend/decode/VecExceptionGen.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/backend/decode/isa/bitfield/RiscvInst.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/package.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/main/scala/xiangshan/backend/fu/vector/VDot8.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/test/scala/xiangshan/VDotDecodeTest.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/test/scala/xiangshan/backend/fu/vector/VDot8Test.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan",
+      "file": "src/test/scala/xiangshan/backend/fu/vector/VDotIntegrationTest.scala",
+      "byte_equal": true
+    },
+    {
+      "repository": "NEMU",
+      "file": "src/cpu/difftest/ref.c",
+      "byte_equal": true
+    },
+    {
+      "repository": "NEMU",
+      "file": "src/isa/riscv64/include/isa-all-instr.h",
+      "byte_equal": true
+    },
+    {
+      "repository": "NEMU",
+      "file": "src/isa/riscv64/instr/decode.c",
+      "byte_equal": true
+    },
+    {
+      "repository": "NEMU",
+      "file": "src/isa/riscv64/instr/rvv/decode.h",
+      "byte_equal": true
+    },
+    {
+      "repository": "NEMU",
+      "file": "src/isa/riscv64/instr/rvv/vcompute.h",
+      "byte_equal": true
+    },
+    {
+      "repository": "NEMU",
+      "file": "src/isa/riscv64/system/intr.c",
+      "byte_equal": true
+    },
+    {
+      "repository": "NEMU",
+      "file": "configs/vdot-v0.1_defconfig",
+      "byte_equal": true
+    },
+    {
+      "repository": "XiangShan/difftest",
+      "file": "verilator.mk",
+      "byte_equal": true
+    }
+  ],
+  "scope": "all 20 files changed by published hardware/reference/compatibility patches equal tested current sources"
+}

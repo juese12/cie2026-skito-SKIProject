@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1190" viewBox="0 0 1680 1190">
+<title>图 6-1　两级流水框架与普通乘法混发</title>
+<desc>数据、e8/e16 模式和指令控制分别对齐；S2 使用本级较老指令类型，独立于当前输入</desc>
+<defs>
+<marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#416b96"/></marker>
+<marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#287b69"/></marker>
+<marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="48" y="60" font-size="34" fill="#23364d" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">图 6-1　两级流水框架与普通乘法混发</text>
+<text x="48" y="99" font-size="19" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">数据、e8/e16 模式和指令控制分别对齐；S2 使用本级较老指令类型，独立于当前输入</text>
+<polyline points="48,119 1632,119" fill="none" stroke="#d6dfe9" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="50" y="152" width="465" height="551" rx="10" fill="#fafcfe" stroke="#b2c2d4" stroke-width="2"/>
+<rect x="607" y="152" width="465" height="551" rx="10" fill="#fafcfe" stroke="#b2c2d4" stroke-width="2"/>
+<rect x="1164" y="152" width="465" height="551" rx="10" fill="#fafcfe" stroke="#b2c2d4" stroke-width="2"/>
+<text x="282.5" y="190" font-size="26" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">S1　乘积级</text>
+<text x="839.5" y="190" font-size="26" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">S2　归约级</text>
+<text x="1396.5" y="190" font-size="26" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输出接口</text>
+<text x="282.5" y="224" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="18" fill="#287b69" font-weight="400" text-anchor="middle">enable0 = regEnable(1) &amp;&amp; inIsVdot</text>
+<text x="839.5" y="224" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="18" fill="#287b69" font-weight="400" text-anchor="middle">enable1 = regEnable(2) &amp;&amp; S1IsVdot</text>
+<text x="1396.5" y="224" font-size="18" fill="#416b96" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">共享两周期输出 · CertainLatency(2)</text>
+<g>
+<rect x="70" y="266" width="425" height="132" rx="7" fill="#fff6e5" stroke="#a57225" stroke-width="2"/>
+<polyline points="78,276 78,388" fill="none" stroke="#a57225" stroke-width="2" stroke-linejoin="round"/>
+<text x="282.5" y="313.5" font-size="21" fill="#a57225" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">隔离 → 元素选择 → 八路乘法</text>
+<text x="282.5" y="340.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">捕获 8 个 32 位有符号乘积</text>
+<text x="282.5" y="367.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">enable0=0 时夹零输入、保持乘积</text>
+</g>
+<g>
+<rect x="70" y="455" width="425" height="73" rx="7" fill="#fff6e5" stroke="#a57225" stroke-width="2"/>
+<polyline points="78,465 78,518" fill="none" stroke="#a57225" stroke-width="2" stroke-linejoin="round"/>
+<text x="282.5" y="487" font-size="22" fill="#a57225" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">模式：sew16S1</text>
+<text x="282.5" y="514" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">与 products 使用相同 enable0</text>
+</g>
+<g>
+<rect x="70" y="580" width="425" height="84" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="282.5" y="617.5" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">控制：ctrlVec(1)</text>
+<text x="282.5" y="644.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">操作类型 / ROB / pdest / VPU 配置</text>
+</g>
+<g>
+<rect x="627" y="266" width="425" height="132" rx="7" fill="#fff6e5" stroke="#a57225" stroke-width="2"/>
+<polyline points="635,276 635,388" fill="none" stroke="#a57225" stroke-width="2" stroke-linejoin="round"/>
+<text x="839.5" y="313.5" font-size="21" fill="#a57225" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">4×33 → 2×34 → 1×35 位归约</text>
+<text x="839.5" y="340.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">捕获 35 位有符号总和</text>
+<text x="839.5" y="367.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">enable1=0 时保持总和</text>
+</g>
+<g>
+<rect x="627" y="455" width="425" height="73" rx="7" fill="#fff6e5" stroke="#a57225" stroke-width="2"/>
+<polyline points="635,465 635,518" fill="none" stroke="#a57225" stroke-width="2" stroke-linejoin="round"/>
+<text x="839.5" y="487" font-size="22" fill="#a57225" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">模式：sew16S2</text>
+<text x="839.5" y="514" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">与 sum 使用相同 enable1</text>
+</g>
+<g>
+<rect x="627" y="580" width="425" height="84" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="839.5" y="617.5" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">控制：outCtrl / outVl</text>
+<text x="839.5" y="644.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">携带同一条指令的配置、目的与 ROB</text>
+</g>
+<g>
+<rect x="1184" y="266" width="425" height="132" rx="7" fill="#ecf7f3" stroke="#287b69" stroke-width="2"/>
+<text x="1396.5" y="314" font-size="22" fill="#287b69" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果打包：低 32 / 64 位</text>
+<text x="1396.5" y="341" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">高 96 / 64 位清零</text>
+<text x="1396.5" y="368" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">按输出类型选择点积或 MGU 结果</text>
+</g>
+<g>
+<rect x="1184" y="455" width="425" height="73" rx="7" fill="#ecf7f3" stroke="#287b69" stroke-width="2"/>
+<text x="1396.5" y="487" font-size="22" fill="#287b69" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">结果格式选择</text>
+<text x="1396.5" y="514" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">使用 sew16S2，保持模式对齐</text>
+</g>
+<g>
+<rect x="1184" y="580" width="425" height="84" rx="7" fill="#eef4fb" stroke="#416b96" stroke-width="2"/>
+<text x="1396.5" y="617.5" font-size="22" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">有效输出与异常</text>
+<text x="1396.5" y="644.5" font-size="18" fill="#23364d" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">完整数据 / pdest / ROB → 共享写回</text>
+</g>
+<polyline points="495,332 627,332" fill="none" stroke="#287b69" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowGreen)"/>
+<polyline points="495,491.5 627,491.5" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)" stroke-dasharray="8 6"/>
+<polyline points="495,622 627,622" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)" stroke-dasharray="8 6"/>
+<polyline points="1052,332 1184,332" fill="none" stroke="#287b69" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowGreen)"/>
+<polyline points="1052,491.5 1184,491.5" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)" stroke-dasharray="8 6"/>
+<polyline points="1052,622 1184,622" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)" stroke-dasharray="8 6"/>
+<polyline points="1396.5,455 1396.5,398" fill="none" stroke="#416b96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrowBlue)" stroke-dasharray="8 6"/>
+<text x="50" y="750" font-size="25" fill="#416b96" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">相邻混发示例　A 为 vdot，B 为普通向量乘法</text>
+<text x="50" y="784" font-size="20" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">S1IsVdot = (ctrlVec(1).fuOpType == VdotOpType.vdot)，即 S1 中那条指令的类型。</text>
+<rect x="50" y="810" width="1579" height="210" rx="5" fill="#ffffff" stroke="#b2c2d4" stroke-width="2"/>
+<rect x="51" y="811" width="1577" height="48" fill="#eef4fb"/>
+<polyline points="385,810 385,1020" fill="none" stroke="#b2c2d4" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="696,810 696,1020" fill="none" stroke="#b2c2d4" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="1007,810 1007,1020" fill="none" stroke="#b2c2d4" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="1318,810 1318,1020" fill="none" stroke="#b2c2d4" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="50,860 1629,860" fill="none" stroke="#b2c2d4" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="50,940 1629,940" fill="none" stroke="#b2c2d4" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="217.5" y="843" font-size="21" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">指令 / 通路</text>
+<text x="540.5" y="843" font-size="21" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">T0 接收 A</text>
+<text x="851.5" y="843" font-size="21" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">T1 接收 B</text>
+<text x="1162.5" y="843" font-size="21" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">T2 输出 A</text>
+<text x="1473.5" y="843" font-size="21" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">T3 输出 B</text>
+<text x="217.5" y="908" font-size="20" fill="#287b69" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">A：点积</text>
+<text x="540.5" y="908" font-size="20" fill="#287b69" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">输入进入 S1</text>
+<text x="851.5" y="908" font-size="20" fill="#287b69" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">A 的 S2 继续归约</text>
+<text x="1162.5" y="908" font-size="20" fill="#287b69" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">A 完整结果有效</text>
+<text x="1473.5" y="908" font-size="20" fill="#287b69" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">随后指令继续</text>
+<text x="217.5" y="988" font-size="20" fill="#416b96" font-weight="700" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">B：普通乘法</text>
+<text x="540.5" y="988" font-family="Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,DejaVu Sans,sans-serif" font-size="20" fill="#416b96" font-weight="400" text-anchor="middle">—</text>
+<text x="851.5" y="988" font-size="20" fill="#416b96" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">B 进入普通分支</text>
+<text x="1162.5" y="988" font-size="20" fill="#416b96" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">内部较老级继续推进</text>
+<text x="1473.5" y="988" font-size="20" fill="#416b96" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">B 普通结果有效</text>
+<text x="50" y="1070" font-size="21" fill="#23364d" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">两周期为 FU 接收至输出的接口延迟；IQ 等待、取指译码与 ROB 提交在该范围之外。</text>
+<text x="50" y="1105" font-size="20" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">虚线：模式 / 控制传递；实线：数据通路。图中 enable 为逻辑更新使能，尚未插入物理 ICG。</text>
+<text x="50" y="1140" font-size="20" fill="#64748b" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">VDot8 的级推进由两级 enable 控制；valid、ready、目的及取消处理沿用共享执行控制。</text>
+</svg>

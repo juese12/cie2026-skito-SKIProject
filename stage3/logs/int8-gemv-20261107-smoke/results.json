@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "label": "smoke",
+      "start": "2026-11-06T17:21:04.220079+00:00",
+      "profile": 1,
+      "first": 0,
+      "data": 1447317332,
+      "seed": 101,
+      "command": [
+        "/home/saintrikashy/riscv/xs-env/XiangShan/build/sew16-fixed8/emu",
+        "--diff=/home/saintrikashy/riscv/xs-env/NEMU/build/sew16/riscv64-nemu-interpreter-so",
+        "-i",
+        "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/int8-gemv/build/cie2026-int8-gemv-riscv64-xs.bin",
+        "--seed=101",
+        "--max-cycles=2000000",
+        "-b",
+        "0",
+        "-e",
+        "0",
+        "--gcpt-restore=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/int8-gemv-20261107-smoke/smoke.overlay.bin",
+        "--overwrite-nbytes=312"
+      ],
+      "log": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/int8-gemv-20261107-smoke/smoke.full.log",
+      "events": null,
+      "end": "2026-11-06T17:31:41.342992+00:00",
+      "returncode": 0,
+      "status": "PASS"
+    }
+  ]
+}

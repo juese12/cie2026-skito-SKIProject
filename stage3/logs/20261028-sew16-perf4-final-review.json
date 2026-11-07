@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "data_status": "DATA_PASS",
+  "stable": false,
+  "strict_exit": 3,
+  "formal_processes": 8,
+  "preflight_processes": 4,
+  "raw_sample_rows": 1920,
+  "evidence": {
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261027T190338-sew16-perf4-full.results.json": "8fe5de5c3d81b0a4d9db5980b11beb457db531f8088dc8d11e8cc34898abbef2",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261027T190338-sew16-perf4-full.analysis.json": "43c516b5a011b9d2034894d7f41d35f3f2eb7d3693f8a760d9e04011de1cbc94",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/reports/20261027T190338-sew16-perf4-full-performance.md": "7315d6d5a9fb9a5485568ca5a9ad0a3cded734c5df499c86293fcd564445dea1",
+    "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261027T190338-sew16-perf4-full.analysis.samples.csv": "98e30e6ea7f4bb8872138a0e03032ab3eea4ad9cb7d410c928bfb64d2cb5eda7"
+  },
+  "reviewer_sha256": "56b22ffdc8bb5079aed4324e74f691b9d1ba2013588151a43b266e70ae8f2b45",
+  "scope": "all saved results, parameter overlays, identities, timer proof, statistics, report and complete CSV replayed without CPU simulation"
+}

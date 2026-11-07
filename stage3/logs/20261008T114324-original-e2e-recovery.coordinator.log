@@ -1,0 +1,7 @@
+[frozen PASS]
+[prefix] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed
+[running] waveform replay only
+[frozen PASS]
+[PASS original resumed replay]
+{"status": "PASS", "delta_cycles": 763, "selected_signals": 693, "cycles": 10242}
+[recovery COMPLETE] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed

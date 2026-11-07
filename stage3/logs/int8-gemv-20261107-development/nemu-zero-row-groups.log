@@ -1,0 +1,1 @@
+GEMV_NEMU_RESULT {"cases": 96, "checked_rows": 4272, "checks": {"gemv_dot1": 96, "gemv_dot1_e2e": 96, "gemv_dot4": 96, "gemv_dot4_e2e": 96, "gemv_rvv": 96, "gemv_scalar": 96}, "kind": "NEMU linked application kernels; not RTL", "seeds": 4, "status": "PASS"}

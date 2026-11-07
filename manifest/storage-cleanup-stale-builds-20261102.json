@@ -1,0 +1,231 @@
+{
+  "status": "complete-with-permission-limits",
+  "cache_permission_note": "Exact two-directory sudo -n rm attempt returned exit 1: interactive authentication is required. No permission or ownership changes were made; both Verilator cache directories remain.",
+  "started": "2026-11-02T22:33:19+0800",
+  "authorization": "Explicit user request to delete unused/superseded files and two named old FIRs; isolation and e8/e16 retained.",
+  "files": [
+    {
+      "path": "XiangShan/build/rtl/SimTop.fir",
+      "metadata": {
+        "device": 2096,
+        "inode": 99040,
+        "size": 1489394847,
+        "mtime_ns": 1790869417970182992,
+        "allocated": 1489399808,
+        "links": 1
+      },
+      "sha256": "ad140e609ee2cfa6d6dbce4b914a751a9fe2e6713915a4424703184fdd3d4b29",
+      "status": "deleted"
+    },
+    {
+      "path": "XiangShan/build/p1-oldvd/rtl/SimTop.fir",
+      "metadata": {
+        "device": 2096,
+        "inode": 49259,
+        "size": 1488516537,
+        "mtime_ns": 1791121707337681168,
+        "allocated": 1488523264,
+        "links": 1
+      },
+      "sha256": "5fd1b25b9ff43b75fd8b63f8186734c45f9b49572e26e59826fe5f25f10f984e",
+      "status": "deleted"
+    },
+    {
+      "path": "NutShell/build/verilator-compile/VSimTop__pch.h.fast.gch",
+      "metadata": {
+        "device": 2096,
+        "inode": 147661,
+        "size": 14070588,
+        "mtime_ns": 1790070968955309980,
+        "allocated": 14073856,
+        "links": 1
+      },
+      "sha256": "5b836a22f345705515022e670d92cc09594ada9b70ba4fb7b397fa1dc3f051bb",
+      "status": "deleted"
+    },
+    {
+      "path": "NutShell/build/verilator-compile/VSimTop__pch.h.slow.gch",
+      "metadata": {
+        "device": 2096,
+        "inode": 147673,
+        "size": 14087016,
+        "mtime_ns": 1790070973379199053,
+        "allocated": 14090240,
+        "links": 1
+      },
+      "sha256": "9319f1468a51d73d081980cb353bae78e8d8a35d566301443d0c8112ad436e54",
+      "status": "deleted"
+    },
+    {
+      "path": "cie2026-skito-SKIProject/stage3/synthesis/build/downloads/yosys_0.52-2_amd64.deb",
+      "metadata": {
+        "device": 2096,
+        "inode": 176812,
+        "size": 6600962,
+        "mtime_ns": 1746427390000000000,
+        "allocated": 6602752,
+        "links": 1
+      },
+      "sha256": "e435ad95e0599d6f7a69fb5b229c822bd826662678367bbea26003473d6a61ae",
+      "status": "deleted"
+    },
+    {
+      "path": "cie2026-skito-SKIProject/stage3/synthesis/build/downloads/yosys-abc_0.52-2_amd64.deb",
+      "metadata": {
+        "device": 2096,
+        "inode": 176814,
+        "size": 5296928,
+        "mtime_ns": 1746427390000000000,
+        "allocated": 5300224,
+        "links": 1
+      },
+      "sha256": "82e3e3d5f6498c10260eaaaf72ae418e28c03679edfbc02e3c6e2e03e585a45e",
+      "status": "deleted"
+    },
+    {
+      "path": "cie2026-skito-SKIProject/stage3/synthesis/build/downloads/opensta_0~20191111gitc018cb2+dfsg-1.1_amd64.deb",
+      "metadata": {
+        "device": 2096,
+        "inode": 176811,
+        "size": 1133330,
+        "mtime_ns": 1731917943000000000,
+        "allocated": 1134592,
+        "links": 1
+      },
+      "sha256": "9ec29cc74cc66cd82e6fa85aad2d3897c6315aa26adbc380892416e7a5e87a1b",
+      "status": "deleted"
+    },
+    {
+      "path": "cie2026-skito-SKIProject/stage3/synthesis/build/downloads/libtcl8.6_8.6.17+dfsg-1build1_amd64.deb",
+      "metadata": {
+        "device": 2096,
+        "inode": 176808,
+        "size": 1003440,
+        "mtime_ns": 1769169215000000000,
+        "allocated": 1003520,
+        "links": 1
+      },
+      "sha256": "7e062e6b4c8e4c4c5122679c193c4567c1bf4dab3555a64ea2449a256cfd8043",
+      "status": "deleted"
+    },
+    {
+      "path": "cie2026-skito-SKIProject/stage3/synthesis/build/downloads/tcl8.6_8.6.17+dfsg-1build1_amd64.deb",
+      "metadata": {
+        "device": 2096,
+        "inode": 176810,
+        "size": 14872,
+        "mtime_ns": 1769169215000000000,
+        "allocated": 16384,
+        "links": 1
+      },
+      "sha256": "d934d87e4aa94d72c9034785bdb77a8d0c65de8bfcaea3082246ac854c59359a",
+      "status": "deleted"
+    },
+    {
+      "path": "cie2026-skito-SKIProject/stage3/synthesis/build/downloads/NangateOpenCellLibrary_typical.lib",
+      "metadata": {
+        "device": 2096,
+        "inode": 176813,
+        "size": 6692032,
+        "mtime_ns": 1793027359694382657,
+        "allocated": 6692864,
+        "links": 1
+      },
+      "sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+      "status": "deleted"
+    }
+  ],
+  "cache_directories": [
+    {
+      "path": "verilator/src/obj_opt",
+      "status": "retained-permission",
+      "allocated_before": 149356544,
+      "entries": 362
+    },
+    {
+      "path": "verilator/src/obj_dbg",
+      "status": "retained-permission",
+      "allocated_before": 265412608,
+      "entries": 365
+    }
+  ],
+  "preserved_before": {
+    "executables": {
+      "/home/saintrikashy/riscv/xs-env/XiangShan/build/emu": "97ef3eef1700270941519d5acfc91e3632c7a33b24ab54076550f646e6a43f66",
+      "/home/saintrikashy/riscv/xs-env/XiangShan/build/p1-oldvd/emu": "dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5",
+      "/home/saintrikashy/riscv/xs-env/XiangShan/build/operand-isolation/emu": "d67519c61294dff5606d7f932a4545291dd5766828363710055279734932c054",
+      "/home/saintrikashy/riscv/xs-env/XiangShan/build/sew16-fixed8/emu": "4c198af80a4ab7ce8db6e49704d5a0ce4669bc2a473c94f92d69668d6ddb8368",
+      "/home/saintrikashy/riscv/xs-env/XiangShan/build/sew16-events/emu": "3e3ac8db24b4845c0b53d9e37099cff0089f1e5921638addfc43bf8ec5b1e817",
+      "/home/saintrikashy/riscv/xs-env/XiangShan/build/sew16-events/emu-initial-collector": "6f4f2d0dbe1ca27c6c6bcc133c5daa93826e9ac1d6e9551d67bf479ff9f548ad",
+      "/home/saintrikashy/riscv/xs-env/XiangShan/build/sew16-perf-events/emu": "6d84bf94359884577a77bea5c4556bd789341b9443be27b5a22c086f4c779d33",
+      "/home/saintrikashy/riscv/xs-env/NutShell/build/verilator-compile/emu": "91bc057a6945dbef227a9cfed6b65a9666084288f4dbf7363d0bd69c9028b84c",
+      "/home/saintrikashy/riscv/xs-env/NEMU/build/riscv64-nemu-interpreter-so": "2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74",
+      "/home/saintrikashy/riscv/xs-env/NEMU/build/sew16/riscv64-nemu-interpreter-so": "0c5ff04f6adefd22e9577edd37acc449f2b89445ad70f98f8c9a97cf3b7b69ad",
+      "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/vdot-run.NlL7w1/emu.before": "d53fae53a173268f8ec80e83f8a719938453dbe3ddf7ee7c2dacb6939dedc89a",
+      "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/p1-artifacts-20261004/emu-before": "97ef3eef1700270941519d5acfc91e3632c7a33b24ab54076550f646e6a43f66",
+      "/usr/local/bin/verilator": "7550862b9b1b41aa6aadb60b6c793f1e796a3ccb5ef18375d834b7a13f39efeb",
+      "/usr/local/bin/verilator_bin": "b7b0ddf1fab99536f87764d7c7da2764fad23fe556f44835ad9e8481a361f0fa"
+    },
+    "files": {
+      "XiangShan/build/operand-isolation/rtl/SimTop.fir": {
+        "device": 2096,
+        "inode": 100824,
+        "size": 1488526258,
+        "mtime_ns": 1791218799606365578,
+        "allocated": 1488531456,
+        "links": 1
+      },
+      "XiangShan/build/sew16-fixed8/rtl/SimTop.fir": {
+        "device": 2096,
+        "inode": 171839,
+        "size": 1488539862,
+        "mtime_ns": 1793016596694727568,
+        "allocated": 1488547840,
+        "links": 1
+      },
+      "cie2026-skito-SKIProject/stage2/waveform/20261006T033620-isolation-control-resumed.vcd": {
+        "device": 2096,
+        "inode": 43341,
+        "size": 5982685858,
+        "mtime_ns": 1791229847064097103,
+        "allocated": 5982691328,
+        "links": 1
+      },
+      "cie2026-skito-SKIProject/stage3/logs/20261008T114325-original-e2e-events-resumed.vcd": {
+        "device": 2096,
+        "inode": 44502,
+        "size": 2644565481,
+        "mtime_ns": 1791437286738572933,
+        "allocated": 2644570112,
+        "links": 1
+      },
+      "cie2026-skito-SKIProject/stage3/logs/20261007T221501-original-e2e-events.vcd": {
+        "device": 2096,
+        "inode": 174181,
+        "size": 2644563660,
+        "mtime_ns": 1791391264088788403,
+        "allocated": 2644570112,
+        "links": 1
+      },
+      "cie2026-skito-SKIProject/stage2/sew16/mixed-module.vcd.gz": {
+        "device": 2096,
+        "inode": 171903,
+        "size": 8632343,
+        "mtime_ns": 1793016258782241471,
+        "allocated": 8634368,
+        "links": 1
+      },
+      "cie2026-skito-SKIProject/stage3/logs/20261027T190338-sew16-perf4-full.analysis.samples.csv": {
+        "device": 2096,
+        "inode": 178950,
+        "size": 87504,
+        "mtime_ns": 1793121816973145999,
+        "allocated": 90112,
+        "links": 1
+      }
+    }
+  },
+  "finished": "2026-11-02T22:35:48+0800",
+  "removed_allocated_bytes": 3026837504,
+  "protected_executables_and_evidence_unchanged": true
+}

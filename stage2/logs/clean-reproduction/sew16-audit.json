@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "e8_checks": 1564,
+  "e16_checks": 836,
+  "data_seeds": [
+    "56444f54",
+    "1",
+    "9e3779b9",
+    "deadbeef"
+  ],
+  "e8_illegal": 10,
+  "e16_illegal": 4,
+  "branch_training": 64,
+  "branch_probes": 4,
+  "younger_exceptions": 4,
+  "instructions": 939603,
+  "core_cycles": 779773,
+  "host_ms": 2588291,
+  "inputs": {
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/../XiangShan/build/sew16-fixed8/emu": "35216f5f6772a545e7eaf8bf0f46e882662b6e765018d3919440b059b7d3384d",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/../NEMU/build/sew16/riscv64-nemu-interpreter-so": "2ca8bbbce7e3b31a440d5a14ff36750f26d41e17620146aa151d8529fde64a2c",
+    "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/sew16/build/cie2026-stage2-vdot-sew16-riscv64-xs.bin": "82eb2e26ae8a2a6a41caf0d6617dc4b34c193daba7a01607266b35397509b3f1"
+  },
+  "log": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T141427-sew16-core.full.log",
+  "log_sha256": "47d66f7690fb3fda8f83998799737ca65102166a74b39ed0b2f722e7f61d7521",
+  "coordinator": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/clean-reproduction/sew16-regression.full.log",
+  "coordinator_sha256": "aaaf986abb23d962b3ced244bfb820c0d4bd16afbcefa418212e90c8d9d27ed2",
+  "qualification": "one CPU process, init seed=101, four data seeds; no CPU waveform or physical PPA claim"
+}

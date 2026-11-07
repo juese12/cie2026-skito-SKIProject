@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "method": "real original control VCD transitions; existing 693-signal E2E low-phase samples; no simulation",
+  "files": {
+    "signal-excerpts.json": "76af036895773f2bc1fff132d270b2378577cf277e69095ab2a41b1bc97cca26",
+    "e2e-signals.svg": "eb57a62de38576409f00f6b6732dae50e491f5933bd418392bbf8e44a3a5df34",
+    "control-signals.png": "be2e08c6b8f2950d1cc4db659cc0481eb5ca90a5e1a8a35365acfb4e8b87cdd4",
+    "e2e-signals.png": "dcc3d054d5f30888789d96ccead312be1f8d39302424f5d29725dbecab018957",
+    "control-signals.svg": "194912c05132cc04077d634be7143f15c4eece8399b744ca68d5327c5b567a4c"
+  }
+}

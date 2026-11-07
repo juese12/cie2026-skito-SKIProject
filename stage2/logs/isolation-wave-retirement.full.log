@@ -1,0 +1,10 @@
+[replay readiness / retained signals PASS] {"status": "PASS", "mode": "read-only; no CPU simulation", "control_branch_groups": 2, "control_exception_groups": 4, "e2e_cycles": [4415, 4924, 5178], "original_vcd_required": false}
+[source verified] stage2/waveform/20261006T033620-isolation-control-resumed.vcd
+[source verified] stage3/logs/20261008T114325-original-e2e-events-resumed.vcd
+[source verified] stage3/logs/20261007T221501-original-e2e-events.vcd
+[source verified] stage3/logs/20261008T200238-original-other-bins.vcd.gz
+[deleted] stage2/waveform/20261006T033620-isolation-control-resumed.vcd
+[deleted] stage3/logs/20261008T114325-original-e2e-events-resumed.vcd
+[deleted] stage3/logs/20261007T221501-original-e2e-events.vcd
+[deleted] stage3/logs/20261008T200238-original-other-bins.vcd.gz
+[cleanup complete] 11495936000 allocated bytes

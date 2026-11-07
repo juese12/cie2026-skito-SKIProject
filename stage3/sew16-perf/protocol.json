@@ -1,0 +1,16 @@
+{
+  "schema": 4,
+  "profiles": {
+    "probe": {"id": 0, "warm": 0, "reps": 2, "batch_iterations": 1, "chain_iterations": [1, 2, 4], "random_checks": 0},
+    "smoke": {"id": 1, "warm": 2, "reps": 4, "batch_iterations": 4, "chain_iterations": [1, 2, 4], "random_checks": 8},
+    "full": {"id": 2, "warm": 8, "reps": 8, "batch_iterations": 64, "chain_iterations": [4, 16, 64], "random_checks": 64}
+  },
+  "init_seeds": [101, 202, 303, 404],
+  "data_seeds": [1447317332, 1, 2654435769, 3735928559],
+  "first": [0, 1, 0, 1],
+  "dots_per_iteration": 4,
+  "thresholds": {"cv": 0.05, "drift": 0.1, "order": 0.1, "warm_tail": 0.1, "chain_linearity": 0.1, "between_process_first_and_data": 0.1},
+  "warning_exit": 3,
+  "monitor_interval_seconds": 2400,
+  "scope": "simulated kernel cycles; fixed eight items; no physical timing/PPA claim"
+}

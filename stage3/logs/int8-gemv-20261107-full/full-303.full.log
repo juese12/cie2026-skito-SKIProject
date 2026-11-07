@@ -1,0 +1,42 @@
+emu compiled at Oct 26 2026, 20:26:36
+Using seed = 303
+Using simulated 32768B flash
+Using simulated 8386560MB RAM
+The image is /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/int8-gemv/build/cie2026-int8-gemv-riscv64-xs.bin
+DRAMSIM3 config: /home/saintrikashy/riscv/xs-env/DRAMsim3/configs/XiangShan.ini
+CPU_FREQ: 3000 DRAM_FREQ: 1600
+CPU_CLOCK_CYCLE: 0.000333333 DRAM_CLOCK_CYCLE: 0.000625
+DRAMsim3 memory system initialized.
+Overwrite 312 bytes from file /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/int8-gemv-20261107-full/full-303.overlay.bin.
+The reference model is /home/saintrikashy/riscv/xs-env/NEMU/build/sew16/riscv64-nemu-interpreter-so
+The first instruction of core 0 has commited. Difftest enabled. 
+gemv meta schema=1 profile=2 first=2 seed=9e3779b9 warm=2 reps=6 cases=30
+gemv checks impl=0 calls=92
+gemv checks impl=1 calls=92
+gemv checks impl=2 calls=92
+gemv checks impl=3 calls=92
+gemv case id=0 m=16 k=64 kp=64 data=8d60e266 y=-6667,-62090,39427,21434,43099,12790,-364,24376,21282,-12407,-63072,9853,33044,8358,41214,82524
+gemv seq case=0 mode=0 impl=0 cycles=2311,2116,2238,2182,2158,2194,2118,2120
+gemv seq case=0 mode=0 impl=1 cycles=981,816,765,786,766,766,766,766
+gemv seq case=0 mode=0 impl=2 cycles=2126,2125,2125,2125,2126,2125,2125,2126
+gemv seq case=0 mode=0 impl=3 cycles=742,659,659,659,659,659,659,659
+gemv seq case=0 mode=1 impl=0 cycles=2230,2070,2170,2134,2140,2200,2166,2190
+gemv seq case=0 mode=1 impl=1 cycles=806,771,771,805,771,771,771,771
+gemv seq case=0 mode=1 impl=2 cycles=4057,4024,4026,4025,4004,4007,4003,4015
+gemv seq case=0 mode=1 impl=3 cycles=2614,2546,2546,2541,2528,2563,2537,2549
+gemv case id=1 m=17 k=65 kp=72 data=b8984e07 y=29851,107644,-36428,-18048,-15317,79580,6619,-67455,38000,-37246,2951,-3749,12506,50029,15018,11823,-8268
+gemv seq case=1 mode=0 impl=0 cycles=2269,2227,2217,2259,2193,2213,2304,2274
+gemv seq case=1 mode=0 impl=1 cycles=1218,1044,1041,1061,1042,1042,1042,1042
+gemv seq case=1 mode=0 impl=2 cycles=2527,2525,2526,2526,2526,2525,2525,2525
+gemv seq case=1 mode=0 impl=3 cycles=1012,942,876,876,876,876,876,876
+gemv seq case=1 mode=1 impl=0 cycles=2307,2299,2316,2285,2258,2263,2268,2225
+gemv seq case=1 mode=1 impl=1 cycles=1104,1055,1055,1074,1038,1038,1038,1055
+gemv seq case=1 mode=1 impl=2 cycles=5067,5060,5060,5062,5051,5063,5064,5064
+gemv seq case=1 mode=1 impl=3 cycles=3428,3433,3407,3404,3403,3431,3406,3405
+gemv PASS profile=2 checked_each_row=1 guards=1 signed=1 data_seeds=4
+Core 0: [32mHIT GOOD TRAP at pc = 0x8000139c
+[0m[35mCore-0 instrCnt = 2102989, cycleCnt = 929122, IPC = 2.263415
+[0m[34mSeed=303 Guest cycle spent: 929126 (this will be different from cycleCnt if emu loads a snapshot)
+[0m[34mHost time spent: 2666200ms
+[0m
+[process exit] 0

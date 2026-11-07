@@ -1,0 +1,28 @@
+[started] 2026-10-06T15:44:26+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject
+[command] bash scripts/cleanup-incomplete-waves-20261006.sh 
+stage2/waveform/20261006T033620-isolation-control-resumed.vcd: OK
+stage3/logs/timer-probe-20261003-window2.vcd: OK
+4f1109892278b5a5461d364a4e8b20fe82707395e15811a33d5a0ee5867ba8c4  stage2/waveform/20261006T033620-isolation-control-resumed.vcd
+5098053cc076c28055da35110821ff766d4e53f9d3dd3f2e6616a040c8caf06d  stage3/logs/timer-probe-20261003-window2.vcd
+38d8e1012653d0e6c9b45846775a6162cda4cc62189f3623ae0cea0e21077914  stage2/waveform/20261006T033620-isolation-control-resumed.vcd.control.json
+a5773a170b011a65491746247eaa06a2aa7ca7259b8117938a830b20bd819683  stage3/logs/timer-probe-20261003-window2-audit.json
+41c56b46403b0abf51fb7be620affa818ac18f5a9f55f9e61659de0638b85716  stage2/logs/20261006T033620-32-control-56444f54.full.log
+e51b2c57c102e31088819c092082495d0f2f355bb855188ad2482caac919a9b9  stage2/logs/20261006T032902-383-control-56444f54.full.log
+0f4f69d0c3c5dea528f95832229657c240c1d405be7ccb6792d2e936b7197dce  stage2/logs/20261003T152953-timer-probe-wave-window2.full.log
+[deleted-source fingerprints]
+57a85bd93b54d2d711059264ddd89cf96c79747b537334f6ad7b8c989cfc4ee6  stage2/waveform/20261006T021301-isolation-control.vcd
+22b76e4bdc9d8ad697222aa9e95fca7eb72ebcefe2a62b33b49172e06f13c71f  stage3/logs/timer-probe-20261003.vcd
+[allocated bytes before]
+5982658560	stage2/waveform/20261006T021301-isolation-control.vcd
+1955430400	stage3/logs/timer-probe-20261003.vcd
+stage2/waveform/20261006T033620-isolation-control-resumed.vcd: OK
+stage3/logs/timer-probe-20261003-window2.vcd: OK
+stage2/waveform/20261006T033620-isolation-control-resumed.vcd.control.json: OK
+stage3/logs/timer-probe-20261003-window2-audit.json: OK
+stage2/logs/20261006T033620-32-control-56444f54.full.log: OK
+stage2/logs/20261006T032902-383-control-56444f54.full.log: OK
+stage2/logs/20261003T152953-timer-probe-wave-window2.full.log: OK
+[cleanup PASS] deleted only two incomplete VCDs; logical bytes=7938074583; protected=stage2/logs/20261006T154443-incomplete-wave-protected.sha256
+[completed] 2026-10-06T15:45:29+08:00
+[exit] 0

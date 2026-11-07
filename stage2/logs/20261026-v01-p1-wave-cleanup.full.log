@@ -1,0 +1,12 @@
+[retained evidence PASS] {"status": "PASS", "p1_comparisons": 3, "isolation_comparisons": 3, "functional_cases": 8, "probe_pairs": 2, "formal_processes": 4}
+[source verified] stage3/logs/p1-before-20261004.vcd
+[source verified] stage3/logs/20261004T232857-17-p1-after.vcd
+[source verified] stage2/waveform/vdot-core-20261002.vcd
+[source verified] stage3/logs/timer-probe-20261003-window2.vcd
+[source verified] stage2/waveform/control-harness-p1-20261006.vcd
+[deleted] stage3/logs/p1-before-20261004.vcd
+[deleted] stage3/logs/20261004T232857-17-p1-after.vcd
+[deleted] stage2/waveform/vdot-core-20261002.vcd
+[deleted] stage3/logs/timer-probe-20261003-window2.vcd
+[deleted] stage2/waveform/control-harness-p1-20261006.vcd
+[cleanup complete] 20984975360 allocated bytes

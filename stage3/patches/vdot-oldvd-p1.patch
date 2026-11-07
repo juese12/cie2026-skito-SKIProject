@@ -1,0 +1,13 @@
+--- a/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala
++++ b/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala
+@@ -357,6 +357,10 @@
+       csBundle(0).lsrc(0) := src1
+       csBundle(0).lsrc(1) := src2
+       csBundle(0).lsrc(2) := dest
++      // Full-register overwrite: neither arithmetic nor tail/mask merge reads
++      // old vd. Clear before DecodeStage's auxiliary v0-source detection;
++      // real vs1/vs2 aliases (including v0) remain normal vector sources.
++      csBundle(0).srcType(2) := SrcType.no
+       csBundle(0).ldest := dest
+       csBundle(0).uopIdx := 0.U
+     }

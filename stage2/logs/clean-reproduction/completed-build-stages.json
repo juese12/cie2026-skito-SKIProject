@@ -1,0 +1,52 @@
+{
+  "core-build.full.log": {
+    "original": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T132646-clean-core-build.full.log",
+    "elapsed_seconds": 2861.0,
+    "exit": 0
+  },
+  "chirrtl.full.log": {
+    "original": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T132646-sew16-core-chirrtl.full.log",
+    "elapsed_seconds": 869.0,
+    "exit": 0
+  },
+  "firtool.full.log": {
+    "original": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T134115-sew16-core-firtool.full.log",
+    "elapsed_seconds": 359.0,
+    "exit": 0
+  },
+  "memory-generation.full.log": {
+    "original": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T134714-sew16-core-memory.full.log",
+    "elapsed_seconds": 1.0,
+    "exit": 0
+  },
+  "cpp-build.full.log": {
+    "original": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T134717-sew16-core-cxx.full.log",
+    "elapsed_seconds": 1630.0,
+    "exit": 0
+  },
+  "nemu-build.full.log": {
+    "original": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T132630-clean-nemu-build.full.log",
+    "elapsed_seconds": 15.0,
+    "exit": 0
+  },
+  "reference.full.log": {
+    "original": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T132645-clean-nemu-reference.full.log",
+    "elapsed_seconds": 1.0,
+    "exit": 0
+  },
+  "dramsim-build.full.log": {
+    "original": "/home/saintrikashy/riscv/xs-env/cleanworkspaces/sew16-v2/cie2026-skito-SKIProject/stage2/logs/20261103T132630-dramsim3-prepare-build.full.log",
+    "elapsed_seconds": 11.0,
+    "exit": 0
+  },
+  "contract-functional": {
+    "instructions": 27074,
+    "core_cycles": 79758,
+    "exit": 0
+  },
+  "contract-control": {
+    "instructions": 368214,
+    "core_cycles": 232893,
+    "exit": 0
+  }
+}

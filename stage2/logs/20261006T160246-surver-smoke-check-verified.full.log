@@ -1,0 +1,18 @@
+[started] 2026-10-06T16:02:46+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject
+[command] python3 scripts/surver-remote.py check 
+{
+  "status": "PASS",
+  "wave": "/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/waveform/isolation/VDot8-final.vcd",
+  "version": "0.7.0",
+  "wellen_version": "0.25.6",
+  "transferred_bytes": {
+    "get_hierarchy": 551,
+    "get_time_table": 36,
+    "get_signals/0": 7
+  },
+  "invalid_token": "rejected",
+  "browser_CORS": "PASS"
+}
+[completed] 2026-10-06T16:02:47+08:00
+[exit] 0

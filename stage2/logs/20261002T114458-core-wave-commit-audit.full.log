@@ -1,0 +1,37 @@
+[started] 2026-10-02T11:44:58+08:00
+[cwd] /home/saintrikashy/riscv/xs-env
+[command] python3 cie2026-skito-SKIProject/stage2/tests/check-core-wave.py cie2026-skito-SKIProject/stage2/waveform/vdot-core-20261002.vcd --minimum 29 --commit-log cie2026-skito-SKIProject/stage2/logs/20261002T113056-vdot-run.full.log 
+commit correlation PASS: execution_observations=29 vdot_commits=29
+time,hierarchy,rob_flag,rob_index,pdest,v0_wen,result_128
+40147,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,105,117,0,0x24
+40973,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,42,125,0,0x78
+41323,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,15,10,0,0x78
+41629,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,150,53,0,0x78
+41937,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,125,61,0,0x78
+42713,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,65,69,0,0xffffffdc
+43019,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,40,77,0,0xffffffdc
+43325,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,15,85,0,0xffffffdc
+43631,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,150,93,0,0xffffffdc
+44327,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,83,101,0,0x20000
+44631,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,58,109,0,0x20000
+44939,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,33,117,0,0x20000
+45245,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,8,125,0,0x20000
+46019,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,118,10,0,0xfffe0400
+46327,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,93,53,0,0xfffe0400
+46635,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,68,61,0,0xfffe0400
+46941,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,43,69,0,0xfffe0400
+47567,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,9,77,0,0x1f808
+47873,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,144,85,0,0x1f808
+48179,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,119,93,0,0x1f808
+48485,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,94,101,0,0x1f808
+49137,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,66,109,0,0x0
+49445,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,41,117,0,0x0
+49751,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,16,125,0,0x0
+50057,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,151,10,0,0x0
+50791,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,142,53,0,0x0
+51099,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,117,61,0,0x0
+51407,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,1,92,69,0,0x0
+51713,TOP.SimTop.l_soc.core_with_l2.core.backend.inner_vfExuBlock.exus.Vimac,0,67,77,0,0x0
+core waveform execution-path PASS: checked=29; retirement requires difftest
+[completed] 2026-10-02T11:45:27+08:00
+[exit] 0

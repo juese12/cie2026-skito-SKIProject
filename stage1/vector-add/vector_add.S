@@ -1,8 +1,8 @@
 .section .text.rvv_vector_add_i32, "ax", @progbits
 .align 2
 
-# void rvv_vector_add_i32(int32_t *dst, const int32_t *lhs,
-#                         const int32_t *rhs, size_t count)
+# 向量加法接口：dst 为 int32_t 输出，lhs 为左输入，
+# rhs 为右输入，count 为 size_t 元素数量。
 .globl rvv_vector_add_i32
 .type rvv_vector_add_i32, @function
 rvv_vector_add_i32:

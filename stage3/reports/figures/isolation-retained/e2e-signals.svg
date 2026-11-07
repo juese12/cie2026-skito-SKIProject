@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110">
+<rect width="1560" height="1110" fill="#f4f7fb"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#172b4d}</style>
+<text x="35" y="48" font-size="30" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">端到端调用 4415 / 4924 / 5178 周期：低电平稳定采样</text>
+<text x="35" y="82" font-size="19" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">每次调用取第二个实际循环锚点；阶梯连接采样值，不推断周期间内部跳变。</text>
+<rect x="24" y="115" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="147" font-size="23" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">快档｜调用 4415 周期｜实际循环周期 17</text>
+<text x="45" y="195" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">复杂译码输入有效 in.valid</text>
+<polyline points="360.0,177 410.0,177 410.0,177 460.0,177 460.0,177 510.0,177 510.0,177 560.0,177 560.0,177 610.0,177 610.0,177 660.0,177 660.0,177 710.0,177 710.0,177 760.0,177 760.0,177 810.0,177 810.0,177 860.0,177 860.0,177 910.0,177 910.0,177 960.0,177 960.0,177 1010.0,177 1010.0,177 1060.0,177 1060.0,177 1110.0,177 1110.0,177 1160.0,177 1160.0,177 1210.0,177 1210.0,177 1260.0,177 1260.0,177 1310.0,177 1310.0,177 1360.0,177 1360.0,177 1410.0,177 1410.0,177 1460.0,177 1460.0,177" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="229" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">存在译码输出 *</text>
+<polyline points="360.0,211 410.0,211 410.0,211 460.0,211 460.0,211 510.0,211 510.0,211 560.0,211 560.0,211 610.0,211 610.0,211 660.0,211 660.0,211 710.0,211 710.0,211 760.0,211 760.0,211 810.0,211 810.0,211 860.0,211 860.0,211 910.0,211 910.0,211 960.0,211 960.0,211 1010.0,211 1010.0,211 1060.0,211 1060.0,211 1110.0,211 1110.0,211 1160.0,211 1160.0,211 1210.0,211 1210.0,211 1260.0,211 1260.0,211 1310.0,211 1310.0,211 1360.0,211 1360.0,211 1410.0,211 1410.0,211 1460.0,211 1460.0,211" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="263" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">存在被接受的分派 *</text>
+<polyline points="360.0,245 410.0,245 410.0,245 460.0,245 460.0,245 510.0,245 510.0,245 560.0,245 560.0,245 610.0,245 610.0,245 660.0,245 660.0,245 710.0,245 710.0,245 760.0,245 760.0,245 810.0,245 810.0,245 860.0,245 860.0,245 910.0,245 910.0,245 960.0,245 960.0,245 1010.0,245 1010.0,245 1060.0,245 1060.0,245 1110.0,245 1110.0,245 1160.0,245 1160.0,245 1210.0,245 1210.0,245 1260.0,245 1260.0,245 1310.0,245 1310.0,245 1360.0,245 1360.0,245 1410.0,245 1410.0,245 1460.0,245 1460.0,245" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="297" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">槽位 4 → IQ2 受阻 *</text>
+<polyline points="360.0,295 410.0,295 410.0,295 460.0,295 460.0,295 510.0,295 510.0,295 560.0,295 560.0,295 610.0,295 610.0,295 660.0,295 660.0,295 710.0,295 710.0,295 760.0,295 760.0,295 810.0,295 810.0,295 860.0,295 860.0,295 910.0,295 910.0,295 960.0,295 960.0,295 1010.0,295 1010.0,295 1060.0,295 1060.0,295 1110.0,295 1110.0,295 1160.0,295 1160.0,295 1210.0,295 1210.0,295 1260.0,295 1260.0,295 1310.0,295 1310.0,295 1360.0,295 1360.0,295 1410.0,295 1410.0,295 1460.0,295 1460.0,295" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<path d="M360,323 L360,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="353" y="352" font-size="16" style="fill:#172b4d">0</text>
+<path d="M460,323 L460,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="453" y="352" font-size="16" style="fill:#172b4d">2</text>
+<path d="M560,323 L560,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="553" y="352" font-size="16" style="fill:#172b4d">4</text>
+<path d="M660,323 L660,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="653" y="352" font-size="16" style="fill:#172b4d">6</text>
+<path d="M760,323 L760,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="753" y="352" font-size="16" style="fill:#172b4d">8</text>
+<path d="M860,323 L860,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="853" y="352" font-size="16" style="fill:#172b4d">10</text>
+<path d="M960,323 L960,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="953" y="352" font-size="16" style="fill:#172b4d">12</text>
+<path d="M1060,323 L1060,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1053" y="352" font-size="16" style="fill:#172b4d">14</text>
+<path d="M1160,323 L1160,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1153" y="352" font-size="16" style="fill:#172b4d">16</text>
+<path d="M1260,323 L1260,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1253" y="352" font-size="16" style="fill:#172b4d">18</text>
+<path d="M1360,323 L1360,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1353" y="352" font-size="16" style="fill:#172b4d">20</text>
+<path d="M1460,323 L1460,330" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1453" y="352" font-size="16" style="fill:#172b4d">22</text>
+<path d="M360,323 L1460,323" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<path d="M1210,158 L1210,308" stroke="#15803d" stroke-width="2" fill="none"/>
+<rect x="24" y="400" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="432" font-size="23" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">中档｜调用 4924 周期｜实际循环周期 19</text>
+<text x="45" y="480" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">复杂译码输入有效 in.valid</text>
+<polyline points="360.0,462 410.0,462 410.0,462 460.0,462 460.0,462 510.0,462 510.0,462 560.0,462 560.0,462 610.0,462 610.0,462 660.0,462 660.0,462 710.0,462 710.0,462 760.0,462 760.0,462 810.0,462 810.0,462 860.0,462 860.0,462 910.0,462 910.0,462 960.0,462 960.0,478 1010.0,478 1010.0,462 1060.0,462 1060.0,462 1110.0,462 1110.0,478 1160.0,478 1160.0,462 1210.0,462 1210.0,462 1260.0,462 1260.0,462 1310.0,462 1310.0,462 1360.0,462 1360.0,462 1410.0,462 1410.0,462 1460.0,462 1460.0,462" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="514" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">存在译码输出 *</text>
+<polyline points="360.0,496 410.0,496 410.0,496 460.0,496 460.0,496 510.0,496 510.0,496 560.0,496 560.0,496 610.0,496 610.0,496 660.0,496 660.0,496 710.0,496 710.0,496 760.0,496 760.0,496 810.0,496 810.0,496 860.0,496 860.0,496 910.0,496 910.0,496 960.0,496 960.0,496 1010.0,496 1010.0,512 1060.0,512 1060.0,496 1110.0,496 1110.0,496 1160.0,496 1160.0,512 1210.0,512 1210.0,496 1260.0,496 1260.0,496 1310.0,496 1310.0,496 1360.0,496 1360.0,496 1410.0,496 1410.0,496 1460.0,496 1460.0,496" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="548" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">存在被接受的分派 *</text>
+<polyline points="360.0,530 410.0,530 410.0,530 460.0,530 460.0,530 510.0,530 510.0,530 560.0,530 560.0,530 610.0,530 610.0,530 660.0,530 660.0,530 710.0,530 710.0,530 760.0,530 760.0,530 810.0,530 810.0,530 860.0,530 860.0,530 910.0,530 910.0,530 960.0,530 960.0,530 1010.0,530 1010.0,530 1060.0,530 1060.0,530 1110.0,530 1110.0,546 1160.0,546 1160.0,530 1210.0,530 1210.0,530 1260.0,530 1260.0,546 1310.0,546 1310.0,530 1360.0,530 1360.0,530 1410.0,530 1410.0,530 1460.0,530 1460.0,530" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="582" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">槽位 4 → IQ2 受阻 *</text>
+<polyline points="360.0,580 410.0,580 410.0,580 460.0,580 460.0,580 510.0,580 510.0,580 560.0,580 560.0,580 610.0,580 610.0,580 660.0,580 660.0,580 710.0,580 710.0,580 760.0,580 760.0,580 810.0,580 810.0,580 860.0,580 860.0,580 910.0,580 910.0,580 960.0,580 960.0,580 1010.0,580 1010.0,580 1060.0,580 1060.0,580 1110.0,580 1110.0,580 1160.0,580 1160.0,580 1210.0,580 1210.0,580 1260.0,580 1260.0,580 1310.0,580 1310.0,580 1360.0,580 1360.0,580 1410.0,580 1410.0,580 1460.0,580 1460.0,580" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<path d="M360,608 L360,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="353" y="637" font-size="16" style="fill:#172b4d">0</text>
+<path d="M460,608 L460,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="453" y="637" font-size="16" style="fill:#172b4d">2</text>
+<path d="M560,608 L560,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="553" y="637" font-size="16" style="fill:#172b4d">4</text>
+<path d="M660,608 L660,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="653" y="637" font-size="16" style="fill:#172b4d">6</text>
+<path d="M760,608 L760,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="753" y="637" font-size="16" style="fill:#172b4d">8</text>
+<path d="M860,608 L860,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="853" y="637" font-size="16" style="fill:#172b4d">10</text>
+<path d="M960,608 L960,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="953" y="637" font-size="16" style="fill:#172b4d">12</text>
+<path d="M1060,608 L1060,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1053" y="637" font-size="16" style="fill:#172b4d">14</text>
+<path d="M1160,608 L1160,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1153" y="637" font-size="16" style="fill:#172b4d">16</text>
+<path d="M1260,608 L1260,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1253" y="637" font-size="16" style="fill:#172b4d">18</text>
+<path d="M1360,608 L1360,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1353" y="637" font-size="16" style="fill:#172b4d">20</text>
+<path d="M1460,608 L1460,615" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1453" y="637" font-size="16" style="fill:#172b4d">22</text>
+<path d="M360,608 L1460,608" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<path d="M1310,443 L1310,593" stroke="#15803d" stroke-width="2" fill="none"/>
+<rect x="24" y="685" width="1512" height="265" rx="10" fill="white" stroke="#d5dfeb"/>
+<text x="45" y="717" font-size="23" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">慢档｜调用 5178 周期｜实际循环周期 20</text>
+<text x="45" y="765" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">复杂译码输入有效 in.valid</text>
+<polyline points="360.0,747 410.0,747 410.0,747 460.0,747 460.0,747 510.0,747 510.0,747 560.0,747 560.0,747 610.0,747 610.0,747 660.0,747 660.0,747 710.0,747 710.0,747 760.0,747 760.0,747 810.0,747 810.0,747 860.0,747 860.0,763 910.0,763 910.0,747 960.0,747 960.0,747 1010.0,747 1010.0,747 1060.0,747 1060.0,763 1110.0,763 1110.0,747 1160.0,747 1160.0,747 1210.0,747 1210.0,747 1260.0,747 1260.0,747 1310.0,747 1310.0,747 1360.0,747 1360.0,747 1410.0,747 1410.0,747 1460.0,747 1460.0,747" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="799" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">存在译码输出 *</text>
+<polyline points="360.0,781 410.0,781 410.0,781 460.0,781 460.0,781 510.0,781 510.0,781 560.0,781 560.0,781 610.0,781 610.0,781 660.0,781 660.0,781 710.0,781 710.0,781 760.0,781 760.0,781 810.0,781 810.0,781 860.0,781 860.0,781 910.0,781 910.0,797 960.0,797 960.0,781 1010.0,781 1010.0,781 1060.0,781 1060.0,781 1110.0,781 1110.0,797 1160.0,797 1160.0,781 1210.0,781 1210.0,781 1260.0,781 1260.0,797 1310.0,797 1310.0,781 1360.0,781 1360.0,781 1410.0,781 1410.0,781 1460.0,781 1460.0,781" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="833" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">存在被接受的分派 *</text>
+<polyline points="360.0,815 410.0,815 410.0,815 460.0,815 460.0,815 510.0,815 510.0,815 560.0,815 560.0,815 610.0,815 610.0,815 660.0,815 660.0,815 710.0,815 710.0,815 760.0,815 760.0,815 810.0,815 810.0,815 860.0,815 860.0,815 910.0,815 910.0,815 960.0,815 960.0,815 1010.0,815 1010.0,831 1060.0,831 1060.0,815 1110.0,815 1110.0,815 1160.0,815 1160.0,815 1210.0,815 1210.0,831 1260.0,831 1260.0,815 1310.0,815 1310.0,815 1360.0,815 1360.0,815 1410.0,815 1410.0,815 1460.0,815 1460.0,815" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<text x="45" y="867" font-size="18" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">槽位 4 → IQ2 受阻 *</text>
+<polyline points="360.0,865 410.0,865 410.0,865 460.0,865 460.0,865 510.0,865 510.0,865 560.0,865 560.0,865 610.0,865 610.0,865 660.0,865 660.0,865 710.0,865 710.0,865 760.0,865 760.0,865 810.0,865 810.0,865 860.0,865 860.0,865 910.0,865 910.0,865 960.0,865 960.0,865 1010.0,865 1010.0,865 1060.0,865 1060.0,865 1110.0,865 1110.0,865 1160.0,865 1160.0,865 1210.0,865 1210.0,865 1260.0,865 1260.0,849 1310.0,849 1310.0,865 1360.0,865 1360.0,865 1410.0,865 1410.0,865 1460.0,865 1460.0,865" fill="none" stroke="#175cd3" stroke-width="1.5"/>
+<path d="M360,893 L360,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="353" y="922" font-size="16" style="fill:#172b4d">0</text>
+<path d="M460,893 L460,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="453" y="922" font-size="16" style="fill:#172b4d">2</text>
+<path d="M560,893 L560,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="553" y="922" font-size="16" style="fill:#172b4d">4</text>
+<path d="M660,893 L660,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="653" y="922" font-size="16" style="fill:#172b4d">6</text>
+<path d="M760,893 L760,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="753" y="922" font-size="16" style="fill:#172b4d">8</text>
+<path d="M860,893 L860,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="853" y="922" font-size="16" style="fill:#172b4d">10</text>
+<path d="M960,893 L960,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="953" y="922" font-size="16" style="fill:#172b4d">12</text>
+<path d="M1060,893 L1060,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1053" y="922" font-size="16" style="fill:#172b4d">14</text>
+<path d="M1160,893 L1160,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1153" y="922" font-size="16" style="fill:#172b4d">16</text>
+<path d="M1260,893 L1260,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1253" y="922" font-size="16" style="fill:#172b4d">18</text>
+<path d="M1360,893 L1360,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1353" y="922" font-size="16" style="fill:#172b4d">20</text>
+<path d="M1460,893 L1460,900" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<text x="1453" y="922" font-size="16" style="fill:#172b4d">22</text>
+<path d="M360,893 L1460,893" stroke="#9aabc0" stroke-width="2" fill="none"/>
+<path d="M1360,728 L1360,878" stroke="#15803d" stroke-width="2" fill="none"/>
+<text x="35" y="1025" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">横轴从第二次实际循环首条加载计起，单位为 DUT 周期；每个观察值均取低电平稳定相位。</text>
+<text x="35" y="1057" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">带星号的行由对应原始字段聚合，并非新增 RTL 端口；完整 693 信号的逐周期 JSON 已保留。</text>
+<text x="35" y="1089" font-size="17" style="fill:#172b4d" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">仅选取旧隔离核的已有调用；未新增完整波形或整核仿真，原稳定性告警保留。</text>
+</svg>

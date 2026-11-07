@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "commits": 14548,
+  "instructions": 17577,
+  "cycles": 54768,
+  "scope": "same event-capable model, logging disabled vs enabled"
+}

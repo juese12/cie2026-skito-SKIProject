@@ -1,0 +1,653 @@
+[started] 2026-10-04T23:28:56+08:00
+[cwd] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject
+[command] bash scripts/complete-vdot-p1.sh 
+[P1 directed PASS] prefix=stage3/logs/20261004T232857-17-p1
+[started] 2026-10-04T23:48:28+08:00
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/vdot-tests/build/cie2026-stage2-vdot-smoke-riscv64-xs.bin --max-cycles=10000000
+dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu
+2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+64262ee8f5232ae123635bd5987b77e807bc1889fab7bd3fb5827fab6398d54f  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/vdot-tests/build/cie2026-stage2-vdot-smoke-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+vdot ordinary regression PASS: vadd/vmul/vmacc/vsmul, sticky and new saturation
+vdot directed PASS: 32 cases (positive/negative/extreme/zero/cancellation; all ta/ma)
+vdot integration PASS: overlap/v0/v31/dependency-chain/v0-mask
+vdot random PASS: 0 cases seed=0x56444f54
+vdot illegal PASS: VL=0/7/9/16, SEW, LMUL, vm, vstart, vill, VS-off
+vdot PASS: valid=52 illegal=10; complete 128-bit results and CSR checks
+[PERF ][time=               65Core 0: HIT GOOD TRAP at pc = 0x80000b38
+Core-0 instrCnt = 22529, cycleCnt = 65753, IPC = 0.342631
+Seed=0 Guest cycle spent: 65757 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 211255ms
+[process exit] 0
+[verification exit] 0
+[completed] 2026-10-04T23:52:02+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/logs/20261004T234828-vdot-run.full.log
+[started] 2026-10-04T23:52:02+08:00
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/vdot-tests/build/cie2026-stage2-vdot-riscv64-xs.bin --max-cycles=10000000
+dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu
+2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+4e96a0ced89890d3880de5e0915928cff59e8f555370b110929296cf89220fe7  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/vdot-tests/build/cie2026-stage2-vdot-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+vdot ordinary regression PASS: vadd/vmul/vmacc/vsmul, sticky and new saturation
+vdot directed PASS: 32 cases (positive/negative/extreme/zero/cancellation; all ta/ma)
+vdot integration PASS: overlap/v0/v31/dependency-chain/v0-mask
+vdot random PASS: 1000 cases seed=0x56444f54
+vdot illegal PASS: VL=0/7/9/16, SEW, LMUL, vm, vstart, vill, VS-off
+vdot PASS: valid=1052 illegal=10; complete 128-bit results and CSR checks
+[PERF ][time=              429Core 0: HIT GOOD TRAP at pc = 0x80000bce
+Core-0 instrCnt = 507883, cycleCnt = 429067, IPC = 1.183692
+Seed=0 Guest cycle spent: 429071 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 1369462ms
+[process exit] 0
+[verification exit] 0
+[completed] 2026-10-05T00:14:52+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage2/logs/20261004T235202-vdot-run.full.log
+[P1 functional PASS] starting two v3 smoke processes
+[series run] 0/2 first=0 profile=smoke
+[started] 2026-10-05T00:14:52+08:00
+[run id] 20261005T001452-160-series-smoke-runtime-run0
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.bin --max-cycles=10000000 -b 0 -e 0 --gcpt-restore=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runtime-overlay.8dhE4T/parameter.bin --overwrite-nbytes=1305 
+[runner snapshot] 8b855d5b42e5ebcb49534a3447ac563ecf119eca8b1319019abd6fe8b9b7faf0  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runner-snapshot.1knHHA/run.sh
+[runtime parameter] {"changed_offsets": [], "first": 0, "image_sha256": "f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5", "offset": 1304, "overlay_sha256": "7577da268ca522e79d00ccf3e5ff333ea56ed5b1cf35f7f1f3e33bbef04981f5", "overwrite_nbytes": 1305, "parameter_address": "0x80000518"}
+[artifact emu] dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5
+[path emu] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu
+[artifact ref] 2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74
+[path ref] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+[artifact image] f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5
+[path image] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+bench equivalence PASS: vectors=8 checks=32 policies=4 baseline=vwmul+vwredsum vdot=1
+bench meta schema=3 profile=smoke reps=4 warmup=2 batches=8 random=0 first=0 deferred=1 seed=56444f54 timing=mcycle_vstart_serialized
+bench warm kind=batch4 impl=vdot count=2 first_cycles=170 last_cycles=126
+bench warm kind=batch4 impl=rvv count=2 first_cycles=312 last_cycles=287
+bench raw kind=batch4 impl=vdot rep=0 slot=0 dots=32 cycles=89
+bench raw kind=batch4 impl=rvv rep=0 slot=1 dots=32 cycles=248
+bench raw kind=batch4 impl=rvv rep=1 slot=0 dots=32 cycles=249
+bench raw kind=batch4 impl=vdot rep=1 slot=1 dots=32 cycles=89
+bench raw kind=batch4 impl=vdot rep=2 slot=0 dots=32 cycles=89
+bench raw kind=batch4 impl=rvv rep=2 slot=1 dots=32 cycles=249
+bench raw kind=batch4 impl=rvv rep=3 slot=0 dots=32 cycles=247
+bench raw kind=batch4 impl=vdot rep=3 slot=1 dots=32 cycles=88
+bench warm kind=e2e impl=vdot count=2 first_cycles=304 last_cycles=254
+bench warm kind=e2e impl=rvv count=2 first_cycles=496 last_cycles=430
+bench raw kind=e2e impl=vdot rep=0 slot=0 dots=32 cycles=199
+bench raw kind=e2e impl=rvv rep=0 slot=1 dots=32 cycles=415
+bench raw kind=e2e impl=rvv rep=1 slot=0 dots=32 cycles=398
+bench raw kind=e2e impl=vdot rep=1 slot=1 dots=32 cycles=219
+bench raw kind=e2e impl=vdot rep=2 slot=0 dots=32 cycles=219
+bench raw kind=e2e impl=rvv rep=2 slot=1 dots=32 cycles=398
+bench raw kind=e2e impl=rvv rep=3 slot=0 dots=32 cycles=399
+bench raw kind=e2e impl=vdot rep=3 slot=1 dots=32 cycles=198
+bench warm kind=chain impl=vdot count=2 first_cycles=255 last_cycles=255
+bench warm kind=chain impl=rvv count=2 first_cycles=959 last_cycles=959
+bench raw kind=chain impl=vdot rep=0 slot=0 dots=32 cycles=256
+bench raw kind=chain impl=rvv rep=0 slot=1 dots=32 cycles=959
+bench raw kind=chain impl=rvv rep=1 slot=0 dots=32 cycles=959
+bench raw kind=chain impl=vdot rep=1 slot=1 dots=32 cycles=255
+bench raw kind=chain impl=vdot rep=2 slot=0 dots=32 cycles=255
+bench raw kind=chain impl=rvv rep=2 slot=1 dots=32 cycles=959
+bench raw kind=chain impl=rvv rep=3 slot=0 dots=32 cycles=960
+bench raw kind=chain impl=vdot rep=3 slot=1 dots=32 cycles=255
+bench raw kind=empty impl=control rep=0 loops=8 cycles=43
+bench raw kind=empty impl=control rep=1 loops=8 cycles=68
+bench raw kind=empty impl=control rep=2 loops=8 cycles=60
+bench raw kind=empty impl=control rep=3 loops=8 cycles=60
+vdot benchmark PASS: equivalent exact i32, upper96=0; raw cycles reported
+Core 0: HIT GOOD TRAP at pc = 0x80000c70
+Core-0 instrCnt = 111810, cycleCnt = 285981, IPC = 0.390970
+Seed=0 Guest cycle spent: 285985 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 929724ms
+run=0 schema=3 profile=smoke stable=False
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,248.5,89.0,2.792135,247:249,88:89,0.003340,0.004879
+e2e,398.5,209.0,1.906699,398:415,198:219,0.017959,0.049131
+chain,959.0,255.0,3.760784,959:960,255:256,0.000451,0.001696
+empty median=60.0; NOT subtracted
+STABILITY WARNING: batch4/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: batch4/rvv: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[completed] 2026-10-05T00:30:23+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T001452-160-series-smoke-runtime-run0-bench.full.log
+[series run] 1/2 first=1 profile=smoke
+[started] 2026-10-05T00:30:23+08:00
+[run id] 20261005T001452-160-series-smoke-runtime-run1
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.bin --max-cycles=10000000 -b 0 -e 0 --gcpt-restore=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runtime-overlay.QkIKT8/parameter.bin --overwrite-nbytes=1305 
+[runner snapshot] 8b855d5b42e5ebcb49534a3447ac563ecf119eca8b1319019abd6fe8b9b7faf0  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runner-snapshot.cEyUUL/run.sh
+[runtime parameter] {"changed_offsets": [1304], "first": 1, "image_sha256": "f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5", "offset": 1304, "overlay_sha256": "1f0a3c83fd7483a113f3a2f15bfd78863a504225ba64322aa8de718a27d52078", "overwrite_nbytes": 1305, "parameter_address": "0x80000518"}
+[artifact emu] dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5
+[path emu] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu
+[artifact ref] 2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74
+[path ref] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+[artifact image] f351c87fe9f29cc1aafaca00c2f8f6c770288a894bfa92eed512985934a52ba5
+[path image] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+bench equivalence PASS: vectors=8 checks=32 policies=4 baseline=vwmul+vwredsum vdot=1
+bench meta schema=3 profile=smoke reps=4 warmup=2 batches=8 random=0 first=1 deferred=1 seed=56444f54 timing=mcycle_vstart_serialized
+bench warm kind=batch4 impl=vdot count=2 first_cycles=170 last_cycles=126
+bench warm kind=batch4 impl=rvv count=2 first_cycles=299 last_cycles=284
+bench raw kind=batch4 impl=rvv rep=0 slot=0 dots=32 cycles=269
+bench raw kind=batch4 impl=vdot rep=0 slot=1 dots=32 cycles=89
+bench raw kind=batch4 impl=vdot rep=1 slot=0 dots=32 cycles=89
+bench raw kind=batch4 impl=rvv rep=1 slot=1 dots=32 cycles=248
+bench raw kind=batch4 impl=rvv rep=2 slot=0 dots=32 cycles=248
+bench raw kind=batch4 impl=vdot rep=2 slot=1 dots=32 cycles=89
+bench raw kind=batch4 impl=vdot rep=3 slot=0 dots=32 cycles=89
+bench raw kind=batch4 impl=rvv rep=3 slot=1 dots=32 cycles=248
+bench warm kind=e2e impl=vdot count=2 first_cycles=303 last_cycles=255
+bench warm kind=e2e impl=rvv count=2 first_cycles=464 last_cycles=449
+bench raw kind=e2e impl=rvv rep=0 slot=0 dots=32 cycles=398
+bench raw kind=e2e impl=vdot rep=0 slot=1 dots=32 cycles=219
+bench raw kind=e2e impl=vdot rep=1 slot=0 dots=32 cycles=199
+bench raw kind=e2e impl=rvv rep=1 slot=1 dots=32 cycles=415
+bench raw kind=e2e impl=rvv rep=2 slot=0 dots=32 cycles=399
+bench raw kind=e2e impl=vdot rep=2 slot=1 dots=32 cycles=218
+bench raw kind=e2e impl=vdot rep=3 slot=0 dots=32 cycles=198
+bench raw kind=e2e impl=rvv rep=3 slot=1 dots=32 cycles=398
+bench warm kind=chain impl=vdot count=2 first_cycles=255 last_cycles=255
+bench warm kind=chain impl=rvv count=2 first_cycles=959 last_cycles=959
+bench raw kind=chain impl=rvv rep=0 slot=0 dots=32 cycles=959
+bench raw kind=chain impl=vdot rep=0 slot=1 dots=32 cycles=255
+bench raw kind=chain impl=vdot rep=1 slot=0 dots=32 cycles=255
+bench raw kind=chain impl=rvv rep=1 slot=1 dots=32 cycles=960
+bench raw kind=chain impl=rvv rep=2 slot=0 dots=32 cycles=960
+bench raw kind=chain impl=vdot rep=2 slot=1 dots=32 cycles=255
+bench raw kind=chain impl=vdot rep=3 slot=0 dots=32 cycles=255
+bench raw kind=chain impl=rvv rep=3 slot=1 dots=32 cycles=959
+bench raw kind=empty impl=control rep=0 loops=8 cycles=43
+bench raw kind=empty impl=control rep=1 loops=8 cycles=68
+bench raw kind=empty impl=control rep=2 loops=8 cycles=60
+bench raw kind=empty impl=control rep=3 loops=8 cycles=60
+vdot benchmark PASS: equivalent exact i32, upper96=0; raw cycles reported
+Core 0: HIT GOOD TRAP at pc = 0x80000c70
+Core-0 instrCnt = 111808, cycleCnt = 285808, IPC = 0.391200
+Seed=0 Guest cycle spent: 285812 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 920382ms
+run=0 schema=3 profile=smoke stable=False
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,248.0,89.0,2.786517,248:269,89:89,0.035906,0.000000
+e2e,398.5,208.5,1.911271,398:415,198:219,0.017959,0.048022
+chain,959.5,255.0,3.762745,959:960,255:255,0.000521,0.000000
+empty median=60.0; NOT subtracted
+STABILITY WARNING: batch4/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: batch4/rvv: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: e2e/rvv: variation, warm-tail/half drift or slot effect exceeds threshold
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[completed] 2026-10-05T00:45:44+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T001452-160-series-smoke-runtime-run1-bench.full.log
+run=0 schema=3 profile=smoke stable=False
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,248.5,89.0,2.792135,247:249,88:89,0.003340,0.004879
+e2e,398.5,209.0,1.906699,398:415,198:219,0.017959,0.049131
+chain,959.0,255.0,3.760784,959:960,255:256,0.000451,0.001696
+empty median=60.0; NOT subtracted
+run=1 schema=3 profile=smoke stable=False
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,248.0,89.0,2.786517,248:269,89:89,0.035906,0.000000
+e2e,398.5,208.5,1.911271,398:415,198:219,0.017959,0.048022
+chain,959.5,255.0,3.762745,959:960,255:255,0.000521,0.000000
+empty median=60.0; NOT subtracted
+series batch4: run-speedup median=2.789326 min=2.786517 max=2.792135 cv=0.001007 order_effect=0.002016
+series e2e: run-speedup median=1.908985 min=1.906699 max=1.911271 cv=0.001198 order_effect=-0.002392
+series chain: run-speedup median=3.761765 min=3.760784 max=3.762745 cv=0.000261 order_effect=-0.000521
+STABILITY WARNING: run 0: batch4/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: run 0: batch4/rvv: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: run 0: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: run 1: batch4/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: run 1: batch4/rvv: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: run 1: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: run 1: e2e/rvv: variation, warm-tail/half drift or slot effect exceeds threshold
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[series data PASS] Stability warnings do not constitute a stable-performance claim.
+[series exit] 2026-10-05T00:45:44+08:00 status=0 manifest=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T001452-160-series-smoke-runtime.paths
+/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu: OK
+/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so: OK
+stage3/oldvd-probe/build/cie2026-stage3-oldvd-probe-riscv64-xs.bin: OK
+stage2/vdot-tests/build/cie2026-stage2-vdot-ordinary-riscv64-xs.bin: OK
+stage2/vdot-tests/build/cie2026-stage2-vdot-riscv64-xs.bin: OK
+stage2/vdot-tests/build/cie2026-stage2-vdot-smoke-riscv64-xs.bin: OK
+stage3/tests/check-oldvd-wave.py: OK
+stage3/tests/compare-oldvd.py: OK
+stage3/tests/compare-bench-cores.py: OK
+stage3/tests/prepare-runtime-order.py: OK
+stage3/tests/analyze-bench.py: OK
+stage3/tests/render-bench-report.py: OK
+stage3/tests/analyze-e2e-variation.py: OK
+stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin: OK
+stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.bin: OK
+stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.elf: OK
+stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.elf: OK
+scripts/run-vdot-bench.sh: OK
+scripts/run-vdot-bench-series.sh: OK
+[P1 smoke PASS] starting four authorized v3 formal processes
+[series run] 0/4 first=0 profile=full
+[started] 2026-10-05T00:45:45+08:00
+[run id] 20261005T004545-274-series-full-runtime-run0
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin --max-cycles=10000000 -b 0 -e 0 --gcpt-restore=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runtime-overlay.Jm6brQ/parameter.bin --overwrite-nbytes=1305 
+[runner snapshot] 8b855d5b42e5ebcb49534a3447ac563ecf119eca8b1319019abd6fe8b9b7faf0  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runner-snapshot.V23SP1/run.sh
+[runtime parameter] {"changed_offsets": [], "first": 0, "image_sha256": "2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24", "offset": 1304, "overlay_sha256": "7caf58948bc9f81a1232ed43c0bf0f2b75be0beb090d596475280ed66bf9a998", "overwrite_nbytes": 1305, "parameter_address": "0x80000518"}
+[artifact emu] dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5
+[path emu] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu
+[artifact ref] 2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74
+[path ref] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+[artifact image] 2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24
+[path image] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+bench equivalence PASS: vectors=1008 checks=1032 policies=4 baseline=vwmul+vwredsum vdot=1
+bench meta schema=3 profile=full reps=8 warmup=8 batches=256 random=1000 first=0 deferred=1 seed=56444f54 timing=mcycle_vstart_serialized
+bench warm kind=batch4 impl=vdot count=8 first_cycles=1328 last_cycles=1246
+bench warm kind=batch4 impl=rvv count=8 first_cycles=6513 last_cycles=6448
+bench raw kind=batch4 impl=vdot rep=0 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=0 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=1 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=1 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=2 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=2 slot=1 dots=1024 cycles=6449
+bench raw kind=batch4 impl=rvv rep=3 slot=0 dots=1024 cycles=6449
+bench raw kind=batch4 impl=vdot rep=3 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=4 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=4 slot=1 dots=1024 cycles=6449
+bench raw kind=batch4 impl=rvv rep=5 slot=0 dots=1024 cycles=6449
+bench raw kind=batch4 impl=vdot rep=5 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=6 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=6 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=7 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=7 slot=1 dots=1024 cycles=1246
+bench warm kind=e2e impl=vdot count=8 first_cycles=4766 last_cycles=4415
+bench warm kind=e2e impl=rvv count=8 first_cycles=10914 last_cycles=10815
+bench raw kind=e2e impl=vdot rep=0 slot=0 dots=1024 cycles=5178
+bench raw kind=e2e impl=rvv rep=0 slot=1 dots=1024 cycles=10814
+bench raw kind=e2e impl=rvv rep=1 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=1 slot=1 dots=1024 cycles=5178
+bench raw kind=e2e impl=vdot rep=2 slot=0 dots=1024 cycles=5178
+bench raw kind=e2e impl=rvv rep=2 slot=1 dots=1024 cycles=10815
+bench raw kind=e2e impl=rvv rep=3 slot=0 dots=1024 cycles=10815
+bench raw kind=e2e impl=vdot rep=3 slot=1 dots=1024 cycles=4924
+bench raw kind=e2e impl=vdot rep=4 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=4 slot=1 dots=1024 cycles=11069
+bench raw kind=e2e impl=rvv rep=5 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=5 slot=1 dots=1024 cycles=4923
+bench raw kind=e2e impl=vdot rep=6 slot=0 dots=1024 cycles=5178
+bench raw kind=e2e impl=rvv rep=6 slot=1 dots=1024 cycles=11070
+bench raw kind=e2e impl=rvv rep=7 slot=0 dots=1024 cycles=10815
+bench raw kind=e2e impl=vdot rep=7 slot=1 dots=1024 cycles=4924
+bench warm kind=chain impl=vdot count=8 first_cycles=7200 last_cycles=7199
+bench warm kind=chain impl=rvv count=8 first_cycles=29728 last_cycles=29728
+bench raw kind=chain impl=vdot rep=0 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=0 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=1 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=1 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=2 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=2 slot=1 dots=1024 cycles=29728
+bench raw kind=chain impl=rvv rep=3 slot=0 dots=1024 cycles=29728
+bench raw kind=chain impl=vdot rep=3 slot=1 dots=1024 cycles=7199
+bench raw kind=chain impl=vdot rep=4 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=4 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=5 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=5 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=6 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=6 slot=1 dots=1024 cycles=29728
+bench raw kind=chain impl=rvv rep=7 slot=0 dots=1024 cycles=29728
+bench raw kind=chain impl=vdot rep=7 slot=1 dots=1024 cycles=7199
+bench raw kind=empty impl=control rep=0 loops=256 cycles=300
+bench raw kind=empty impl=control rep=1 loops=256 cycles=299
+bench raw kind=empty impl=control rep=2 loops=256 cycles=299
+bench raw kind=empty impl=control rep=3 loops=256 cycles=299
+bench raw kind=empty impl=control rep=4 loops=256 cycles=299
+bench raw kind=empty impl=control rep=5 loops=256 cycles=299
+bench raw kind=empty impl=control rep=6 loops=256 cycles=299
+bench raw kind=empty impl=control rep=7 loops=256 cycles=299
+vdot benchmark PASS: equivalent exact i32, upper96=0; raw cycles reported
+Core 0: HIT GOOD TRAP at pc = 0x80000cc6
+Core-0 instrCnt = 1300757, cycleCnt = 1989710, IPC = 0.653742
+Seed=0 Guest cycle spent: 1989714 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 6314338ms
+run=0 schema=3 profile=full stable=False
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.5,1247.0,5.171211,6448:6449,1246:1247,0.000078,0.000265
+e2e,10815.0,5178.0,2.088644,10814:11070,4923:5179,0.010150,0.024244
+chain,29727.5,7200.0,4.128819,29727:29728,7199:7200,0.000017,0.000067
+empty median=299.0; NOT subtracted
+STABILITY WARNING: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[completed] 2026-10-05T02:31:00+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run0-bench.full.log
+[series run] 1/4 first=1 profile=full
+[started] 2026-10-05T02:31:00+08:00
+[run id] 20261005T004545-274-series-full-runtime-run1
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin --max-cycles=10000000 -b 0 -e 0 --gcpt-restore=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runtime-overlay.4gW3PM/parameter.bin --overwrite-nbytes=1305 
+[runner snapshot] 8b855d5b42e5ebcb49534a3447ac563ecf119eca8b1319019abd6fe8b9b7faf0  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runner-snapshot.kvRJhQ/run.sh
+[runtime parameter] {"changed_offsets": [1304], "first": 1, "image_sha256": "2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24", "offset": 1304, "overlay_sha256": "e61bcc61f3c2693b5d9d30e641f9be3dfb6616d2f32723ec887f41787a757cc9", "overwrite_nbytes": 1305, "parameter_address": "0x80000518"}
+[artifact emu] dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5
+[path emu] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu
+[artifact ref] 2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74
+[path ref] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+[artifact image] 2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24
+[path image] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+bench equivalence PASS: vectors=1008 checks=1032 policies=4 baseline=vwmul+vwredsum vdot=1
+bench meta schema=3 profile=full reps=8 warmup=8 batches=256 random=1000 first=1 deferred=1 seed=56444f54 timing=mcycle_vstart_serialized
+bench warm kind=batch4 impl=vdot count=8 first_cycles=1328 last_cycles=1247
+bench warm kind=batch4 impl=rvv count=8 first_cycles=6500 last_cycles=6449
+bench raw kind=batch4 impl=rvv rep=0 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=0 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=1 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=1 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=2 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=2 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=3 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=3 slot=1 dots=1024 cycles=6449
+bench raw kind=batch4 impl=rvv rep=4 slot=0 dots=1024 cycles=6449
+bench raw kind=batch4 impl=vdot rep=4 slot=1 dots=1024 cycles=1246
+bench raw kind=batch4 impl=vdot rep=5 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=5 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=6 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=6 slot=1 dots=1024 cycles=1246
+bench raw kind=batch4 impl=vdot rep=7 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=7 slot=1 dots=1024 cycles=6449
+bench warm kind=e2e impl=vdot count=8 first_cycles=4768 last_cycles=5178
+bench warm kind=e2e impl=rvv count=8 first_cycles=10879 last_cycles=10814
+bench raw kind=e2e impl=rvv rep=0 slot=0 dots=1024 cycles=10815
+bench raw kind=e2e impl=vdot rep=0 slot=1 dots=1024 cycles=5178
+bench raw kind=e2e impl=vdot rep=1 slot=0 dots=1024 cycles=4923
+bench raw kind=e2e impl=rvv rep=1 slot=1 dots=1024 cycles=11070
+bench raw kind=e2e impl=rvv rep=2 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=2 slot=1 dots=1024 cycles=4924
+bench raw kind=e2e impl=vdot rep=3 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=3 slot=1 dots=1024 cycles=11070
+bench raw kind=e2e impl=rvv rep=4 slot=0 dots=1024 cycles=10815
+bench raw kind=e2e impl=vdot rep=4 slot=1 dots=1024 cycles=5178
+bench raw kind=e2e impl=vdot rep=5 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=5 slot=1 dots=1024 cycles=11069
+bench raw kind=e2e impl=rvv rep=6 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=6 slot=1 dots=1024 cycles=5178
+bench raw kind=e2e impl=vdot rep=7 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=7 slot=1 dots=1024 cycles=11069
+bench warm kind=chain impl=vdot count=8 first_cycles=7199 last_cycles=7200
+bench warm kind=chain impl=rvv count=8 first_cycles=29727 last_cycles=29728
+bench raw kind=chain impl=rvv rep=0 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=0 slot=1 dots=1024 cycles=7199
+bench raw kind=chain impl=vdot rep=1 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=1 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=2 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=2 slot=1 dots=1024 cycles=7199
+bench raw kind=chain impl=vdot rep=3 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=3 slot=1 dots=1024 cycles=29728
+bench raw kind=chain impl=rvv rep=4 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=4 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=5 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=5 slot=1 dots=1024 cycles=29728
+bench raw kind=chain impl=rvv rep=6 slot=0 dots=1024 cycles=29728
+bench raw kind=chain impl=vdot rep=6 slot=1 dots=1024 cycles=7199
+bench raw kind=chain impl=vdot rep=7 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=7 slot=1 dots=1024 cycles=29727
+bench raw kind=empty impl=control rep=0 loops=256 cycles=300
+bench raw kind=empty impl=control rep=1 loops=256 cycles=299
+bench raw kind=empty impl=control rep=2 loops=256 cycles=299
+bench raw kind=empty impl=control rep=3 loops=256 cycles=299
+bench raw kind=empty impl=control rep=4 loops=256 cycles=299
+bench raw kind=empty impl=control rep=5 loops=256 cycles=299
+bench raw kind=empty impl=control rep=6 loops=256 cycles=299
+bench raw kind=empty impl=control rep=7 loops=256 cycles=299
+vdot benchmark PASS: equivalent exact i32, upper96=0; raw cycles reported
+Core 0: HIT GOOD TRAP at pc = 0x80000cc6
+Core-0 instrCnt = 1300755, cycleCnt = 1990433, IPC = 0.653504
+Seed=0 Guest cycle spent: 1990437 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 6344836ms
+run=0 schema=3 profile=full stable=True
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.0,1247.0,5.170810,6448:6449,1246:1247,0.000075,0.000347
+e2e,10942.0,5178.0,2.113171,10814:11070,4923:5179,0.011652,0.021588
+chain,29727.0,7199.0,4.129324,29727:29728,7199:7200,0.000016,0.000067
+empty median=299.0; NOT subtracted
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[completed] 2026-10-05T04:16:45+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run1-bench.full.log
+[series run] 2/4 first=0 profile=full
+[started] 2026-10-05T04:16:45+08:00
+[run id] 20261005T004545-274-series-full-runtime-run2
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin --max-cycles=10000000 -b 0 -e 0 --gcpt-restore=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runtime-overlay.YI91OD/parameter.bin --overwrite-nbytes=1305 
+[runner snapshot] 8b855d5b42e5ebcb49534a3447ac563ecf119eca8b1319019abd6fe8b9b7faf0  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runner-snapshot.9FfyWU/run.sh
+[runtime parameter] {"changed_offsets": [], "first": 0, "image_sha256": "2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24", "offset": 1304, "overlay_sha256": "7caf58948bc9f81a1232ed43c0bf0f2b75be0beb090d596475280ed66bf9a998", "overwrite_nbytes": 1305, "parameter_address": "0x80000518"}
+[artifact emu] dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5
+[path emu] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu
+[artifact ref] 2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74
+[path ref] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+[artifact image] 2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24
+[path image] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+bench equivalence PASS: vectors=1008 checks=1032 policies=4 baseline=vwmul+vwredsum vdot=1
+bench meta schema=3 profile=full reps=8 warmup=8 batches=256 random=1000 first=0 deferred=1 seed=56444f54 timing=mcycle_vstart_serialized
+bench warm kind=batch4 impl=vdot count=8 first_cycles=1328 last_cycles=1246
+bench warm kind=batch4 impl=rvv count=8 first_cycles=6513 last_cycles=6448
+bench raw kind=batch4 impl=vdot rep=0 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=0 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=1 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=1 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=2 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=2 slot=1 dots=1024 cycles=6449
+bench raw kind=batch4 impl=rvv rep=3 slot=0 dots=1024 cycles=6449
+bench raw kind=batch4 impl=vdot rep=3 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=4 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=4 slot=1 dots=1024 cycles=6449
+bench raw kind=batch4 impl=rvv rep=5 slot=0 dots=1024 cycles=6449
+bench raw kind=batch4 impl=vdot rep=5 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=6 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=6 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=7 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=7 slot=1 dots=1024 cycles=1246
+bench warm kind=e2e impl=vdot count=8 first_cycles=4766 last_cycles=4415
+bench warm kind=e2e impl=rvv count=8 first_cycles=10914 last_cycles=10815
+bench raw kind=e2e impl=vdot rep=0 slot=0 dots=1024 cycles=5178
+bench raw kind=e2e impl=rvv rep=0 slot=1 dots=1024 cycles=10814
+bench raw kind=e2e impl=rvv rep=1 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=1 slot=1 dots=1024 cycles=5178
+bench raw kind=e2e impl=vdot rep=2 slot=0 dots=1024 cycles=5178
+bench raw kind=e2e impl=rvv rep=2 slot=1 dots=1024 cycles=10815
+bench raw kind=e2e impl=rvv rep=3 slot=0 dots=1024 cycles=10815
+bench raw kind=e2e impl=vdot rep=3 slot=1 dots=1024 cycles=4924
+bench raw kind=e2e impl=vdot rep=4 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=4 slot=1 dots=1024 cycles=11069
+bench raw kind=e2e impl=rvv rep=5 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=5 slot=1 dots=1024 cycles=4923
+bench raw kind=e2e impl=vdot rep=6 slot=0 dots=1024 cycles=5178
+bench raw kind=e2e impl=rvv rep=6 slot=1 dots=1024 cycles=11070
+bench raw kind=e2e impl=rvv rep=7 slot=0 dots=1024 cycles=10815
+bench raw kind=e2e impl=vdot rep=7 slot=1 dots=1024 cycles=4924
+bench warm kind=chain impl=vdot count=8 first_cycles=7200 last_cycles=7199
+bench warm kind=chain impl=rvv count=8 first_cycles=29728 last_cycles=29728
+bench raw kind=chain impl=vdot rep=0 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=0 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=1 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=1 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=2 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=2 slot=1 dots=1024 cycles=29728
+bench raw kind=chain impl=rvv rep=3 slot=0 dots=1024 cycles=29728
+bench raw kind=chain impl=vdot rep=3 slot=1 dots=1024 cycles=7199
+bench raw kind=chain impl=vdot rep=4 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=4 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=5 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=5 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=6 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=6 slot=1 dots=1024 cycles=29728
+bench raw kind=chain impl=rvv rep=7 slot=0 dots=1024 cycles=29728
+bench raw kind=chain impl=vdot rep=7 slot=1 dots=1024 cycles=7199
+bench raw kind=empty impl=control rep=0 loops=256 cycles=300
+bench raw kind=empty impl=control rep=1 loops=256 cycles=299
+bench raw kind=empty impl=control rep=2 loops=256 cycles=299
+bench raw kind=empty impl=control rep=3 loops=256 cycles=299
+bench raw kind=empty impl=control rep=4 loops=256 cycles=299
+bench raw kind=empty impl=control rep=5 loops=256 cycles=299
+bench raw kind=empty impl=control rep=6 loops=256 cycles=299
+bench raw kind=empty impl=control rep=7 loops=256 cycles=299
+vdot benchmark PASS: equivalent exact i32, upper96=0; raw cycles reported
+Core 0: HIT GOOD TRAP at pc = 0x80000cc6
+Core-0 instrCnt = 1300757, cycleCnt = 1989710, IPC = 0.653742
+Seed=0 Guest cycle spent: 1989714 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 6424628ms
+run=0 schema=3 profile=full stable=False
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.5,1247.0,5.171211,6448:6449,1246:1247,0.000078,0.000265
+e2e,10815.0,5178.0,2.088644,10814:11070,4923:5179,0.010150,0.024244
+chain,29727.5,7200.0,4.128819,29727:29728,7199:7200,0.000017,0.000067
+empty median=299.0; NOT subtracted
+STABILITY WARNING: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[completed] 2026-10-05T06:03:50+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run2-bench.full.log
+[series run] 3/4 first=1 profile=full
+[started] 2026-10-05T06:03:51+08:00
+[run id] 20261005T004545-274-series-full-runtime-run3
+[command] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu --diff=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so -i /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin --max-cycles=10000000 -b 0 -e 0 --gcpt-restore=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runtime-overlay.gRzORJ/parameter.bin --overwrite-nbytes=1305 
+[runner snapshot] 8b855d5b42e5ebcb49534a3447ac563ecf119eca8b1319019abd6fe8b9b7faf0  /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/runner-snapshot.UruXv3/run.sh
+[runtime parameter] {"changed_offsets": [1304], "first": 1, "image_sha256": "2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24", "offset": 1304, "overlay_sha256": "e61bcc61f3c2693b5d9d30e641f9be3dfb6616d2f32723ec887f41787a757cc9", "overwrite_nbytes": 1305, "parameter_address": "0x80000518"}
+[artifact emu] dfb6d9af4c84f490ae2b5ea9ab42553ee59860d980cc71fb82f9e8219c2176a5
+[path emu] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu
+[artifact ref] 2ad56dc58975ed98748a7c76e014d8ac2a4576b327adbb6324f7f7082b25cb74
+[path ref] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so
+[artifact image] 2adc73bbe4a0e01d183b93fc7a38613438b979af955ef8d2201904db6e0e1c24
+[path image] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin
+The first instruction of core 0 has commited. Difftest enabled. 
+bench equivalence PASS: vectors=1008 checks=1032 policies=4 baseline=vwmul+vwredsum vdot=1
+bench meta schema=3 profile=full reps=8 warmup=8 batches=256 random=1000 first=1 deferred=1 seed=56444f54 timing=mcycle_vstart_serialized
+bench warm kind=batch4 impl=vdot count=8 first_cycles=1328 last_cycles=1247
+bench warm kind=batch4 impl=rvv count=8 first_cycles=6500 last_cycles=6449
+bench raw kind=batch4 impl=rvv rep=0 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=0 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=1 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=1 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=2 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=2 slot=1 dots=1024 cycles=1247
+bench raw kind=batch4 impl=vdot rep=3 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=3 slot=1 dots=1024 cycles=6449
+bench raw kind=batch4 impl=rvv rep=4 slot=0 dots=1024 cycles=6449
+bench raw kind=batch4 impl=vdot rep=4 slot=1 dots=1024 cycles=1246
+bench raw kind=batch4 impl=vdot rep=5 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=5 slot=1 dots=1024 cycles=6448
+bench raw kind=batch4 impl=rvv rep=6 slot=0 dots=1024 cycles=6448
+bench raw kind=batch4 impl=vdot rep=6 slot=1 dots=1024 cycles=1246
+bench raw kind=batch4 impl=vdot rep=7 slot=0 dots=1024 cycles=1247
+bench raw kind=batch4 impl=rvv rep=7 slot=1 dots=1024 cycles=6449
+bench warm kind=e2e impl=vdot count=8 first_cycles=4768 last_cycles=5178
+bench warm kind=e2e impl=rvv count=8 first_cycles=10879 last_cycles=10814
+bench raw kind=e2e impl=rvv rep=0 slot=0 dots=1024 cycles=10815
+bench raw kind=e2e impl=vdot rep=0 slot=1 dots=1024 cycles=5178
+bench raw kind=e2e impl=vdot rep=1 slot=0 dots=1024 cycles=4923
+bench raw kind=e2e impl=rvv rep=1 slot=1 dots=1024 cycles=11070
+bench raw kind=e2e impl=rvv rep=2 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=2 slot=1 dots=1024 cycles=4924
+bench raw kind=e2e impl=vdot rep=3 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=3 slot=1 dots=1024 cycles=11070
+bench raw kind=e2e impl=rvv rep=4 slot=0 dots=1024 cycles=10815
+bench raw kind=e2e impl=vdot rep=4 slot=1 dots=1024 cycles=5178
+bench raw kind=e2e impl=vdot rep=5 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=5 slot=1 dots=1024 cycles=11069
+bench raw kind=e2e impl=rvv rep=6 slot=0 dots=1024 cycles=10814
+bench raw kind=e2e impl=vdot rep=6 slot=1 dots=1024 cycles=5178
+bench raw kind=e2e impl=vdot rep=7 slot=0 dots=1024 cycles=5179
+bench raw kind=e2e impl=rvv rep=7 slot=1 dots=1024 cycles=11069
+bench warm kind=chain impl=vdot count=8 first_cycles=7199 last_cycles=7200
+bench warm kind=chain impl=rvv count=8 first_cycles=29727 last_cycles=29728
+bench raw kind=chain impl=rvv rep=0 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=0 slot=1 dots=1024 cycles=7199
+bench raw kind=chain impl=vdot rep=1 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=1 slot=1 dots=1024 cycles=29727
+bench raw kind=chain impl=rvv rep=2 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=2 slot=1 dots=1024 cycles=7199
+bench raw kind=chain impl=vdot rep=3 slot=0 dots=1024 cycles=7199
+bench raw kind=chain impl=rvv rep=3 slot=1 dots=1024 cycles=29728
+bench raw kind=chain impl=rvv rep=4 slot=0 dots=1024 cycles=29727
+bench raw kind=chain impl=vdot rep=4 slot=1 dots=1024 cycles=7200
+bench raw kind=chain impl=vdot rep=5 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=5 slot=1 dots=1024 cycles=29728
+bench raw kind=chain impl=rvv rep=6 slot=0 dots=1024 cycles=29728
+bench raw kind=chain impl=vdot rep=6 slot=1 dots=1024 cycles=7199
+bench raw kind=chain impl=vdot rep=7 slot=0 dots=1024 cycles=7200
+bench raw kind=chain impl=rvv rep=7 slot=1 dots=1024 cycles=29727
+bench raw kind=empty impl=control rep=0 loops=256 cycles=300
+bench raw kind=empty impl=control rep=1 loops=256 cycles=299
+bench raw kind=empty impl=control rep=2 loops=256 cycles=299
+bench raw kind=empty impl=control rep=3 loops=256 cycles=299
+bench raw kind=empty impl=control rep=4 loops=256 cycles=299
+bench raw kind=empty impl=control rep=5 loops=256 cycles=299
+bench raw kind=empty impl=control rep=6 loops=256 cycles=299
+bench raw kind=empty impl=control rep=7 loops=256 cycles=299
+vdot benchmark PASS: equivalent exact i32, upper96=0; raw cycles reported
+Core 0: HIT GOOD TRAP at pc = 0x80000cc6
+Core-0 instrCnt = 1300755, cycleCnt = 1990433, IPC = 0.653504
+Seed=0 Guest cycle spent: 1990437 (this will be different from cycleCnt if emu loads a snapshot)
+Host time spent: 6433634ms
+run=0 schema=3 profile=full stable=True
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.0,1247.0,5.170810,6448:6449,1246:1247,0.000075,0.000347
+e2e,10942.0,5178.0,2.113171,10814:11070,4923:5179,0.011652,0.021588
+chain,29727.0,7199.0,4.129324,29727:29728,7199:7200,0.000016,0.000067
+empty median=299.0; NOT subtracted
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[completed] 2026-10-05T07:51:05+08:00
+[exit] 0
+[full log] /home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime-run3-bench.full.log
+run=0 schema=3 profile=full stable=False
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.5,1247.0,5.171211,6448:6449,1246:1247,0.000078,0.000265
+e2e,10815.0,5178.0,2.088644,10814:11070,4923:5179,0.010150,0.024244
+chain,29727.5,7200.0,4.128819,29727:29728,7199:7200,0.000017,0.000067
+empty median=299.0; NOT subtracted
+run=1 schema=3 profile=full stable=True
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.0,1247.0,5.170810,6448:6449,1246:1247,0.000075,0.000347
+e2e,10942.0,5178.0,2.113171,10814:11070,4923:5179,0.011652,0.021588
+chain,29727.0,7199.0,4.129324,29727:29728,7199:7200,0.000016,0.000067
+empty median=299.0; NOT subtracted
+run=2 schema=3 profile=full stable=False
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.5,1247.0,5.171211,6448:6449,1246:1247,0.000078,0.000265
+e2e,10815.0,5178.0,2.088644,10814:11070,4923:5179,0.010150,0.024244
+chain,29727.5,7200.0,4.128819,29727:29728,7199:7200,0.000017,0.000067
+empty median=299.0; NOT subtracted
+run=3 schema=3 profile=full stable=True
+kind,rvv_median,vdot_median,raw_speedup,rvv_min_max,vdot_min_max,rvv_cv,vdot_cv
+batch4,6448.0,1247.0,5.170810,6448:6449,1246:1247,0.000075,0.000347
+e2e,10942.0,5178.0,2.113171,10814:11070,4923:5179,0.011652,0.021588
+chain,29727.0,7199.0,4.129324,29727:29728,7199:7200,0.000016,0.000067
+empty median=299.0; NOT subtracted
+series batch4: run-speedup median=5.171010 min=5.170810 max=5.171211 cv=0.000039 order_effect=0.000078
+series e2e: run-speedup median=2.100908 min=2.088644 max=2.113171 cv=0.005837 order_effect=-0.011607
+series chain: run-speedup median=4.129071 min=4.128819 max=4.129324 cv=0.000061 order_effect=-0.000122
+STABILITY WARNING: run 0: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+STABILITY WARNING: run 2: e2e/vdot: variation, warm-tail/half drift or slot effect exceeds threshold
+benchmark data audit PASS; stability is separate; NOT isolated FU latency or PPA
+[series data PASS] Stability warnings do not constitute a stable-performance claim.
+[series exit] 2026-10-05T07:51:05+08:00 status=0 manifest=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime.paths
+/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../XiangShan/build/p1-oldvd/emu: OK
+/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/../NEMU/build/riscv64-nemu-interpreter-so: OK
+stage3/oldvd-probe/build/cie2026-stage3-oldvd-probe-riscv64-xs.bin: OK
+stage2/vdot-tests/build/cie2026-stage2-vdot-ordinary-riscv64-xs.bin: OK
+stage2/vdot-tests/build/cie2026-stage2-vdot-riscv64-xs.bin: OK
+stage2/vdot-tests/build/cie2026-stage2-vdot-smoke-riscv64-xs.bin: OK
+stage3/tests/check-oldvd-wave.py: OK
+stage3/tests/compare-oldvd.py: OK
+stage3/tests/compare-bench-cores.py: OK
+stage3/tests/prepare-runtime-order.py: OK
+stage3/tests/analyze-bench.py: OK
+stage3/tests/render-bench-report.py: OK
+stage3/tests/analyze-e2e-variation.py: OK
+stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.bin: OK
+stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.bin: OK
+stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-full-riscv64-xs.elf: OK
+stage3/vdot-bench-p0/build/cie2026-stage3-vdot-bench-v3-smoke-riscv64-xs.elf: OK
+scripts/run-vdot-bench.sh: OK
+scripts/run-vdot-bench-series.sh: OK
+[report data PASS] stable=False output=stage3/reports/vdot-performance-p1.md
+[P1 data/report completed] strict_stability_exit=3 manifest=/home/saintrikashy/riscv/xs-env/cie2026-skito-SKIProject/stage3/logs/20261005T004545-274-series-full-runtime.paths prefix=stage3/logs/20261004T232857-17-p1
+[P1 formal core comparison PASS] prefix=stage3/logs/20261004T232857-17-p1
+[completed] 2026-10-05T07:51:06+08:00
+[exit] 0

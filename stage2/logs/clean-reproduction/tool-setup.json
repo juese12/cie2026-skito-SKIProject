@@ -1,0 +1,42 @@
+{
+  "scope": "workspace-local tool preparation; no system installation",
+  "commands": [
+    [
+      "apt-get",
+      "download",
+      "cmake=4.2.3-2ubuntu2",
+      "cmake-data=4.2.3-2ubuntu2",
+      "libjsoncpp26",
+      "librhash1"
+    ],
+    [
+      "apt-get",
+      "download",
+      "libarchive13t64",
+      "libxml2-16",
+      "libacl1"
+    ],
+    [
+      "dpkg-deb",
+      "-x",
+      "EACH_DOWNLOADED_PACKAGE",
+      "cmake-root"
+    ]
+  ],
+  "packages": [
+    "cmake-data_4.2.3-2ubuntu2_all.deb",
+    "cmake_4.2.3-2ubuntu2_amd64.deb",
+    "libacl1_2.3.2-2_amd64.deb",
+    "libarchive13t64_3.8.5-1ubuntu2.3_amd64.deb",
+    "libjsoncpp26_1.9.6-5_amd64.deb",
+    "librhash1_1.4.6-1.1_amd64.deb",
+    "libxml2-16_2.15.2+dfsg-0.1ubuntu0.3_amd64.deb"
+  ],
+  "runtime_environment": {
+    "VDOT_CMAKE": "tools/cmake-root/usr/bin/cmake",
+    "LD_LIBRARY_PATH": "tools/cmake-root/usr/lib/x86_64-linux-gnu",
+    "XDG_CACHE_HOME": "tools/cache",
+    "COURSIER_CACHE": "tools/cache/coursier/v1"
+  },
+  "download_cache": "Mill 0.12.3 launcher and Coursier dependencies copied; no project class/object/emu outputs copied"
+}
