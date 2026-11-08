@@ -3,6 +3,11 @@
   "status": "EXPORTED",
   "files": [
     {
+      "path": ".gitattributes",
+      "role": "source configuration",
+      "bytes": 66
+    },
+    {
       "path": ".gitignore",
       "role": "source/documentation",
       "bytes": 618,
@@ -11,7 +16,7 @@
     {
       "path": "README.md",
       "role": "source/documentation",
-      "bytes": 1507,
+      "bytes": 1645,
       "public_link_adjustment": true
     },
     {
@@ -23,7 +28,7 @@
     {
       "path": "docs/提交文档阅读指南.md",
       "role": "source/documentation",
-      "bytes": 3673,
+      "bytes": 3785,
       "public_link_adjustment": false
     },
     {
@@ -2472,6 +2477,12 @@
       "bytes": 1982187
     },
     {
+      "path": "stage3/reports/figures/functional-signals/signal-excerpts.json",
+      "role": "manifest/figure evidence",
+      "bytes": 121437,
+      "public_link_adjustment": false
+    },
+    {
       "path": "stage3/reports/figures/functional/all127.png",
       "role": "manifest/figure evidence",
       "bytes": 256428,
@@ -2574,12 +2585,6 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/reports/figures/functional-signals/signal-excerpts.json",
-      "role": "manifest/figure evidence",
-      "bytes": 121437,
-      "public_link_adjustment": false
-    },
-    {
       "path": "stage3/reports/figures/int8-gemv/signal-evidence.json",
       "role": "manifest/figure evidence",
       "bytes": 503913,
@@ -2619,6 +2624,42 @@
       "path": "stage3/reports/figures/int8-gemv/点积两级流水.svg",
       "role": "manifest/figure evidence",
       "bytes": 33961,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/control-signals.png",
+      "role": "manifest/figure evidence",
+      "bytes": 212089,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/control-signals.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 100530,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/e2e-signals.png",
+      "role": "manifest/figure evidence",
+      "bytes": 186914,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/e2e-signals.svg",
+      "role": "manifest/figure evidence",
+      "bytes": 16261,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/evidence-manifest.json",
+      "role": "manifest/figure evidence",
+      "bytes": 619,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/reports/figures/isolation-retained/signal-excerpts.json",
+      "role": "manifest/figure evidence",
+      "bytes": 603941,
       "public_link_adjustment": false
     },
     {
@@ -2667,42 +2708,6 @@
       "path": "stage3/reports/figures/isolation/isolation-wave-figure-manifest.json",
       "role": "manifest/figure evidence",
       "bytes": 1449,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/figures/isolation-retained/control-signals.png",
-      "role": "manifest/figure evidence",
-      "bytes": 212089,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/figures/isolation-retained/control-signals.svg",
-      "role": "manifest/figure evidence",
-      "bytes": 100530,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/figures/isolation-retained/e2e-signals.png",
-      "role": "manifest/figure evidence",
-      "bytes": 186914,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/figures/isolation-retained/e2e-signals.svg",
-      "role": "manifest/figure evidence",
-      "bytes": 16261,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/figures/isolation-retained/evidence-manifest.json",
-      "role": "manifest/figure evidence",
-      "bytes": 619,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/reports/figures/isolation-retained/signal-excerpts.json",
-      "role": "manifest/figure evidence",
-      "bytes": 603941,
       "public_link_adjustment": false
     },
     {
@@ -3276,30 +3281,6 @@
       "public_link_adjustment": false
     },
     {
-      "path": "stage3/vdot-bench/Makefile",
-      "role": "source/documentation",
-      "bytes": 639,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/vdot-bench/bench.S",
-      "role": "source/documentation",
-      "bytes": 4406,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/vdot-bench/main.c",
-      "role": "source/documentation",
-      "bytes": 7621,
-      "public_link_adjustment": false
-    },
-    {
-      "path": "stage3/vdot-bench/共享基准与历史v2说明.md",
-      "role": "source/documentation",
-      "bytes": 499,
-      "public_link_adjustment": true
-    },
-    {
       "path": "stage3/vdot-bench-p0/Makefile",
       "role": "source/documentation",
       "bytes": 561,
@@ -3330,6 +3311,30 @@
       "public_link_adjustment": true
     },
     {
+      "path": "stage3/vdot-bench/Makefile",
+      "role": "source/documentation",
+      "bytes": 639,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench/bench.S",
+      "role": "source/documentation",
+      "bytes": 4406,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench/main.c",
+      "role": "source/documentation",
+      "bytes": 7621,
+      "public_link_adjustment": false
+    },
+    {
+      "path": "stage3/vdot-bench/共享基准与历史v2说明.md",
+      "role": "source/documentation",
+      "bytes": 499,
+      "public_link_adjustment": true
+    },
+    {
       "path": "stage3/第三阶段说明.md",
       "role": "source/documentation",
       "bytes": 1350,
@@ -3342,6 +3347,26 @@
       "public_link_adjustment": false
     },
     {
+      "path": "提交材料/README.md",
+      "role": "submission material",
+      "bytes": 1357
+    },
+    {
+      "path": "提交材料/作品验证证明材料.zip",
+      "role": "submission material",
+      "bytes": 15493447
+    },
+    {
+      "path": "提交材料/比赛录像.zip",
+      "role": "submission material",
+      "bytes": 400881986
+    },
+    {
+      "path": "提交材料/阶段文档提交包.zip",
+      "role": "submission material",
+      "bytes": 12100289
+    },
+    {
       "path": "项目说明.md",
       "role": "source/documentation",
       "bytes": 2891,
@@ -3352,5 +3377,5 @@
     "manifest/public-release-files.json"
   ],
   "omitted_linked_artifacts": {},
-  "scope": "Engineering source, current reports, optimization comparisons, figures and reproducible data; excludes internal work records and private submission information"
+  "scope": "Engineering source, technical reports, figures, reproducible data and submission attachments; video stored with Git LFS; excludes internal work records and private submission information"
 }
